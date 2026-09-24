@@ -1,0 +1,2 @@
+# Current application and build dependencies, Python 3.9.10.
+-r qt_xcp_host/requirements.txt

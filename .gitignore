@@ -1,0 +1,12 @@
+/.python/
+/.venv/
+**/__pycache__/
+*.pyc
+**/slprj/
+*.slxc
+/qt_xcp_host/build/
+/qt_xcp_host/dist/
+/qt_xcp_host/*.spec
+/qt_xcp_host/staging_delivery/
+/validation/**/staging_delivery/
+/validation/**/replaced_app_files/
