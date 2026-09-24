@@ -1,0 +1,11 @@
+﻿{
+    "kind":  "hidden_packaged_startup",
+    "created_at":  "2026-09-16T00:42:53.7715058+08:00",
+    "executable_sha256":  "4146dff2f5fca4b6eae0f97ca2836b054a799c2090233f408981b2cfdb30d84b",
+    "remained_running":  true,
+    "qt_widgets_loaded":  true,
+    "native_core_loaded":  true,
+    "startup_error_log":  false,
+    "process_ended_by":  "test cleanup after hidden startup",
+    "remote_operations_performed":  false
+}

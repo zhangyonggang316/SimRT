@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-16T00:15:06+0800",
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]",
+  "qt": {
+    "tests": 90,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 26.20299999997951
+  },
+  "baseline": {
+    "tests": 246,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "passed": false,
+    "seconds": 33.40600000001723
+  },
+  "passed": false,
+  "ubuntu_hardware_test": false,
+  "source_sha256": {
+    "qt_host/__init__.py": "098c02b8577bdf4d8316229dd7417590ae37363c0c469d0b8185e5d35f5190e6",
+    "qt_host/calibration.py": "c0d1457fca70a4fbd43f16af6b3d2a10343fc130c67aeea98d0bea138aa3a3ba",
+    "qt_host/chart.py": "a563f90014b494c99090643c184978fcd0edde8257e03167e245f806cf5ec81b",
+    "qt_host/common.py": "f4365849ffdd6a51f775a00c4b0314d01ddc49be2e191c6ace846f7d45bd2de1",
+    "qt_host/connection.py": "e8df7b33048f6e7391c24e0b1a00e7ec2fea620910f7947d6a9d6cbf1683ea20",
+    "qt_host/controller.py": "4c3f6605768e30a8de39beb04f724291f7bf81222c28c87e874bb26f92180505",
+    "qt_host/credential_store.py": "99d3b9799b33170f31cafb1d5f2104ae9cd25642035863f1abf325730d3bd076",
+    "qt_host/fields.py": "f005d02e5c71ac861c843c1528eefbaf4153b19c33d8f197541d4a8a07f6459b",
+    "qt_host/native.py": "3cdde0317153811bb33e132b48ecf4046773ab92b0d2fbea31f6f2017f01ba9b",
+    "qt_host/native_bin/xcp_core.dll": "108a25419b05a3e805b31be20f4ccd67ee05826d6c62d0465101b61be04d0f41",
+    "qt_host/observation.py": "127422b5764d7dcac442d1e92b812d44ee44df1009433b5e0cff73ed943d8adb",
+    "qt_host/state.py": "0dc82e83d0695ebdc0c19bdf95e897ed519fdb6a7837ae906c58cc377c2b5ef5",
+    "qt_host/target.py": "b8a714dc9eccfe2f19e919685ae340a53d2b643763ebc26a8ccbd0561374452a",
+    "qt_host/window.py": "a644cde52a0d57ad94e6a39c58dc8a82709cbd47400ba3cfe1603c25741575bc",
+    "native/README.md": "36c700ced2aa64957d945ff01b417ec30f906813c8085122879e246cdafaaf11",
+    "native/xcp_core.cpp": "fc39aff85e3f23bd0bbb5ce3a6706d8eb4a33b00f87d736a615d6cd06165864b",
+    "native/xcp_core.h": "4f4090d4f2119067c4687f26bf040c516b2da281c093f1ceece492eada4ab60a",
+    "tests/test_credential_store.py": "fa31da607b830e20e672cf04532b285ffc35feb674f19abb4e3929ff21fee466",
+    "tests/test_loopback.py": "d59bacb2835b17fdeed2c35e3ba8a168c303672fe2dbccc0eead551bb1385bcf",
+    "tests/test_native_core.py": "1507f162cf25480637e11275082118deed9b1b4e3e3c57ec5442767246b9ae94",
+    "tests/test_target.py": "58b2754b3979edded06eb72c9a7fb3f3f6627642c87e8fa1881000001a2aa928",
+    "tests/test_ui05.py": "87a48cfe035ed07af805bdbbc7013e8984e0ecbe6b374abce19d917b4a206ee9",
+    "tests/test_window.py": "32b48cf069e84e00db5664275ab2a0078ba4998d3523d6f54aa69788e2ab5d6f",
+    "main.py": "23f5b10d2d4031a53900a1a9d7cfc3f2b08a2228ef4cb422a3415f3483ea370b",
+    "validate_tests.py": "88380b851fbceb48d484bbf32605816f99b6735885743b45a2b4e89ba405d606",
+    "validate_visual.py": "848145f751ced89c1150c8bbbc9a17ee2c34a33304b28fd17010cf9dcfa41b9c"
+  }
+}

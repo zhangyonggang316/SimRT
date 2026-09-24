@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(portable_linux_smoke LANGUAGES C CXX)
+add_executable(smoke_c smoke.c)
+target_link_libraries(smoke_c PRIVATE m)
+add_executable(smoke_cpp smoke.cpp)
+target_compile_features(smoke_cpp PRIVATE cxx_std_11)
+set_target_properties(smoke_c smoke_cpp PROPERTIES SUFFIX ".elf")

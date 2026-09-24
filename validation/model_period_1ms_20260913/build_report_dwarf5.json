@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "model": "x280_rt_single",
+      "remote_directory": "MATLAB_ws/rt_08b52b13d3a4",
+      "period_seconds": 0.001,
+      "payload": "x280_rt_single_payload",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_rt_single.elf",
+      "download": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_rt_single.elf"
+    },
+    {
+      "model": "x280_rt_multirate",
+      "remote_directory": "MATLAB_ws/rt_09ed46655716",
+      "period_seconds": 0.001,
+      "payload": "x280_rt_multirate_payload",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_rt_multirate.elf",
+      "download": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_rt_multirate.elf"
+    },
+    {
+      "model": "x280_period_10ms",
+      "remote_directory": "MATLAB_ws/rt_41ea15952145",
+      "period_seconds": 0.01,
+      "payload": "x280_period_10ms_payload",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_period_10ms.elf",
+      "download": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_period_10ms.elf"
+    },
+    {
+      "model": "x280_period_100ms",
+      "remote_directory": "MATLAB_ws/rt_8b5b187e6175",
+      "period_seconds": 0.1,
+      "payload": "x280_period_100ms_payload",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_period_100ms.elf",
+      "download": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded\\x280_period_100ms.elf"
+    }
+  ]
+}

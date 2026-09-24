@@ -1,0 +1,26 @@
+{
+  "model": "x280_can_loopback",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260917_174928_321\\x280_can_loopback.slx",
+  "model_sha256": "c75be70c62dab1812b560a8b62c2a53628f09e4842ab2ebb840ad9c5a499bb89",
+  "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321\\x280_can_loopback.elf",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321\\x280_can_loopback.a2l",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321\\x280_can_loopback.xcp-manifest.json",
+  "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321",
+  "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260917_174928_321\\x280_can_loopback_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260917_174928_321\\x280_can_loopback_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_can_loopback.elf",
+    "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_ert_rtw"
+  },
+  "elf_sha256": "9bfc0131305d05af9edd025a5667d485566ebaf91c4a860acfe5a6754296adc3",
+  "evidence_directory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260917_174928_321",
+  "remote_operations_performed": false
+}

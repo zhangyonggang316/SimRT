@@ -1,0 +1,202 @@
+[
+  {
+    "relative": "Demo_XCP/app/README.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\app\\README.md",
+    "files": 1,
+    "bytes": 14515,
+    "reason": "Duplicate standalone application documentation; current manuals retained at Demo root and source tree",
+    "sha256": "0551DD54C294A6EECFAD53D178F742CD727BDAD489C5607F2B83B9CEE27DE732",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:01:02.6105772+08:00"
+  },
+  {
+    "relative": "Demo_XCP/app/VALIDATION.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\app\\VALIDATION.md",
+    "files": 1,
+    "bytes": 8413,
+    "reason": "Duplicate standalone application documentation; current manuals retained at Demo root and source tree",
+    "sha256": "A637626B2E7CC3040727C129AA4F0B56256376A622671FEBCA04A7D82C19E850",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:01:02.7031696+08:00"
+  },
+  {
+    "relative": "Demo_XCP/app/SOLUTION_1MS.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\app\\SOLUTION_1MS.md",
+    "files": 1,
+    "bytes": 7062,
+    "reason": "Duplicate standalone application documentation; current manuals retained at Demo root and source tree",
+    "sha256": "703FA2C0E5DDCDF15A8EB72E49CF02BAD4E7D0F5B25BD283E9FBC246E5E9F0B7",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:01:02.7174763+08:00"
+  },
+  {
+    "relative": "Demo_XCP/app/INTEGRATION.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\app\\INTEGRATION.md",
+    "files": 1,
+    "bytes": 6774,
+    "reason": "Duplicate standalone application documentation; current manuals retained at Demo root and source tree",
+    "sha256": "D1DB40EFD1F574E70BF038129719E4DFD27B7563529E99A834528C2555C56F7B",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:01:02.7330056+08:00"
+  },
+  {
+    "relative": "python_xcp_host/build",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\build",
+    "directory": true,
+    "files": 16,
+    "bytes": 30640616.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:14.8661155+08:00"
+  },
+  {
+    "relative": "python_xcp_host/dist",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\dist",
+    "directory": true,
+    "files": 2005,
+    "bytes": 114022187.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.4139542+08:00"
+  },
+  {
+    "relative": "python_xcp_host/PyXCPHost.spec",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\PyXCPHost.spec",
+    "directory": false,
+    "files": 1,
+    "bytes": 1246.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.4342007+08:00"
+  },
+  {
+    "relative": "validation/archive_20260913/package_smoke",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\archive_20260913\\package_smoke",
+    "directory": true,
+    "files": 2349,
+    "bytes": 122400054.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.9170307+08:00"
+  },
+  {
+    "relative": "python_xcp_host/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\__pycache__",
+    "directory": true,
+    "files": 4,
+    "bytes": 27177.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.9338952+08:00"
+  },
+  {
+    "relative": "python_xcp_host/pyxcp_host/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\__pycache__",
+    "directory": true,
+    "files": 5,
+    "bytes": 17789.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.9592035+08:00"
+  },
+  {
+    "relative": "python_xcp_host/pyxcp_host/services/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\services\\__pycache__",
+    "directory": true,
+    "files": 9,
+    "bytes": 84622.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:15.9795092+08:00"
+  },
+  {
+    "relative": "python_xcp_host/pyxcp_host/ui/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\ui\\__pycache__",
+    "directory": true,
+    "files": 13,
+    "bytes": 157790.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.0028863+08:00"
+  },
+  {
+    "relative": "python_xcp_host/tests/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\tests\\__pycache__",
+    "directory": true,
+    "files": 20,
+    "bytes": 219994.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.0280387+08:00"
+  },
+  {
+    "relative": "tools/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\tools\\__pycache__",
+    "directory": true,
+    "files": 7,
+    "bytes": 56068.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.0467776+08:00"
+  },
+  {
+    "relative": "tools/tests/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\tools\\tests\\__pycache__",
+    "directory": true,
+    "files": 3,
+    "bytes": 41080.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.0638429+08:00"
+  },
+  {
+    "relative": "validation/pyxcp_02232/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\pyxcp_02232\\__pycache__",
+    "directory": true,
+    "files": 1,
+    "bytes": 10240.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.0846069+08:00"
+  },
+  {
+    "relative": "x280_linux_target/python/tests/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python\\tests\\__pycache__",
+    "directory": true,
+    "files": 3,
+    "bytes": 23534.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.1037582+08:00"
+  },
+  {
+    "relative": "x280_linux_target/python/x280_xcp/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python\\x280_xcp\\__pycache__",
+    "directory": true,
+    "files": 5,
+    "bytes": 34707.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.1225631+08:00"
+  },
+  {
+    "relative": "x280_linux_target/tests/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\tests\\__pycache__",
+    "directory": true,
+    "files": 1,
+    "bytes": 9331.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.1432758+08:00"
+  },
+  {
+    "relative": "x280_linux_target/tools/__pycache__",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\tools\\__pycache__",
+    "directory": true,
+    "files": 2,
+    "bytes": 8650.0,
+    "reason": "Regenerable build/package smoke output or Python bytecode cache",
+    "status": "recycled",
+    "completed_at": "2026-09-14T00:06:16.1746570+08:00"
+  }
+]

@@ -1,0 +1,11 @@
+﻿{
+    "passed":  true,
+    "changed_files":  [
+                          "build_report.json",
+                          "QtXCPHost.exe",
+                          "README.md",
+                          "_internal\\base_library.zip"
+                      ],
+    "verified_files":  1340,
+    "executable_sha256":  "340d8af9f7ec6d0d27f2de631f5bf065ccd5d5ef6ee590dfb35e46e98d3e4cea"
+}

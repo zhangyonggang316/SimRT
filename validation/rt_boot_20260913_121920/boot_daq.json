@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "boot_changed": true,
+    "realtime": true,
+    "unit_running": true,
+    "identity_matches": true,
+    "boot_arguments": true,
+    "daq_1ms": true,
+    "daq_samples": true
+  },
+  "process": {
+    "pid": 830,
+    "exe": "/home/zh/MATLAB_ws/rt_b45afdff23ba/x280_rt_single.elf",
+    "cmdline": "/home/zh/MATLAB_ws/rt_b45afdff23ba/x280_rt_single.elf -port 17727 ",
+    "status": "Name:\tx280_rt_single.\nUmask:\t0002\nState:\tS (sleeping)\nTgid:\t830\nNgid:\t0\nPid:\t830\nPPid:\t798\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 122 135 136 999 1000 \nNStgid:\t830\nNSpid:\t830\nNSpgid:\t830\nNSsid:\t830\nVmPeak:\t    4800 kB\nVmSize:\t    4800 kB\nVmLck:\t    4776 kB\nVmPin:\t       0 kB\nVmHWM:\t    4736 kB\nVmRSS:\t    4736 kB\nRssAnon:\t    1384 kB\nRssFile:\t    3352 kB\nRssShmem:\t       0 kB\nVmData:\t    1256 kB\nVmStk:\t     132 kB\nVmExe:\t      44 kB\nVmLib:\t    2292 kB\nVmPTE:\t      44 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t0\nThreads:\t2\nSigQ:\t0/30716\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000001001000\nSigCgt:\t0000000100004007\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\tff\nCpus_allowed_list:\t0-7\nMems_allowed:\t00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t18\nnonvoluntary_ctxt_switches:\t53\n",
+    "limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             30716                30716                processes \nMax open files            1024                 1048576              files     \nMax locked memory         1073741824           1073741824           bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       30716                30716                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     80                   80                   \nMax realtime timeout      unlimited            unlimited            us        \n",
+    "stat": "830 (x280_rt_single.) S 798 830 830 0 -1 1077936128 1965 0 5 0 100 31 0 0 20 0 2 0 2572 4915200 1184 18446744073709551615 4202496 4247177 140722593289104 0 0 0 0 16781312 16391 0 0 0 17 1 0 0 0 0 0 4279808 4281264 9916416 140722593291657 140722593291723 140722593291723 140722593292226 0\n",
+    "threads": {
+      "code": 0,
+      "output": "    PID     TID CLS RTPRIO PSR COMMAND\n    830     830  TS      -   1 x280_rt_single.\n    830     853  FF     40   7 x280_rt_single.\n"
+    }
+  },
+  "marker": {
+    "pid": 830,
+    "start_time": "2572",
+    "elf_path": "/home/zh/MATLAB_ws/rt_b45afdff23ba/x280_rt_single.elf",
+    "uid": 1000,
+    "token": "f089bad7babc499ab8234a0d8e3ae441"
+  },
+  "sample_count": 4916,
+  "metadata": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_rt_single_B.MeasuredOutput"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000
+  },
+  "daq": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_rt_single_B.MeasuredOutput"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000,
+    "active": false,
+    "received_samples": 4916,
+    "queue_dropped_samples": 0,
+    "invalid_frames": 0,
+    "incomplete_events": 0,
+    "transport_counter_gaps": 93,
+    "reordered_frames": 0,
+    "timestamp_gap_samples": 93,
+    "timestamp_wraps": 0,
+    "timestamp_reorders": 2,
+    "overload_events": 0,
+    "queued_samples": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "/etc/security/limits.d/90-pyxcp-zh-realtime.conf": "# Managed by PyXCP Host RT prerequisites\nzh - rtprio 80\nzh - memlock 1048576\n",
+    "/etc/systemd/system/user@1000.service.d/90-pyxcp-realtime.conf": "# Managed by PyXCP Host RT prerequisites\n[Service]\nLimitRTPRIO=80\nLimitMEMLOCK=1073741824\n"
+  },
+  "before": {
+    "/etc/security/limits.d/90-pyxcp-zh-realtime.conf": null,
+    "/etc/systemd/system/user@1000.service.d/90-pyxcp-realtime.conf": null
+  },
+  "linger": true,
+  "rebooted": false,
+  "note": "New SSH logins get PAM limits; user manager limit applies on next boot."
+}

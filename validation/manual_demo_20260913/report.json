@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "preset_loaded_without_connection": true,
+    "ssh_connected_password_cleared": true,
+    "resources_and_model_list": true,
+    "start_from_model_list": true,
+    "live_curve_dynamic": true,
+    "csv_export": true,
+    "calibration_output": true,
+    "restore_original_values": true,
+    "stop_restores_and_disconnects": true,
+    "elf_download_matches_payload": true,
+    "ssh_disconnected": true
+  },
+  "remote_directory": "MATLAB_ws/manual_demo_20260913_002513_b87f5f30",
+  "host": "192.168.219.86"
+}

@@ -1,0 +1,35 @@
+﻿{
+    "created_at":  "2026-09-19T02:44:33.1237350+08:00",
+    "application":  "QtXCPHost.exe",
+    "model_integrity":  "all_copied_model_files_sha256_match_baseline",
+    "baseline_directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt",
+    "qt_runtime_evidence_included":  true,
+    "baseline_validation_is_not_qt_validation":  true,
+    "model_files":  [
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single.slx",
+                            "bytes":  116333,
+                            "sha256":  "c4a4b5726a8cfab2f82661b4e52910d78e1f646ecf2e8ffb4a0ca4a4c7db62c7"
+                        },
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single_local/20260915_170738_507/x280_rt_single.elf",
+                            "bytes":  393952,
+                            "sha256":  "05b65e22ccb50a10b12a9ceabeebcff52e0217004a8f30028de7c494367b8f5a"
+                        },
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single_local/20260915_170738_507/x280_rt_single.a2l",
+                            "bytes":  34554,
+                            "sha256":  "770169b155d5f01d029fe1874cff17b3b4d7e08cbd036edb55ee23e39885690e"
+                        },
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single_local/20260915_170738_507/x280_rt_single.xcp-manifest.json",
+                            "bytes":  581,
+                            "sha256":  "8143b83be746b03e34a9ac942708f3b72a3ed636bfe78e188c9aba98f66320a9"
+                        },
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single_local/20260915_170738_507.zip",
+                            "bytes":  144326,
+                            "sha256":  "b631695793e133518d49875f4b10cc2a0003b02f445a26248a3b63bd14e94876"
+                        }
+                    ]
+}

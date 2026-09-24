@@ -1,0 +1,223 @@
+Requirement already satisfied: pyxcp==0.22.32 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from -r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (0.22.32)
+Requirement already satisfied: paramiko==4.0.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from -r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (4.0.0)
+Requirement already satisfied: matplotlib==3.9.4 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from -r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (3.9.4)
+Requirement already satisfied: pyinstaller<7,>=6.10 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from -r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (6.22.2)
+Requirement already satisfied: bandit<2.0.0,>=1.7.8 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (1.8.6)
+Requirement already satisfied: chardet<6.0.0,>=5.2.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (5.2.0)
+Requirement already satisfied: construct<3.0.0,>=2.10.68 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (2.10.70)
+Requirement already satisfied: line-profiler-pycharm<2.0.0,>=1.1.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (1.2.0)
+Requirement already satisfied: mako<2.0.0,>=1.2.4 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (1.3.12)
+Requirement already satisfied: pyserial<4.0,>=3.5 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (3.5)
+Requirement already satisfied: python-can<5.0.0,>=4.2.2 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (4.6.1)
+Requirement already satisfied: pytz<2025.0,>=2024.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (2024.2)
+Requirement already satisfied: pyusb<2.0.0,>=1.2.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: rich<14.0.0,>=13.6.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (13.9.4)
+Requirement already satisfied: toml<0.11.0,>=0.10.2 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (0.10.2)
+Requirement already satisfied: tomlkit<0.13.0,>=0.12.5 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (0.12.5)
+Requirement already satisfied: traitlets<=5.11.2 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (5.11.2)
+Requirement already satisfied: uptime<4.0.0,>=3.0.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (3.0.1)
+Requirement already satisfied: bcrypt>=3.2 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (5.0.0)
+Requirement already satisfied: cryptography>=3.3 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (50.0.1)
+Requirement already satisfied: invoke>=2.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (3.0.3)
+Requirement already satisfied: pynacl>=1.5 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (1.6.2)
+Requirement already satisfied: contourpy>=1.0.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (1.3.0)
+Requirement already satisfied: cycler>=0.10 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (4.60.2)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (1.4.7)
+Requirement already satisfied: numpy>=1.23 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (2.0.2)
+Requirement already satisfied: packaging>=20.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (26.3)
+Requirement already satisfied: pillow>=8 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (11.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (3.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (6.5.2)
+Requirement already satisfied: altgraph in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (0.17.5)
+Requirement already satisfied: importlib-metadata>=4.6 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (8.7.1)
+Requirement already satisfied: pefile>=2022.5.30 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (2024.8.26)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2026.6 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (2026.7)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (58.1.0)
+Requirement already satisfied: PyYAML>=5.3.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from bandit<2.0.0,>=1.7.8->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (6.0.3)
+Requirement already satisfied: stevedore>=1.20.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from bandit<2.0.0,>=1.7.8->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (5.5.0)
+Requirement already satisfied: colorama>=0.3.9 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from bandit<2.0.0,>=1.7.8->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (0.4.6)
+Requirement already satisfied: line-profiler in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from line-profiler-pycharm<2.0.0,>=1.1.0->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (5.0.2)
+Requirement already satisfied: MarkupSafe>=0.9.2 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from mako<2.0.0,>=1.2.4->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (3.0.3)
+Requirement already satisfied: wrapt~=1.10 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from python-can<5.0.0,>=4.2.2->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (1.17.3)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from python-can<5.0.0,>=4.2.2->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from rich<14.0.0,>=13.6.0->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from rich<14.0.0,>=13.6.0->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (2.21.0)
+Requirement already satisfied: cffi>=2.0.0 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from cryptography>=3.3->paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (2.0.0)
+Requirement already satisfied: pycparser in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from cffi>=2.0.0->cryptography>=3.3->paramiko==4.0.0->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 2)) (2.23)
+Requirement already satisfied: zipp>=3.20 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from importlib-metadata>=4.6->pyinstaller<7,>=6.10->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements-dev.txt (line 2)) (3.23.1)
+Requirement already satisfied: mdurl~=0.1 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from markdown-it-py>=2.2.0->rich<14.0.0,>=13.6.0->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (0.1.2)
+Requirement already satisfied: six>=1.5 in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from python-dateutil>=2.7->matplotlib==3.9.4->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 3)) (1.17.0)
+Requirement already satisfied: tomli in c:\datasave\03matlabubuntu\01ai toollinux\.venv\lib\site-packages (from line-profiler->line-profiler-pycharm<2.0.0,>=1.1.0->pyxcp==0.22.32->-r C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\requirements.txt (line 1)) (2.4.1)
+
+[notice] A new release of pip is available: 25.2 -> 26.0.1
+[notice] To update, run: C:\DataSave\03matlabUbuntu\01AI ToolLinux\.venv\Scripts\python.exe -m pip install --upgrade pip
+188 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.7
+188 INFO: Python: 3.9.10
+195 INFO: Platform: Windows-10-10.0.26100-SP0
+196 INFO: Python environment: C:\DataSave\03matlabUbuntu\01AI ToolLinux\.venv
+196 INFO: wrote C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\PyXCPHost.spec
+198 INFO: Removing temporary files and cleaning cache in C:\Users\Administrator\AppData\Local\pyinstaller
+351 WARNING: Failed to collect submodules for 'pyxcp.recorder.converter' because importing 'pyxcp.recorder.converter' raised: NameError: name 'pa' is not defined
+1879 INFO: Module search paths (PYTHONPATH):
+['C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.python\\3.9.10\\python39.zip',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.python\\3.9.10\\DLLs',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.python\\3.9.10\\lib',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.python\\3.9.10',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host',
+ 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python']
+2167 INFO: Appending 'datas' from .spec
+2179 INFO: checking Analysis
+2179 INFO: Building Analysis because Analysis-00.toc is non existent
+2179 INFO: Looking for Python shared library...
+2180 INFO: Using Python shared library: C:\DataSave\03matlabUbuntu\01AI ToolLinux\.python\3.9.10\python39.dll
+2180 INFO: Running Analysis Analysis-00.toc
+2180 INFO: Target bytecode optimization level: 0
+2180 INFO: Initializing module dependency graph...
+2182 INFO: Initializing module graph hook caches...
+2223 INFO: Analyzing modules for base_library.zip ...
+2866 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+3292 INFO: Processing standard module hook 'hook-math.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+3808 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4490 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4746 INFO: Caching module dependency graph...
+4786 INFO: Analyzing C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\main.py
+4809 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+4810 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+5104 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+5397 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+5398 INFO: SetuptoolsInfo: initializing cached setuptools info...
+5945 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+6062 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+6261 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+6692 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+6700 INFO: Processing standard module hook 'hook-rich.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6951 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+7871 INFO: Processing standard module hook 'hook-chardet.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+8793 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+8807 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+8898 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+9186 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+11137 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+12401 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+12589 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+12936 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+13764 INFO: Processing standard module hook 'hook-pytz.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+14125 INFO: Processing standard module hook 'hook-usb.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14143 WARNING: No backend available
+14447 INFO: Processing standard module hook 'hook-matplotlib.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+14749 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14820 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14881 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+14985 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+15267 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+15378 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+16141 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+16215 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+16710 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+17006 INFO: Processing standard module hook 'hook-matplotlib.figure.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+17268 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17332 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18264 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18266 INFO: Processing standard module hook 'hook-importlib_resources.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+18289 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18919 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19078 INFO: Processing standard module hook 'hook-nacl.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19375 INFO: Analyzing hidden import 'x280_xcp.__main__'
+19381 INFO: Analyzing hidden import 'pyxcp.asam'
+19381 INFO: Analyzing hidden import 'pyxcp.asam.types'
+19383 INFO: Analyzing hidden import 'pyxcp.cmdline'
+19385 INFO: Analyzing hidden import 'pyxcp.recorder.reco'
+19390 INFO: Analyzing hidden import 'pyxcp.recorder.setup'
+19391 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19391 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+19393 INFO: Processing standard module hook 'hook-distutils.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+19434 INFO: Processing standard module hook 'hook-distutils.util.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+19458 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+19519 INFO: Analyzing hidden import 'pyxcp.recorder.test_reko'
+19520 INFO: Analyzing hidden import 'pyxcp.scripts'
+19520 INFO: Analyzing hidden import 'pyxcp.scripts.pyxcp_probe_can_drivers'
+19521 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_examples'
+19523 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_fetch_a2l'
+19525 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_id_scanner'
+19526 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_info'
+19530 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_profile'
+19531 INFO: Analyzing hidden import 'pyxcp.scripts.xmraw_converter'
+19545 INFO: Analyzing hidden import 'pyxcp.stim'
+19546 INFO: Analyzing hidden import 'pyxcp.vector'
+19546 INFO: Analyzing hidden import 'pyxcp.vector.map'
+19547 INFO: Processing module hooks (post-graph stage)...
+19552 WARNING: Hidden import "importlib_resources.trees" not found!
+19552 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+19554 INFO: Matplotlib backend selection method: automatic discovery of used backends
+19829 INFO: Trying determine the default backend as first importable candidate from the list: ['QtAgg', 'Qt5Agg', 'Gtk4Agg', 'Gtk3Agg', 'TkAgg', 'WxAgg']
+21811 INFO: Selected matplotlib backends: ['TkAgg']
+21811 INFO: Extra dists for selected matplotlib backends: []
+22036 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+22072 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+24192 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+24220 INFO: Performing binary vs. data reclassification (1863 entries)
+24573 INFO: Looking for ctypes DLLs
+24605 INFO: Analyzing run-time hooks ...
+24611 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24613 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24615 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24616 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+24617 INFO: Including run-time hook 'pyi_rth_usb.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+24621 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24623 INFO: Including run-time hook 'pyi_rth_traitlets.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+24624 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24625 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+24627 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+24633 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+24703 INFO: Creating base_library.zip...
+24722 INFO: Looking for dynamic libraries
+[10:11:55] DEBUG    matplotlib data path:                       __init__.py:341
+                    C:\DataSave\03matlabUbuntu\01AI                            
+                    ToolLinux\.venv\lib\site-packages\matplotli                
+                    b\mpl-data                                                 
+           DEBUG    CONFIGDIR=C:\Users\Administrator\.matplotli __init__.py:341
+                    b                                                          
+           DEBUG    interactive is False                       __init__.py:1512
+           DEBUG    platform is win32                          __init__.py:1513
+           DEBUG    CACHEDIR=C:\Users\Administrator\.matplotlib __init__.py:341
+           DEBUG    Using fontManager instance from        font_manager.py:1580
+                    C:\Users\Administrator\.matplotlib\fon                     
+                    tlist-v390.json                                            
+25961 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.venv\\lib\\site-packages\\numpy.libs']
+25961 INFO: Extra DLL search directories (PATH): []
+27071 INFO: Warnings written to C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\build\PyXCPHost\warn-PyXCPHost.txt
+27234 INFO: Graph cross-reference written to C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\build\PyXCPHost\xref-PyXCPHost.html
+27330 INFO: checking PYZ
+27331 INFO: Building PYZ because PYZ-00.toc is non existent
+27331 INFO: Building PYZ (ZlibArchive) C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\build\PyXCPHost\PYZ-00.pyz
+28200 INFO: Building PYZ (ZlibArchive) C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\build\PyXCPHost\PYZ-00.pyz completed successfully.
+28237 INFO: checking PKG
+28238 INFO: Building PKG because PKG-00.toc is non existent
+28238 INFO: Building PKG (CArchive) PyXCPHost.pkg
+28253 INFO: Building PKG (CArchive) PyXCPHost.pkg completed successfully.
+28254 INFO: Bootloader C:\DataSave\03matlabUbuntu\01AI ToolLinux\.venv\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+28254 INFO: checking EXE
+28254 INFO: Building EXE because EXE-00.toc is non existent
+28254 INFO: Building EXE from EXE-00.toc
+28254 INFO: Copying bootloader EXE to C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\build\PyXCPHost\PyXCPHost.exe
+28261 INFO: Copying icon to EXE
+28263 INFO: Copying 0 resources to EXE
+28264 INFO: Embedding manifest in EXE
+28265 INFO: Appending PKG archive to EXE
+28271 INFO: Fixing EXE headers
+28401 INFO: Building EXE from EXE-00.toc completed successfully.
+28419 INFO: checking COLLECT
+28419 INFO: Building COLLECT because COLLECT-00.toc is non existent
+28419 INFO: Removing dir C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\dist\PyXCPHost
+28703 INFO: Building COLLECT COLLECT-00.toc
+30100 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+30143 INFO: Build complete! The results are available in: C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\dist
+Build completed: C:\DataSave\03matlabUbuntu\01AI ToolLinux\python_xcp_host\dist\PyXCPHost\PyXCPHost.exe

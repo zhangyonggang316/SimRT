@@ -1,0 +1,9 @@
+# Windows x64 / Python 3.9.10. Qt Widgets does not require PySide6-Addons.
+-c constraints-archive.txt
+PySide6-Essentials==6.8.3
+shiboken6==6.8.3
+pyxcp==0.22.32
+paramiko==4.0.0
+numpy==2.0.2
+matplotlib==3.9.4
+pyinstaller==6.22.2

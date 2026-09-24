@@ -1,0 +1,7 @@
+{
+  "models": [
+    {"model": "x280_rt_single", "remote_directory": "MATLAB_ws/rt_b45afdff23ba", "local_elf": "C:/DataSave/03matlabUbuntu/01AI ToolLinux/validation/requirements_update_20260913/downloaded/x280_rt_single.elf", "sha256": "29cdf234517f2d9a9dacdac09fbe7fea9da5ae82842a7d88051d946ca6637914"},
+    {"model": "x280_rt_multirate", "remote_directory": "MATLAB_ws/rt_33dc411b62a7", "local_elf": "C:/DataSave/03matlabUbuntu/01AI ToolLinux/validation/requirements_update_20260913/downloaded/x280_rt_multirate.elf", "sha256": "5291bb7774001bcf01b361d636e7c80a66c1186a6ba058c144e6371155e854443"}
+  ],
+  "note": "Both remote builds and downloads succeeded; report reconstructed after fixing Path JSON serialization."
+}

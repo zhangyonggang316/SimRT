@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productinfo>
+    <name>SimRT</name>
+    <parametergroup>
+        <name>Local build</name>
+        <parameter Alignment="1" Callback="widgetChangedCallback" ColSpan="[1,3]" Data="" DialogRefresh="0" DoNotStore="false" Enabled="1" Entries="" Name="A2L target address:" RowSpan="[0,0]" SaveValueAsString="true" Storage="BoardParameters.DeviceAddress" Tag="DeviceAddress" Type="edit" Value="192.168.219.86" Visible="1"/>
+        <parameter Alignment="1" Callback="widgetChangedCallback" ColSpan="[1,3]" Data="" DialogRefresh="0" DoNotStore="false" Enabled="0" Entries="Build" Name="Build action:" RowSpan="[0,0]" SaveValueAsString="true" Storage="Runtime.BuildAction" Tag="Build_action" Type="combobox" Value="Build" Visible="1"/>
+        <parameter Alignment="1" Callback="widgetChangedCallback" ColSpan="[1,3]" Data="" DialogRefresh="0" DoNotStore="false" Enabled="0" Entries="" Name="Enable parallel build" RowSpan="[0,0]" SaveValueAsString="false" Storage="BuildTime.EnableParallelBuild" Tag="EnableParallelBuild" Type="checkbox" Value="true" Visible="0"/>
+    </parametergroup>
+</productinfo>

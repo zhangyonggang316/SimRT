@@ -1,0 +1,353 @@
+[
+  {
+    "relative": "app",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\app",
+    "directory": true,
+    "files": 12,
+    "bytes": 190458.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "tests",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\tests",
+    "directory": true,
+    "files": 18,
+    "bytes": 87863.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "01modeltest",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\01modeltest",
+    "directory": true,
+    "files": 105,
+    "bytes": 1386327.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_rttarget_monitor",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor",
+    "directory": true,
+    "files": 1028,
+    "bytes": 34311771.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "artifacts",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\artifacts",
+    "directory": true,
+    "files": 7,
+    "bytes": 814118.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "picture",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\picture",
+    "directory": true,
+    "files": 1,
+    "bytes": 65521.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": ".github",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.github",
+    "directory": true,
+    "files": 23,
+    "bytes": 220734.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "raspberrypi_multicore_simple_ert_rtw",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\raspberrypi_multicore_simple_ert_rtw",
+    "directory": true,
+    "files": 26,
+    "bytes": 1079425.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "RTtargetResourceMonitor-UserGuide.html",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\RTtargetResourceMonitor-UserGuide.html",
+    "directory": false,
+    "files": 1,
+    "bytes": 37543.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "RTtargetResourceMonitorApp-a2l-elf-plan.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\RTtargetResourceMonitorApp-a2l-elf-plan.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 6560.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "RTtargetResourceMonitorApp-plan.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\RTtargetResourceMonitorApp-plan.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 8863.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_xcp_host/build",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\build",
+    "directory": true,
+    "files": 16,
+    "bytes": 30640646.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_xcp_host/dist",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\dist",
+    "directory": true,
+    "files": 2005,
+    "bytes": 114021842.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_xcp_host/PyXCPHost.spec",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\PyXCPHost.spec",
+    "directory": false,
+    "files": 1,
+    "bytes": 1246.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_xcp_host/demo/BUILD_TEST.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\demo\\BUILD_TEST.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 5291.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "Demo_XCP/payload",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\payload",
+    "directory": true,
+    "files": 3,
+    "bytes": 275091.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "Demo_XCP/source",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\source",
+    "directory": true,
+    "files": 73,
+    "bytes": 650428.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "Demo_XCP/realtime",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\realtime",
+    "directory": true,
+    "files": 175,
+    "bytes": 4472892.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "Demo_XCP/x280_integration_demo.slx",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\x280_integration_demo.slx",
+    "directory": false,
+    "files": 1,
+    "bytes": 111146.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "Demo_XCP/BUILD_TEST.md",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP\\BUILD_TEST.md",
+    "directory": false,
+    "files": 1,
+    "bytes": 5467.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "x280_linux_target/x280_udp_codegen_ert_rtw",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\x280_udp_codegen_ert_rtw",
+    "directory": true,
+    "files": 26,
+    "bytes": 1076404.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "x280_linux_target/.validation",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\.validation",
+    "directory": true,
+    "files": 1,
+    "bytes": 111098.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/cache",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\cache",
+    "directory": true,
+    "files": 16,
+    "bytes": 922159.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/codegen",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\codegen",
+    "directory": true,
+    "files": 122,
+    "bytes": 4651038.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/demo_package",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\demo_package",
+    "directory": true,
+    "files": 343,
+    "bytes": 8100341.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/downloaded",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\downloaded",
+    "directory": true,
+    "files": 4,
+    "bytes": 1967504.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/x280_rt_single_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_single_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1122226.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/x280_rt_multirate_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_multirate_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1125302.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/x280_period_10ms_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_10ms_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1122715.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/model_period_1ms_20260913/x280_period_100ms_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_100ms_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1122982.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_2_3/codegen",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_2_3\\codegen",
+    "directory": true,
+    "files": 32,
+    "bytes": 1255628.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_update_20260913/cache",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_update_20260913\\cache",
+    "directory": true,
+    "files": 8,
+    "bytes": 463865.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_update_20260913/codegen",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_update_20260913\\codegen",
+    "directory": true,
+    "files": 62,
+    "bytes": 2400000.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_update_20260913/downloaded",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_update_20260913\\downloaded",
+    "directory": true,
+    "files": 2,
+    "bytes": 758208.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_update_20260913/single_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_update_20260913\\single_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1121524.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "validation/requirements_update_20260913/multirate_bundle",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_update_20260913\\multirate_bundle",
+    "directory": true,
+    "files": 75,
+    "bytes": 1124614.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "python_xcp_host/validation_ssh/demo.elf",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\validation_ssh\\demo.elf",
+    "directory": false,
+    "files": 1,
+    "bytes": 16400.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "tools/cleanup_generated_20260913.ps1",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\tools\\cleanup_generated_20260913.ps1",
+    "directory": false,
+    "files": 1,
+    "bytes": 3394.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  },
+  {
+    "relative": "tools/package_update_20260913.ps1",
+    "absolute": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\tools\\package_update_20260913.ps1",
+    "directory": false,
+    "files": 1,
+    "bytes": 1811.0,
+    "disposition": "Windows Recycle Bin",
+    "status": "planned"
+  }
+]

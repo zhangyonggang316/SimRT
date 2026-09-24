@@ -1,0 +1,207 @@
+{
+  "created_at": "2026-09-15T01:17:13.9593016+08:00",
+  "status": "verified_with_documented_runtime_limits",
+  "application": "Demo_XCP_Qt/app/QtXCPHost.exe",
+  "app_exe_sha256": "4c73bda577acb0b837f9cf521478629ee5158e749ad51d43ad6963d51cec0b85",
+  "native_sha256": "464eb9577170d3234bd3ba6f311ed95dd9a4c678e470d026f5b97a868e5daed8",
+  "one_app_in_workspace": true,
+  "app_files_verified": 1386,
+  "model_files_verified": 332,
+  "user_model_preserved_sha256": "ce433a727a90e3b56be50ffb037bf89a0f63f113a31f036981da6db21cc3efda",
+  "previous_payloads_unchanged": true,
+  "previous_payloads_replaced": false,
+  "qt_tests": {
+    "tests": 71,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 19.594000000011874
+  },
+  "shared_service_tests": {
+    "tests": 234,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "seconds": 36.67200000002049
+  },
+  "build_tool_tests": {
+    "passed": 34,
+    "failures": 0
+  },
+  "deployment_tool_tests": {
+    "passed": 79,
+    "failures": 0
+  },
+  "matlab_existing_tests": {
+    "file": "x280_linux_target/tests/tX280LinuxTarget.m",
+    "passed": 9,
+    "evidence": "MATLAB MCP test runner output in this task",
+    "failures": 0,
+    "incomplete": 0
+  },
+  "gui_check": {
+    "transport": "UDP",
+    "port": 17725,
+    "measurements": 6,
+    "phase": "staging executable before hash-verified promotion",
+    "remote_connected": false,
+    "passed": true,
+    "a2l_loaded": true
+  },
+  "visual_fixture": {
+    "kind": "deterministic_qt_fixture",
+    "remote_hardware": false,
+    "platform": "windows",
+    "device_pixel_ratio": 1.25,
+    "screenshots": [
+      {
+        "page": "machine",
+        "requested": [
+          1320,
+          820
+        ],
+        "actual": [
+          1320,
+          820
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "machine_1320x820.png"
+      },
+      {
+        "page": "diagnostics",
+        "requested": [
+          1320,
+          820
+        ],
+        "actual": [
+          1320,
+          820
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "diagnostics_1320x820.png"
+      },
+      {
+        "page": "observation",
+        "requested": [
+          1320,
+          820
+        ],
+        "actual": [
+          1320,
+          820
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "observation_1320x820.png"
+      },
+      {
+        "page": "calibration",
+        "requested": [
+          1320,
+          820
+        ],
+        "actual": [
+          1320,
+          820
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "calibration_1320x820.png"
+      },
+      {
+        "page": "machine",
+        "requested": [
+          1000,
+          660
+        ],
+        "actual": [
+          1000,
+          660
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "machine_1000x660.png"
+      },
+      {
+        "page": "diagnostics",
+        "requested": [
+          1000,
+          660
+        ],
+        "actual": [
+          1000,
+          660
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "diagnostics_1000x660.png"
+      },
+      {
+        "page": "observation",
+        "requested": [
+          1000,
+          660
+        ],
+        "actual": [
+          1000,
+          660
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "observation_1000x660.png"
+      },
+      {
+        "page": "calibration",
+        "requested": [
+          1000,
+          660
+        ],
+        "actual": [
+          1000,
+          660
+        ],
+        "out_of_parent": [],
+        "clipped_button_text": [],
+        "screenshot": "calibration_1000x660.png"
+      }
+    ],
+    "raw_points_per_signal": 10000,
+    "chart_rgb_variance": 5580.565215054343,
+    "passed": true
+  },
+  "remote_build": {
+    "compiled": 23,
+    "remote_directory": "/home/zh/MATLAB_ws/builds/build_89c39b3f74c24088a268f5ace0917bfb/x280_rt_single",
+    "jobs": 2,
+    "elf_sha256": "62ead704d4c0de1653f0b247d9a12de58133a65e7c6d0bd35e80f243965662e4",
+    "host": "192.168.219.86",
+    "seconds": 3.178
+  },
+  "incremental_build": {
+    "compiled": 0,
+    "reused": 23,
+    "seconds": 0.224,
+    "elf_sha256": "62ead704d4c0de1653f0b247d9a12de58133a65e7c6d0bd35e80f243965662e4"
+  },
+  "new_payload": {
+    "model_period_seconds": 0.001,
+    "xcp_transport": "UDP",
+    "hashes_checked": true,
+    "characteristics": 12,
+    "runtime_tested": false,
+    "xcp_port": 17725,
+    "measurements": 6
+  },
+  "target_model_processes_started_or_stopped": false,
+  "target_system_configuration_changed": false,
+  "cleanup_recoverable_via": "Windows Recycle Bin",
+  "limitations": [
+    "New generated model ELF has not undergone runtime/DAQ/calibration acceptance.",
+    "Existing payloads remain historical validated pairs; the user-modified SLX is retained separately.",
+    "Build timings exclude upload, generation and A2L export."
+  ]
+}

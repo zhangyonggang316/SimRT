@@ -1,0 +1,181 @@
+{
+  "Date": "2026-09-13T00:28:00.4575919+08:00",
+  "Mode": "RecycleBin",
+  "Targets": [
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.tmp_matlab_pref_audit",
+      "Directory": true,
+      "Files": 2,
+      "Bytes": 1,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\.tmp_pyxcp_download",
+      "Directory": true,
+      "Files": 1,
+      "Bytes": 989883,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\01modeltest\\work\\raspberrypi_multicore_simple.slxc",
+      "Directory": false,
+      "Files": 1,
+      "Bytes": 205775,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\01modeltest\\work\\slprj",
+      "Directory": true,
+      "Files": 7,
+      "Bytes": 198363,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\__pycache__",
+      "Directory": true,
+      "Files": 1,
+      "Bytes": 209,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\build",
+      "Directory": true,
+      "Files": 16,
+      "Bytes": 8821970,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\rttarget_monitor\\__pycache__",
+      "Directory": true,
+      "Files": 5,
+      "Bytes": 22362,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\rttarget_monitor\\services\\__pycache__",
+      "Directory": true,
+      "Files": 10,
+      "Bytes": 58914,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\rttarget_monitor\\ui\\__pycache__",
+      "Directory": true,
+      "Files": 6,
+      "Bytes": 87423,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_rttarget_monitor\\tests\\__pycache__",
+      "Directory": true,
+      "Files": 10,
+      "Bytes": 25528,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\__pycache__",
+      "Directory": true,
+      "Files": 4,
+      "Bytes": 24447,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\build",
+      "Directory": true,
+      "Files": 16,
+      "Bytes": 20318062,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\__pycache__",
+      "Directory": true,
+      "Files": 5,
+      "Bytes": 16435,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\services\\__pycache__",
+      "Directory": true,
+      "Files": 6,
+      "Bytes": 51427,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\pyxcp_host\\ui\\__pycache__",
+      "Directory": true,
+      "Files": 11,
+      "Bytes": 98063,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\python_xcp_host\\tests\\__pycache__",
+      "Directory": true,
+      "Files": 11,
+      "Bytes": 101646,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\slprj",
+      "Directory": true,
+      "Files": 7,
+      "Bytes": 206396,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\pyxcp_02232\\__pycache__",
+      "Directory": true,
+      "Files": 1,
+      "Bytes": 10240,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_2_3\\cache",
+      "Directory": true,
+      "Files": 4,
+      "Bytes": 228351,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\requirements_2_3\\x280_integration_sources.zip",
+      "Directory": false,
+      "Files": 1,
+      "Bytes": 189239,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python\\tests\\__pycache__",
+      "Directory": true,
+      "Files": 3,
+      "Bytes": 21668,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\python\\x280_xcp\\__pycache__",
+      "Directory": true,
+      "Files": 5,
+      "Bytes": 30852,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\slprj",
+      "Directory": true,
+      "Files": 8,
+      "Bytes": 176017,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\tools\\__pycache__",
+      "Directory": true,
+      "Files": 1,
+      "Bytes": 1757,
+      "Recycled": true
+    },
+    {
+      "Path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\x280_linux_target\\x280_udp_codegen.slxc",
+      "Directory": false,
+      "Files": 1,
+      "Bytes": 222331,
+      "Recycled": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "ignored_save_metadata": [
+    "ModelVersionFormat",
+    "Open"
+  ],
+  "models": [
+    {
+      "model": "Demo_XCP_Qt/models/x280_rt_single/x280_rt_single.slx",
+      "changed_entries": [
+        "simulink/systems/system_root.xml",
+        "metadata/coreProperties.xml",
+        "simulink/blockdiagram.xml",
+        "simulink/configSet0.xml",
+        "simulink/windowsInfo.xml"
+      ],
+      "protected_entries": [
+        "simulink/modelWorkspace.mxarray",
+        "simulink/systems/system_root.xml",
+        "simulink/blockdiagram.xml"
+      ],
+      "configuration_diff": [
+        "--- before",
+        "+++ after",
+        "@@ -393,7 +393,7 @@",
+        "         <P Name=\"Description\">Embedded Coder</P>",
+        "         <P Name=\"SystemTargetFile\">ert.tlc</P>",
+        "         <P Name=\"EmbeddedCoderDictionary\"/>",
+        "-        <P Name=\"HardwareBoard\">X280 Linux (SSH)</P>",
+        "+        <P Name=\"HardwareBoard\">SimRT</P>",
+        "         <P Name=\"ShowCustomHardwareApp\">off</P>",
+        "         <P Name=\"ShowEmbeddedHardwareApp\">off</P>",
+        "         <P Name=\"TLCOptions\">-aInlineSetEventsForThisBaseRateFcn=TLC_FALSE -aSuppressMultiTaskScheduler=TLC_FALSE  -aRateBasedStepFcn=0</P>",
+        "@@ -788,7 +788,7 @@",
+        "         <Array PropName=\"CoderTargetData\" Type=\"Struct\" Dimension=\"1*1\">",
+        "           <MATStruct>",
+        "             <Field Name=\"UseCoderTarget\" Class=\"logical\">1</Field>",
+        "-            <Field Name=\"TargetHardware\" Class=\"char\">X280 Linux (SSH)</Field>",
+        "+            <Field Name=\"TargetHardware\" Class=\"char\">SimRT</Field>",
+        "             <Array PropName=\"ConnectionInfo\" Type=\"Struct\" Dimension=\"1*1\">",
+        "               <MATStruct>",
+        "                 <Array PropName=\"XCPonTCPIP\" Type=\"Struct\" Dimension=\"1*1\">"
+      ],
+      "before_sha256": "c4a4b5726a8cfab2f82661b4e52910d78e1f646ecf2e8ffb4a0ca4a4c7db62c7",
+      "after_sha256": "aa73dbdbd90b7efae9b1ee4919ab511012a40b3eaeb67565d6acb568bbe56c96"
+    },
+    {
+      "model": "x280_linux_target/drivers/tc1013/models/x280_can_loopback/x280_can_loopback.slx",
+      "changed_entries": [
+        "simulink/systems/system_root.xml",
+        "metadata/coreProperties.xml",
+        "simulink/blockdiagram.xml",
+        "simulink/configSet0.xml",
+        "simulink/windowsInfo.xml"
+      ],
+      "protected_entries": [
+        "simulink/systems/system_root.xml",
+        "simulink/blockdiagram.xml"
+      ],
+      "configuration_diff": [
+        "--- before",
+        "+++ after",
+        "@@ -393,7 +393,7 @@",
+        "         <P Name=\"Description\">Embedded Coder</P>",
+        "         <P Name=\"SystemTargetFile\">ert.tlc</P>",
+        "         <P Name=\"EmbeddedCoderDictionary\"/>",
+        "-        <P Name=\"HardwareBoard\">X280 Linux (SSH)</P>",
+        "+        <P Name=\"HardwareBoard\">SimRT</P>",
+        "         <P Name=\"ShowCustomHardwareApp\">off</P>",
+        "         <P Name=\"ShowEmbeddedHardwareApp\">off</P>",
+        "         <P Name=\"TLCOptions\">-aInlineSetEventsForThisBaseRateFcn=TLC_FALSE -aSuppressMultiTaskScheduler=TLC_FALSE  -aRateBasedStepFcn=0</P>",
+        "@@ -788,7 +788,7 @@",
+        "         <Array PropName=\"CoderTargetData\" Type=\"Struct\" Dimension=\"1*1\">",
+        "           <MATStruct>",
+        "             <Field Name=\"UseCoderTarget\" Class=\"logical\">1</Field>",
+        "-            <Field Name=\"TargetHardware\" Class=\"char\">X280 Linux (SSH)</Field>",
+        "+            <Field Name=\"TargetHardware\" Class=\"char\">SimRT</Field>",
+        "             <Array PropName=\"ConnectionInfo\" Type=\"Struct\" Dimension=\"1*1\">",
+        "               <MATStruct>",
+        "                 <Array PropName=\"XCPonTCPIP\" Type=\"Struct\" Dimension=\"1*1\">"
+      ],
+      "before_sha256": "7124ed05277942f5c710f8793dcf7cd94ff67bcb22b03b369ee05c3f8a515fd3",
+      "after_sha256": "d98c2f1177aed300c3645becf624770260062874c6b0b07bcfbf89fa0846ac49"
+    }
+  ]
+}

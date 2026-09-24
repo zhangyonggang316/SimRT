@@ -1,0 +1,11 @@
+﻿{
+    "passed":  true,
+    "kind":  "hidden_packaged_startup",
+    "executable_sha256":  "63727cd6bacf826d5973cae7d346ec3f1bed96fdf9483181985d010e5de05024",
+    "qt_widgets_loaded":  true,
+    "native_core_loaded":  true,
+    "fresh_startup_error":  false,
+    "remote_operations_performed":  false,
+    "installed_path":  "Demo_XCP_Qt/app/QtXCPHost.exe",
+    "installed_hash_matches":  true
+}

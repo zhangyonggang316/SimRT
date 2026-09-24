@@ -1,0 +1,155 @@
+﻿{
+    "created_at":  "2026-09-16T00:31:25.0860617+08:00",
+    "retained_model":  "x280_rt_single",
+    "retained_app":  "Python/PySide6 Qt",
+    "removed":  [
+                    {
+                        "path":  "Demo_XCP_Qt\\models\\x280_period_10ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "Demo_XCP_Qt\\models\\x280_rt_multirate",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "Demo_XCP_Qt\\models\\x280_period_100ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "docs\\history\\legacy_reference_sources.zip",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_10ms.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\requirements_update_20260913\\multirate_payload",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\x280_period_10ms.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_100ms.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_rt_multirate.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\x280_rt_multirate.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\x280_period_100ms.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\requirements_update_20260913\\multirate_rt_bundle",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\requirements_update_20260913\\x280_rt_multirate.slx",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_10ms_payload",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_100ms_payload",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_rt_multirate_payload",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_10ms_rt_bundle",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_period_100ms_rt_bundle",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\model_period_1ms_20260913\\x280_rt_multirate_rt_bundle",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\x280_period_10ms.slxc",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms.elf",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\x280_rt_multirate.slxc",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\x280_period_100ms.slxc",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms.elf",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate.elf",
+                        "directory":  false
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_ert_rtw",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_ert_rtw",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_ert_rtw",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\slprj\\ert\\x280_period_10ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\slprj\\ert\\x280_rt_multirate",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\codegen\\slprj\\ert\\x280_period_100ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\slprj\\sim\\varcache\\x280_period_10ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\slprj\\sim\\varcache\\x280_period_100ms",
+                        "directory":  true
+                    },
+                    {
+                        "path":  "validation\\local_ctrlb_final_20260916\\cache\\slprj\\sim\\varcache\\x280_rt_multirate",
+                        "directory":  true
+                    }
+                ]
+}

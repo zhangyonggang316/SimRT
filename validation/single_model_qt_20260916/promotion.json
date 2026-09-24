@@ -1,0 +1,12 @@
+﻿{
+    "created_at":  "2026-09-16T00:44:16.5826753+08:00",
+    "replaced":  "Demo_XCP_Qt",
+    "removed_duplicates":  [
+                               "qt_xcp_host/build",
+                               "qt_xcp_host/dist",
+                               "qt_xcp_host/QtXCPHost.spec",
+                               "validation/single_model_qt_20260916/baseline"
+                           ],
+    "deletion_method":  "Windows Recycle Bin",
+    "promoted_executable_sha256":  "4146dff2f5fca4b6eae0f97ca2836b054a799c2090233f408981b2cfdb30d84b"
+}

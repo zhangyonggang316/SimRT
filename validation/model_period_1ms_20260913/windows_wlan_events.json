@@ -1,0 +1,82 @@
+[
+  {
+    "time_local": "2026-09-13T22:50:15.232",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:50:20.004",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:50:52.158",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:50:58.446",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:52:02.466",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:52:03.002",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:52:40.250",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:52:42.422",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:54:26.918",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:54:32.319",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:55:04.450",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:55:07.579",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:56:07.484",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:56:09.316",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  },
+  {
+    "time_local": "2026-09-13T22:56:52.590",
+    "event_id": 8003,
+    "event": "WLAN disconnected"
+  },
+  {
+    "time_local": "2026-09-13T22:56:53.169",
+    "event_id": 8001,
+    "event": "WLAN connected"
+  }
+]

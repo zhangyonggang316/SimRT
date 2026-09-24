@@ -1,0 +1,66 @@
+{
+  "x280_rt_single": {
+    "counts": {
+      "extmode_event_errors": 30017,
+      "legacy_upload_errors": 10,
+      "no_memory_errors": 30027
+    },
+    "summaries": [
+      {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 7,
+        "memory_locked": true,
+        "cycles": 30659,
+        "completed_cycles": 30659,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 368400,
+        "wake_latency_mean_ns": 6358.363,
+        "execution_max_ns": 181008,
+        "execution_mean_ns": 24107.727,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "final_cycle_includes_termination": false,
+        "elapsed_ns": 30658016774,
+        "stop_signal": 15
+      }
+    ],
+    "end_bytes": 2768050
+  },
+  "x280_rt_multirate": {
+    "counts": {
+      "extmode_event_errors": 0,
+      "legacy_upload_errors": 8,
+      "no_memory_errors": 8
+    },
+    "summaries": [
+      {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 7,
+        "memory_locked": true,
+        "cycles": 30608,
+        "completed_cycles": 30608,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 362265,
+        "wake_latency_mean_ns": 6228.244,
+        "execution_max_ns": 79591,
+        "execution_mean_ns": 22083.432,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "final_cycle_includes_termination": false,
+        "elapsed_ns": 30607016901,
+        "stop_signal": 15
+      }
+    ],
+    "end_bytes": 6028
+  }
+}

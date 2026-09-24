@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "tests": 11,
+  "results": [
+    {
+      "name": "tX280LinuxTarget/targetAndBoardAreRegistered",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/registryUsesX8664AndNoRaspberryPiRuntime",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/passwordIsNeverStoredInBoardParameters",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/legacyBuildCannotStartRemoteExecution",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LinuxTarget/a2lExportRejectsArmExecutable",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tX280LocalArtifacts/buildPublishesOnlyMatchingDeploymentFiles",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    }
+  ]
+}

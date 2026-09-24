@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productinfo version="2.0">
+    <name>SimRT</name>
+    <compileflags> </compileflags>
+    <assemblyflags> </assemblyflags>
+    <linkflags> </linkflags>
+    <enableoneclick>true</enableoneclick>
+    <externalmodeinfo>
+        <sourcefile>$(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c</sourcefile>
+        <sourcefile>$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c</sourcefile>
+        <sourcefile>$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c</sourcefile>
+        <sourcefile>$(MATLAB_ROOT)/toolbox/coder/xcp/src/target/server/platform/default/xcp_platform_default.c</sourcefile>
+        <setupfcn>codertarget.x280linuxssh.internal.setupExternalMode(hObj);</setupfcn>
+        <!-- R2024b has no XCP/UDP External Mode registry type. This TCP
+             classification selects the shared XCP-on-Ethernet stack;
+             onAfterCodeGen replaces its TCP defaults with UDP settings. -->
+        <transport type="tcp/ip" name="XCP on TCP/IP">
+            <iointerfacename>XCP on TCP/IP</iointerfacename>
+            <verbose value="0" visible="true"/>
+            <port value="17725" visible="true"/>
+            <ipaddress value="codertarget.x280linuxssh.internal.getDeviceAddress" visible="false"/>
+        </transport>
+        <task inbackground="true" inforeground="true" default="foreground" visible="true"/>
+        <codertargetparameter name="Runtime.BuildAction" value="Build"/>
+    </externalmodeinfo>
+    <honorruntimestoprequest>false</honorruntimestoprequest>
+    <includepath>$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils</includepath>
+    <define>__linux__</define>
+    <define>MW_SCHED_OTHER</define>
+    <define>_RUNONTARGETHARDWARE_BUILD_</define>
+    <token Name="_SUPPORTS_CPP_CODEGEN_" Value="true"/>
+    <onaftercodegenhook>codertarget.x280linuxssh.internal.onAfterCodeGen</onaftercodegenhook>
+    <onhardwareselecthook>codertarget.x280linuxssh.internal.onHardwareSelect</onhardwareselecthook>
+</productinfo>

@@ -1,0 +1,50 @@
+[
+  {
+    "model": "x280_rt_single",
+    "period_seconds": 0.001,
+    "tasking": "single",
+    "model_file": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_single.slx",
+    "bundle": {
+      "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_single_bundle",
+      "BuildCommand": "python3 build_model.py",
+      "ELFRelativePath": "x280_rt_single.elf",
+      "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\codegen\\x280_rt_single_ert_rtw"
+    }
+  },
+  {
+    "model": "x280_rt_multirate",
+    "period_seconds": 0.001,
+    "tasking": "single",
+    "model_file": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_multirate.slx",
+    "bundle": {
+      "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_rt_multirate_bundle",
+      "BuildCommand": "python3 build_model.py",
+      "ELFRelativePath": "x280_rt_multirate.elf",
+      "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\codegen\\x280_rt_multirate_ert_rtw"
+    }
+  },
+  {
+    "model": "x280_period_10ms",
+    "period_seconds": 0.01,
+    "tasking": "single",
+    "model_file": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_10ms.slx",
+    "bundle": {
+      "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_10ms_bundle",
+      "BuildCommand": "python3 build_model.py",
+      "ELFRelativePath": "x280_period_10ms.elf",
+      "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\codegen\\x280_period_10ms_ert_rtw"
+    }
+  },
+  {
+    "model": "x280_period_100ms",
+    "period_seconds": 0.1,
+    "tasking": "single",
+    "model_file": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_100ms.slx",
+    "bundle": {
+      "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\x280_period_100ms_bundle",
+      "BuildCommand": "python3 build_model.py",
+      "ELFRelativePath": "x280_period_100ms.elf",
+      "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\model_period_1ms_20260913\\codegen\\x280_period_100ms_ert_rtw"
+    }
+  }
+]

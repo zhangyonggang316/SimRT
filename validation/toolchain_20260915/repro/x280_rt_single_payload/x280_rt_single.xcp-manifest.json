@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 2,
+  "ModelName": "x280_rt_single",
+  "MATLABRelease": "2024b",
+  "CreatedUTC": "2026-09-14T17:05:59Z",
+  "TargetHardware": "X280 Linux (SSH)",
+  "TargetAddress": "192.168.219.86",
+  "XCPTransport": "UDP",
+  "XCPPort": 17725,
+  "XCPMaxDTOBytes": 508,
+  "XCPMaxDatagramBytes": 512,
+  "A2LFile": "x280_rt_single.a2l",
+  "A2LBytes": 34554,
+  "A2LSHA256": "2261567f8c69f23f82c51146dd596150ca5f6a011e7e17d5354cec204e52820d",
+  "ELFFile": "x280_rt_single.elf",
+  "ELFBytes": 493960,
+  "ELFSHA256": "62ead704d4c0de1653f0b247d9a12de58133a65e7c6d0bd35e80f243965662e4"
+}

@@ -1,0 +1,8 @@
+[09:49:15] [INFO] 加载 A2L...
+[09:49:15] [INFO] 09:49:15  已加载 A2L：x280_integration_demo.a2l（测量量 6，标定量 12）
+[09:49:15] [INFO] A2L 已加载：6 个测量量，12 个标定量。
+[09:49:19] [INFO] 连接 XCP...
+[09:49:19] [INFO] 09:49:19  正在连接 ETH/UDP 192.168.219.86:17726
+[09:49:27] [INFO] 09:49:27  XCP 连接失败：Maximum CONNECT retries reached.
+[09:49:27] [ERROR] 连接 XCP失败：Maximum CONNECT retries reached.
+[09:49:27] [INFO] 09:49:27  上位机已关闭

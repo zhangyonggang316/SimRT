@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "model": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test.slx",
+  "model_sha256": "5ce0deca5a506dd258230d2500b5b9994f8aeff7f84d63266f20663d9766089f",
+  "source_parent": "x280_hierarchy_test/Outer_Control/Inner_Controller",
+  "expected_path": [
+    "x280_hierarchy_test",
+    "Outer_Control",
+    "Inner_Controller"
+  ],
+  "measurement": "x280_hierarchy_test_B.DeepSignal",
+  "calibration": "x280_hierarchy_test_P.DeepGain_Gain",
+  "groups": [
+    {
+      "name": "X280_ModelHierarchy_000001",
+      "label": "x280_hierarchy_test",
+      "root": true,
+      "children": [
+        "X280_ModelHierarchy_000002"
+      ],
+      "measurements": [
+        "x280_hierarchy_test_B.MeasuredBeforeLimits",
+        "x280_hierarchy_test_B.MeasuredOutput",
+        "x280_hierarchy_test_DW.lastCos",
+        "x280_hierarchy_test_DW.lastSin",
+        "x280_hierarchy_test_DW.systemEnable",
+        "x280_hierarchy_test_Y.Measuredoutput",
+        "x280_hierarchy_test_Y.Nested_Output"
+      ],
+      "calibrations": [
+        "CalGain",
+        "CalOffset",
+        "InputAmplitude",
+        "OutputLowerLimit",
+        "OutputUpperLimit",
+        "x280_hierarchy_test_P.Excitation_Bias",
+        "x280_hierarchy_test_P.Excitation_Freq",
+        "x280_hierarchy_test_P.Excitation_HCos",
+        "x280_hierarchy_test_P.Excitation_Hsin",
+        "x280_hierarchy_test_P.Excitation_PCos",
+        "x280_hierarchy_test_P.Excitation_PSin",
+        "x280_hierarchy_test_P.Excitation_Phase"
+      ]
+    },
+    {
+      "name": "X280_ModelHierarchy_000002",
+      "label": "Outer_Control",
+      "root": false,
+      "children": [
+        "X280_ModelHierarchy_000003"
+      ],
+      "measurements": [],
+      "calibrations": []
+    },
+    {
+      "name": "X280_ModelHierarchy_000003",
+      "label": "Inner_Controller",
+      "root": false,
+      "children": [],
+      "measurements": [
+        "x280_hierarchy_test_B.DeepSignal"
+      ],
+      "calibrations": [
+        "x280_hierarchy_test_P.DeepGain_Gain"
+      ]
+    }
+  ],
+  "archive": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test_local\\20260919_020918_330.zip",
+  "archive_sha256": "162190f28a112f6f8525127ced1a22e8a312f6fc20ada20829947034e399c90b",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test_ert_rtw\\x280_build_evidence\\20260919_020918_330\\deployment_cache\\162190f28a112f6f8525127ced1a22e8a312f6fc20ada20829947034e399c90b\\20260919_020918_330\\x280_hierarchy_test.a2l",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test_ert_rtw\\x280_build_evidence\\20260919_020918_330\\deployment_cache\\162190f28a112f6f8525127ced1a22e8a312f6fc20ada20829947034e399c90b\\20260919_020918_330\\x280_hierarchy_test.xcp-manifest.json",
+  "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test_ert_rtw\\x280_build_evidence\\20260919_020918_330\\deployment_cache\\162190f28a112f6f8525127ced1a22e8a312f6fc20ada20829947034e399c90b\\20260919_020918_330\\x280_hierarchy_test.elf",
+  "remote_operations_performed": false
+}

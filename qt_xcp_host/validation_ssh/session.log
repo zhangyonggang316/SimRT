@@ -1,0 +1,16 @@
+SSH connected to 192.168.219.86:22
+Uploaded main.c
+Uploaded Makefile
+Uploaded README.md
+Build started in /home/zh/pyxcp-validation-4333d5459c20
+cc -O2 -Wall -Wextra -Werror -std=c11 -o demo.elf main.c
+
+Build completed
+ELF downloaded; SHA256 24425e5dcc20d05869e9c9f524b8f8095c4a059055ccb5bb2f8f8472d40e3e43
+ELF started with PID 179350
+ELF started with PID 179350
+SSH connected to 192.168.219.86:22
+SSH connected to 192.168.219.86:22
+Build started in /home/zh/pyxcp-validation-4333d5459c20
+Build started in /home/zh/pyxcp-validation-4333d5459c20
+Remote build timed out

@@ -1,0 +1,75 @@
+{
+  "host": "192.168.219.86",
+  "phase": "observe",
+  "status": "passed",
+  "passed": true,
+  "checks": {
+    "source_files_uploaded": true,
+    "native_build": true,
+    "native_non_pie_elf": true,
+    "discovered_stopped_model": true,
+    "live_resources": true,
+    "discovered_running_model": true,
+    "live_calibration_response": true,
+    "app_observation_samples": true,
+    "restored_signal_dynamic": true,
+    "app_observation_stayed_active": true,
+    "app_stop_restored_calibration": true,
+    "calibration_restored_and_disconnected": true,
+    "model_stopped": true
+  },
+  "remote_directory": "/home/zh/MATLAB_ws/pyxcp_integration_05418e0400",
+  "elf_sha256": "8c309c5d6a369013a8e4a11e3bb73c258fbe447b8d38ce4e676c68a9f2317496",
+  "resources": {
+    "host": "zh-ThinkPad-X280",
+    "kernel": "6.8.0-90-generic",
+    "architecture": "x86_64",
+    "uptime": 256558.2,
+    "cpu_percent": 3.361344537815126,
+    "core_percents": [
+      0.0,
+      0.0,
+      0.0,
+      6.666666666666667,
+      0.0,
+      6.666666666666667,
+      6.666666666666667,
+      0.0
+    ],
+    "cpu_count": 8,
+    "load_average": [
+      0.12,
+      0.27,
+      0.25
+    ],
+    "disk_path": "/home/zh",
+    "disk_total": 250375106560,
+    "disk_used": 17513730048,
+    "disk_available": 220068487168,
+    "disk_percent": 6.9949965428384155,
+    "network": {
+      "lo": {
+        "received_bytes": 202640,
+        "sent_bytes": 202640
+      },
+      "enp0s31f6": {
+        "received_bytes": 0,
+        "sent_bytes": 0
+      },
+      "wlp59s0": {
+        "received_bytes": 203788449,
+        "sent_bytes": 84603915
+      },
+      "docker0": {
+        "received_bytes": 0,
+        "sent_bytes": 0
+      }
+    },
+    "memory_total": 8077922304,
+    "memory_available": 6001836032,
+    "memory_used": 2076086272,
+    "memory_percent": 25.70074573472897
+  },
+  "observation_sample_count": 600,
+  "ui_errors": []
+}

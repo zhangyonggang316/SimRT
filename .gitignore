@@ -10,3 +10,43 @@
 /qt_xcp_host/staging_delivery/
 /validation/**/staging_delivery/
 /validation/**/replaced_app_files/
+
+# Local machine settings and credentials.
+/.vscode/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Rebuildable applications, compilers, and separately maintained developer tools.
+/Demo_XCP_Qt/app/
+/tools/qt_toolchain/
+/tools/matlab-agentic-toolkit/
+/tools/simulink-agentic-toolkit/
+/tools/matlab-mcp-core-server/
+/tools/matlab-mcp-server-windows-x64.exe
+/tools/python-3.9.10-amd64.exe
+/portable-linux-toolchain/portable-linux-toolchain/toolchain/
+/portable-linux-toolchain/portable-linux-toolchain/host-bin/
+/x280_linux_target/registry/x280_portable_toolchain.mat
+
+# Model build outputs can contain copied MATLAB runtime sources.
+**/*_ert_rtw/
+**/*_rt_bundle/
+**/*_bundle/
+**/x280_build_evidence/
+**/x280_archive_cache/
+/validation/**/codegen/
+/validation/**/build_sources/
+/validation/**/intermediate_builds/
+/validation/**/*.o
+/validation/**/*.obj
+/validation/**/*.exe
+/validation/**/*.dll
+/validation/**/*.mat
+/validation/**/sources.zip
+/validation/**/original_sources.zip

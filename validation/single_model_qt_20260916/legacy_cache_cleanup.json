@@ -1,0 +1,11 @@
+﻿{
+    "created_at":  "2026-09-16T00:43:36.4510919+08:00",
+    "deletion_method":  "Windows Recycle Bin",
+    "removed":  [
+                    "python_xcp_host/pyxcp_host/ui",
+                    "python_xcp_host/pyxcp_host/__pycache__",
+                    "python_xcp_host/__pycache__",
+                    "python_xcp_host/tests/__pycache__",
+                    "python_xcp_host/demo"
+                ]
+}

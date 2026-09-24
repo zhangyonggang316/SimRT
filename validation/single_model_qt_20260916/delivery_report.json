@@ -1,0 +1,16 @@
+﻿{
+    "created_at":  "2026-09-16T00:43:38.9606727+08:00",
+    "passed":  true,
+    "retained_models":  [
+                            "x280_rt_single"
+                        ],
+    "period_seconds":  0.001,
+    "model_files_verified":  82,
+    "application":  "Python/PySide6 Qt",
+    "executable_sha256":  "4146dff2f5fca4b6eae0f97ca2836b054a799c2090233f408981b2cfdb30d84b",
+    "qt_tests":  90,
+    "shared_tests":  135,
+    "tool_tests_passed":  89,
+    "visual_views":  8,
+    "matlab_started_for_cleanup":  false
+}

@@ -1,0 +1,17 @@
+Built model.elf
+test_original_build_retains_existing_flags (test_realtime_bundle.RealtimeBuildCommandTests) ... ok
+Built model.elf
+test_rt_build_is_optimized_and_wraps_only_semaphore_boundaries (test_realtime_bundle.RealtimeBuildCommandTests) ... ok
+test_bounded_daq_pool_replaces_small_generated_count (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_existing_output_and_nested_output_are_rejected (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_generated_sources_unchanged_runtime_selected_and_archived (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_missing_generated_upload_is_rejected (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_multitask_and_release_contracts_rejected (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_staging_failure_does_not_leave_partial_delivery (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_supported_periods_come_from_generated_main (test_realtime_bundle.RealtimeBundleTests) ... ok
+test_wrong_period_and_subrate_threads_rejected (test_realtime_bundle.RealtimeBundleTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.105s
+
+OK

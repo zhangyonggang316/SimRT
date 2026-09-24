@@ -1,0 +1,98 @@
+{
+  "timestamp_utc": "2026-09-18T17:04:47.226677+00:00",
+  "can_frames_transmitted": 0,
+  "install": {
+    "destination": "/home/zh/.local/lib/tscan",
+    "state": "already_matches",
+    "sha256": {
+      "libTSCANApiOnLinux.so": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "libTSH.so": "8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758",
+      "LICENSE": "474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06",
+      "SOURCE.md": "55fd7d21a20b1286eab140491b252fa531e4bddb1a2d2c6436bc14eb3eb26739",
+      "tc1013-sdk-manifest.json": "992ae0e263c0c21ede40c2ce6be86fff94d0318d7288c17466d8dad62c2a9dce"
+    }
+  },
+  "usb_permission": {
+    "before": {
+      "sysfs": "/sys/bus/usb/devices/1-2",
+      "node": "/dev/bus/usb/001/002",
+      "identity": [
+        "5453",
+        "0001",
+        "37AFCA2612ADBF35"
+      ],
+      "before": {
+        "uid": 0,
+        "gid": 46,
+        "mode": "crw-rw-r--"
+      },
+      "changed": false,
+      "after": {
+        "uid": 0,
+        "gid": 46,
+        "mode": "crw-rw-r--",
+        "readable": true,
+        "writable": true
+      }
+    },
+    "verified_as_ssh_user": {
+      "sysfs": "/sys/bus/usb/devices/1-2",
+      "node": "/dev/bus/usb/001/002",
+      "identity": [
+        "5453",
+        "0001",
+        "37AFCA2612ADBF35"
+      ],
+      "before": {
+        "uid": 0,
+        "gid": 46,
+        "mode": "crw-rw-r--"
+      },
+      "changed": false,
+      "after": {
+        "uid": 0,
+        "gid": 46,
+        "mode": "crw-rw-r--",
+        "readable": true,
+        "writable": true
+      }
+    }
+  },
+  "sdk_validation": {
+    "libTSH.so": {
+      "exit_code": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007ffc1935f000)\n\tlibusb-1.0.so.0 => /lib/x86_64-linux-gnu/libusb-1.0.so.0 (0x00007fde4cced000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fde4cce8000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fde4cabc000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fde4ca9c000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fde4c873000)\n\tlibudev.so.1 => /lib/x86_64-linux-gnu/libudev.so.1 (0x00007fde4c847000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fde4cd3b000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fde4c760000)\n",
+      "stderr": ""
+    },
+    "libTSCANApiOnLinux.so": {
+      "exit_code": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007ffc6932a000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f13074db000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f13072b2000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f13072ad000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f13072a8000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f13071c1000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f1307bbe000)\n",
+      "stderr": ""
+    },
+    "probe": {
+      "exit_code": 0,
+      "stdout": "X280_SDK_PROBE_JSON={\"can_frames_transmitted\": 0, \"channel_configuration_changed\": false, \"scan_status\": 0, \"device_count\": 1, \"devices\": [{\"index\": 0, \"status\": 0, \"manufacturer\": \"TOSUN\", \"product\": \"TOSUN HS CANFD2\", \"serial\": \"37AFCA2612ADBF35\"}], \"connect_status\": 0, \"handle_nonzero\": true, \"disconnect_status\": 0, \"finalized\": true}\n",
+      "stderr": ""
+    },
+    "api_results": {
+      "can_frames_transmitted": 0,
+      "channel_configuration_changed": false,
+      "scan_status": 0,
+      "device_count": 1,
+      "devices": [
+        {
+          "index": 0,
+          "status": 0,
+          "manufacturer": "TOSUN",
+          "product": "TOSUN HS CANFD2",
+          "serial": "37AFCA2612ADBF35"
+        }
+      ],
+      "connect_status": 0,
+      "handle_nonzero": true,
+      "disconnect_status": 0,
+      "finalized": true
+    }
+  },
+  "passed": true
+}

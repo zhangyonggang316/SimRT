@@ -1,0 +1,25 @@
+{
+  "model": "x280_rt_single",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single.slx",
+  "model_sha256": "054c497cec6541a9af6afc89fb3e080799800bc346acb8e0b7d9cfa184dc5eeb",
+  "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.elf",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.a2l",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.xcp-manifest.json",
+  "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload",
+  "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_rt_single.elf",
+    "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_ert_rtw"
+  },
+  "elf_sha256": "bb6b638a3ff86a536e6acace97dd761264c261decf01ffc2b0adf10d8f87158c",
+  "remote_operations_performed": false
+}

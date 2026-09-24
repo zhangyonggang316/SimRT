@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "connected": true,
+    "uploaded_files": 3,
+    "compiled": true,
+    "downloaded_elf": true,
+    "started": true,
+    "duplicate_start_same_pid": true,
+    "build_while_running_rejected": true,
+    "upload_while_running_rejected": true,
+    "reconnect_retains_process": true,
+    "new_session_recovers_process": true,
+    "runtime_log": true,
+    "stopped": true,
+    "graceful_stop_log": true,
+    "compile_error_rejected": true,
+    "compile_timeout_rejected": true
+  },
+  "remote_directory": "/home/zh/pyxcp-validation-4333d5459c20",
+  "elf_sha256": "24425e5dcc20d05869e9c9f524b8f8095c4a059055ccb5bb2f8f8472d40e3e43",
+  "passed": true
+}

@@ -1,0 +1,10 @@
+﻿{
+    "passed":  true,
+    "kind":  "hidden_packaged_startup",
+    "executable":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\zip_app_20260919\\staging_delivery\\app\\QtXCPHost.exe",
+    "executable_sha256":  "340d8af9f7ec6d0d27f2de631f5bf065ccd5d5ef6ee590dfb35e46e98d3e4cea",
+    "qt_widgets_loaded":  true,
+    "native_core_loaded":  true,
+    "fresh_startup_error":  false,
+    "remote_operations_performed":  false
+}

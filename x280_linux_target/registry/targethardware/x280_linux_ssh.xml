@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productinfo version="2.0">
+    <name>SimRT</name>
+    <deviceid>Intel-&gt;x86-64 (Linux 64)</deviceid>
+    <subfamily>Intel</subfamily>
+    <numofcores>4</numofcores>
+    <productionhwdevicetype>Intel-&gt;x86-64 (Linux 64)</productionhwdevicetype>
+    <enableprodhwdevicetype>true</enableprodhwdevicetype>
+    <toolchain name="X280 portable-linux-toolchain" IsLoadCommandMATLABFcn="true">
+        <loadcommand>codertarget.x280linuxssh.internal.deploymentManagedByApp</loadcommand>
+        <loadcommandargs>''</loadcommandargs>
+    </toolchain>
+    <parameterinfo>$(TARGET_ROOT)/registry/parameters/x280_linux_ssh_parameters.xml</parameterinfo>
+    <attributeinfo>$(TARGET_ROOT)/registry/attributes/x280_linux_ssh_attributes.xml</attributeinfo>
+    <rtosinfo>$(MATLAB_ROOT)/toolbox/target/codertarget/rtos/registry/linux.xml</rtosinfo>
+    <esbcompatible>0</esbcompatible>
+    <supportsonlysimulation>false</supportsonlysimulation>
+    <supportsconnectedio>false</supportsconnectedio>
+</productinfo>

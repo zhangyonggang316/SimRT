@@ -1,0 +1,182 @@
+/* Autonomous single-task entry point for the X280 R2024b Linux RT runtime. */
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+#include <stdatomic.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "@MODEL@.h"
+#include "@MODEL@_private.h"
+#include "rtwtypes.h"
+#include "ext_mode.h"
+#include "linuxinitialize.h"
+
+extern void x280_rt_step_begin(void);
+extern void x280_rt_step_end(void);
+
+volatile boolean_T stopRequested = false;
+volatile boolean_T runModel = true;
+sem_t stopSem;
+sem_t baserateTaskSem;
+pthread_t schedulerThread;
+pthread_t baseRateThread;
+static atomic_int model_finished = ATOMIC_VAR_INIT(0);
+static atomic_int background_stop = ATOMIC_VAR_INIT(0);
+static atomic_flag termination_started = ATOMIC_FLAG_INIT;
+
+void exitFcn(int signal_number)
+{
+    (void)signal_number;
+    stopRequested = true;
+    runModel = false;
+}
+
+void *terminateTask(void *unused)
+{
+    (void)unused;
+    if (atomic_flag_test_and_set_explicit(&termination_started, memory_order_relaxed)) {
+        return NULL;
+    }
+    runModel = false;
+    @MODEL@_terminate();
+    /* XCP reset belongs to main, after the model thread has been joined. */
+    atomic_store_explicit(&model_finished, 1, memory_order_release);
+    if (sem_post(&stopSem) != 0) {
+        perror("X280 RT sem_post stopSem");
+        exit(EXIT_FAILURE);
+    }
+    return NULL;
+}
+
+void *baseRateTask(void *unused)
+{
+    (void)unused;
+    runModel = rtmGetErrorStatus(@MODEL@_M) == NULL && !rtmGetStopRequested(@MODEL@_M);
+    while (runModel) {
+        if (sem_wait(&baserateTaskSem) != 0) {
+            perror("X280 RT sem_wait baserateTaskSem");
+            rtmSetErrorStatus(@MODEL@_M, "base-rate wait failed");
+            break;
+        }
+        if (atomic_load_explicit(&background_stop, memory_order_acquire)) {
+            break;
+        }
+        x280_rt_step_begin();
+        @MODEL@_step();
+        x280_rt_step_end();
+        stopRequested = rtmGetErrorStatus(@MODEL@_M) != NULL || rtmGetStopRequested(@MODEL@_M);
+        runModel = !stopRequested;
+    }
+    terminateTask(NULL);
+    return NULL;
+}
+
+static int reset_external_mode(void)
+{
+    extmodeErrorCode_T error = extmodeReset();
+    if (error != EXTMODE_SUCCESS) {
+        fprintf(stderr, "X280 RT extmodeReset failed: %d\n", (int)error);
+        return EXIT_FAILURE;
+    }
+    return EXIT_SUCCESS;
+}
+
+int main(int argc, char **argv)
+{
+    int index;
+    int result = EXIT_SUCCESS;
+    int policy;
+    struct sched_param priority;
+    extmodeErrorCode_T error;
+    boolean_T initial_stop = false;
+    const char *model_error;
+
+    for (index = 1; index < argc; ++index) {
+        if (strcmp(argv[index], "-w") == 0) {
+            fprintf(stderr, "X280 RT autonomous execution does not support -w or host-controlled pause\n");
+            return EXIT_FAILURE;
+        }
+    }
+    error = extmodeParseArgs(argc, (const char_T **)argv);
+    if (error != EXTMODE_SUCCESS) {
+        fprintf(stderr, "X280 RT extmodeParseArgs failed: %d\n", (int)error);
+        return EXIT_FAILURE;
+    }
+    memset(&priority, 0, sizeof(priority));
+    index = pthread_setschedparam(pthread_self(), SCHED_OTHER, &priority);
+    if (index != 0) {
+        fprintf(stderr, "X280 RT main SCHED_OTHER failed: %s\n", strerror(index));
+        return EXIT_FAILURE;
+    }
+    index = pthread_getschedparam(pthread_self(), &policy, &priority);
+    if (index != 0 || policy != SCHED_OTHER) {
+        fprintf(stderr, "X280 RT main scheduling verification failed: %d\n", index);
+        return EXIT_FAILURE;
+    }
+
+    rtmSetErrorStatus(@MODEL@_M, NULL);
+    @MODEL@_initialize();
+    model_error = rtmGetErrorStatus(@MODEL@_M);
+    if (model_error != NULL) {
+        fprintf(stderr, "X280 RT model initialization failed: %s\n", model_error);
+        @MODEL@_terminate();
+        return EXIT_FAILURE;
+    }
+    rtSetTFinalForExtMode(&rtmGetTFinal(@MODEL@_M));
+    rtExtModeCheckInit(@NUM_SAMPLE_TIMES@);
+    /* This initializes the checksum; -w is rejected so it does not await DAQ. */
+    rtExtModeWaitForStartPkt(@MODEL@_M->extModeInfo, @NUM_SAMPLE_TIMES@, &initial_stop);
+    if (initial_stop) {
+        fprintf(stderr, "X280 RT external-mode initialization requested model stop\n");
+        @MODEL@_terminate();
+        reset_external_mode();
+        return EXIT_FAILURE;
+    }
+    rtERTExtModeStartMsg();
+    myRTOSInit(@PERIOD_SECONDS@, 0);
+
+    while (!atomic_load_explicit(&model_finished, memory_order_acquire)) {
+        struct timespec delay = {0, 100000};
+        error = extmodeBackgroundRun();
+        /* The supplied XCP background API returns EMPTY when its queues drain. */
+        if (error != EXTMODE_SUCCESS && error != EXTMODE_EMPTY) {
+            fprintf(stderr, "X280 RT extmodeBackgroundRun failed: %d\n", (int)error);
+            result = EXIT_FAILURE;
+            atomic_store_explicit(&background_stop, 1, memory_order_release);
+            break;
+        }
+        while (nanosleep(&delay, &delay) != 0) {
+            if (errno != EINTR) {
+                perror("X280 RT background nanosleep");
+                result = EXIT_FAILURE;
+                atomic_store_explicit(&background_stop, 1, memory_order_release);
+                break;
+            }
+            if (atomic_load_explicit(&model_finished, memory_order_acquire)) {
+                break;
+            }
+        }
+        if (result != EXIT_SUCCESS) {
+            break;
+        }
+    }
+    /* The runtime wrapper joins the model thread and emits its timing summary. */
+    if (sem_wait(&stopSem) != 0) {
+        perror("X280 RT sem_wait stopSem");
+        return EXIT_FAILURE;
+    }
+    model_error = rtmGetErrorStatus(@MODEL@_M);
+    if (model_error != NULL && strcmp(model_error, "Simulation finished") != 0) {
+        fprintf(stderr, "X280 RT model failed: %s\n", model_error);
+        result = EXIT_FAILURE;
+    }
+    if (reset_external_mode() != EXIT_SUCCESS) {
+        result = EXIT_FAILURE;
+    }
+    if (sem_destroy(&baserateTaskSem) != 0 || sem_destroy(&stopSem) != 0) {
+        perror("X280 RT sem_destroy");
+        result = EXIT_FAILURE;
+    }
+    return result;
+}

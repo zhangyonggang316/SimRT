@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "archive": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507.zip",
+  "real_a2l_parser": true,
+  "measurements": 6,
+  "calibrations": 12,
+  "protocol": "UDP",
+  "port": "17725",
+  "host": "192.168.219.86",
+  "automatic_demo_loading": true,
+  "remote_hardware": false,
+  "extracted_cache_removed_on_close": true
+}

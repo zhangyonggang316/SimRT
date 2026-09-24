@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": {
+    "preset_loaded_without_connection": true,
+    "three_menu_navigation": true,
+    "ssh_connected_password_cleared": true,
+    "resources_and_model_list": true,
+    "start_from_model_list": true,
+    "daq_model_period": true,
+    "calibration_enabled_during_daq": true,
+    "daq_continues_during_calibration": true,
+    "restore_does_not_stop_daq": true,
+    "live_curve_dynamic": true,
+    "linked_subplots": true,
+    "cursor_values_match_samples": true,
+    "nonblank_plot_export": true,
+    "csv_export": true,
+    "calibration_output": true,
+    "restore_original_values": true,
+    "stop_restores_and_disconnects": true,
+    "elf_download_matches_payload": true,
+    "ssh_disconnected": true
+  },
+  "remote_directory": "MATLAB_ws/manual_demo_20260913_095214_85cd78f1",
+  "host": "192.168.219.86",
+  "xcp_port": 17726,
+  "daq": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.01,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_integration_demo_B.MeasuredBeforeLimits",
+      "x280_integration_demo_B.MeasuredOutput"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000,
+    "active": false,
+    "received_samples": 4597,
+    "queue_dropped_samples": 0,
+    "invalid_frames": 0,
+    "incomplete_events": 0,
+    "transport_counter_gaps": 0,
+    "reordered_frames": 0,
+    "timestamp_gap_samples": 12,
+    "timestamp_wraps": 0,
+    "timestamp_reorders": 2,
+    "overload_events": 0,
+    "queued_samples": 0
+  }
+}

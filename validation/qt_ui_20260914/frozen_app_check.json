@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-14",
+  "application": "Demo_XCP_Qt/app/QtXCPHost.exe",
+  "exe_sha256": "fa8133898850bb9f33612e6c5620194c7a114ca3d0d8f7e456ef19a2ec107ba5",
+  "native_sha256": "464eb9577170d3234bd3ba6f311ed95dd9a4c678e470d026f5b97a868e5daed8",
+  "launch_from_independent_temp_working_directory": true,
+  "verified_demo_loaded_without_connection": true,
+  "native_window_pages_inspected": ["machine", "observation", "calibration"],
+  "loaded_modules_observed": ["Qt6Core.dll", "Qt6Gui.dll", "Qt6Widgets.dll", "xcp_core.dll"],
+  "frozen_archive_contains_qtagg": true,
+  "frozen_archive_contains_tkinter_or_pyqt": false,
+  "application_files_matching_build": 1386,
+  "model_files_matching_baseline": 332,
+  "ubuntu_hardware_operations_performed": false,
+  "result": "passed"
+}

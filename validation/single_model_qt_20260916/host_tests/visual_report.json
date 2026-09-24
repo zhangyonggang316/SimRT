@@ -1,0 +1,123 @@
+{
+  "kind": "deterministic_qt_fixture",
+  "remote_hardware": false,
+  "platform": "windows",
+  "device_pixel_ratio": 1.25,
+  "screenshots": [
+    {
+      "page": "machine",
+      "requested": [
+        1320,
+        820
+      ],
+      "actual": [
+        1320,
+        820
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "machine_1320x820.png"
+    },
+    {
+      "page": "diagnostics",
+      "requested": [
+        1320,
+        820
+      ],
+      "actual": [
+        1320,
+        820
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "diagnostics_1320x820.png"
+    },
+    {
+      "page": "observation",
+      "requested": [
+        1320,
+        820
+      ],
+      "actual": [
+        1320,
+        820
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "observation_1320x820.png"
+    },
+    {
+      "page": "calibration",
+      "requested": [
+        1320,
+        820
+      ],
+      "actual": [
+        1320,
+        820
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "calibration_1320x820.png"
+    },
+    {
+      "page": "machine",
+      "requested": [
+        1000,
+        660
+      ],
+      "actual": [
+        1000,
+        660
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "machine_1000x660.png"
+    },
+    {
+      "page": "diagnostics",
+      "requested": [
+        1000,
+        660
+      ],
+      "actual": [
+        1000,
+        660
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "diagnostics_1000x660.png"
+    },
+    {
+      "page": "observation",
+      "requested": [
+        1000,
+        660
+      ],
+      "actual": [
+        1000,
+        660
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "observation_1000x660.png"
+    },
+    {
+      "page": "calibration",
+      "requested": [
+        1000,
+        660
+      ],
+      "actual": [
+        1000,
+        660
+      ],
+      "out_of_parent": [],
+      "clipped_button_text": [],
+      "screenshot": "calibration_1000x660.png"
+    }
+  ],
+  "raw_points_per_signal": 10000,
+  "chart_rgb_variance": 5580.703031140806,
+  "passed": true
+}

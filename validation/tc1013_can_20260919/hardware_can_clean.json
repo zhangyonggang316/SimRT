@@ -1,0 +1,346 @@
+{
+  "timestamp_utc": "2026-09-18T17:27:35.784145+00:00",
+  "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_172542_635",
+  "manifest": {
+    "SchemaVersion": 2,
+    "ModelName": "x280_can_loopback",
+    "MATLABRelease": "2024b",
+    "CreatedUTC": "2026-09-18T17:25:43Z",
+    "TargetHardware": "X280 Linux (SSH)",
+    "TargetAddress": "192.168.219.86",
+    "XCPTransport": "UDP",
+    "XCPPort": 17725,
+    "XCPMaxDTOBytes": 508,
+    "XCPMaxDatagramBytes": 512,
+    "A2LFile": "x280_can_loopback.a2l",
+    "A2LBytes": 59768,
+    "A2LSHA256": "fd5f93ae9cdbe714fff3a49d369d8a847ad905d29965be1f8d671afef3ded96c",
+    "ELFFile": "x280_can_loopback.elf",
+    "ELFBytes": 438416,
+    "ELFSHA256": "de36a59c43ffc1c7fdda44119d513f18fdb5d9f2fbf0272d9a7b0175927dabf6"
+  },
+  "remote_elf": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf",
+  "passed": true,
+  "uploaded_files": 3,
+  "pid": 3150,
+  "initial_status": {
+    "running": true,
+    "pid": 3150,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "runtime_process": {
+    "cwd": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735",
+    "threads": [
+      {
+        "tid": 3150,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3151,
+        "name": "libusb_event",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3152,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3153,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3154,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3155,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3156,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3157,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "tid": 3158,
+        "name": "x280_can_loopba",
+        "policy": 1,
+        "priority": 40,
+        "cpus": [
+          7
+        ]
+      }
+    ]
+  },
+  "connection": {
+    "transport": "ETH/UDP",
+    "host": "192.168.219.86",
+    "port": 17725,
+    "byte_order": "little",
+    "address_granularity_bytes": 1,
+    "max_cto": 255,
+    "max_dto": 508,
+    "supports_calibration": true,
+    "supports_daq": true
+  },
+  "daq_metadata": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_can_loopback_B.CAN1_TxStatus",
+      "x280_can_loopback_B.CAN1_RxStatus",
+      "x280_can_loopback_B.CAN1_Valid",
+      "x280_can_loopback_B.CAN1_ID",
+      "x280_can_loopback_B.CAN2_TxStatus",
+      "x280_can_loopback_B.CAN2_RxStatus",
+      "x280_can_loopback_B.CAN2_Valid",
+      "x280_can_loopback_B.CAN2_ID",
+      "x280_can_loopback_B.CAN1_Data[0]",
+      "x280_can_loopback_B.CAN1_Data[1]",
+      "x280_can_loopback_B.CAN1_Data[2]",
+      "x280_can_loopback_B.CAN1_Data[3]",
+      "x280_can_loopback_B.CAN1_Data[4]",
+      "x280_can_loopback_B.CAN1_Data[5]",
+      "x280_can_loopback_B.CAN1_Data[6]",
+      "x280_can_loopback_B.CAN1_Data[7]",
+      "x280_can_loopback_B.CAN2_Data[0]",
+      "x280_can_loopback_B.CAN2_Data[1]",
+      "x280_can_loopback_B.CAN2_Data[2]",
+      "x280_can_loopback_B.CAN2_Data[3]",
+      "x280_can_loopback_B.CAN2_Data[4]",
+      "x280_can_loopback_B.CAN2_Data[5]",
+      "x280_can_loopback_B.CAN2_Data[6]",
+      "x280_can_loopback_B.CAN2_Data[7]"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000
+  },
+  "daq_diagnostics": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_can_loopback_B.CAN1_TxStatus",
+      "x280_can_loopback_B.CAN1_RxStatus",
+      "x280_can_loopback_B.CAN1_Valid",
+      "x280_can_loopback_B.CAN1_ID",
+      "x280_can_loopback_B.CAN2_TxStatus",
+      "x280_can_loopback_B.CAN2_RxStatus",
+      "x280_can_loopback_B.CAN2_Valid",
+      "x280_can_loopback_B.CAN2_ID",
+      "x280_can_loopback_B.CAN1_Data[0]",
+      "x280_can_loopback_B.CAN1_Data[1]",
+      "x280_can_loopback_B.CAN1_Data[2]",
+      "x280_can_loopback_B.CAN1_Data[3]",
+      "x280_can_loopback_B.CAN1_Data[4]",
+      "x280_can_loopback_B.CAN1_Data[5]",
+      "x280_can_loopback_B.CAN1_Data[6]",
+      "x280_can_loopback_B.CAN1_Data[7]",
+      "x280_can_loopback_B.CAN2_Data[0]",
+      "x280_can_loopback_B.CAN2_Data[1]",
+      "x280_can_loopback_B.CAN2_Data[2]",
+      "x280_can_loopback_B.CAN2_Data[3]",
+      "x280_can_loopback_B.CAN2_Data[4]",
+      "x280_can_loopback_B.CAN2_Data[5]",
+      "x280_can_loopback_B.CAN2_Data[6]",
+      "x280_can_loopback_B.CAN2_Data[7]"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000,
+    "active": false,
+    "received_samples": 6053,
+    "queue_dropped_samples": 0,
+    "invalid_frames": 0,
+    "incomplete_events": 0,
+    "transport_counter_gaps": 0,
+    "reordered_frames": 0,
+    "timestamp_gap_samples": 0,
+    "timestamp_wraps": 0,
+    "timestamp_reorders": 0,
+    "overload_events": 0,
+    "queued_samples": 0
+  },
+  "status_after_xcp_disconnect": {
+    "running": true,
+    "pid": 3150,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "channels": {
+    "CAN1": {
+      "valid_frames": 6052,
+      "expected_id": 514,
+      "expected_payload": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "mismatches": 0,
+      "mismatch_examples": [],
+      "statuses": {
+        "TxStatus": {
+          "0": 6051,
+          "-6": 2
+        },
+        "RxStatus": {
+          "0": 6052,
+          "-6": 1
+        }
+      },
+      "errors_excluding_trylock_busy": 0,
+      "passed": true
+    },
+    "CAN2": {
+      "valid_frames": 6053,
+      "expected_id": 257,
+      "expected_payload": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mismatches": 0,
+      "mismatch_examples": [],
+      "statuses": {
+        "TxStatus": {
+          "0": 6052,
+          "-6": 1
+        },
+        "RxStatus": {
+          "0": 6053
+        }
+      },
+      "errors_excluding_trylock_busy": 0,
+      "passed": true
+    }
+  },
+  "samples": 6053,
+  "captured_seconds": 6.052,
+  "exited_at_stop_time": true,
+  "final_status": {
+    "running": false,
+    "pid": null,
+    "state": "stopped",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260918_172735/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "runtime_log": "",
+  "raw_samples": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\tc1013_can_20260919\\hardware_can_clean.samples.jsonl.gz"
+}

@@ -1,0 +1,68 @@
+﻿[
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_165556_150",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_165556_150.zip",
+        "archive_sha256":  "493a9673da3ad27d00dbd18396e647aeec87e01f8c3587494d76497bb0e5d0c3",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170645_545",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170645_545.zip",
+        "archive_sha256":  "832d3f10c7a4361163bf10d103599cf2113ca3b528538b823fcafd44319a7b33",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507.zip",
+        "archive_sha256":  "b631695793e133518d49875f4b10cc2a0003b02f445a26248a3b63bd14e94876",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260917_155814_118",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260917_155814_118.zip",
+        "archive_sha256":  "149facb5ce72da12f81d285fe94ab68248b9c3b3b3127e504859c97afe586e12",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321.zip",
+        "archive_sha256":  "4f743397056695a92a38a6271973ef5966c19d320ced5937f6ff4f8e0ad033a1",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_170543_260",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_170543_260.zip",
+        "archive_sha256":  "bfa8445bb3b99e24fca369b9775665784239a3f0e882e62bcfd24e58978ed5c9",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171258_917",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171258_917.zip",
+        "archive_sha256":  "d6ad13e371d9dc9fdb1da44c5966ad8d63d6b14fb8312ef5e6832fbdcf671480",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171529_950",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171529_950.zip",
+        "archive_sha256":  "9d2aa68d0958c0319d3cc833a25ed336d6c96fcfabfb7da1532b4026e0de5e9a",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_172542_635",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_172542_635.zip",
+        "archive_sha256":  "1aceeeb74882b8750799f0d6512e0bc30c4eb7882ff6a27776961e5e054aa854",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_180447_738",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_180447_738.zip",
+        "archive_sha256":  "7aec955ab54bc36152ab096a2e963ac3183db10e69cc2f3694e40acbee430c9f",
+        "removed":  true
+    },
+    {
+        "directory":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260919_012155_876",
+        "archive":  "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260919_012155_876.zip",
+        "archive_sha256":  "7a864c9e15e27a21235f0c6e0a98ca201e40942482c20cda91c4bef112ab781e",
+        "removed":  true
+    }
+]

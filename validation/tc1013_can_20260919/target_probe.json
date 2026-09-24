@@ -1,0 +1,207 @@
+{
+  "timestamp_utc": "2026-09-18T16:38:58.604638+00:00",
+  "read_only": true,
+  "local_sdk": {
+    "directory": "C:\\DataSave\\06同星二次开发库",
+    "libraries": [
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x64\\libTSCAN.dll",
+        "size": 25981440
+      },
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x64\\libTSH.dll",
+        "size": 40448
+      },
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\binlog.dll",
+        "size": 465408
+      },
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libLog.dll",
+        "size": 71168
+      },
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libTSCAN.dll",
+        "size": 17592832
+      },
+      {
+        "path": "TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libTSH.dll",
+        "size": 34816
+      }
+    ],
+    "archives": [
+      {
+        "path": "TSCAN.API.Demo_C++.zip",
+        "linux_shared_libraries": []
+      }
+    ]
+  },
+  "endpoint": {
+    "host": "192.168.219.86",
+    "username": "zh",
+    "port": 22
+  },
+  "target": {
+    "kernel": "5.15.129-rt67-intel-ese-standard-lts-rt",
+    "architecture": "x86_64",
+    "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy",
+    "realtime_flag": "1",
+    "identity": {
+      "exit_code": 0,
+      "stdout": "uid=1000(zh) gid=1000(zh) 组=1000(zh),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),135(lxd),136(sambashare),999(docker)\n",
+      "stderr": ""
+    },
+    "usb": [
+      {
+        "sysfs": "/sys/bus/usb/devices/1-2",
+        "vendor_id": "5453",
+        "product_id": "0001",
+        "manufacturer": "TOSUN",
+        "product": "TOSUN HS CANFD2",
+        "serial": "37AFCA2612ADBF35",
+        "node": "/dev/bus/usb/001/002",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/1-7",
+        "vendor_id": "8087",
+        "product_id": "0a2b",
+        "manufacturer": null,
+        "product": null,
+        "serial": null,
+        "node": "/dev/bus/usb/001/003",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/1-8",
+        "vendor_id": "04f2",
+        "product_id": "b604",
+        "manufacturer": "Chicony Electronics Co.,Ltd.",
+        "product": "Integrated Camera",
+        "serial": "0001",
+        "node": "/dev/bus/usb/001/004",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/1-9",
+        "vendor_id": "06cb",
+        "product_id": "009a",
+        "manufacturer": null,
+        "product": null,
+        "serial": "fddba884f5c4",
+        "node": "/dev/bus/usb/001/005",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/2-3",
+        "vendor_id": "0bda",
+        "product_id": "0316",
+        "manufacturer": "Generic",
+        "product": "USB3.0-CRW",
+        "serial": "20120501030900000",
+        "node": "/dev/bus/usb/002/002",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/usb1",
+        "vendor_id": "1d6b",
+        "product_id": "0002",
+        "manufacturer": "Linux 5.15.129-rt67-intel-ese-standard-lts-rt xhci-hcd",
+        "product": "xHCI Host Controller",
+        "serial": "0000:00:14.0",
+        "node": "/dev/bus/usb/001/001",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/usb2",
+        "vendor_id": "1d6b",
+        "product_id": "0003",
+        "manufacturer": "Linux 5.15.129-rt67-intel-ese-standard-lts-rt xhci-hcd",
+        "product": "xHCI Host Controller",
+        "serial": "0000:00:14.0",
+        "node": "/dev/bus/usb/002/001",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/usb3",
+        "vendor_id": "1d6b",
+        "product_id": "0002",
+        "manufacturer": "Linux 5.15.129-rt67-intel-ese-standard-lts-rt xhci-hcd",
+        "product": "xHCI Host Controller",
+        "serial": "0000:3a:00.0",
+        "node": "/dev/bus/usb/003/001",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      },
+      {
+        "sysfs": "/sys/bus/usb/devices/usb4",
+        "vendor_id": "1d6b",
+        "product_id": "0003",
+        "manufacturer": "Linux 5.15.129-rt67-intel-ese-standard-lts-rt xhci-hcd",
+        "product": "xHCI Host Controller",
+        "serial": "0000:3a:00.0",
+        "node": "/dev/bus/usb/004/001",
+        "mode": "crw-rw-r--",
+        "uid": 0,
+        "gid": 0,
+        "readable": true,
+        "writable": false
+      }
+    ],
+    "lsusb": {
+      "exit_code": 0,
+      "stdout": "Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 002 Device 002: ID 0bda:0316 Realtek Semiconductor Corp. Card Reader\nBus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 001 Device 005: ID 06cb:009a Synaptics, Inc. Metallica MIS Touch Fingerprint Reader\nBus 001 Device 004: ID 04f2:b604 Chicony Electronics Co., Ltd Integrated Camera (1280x720@30)\nBus 001 Device 003: ID 8087:0a2b Intel Corp. Bluetooth wireless interface\nBus 001 Device 002: ID 5453:0001 TOSUN TOSUN HS CANFD2\nBus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\n",
+      "stderr": ""
+    },
+    "running_related_processes": [],
+    "sdk_libraries": [],
+    "searched_directories": 390,
+    "search_bounds": [],
+    "search_errors": [
+      "[Errno 13] Permission denied: '/opt/containerd'"
+    ],
+    "dynamic_libraries": {
+      "exit_code": 0,
+      "stdout": "\tlibusbmuxd-2.0.so.6 (libc6,x86-64) => /lib/x86_64-linux-gnu/libusbmuxd-2.0.so.6\n\tlibusb-1.0.so.0 (libc6,x86-64) => /lib/x86_64-linux-gnu/libusb-1.0.so.0\n",
+      "stderr": ""
+    },
+    "default_driver_directory_exists": false,
+    "python": {
+      "exit_code": 0,
+      "stdout": "Python 3.10.12\n",
+      "stderr": ""
+    }
+  },
+  "ssh_connected": true
+}

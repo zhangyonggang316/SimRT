@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "archive": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\app12_app13_20260919\\nested_model\\x280_hierarchy_test_local\\20260919_020918_330.zip",
+  "files": [
+    "x280_hierarchy_test.a2l",
+    "x280_hierarchy_test.elf",
+    "x280_hierarchy_test.xcp-manifest.json"
+  ],
+  "measurements": 8,
+  "calibrations": 13,
+  "measurement": {
+    "name": "x280_hierarchy_test_B.DeepSignal",
+    "model_path": [
+      "x280_hierarchy_test",
+      "Outer_Control",
+      "Inner_Controller"
+    ]
+  },
+  "calibration": {
+    "name": "x280_hierarchy_test_P.DeepGain_Gain",
+    "model_path": [
+      "x280_hierarchy_test",
+      "Outer_Control",
+      "Inner_Controller"
+    ]
+  },
+  "transport": [
+    "UDP"
+  ],
+  "ports": {
+    "UDP": 17725
+  },
+  "hosts": {
+    "UDP": "192.168.219.86"
+  }
+}

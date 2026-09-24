@@ -1,0 +1,9 @@
+function valid = isValidFDMessage(message)
+%ISVALIDFDMESSAGE Reject inconsistent DLC, remote frames, and protocol flags.
+%#codegen
+[dlc, validLength] = x280linux.can.fdLengthToDLC(message.Length);
+valid = validLength && message.DLC == dlc && message.ProtocolMode == 1 && ...
+    message.Extended <= 1 && message.Remote == 0 && message.Error == 0 && ...
+    message.BRS <= 1 && message.ESI <= 1 && message.Reserved == 0 && ...
+    message.ID <= 536870911 && (message.Extended ~= 0 || message.ID <= 2047);
+end

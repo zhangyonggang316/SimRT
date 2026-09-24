@@ -1,0 +1,514 @@
+{
+  "passed": true,
+  "documents": 13,
+  "local_links": 111,
+  "links": [
+    {
+      "document": "README.md",
+      "link": "docs/README.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/ARCHITECTURE.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/TROUBLESHOOTING.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/PROJECT_LAYOUT.md"
+    },
+    {
+      "document": "README.md",
+      "link": "validation/project_cleanup_20260919/README.md"
+    },
+    {
+      "document": "README.md",
+      "link": "Demo_XCP_Qt/START_DEMO.cmd"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/TOOLCHAIN.md"
+    },
+    {
+      "document": "README.md",
+      "link": "qt_xcp_host/README.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/REPRODUCE.md"
+    },
+    {
+      "document": "README.md",
+      "link": "validation/app12_app13_20260919/README.md"
+    },
+    {
+      "document": "README.md",
+      "link": "validation/zip_app_20260919/README.md"
+    },
+    {
+      "document": "README.md",
+      "link": "%E9%9C%80%E6%B1%82%E8%AF%B4%E6%98%8E.md"
+    },
+    {
+      "document": "README.md",
+      "link": "docs/1ms_solution.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "ARCHITECTURE.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "TOOLCHAIN.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "TROUBLESHOOTING.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "PROJECT_LAYOUT.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "../validation/README.md"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "../Demo_XCP_Qt/START_DEMO.cmd"
+    },
+    {
+      "document": "docs/README.md",
+      "link": "../Demo_XCP_Qt/MANUAL_TEST.md"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "TROUBLESHOOTING.md"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/drivers/tc1013/README.md"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/configureX280Model.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/validateX280RealtimeModel.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/+codertarget/+x280linuxssh/+internal/onAfterCodeGen.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/+codertarget/+x280linuxssh/+internal/addRealtimeRuntime.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/x280PortableToolchain.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/+codertarget/+x280linuxssh/+internal/completeLocalBuild.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/exportX280A2L.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/createX280ASAP2Hierarchy.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/src/x280_rt_main.c.in"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/src/x280_rt_runtime.c"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/main.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/window.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/controller.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/state.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/model_payload.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/payload_archive.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/ssh_deployment.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/a2l_catalog.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/a2l_metadata.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/xcp_session.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/pyxcp_host/services/daq_acquisition.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/catalog_tree.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/observation.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/chart.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../qt_xcp_host/qt_host/native.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/+x280linux/+can/Native.m"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/drivers/tc1013/src/x280_tc1013_can.c"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/python/x280_xcp/a2l.py"
+    },
+    {
+      "document": "docs/ARCHITECTURE.md",
+      "link": "../x280_linux_target/python/x280_xcp/client.py"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "ARCHITECTURE.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "TROUBLESHOOTING.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../validation/app12_app13_20260919/README.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../validation/tc1013_can_20260919/README.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../portable-linux-toolchain/portable-linux-toolchain/README.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../x280_linux_target/drivers/tc1013/vendor/SOURCE.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../x280_linux_target/drivers/tc1013/README.md"
+    },
+    {
+      "document": "docs/NEW_MACHINE_DEPLOYMENT.md",
+      "link": "../x280_linux_target/drivers/tc1013/DEPLOY_DRIVER.md"
+    },
+    {
+      "document": "docs/TROUBLESHOOTING.md",
+      "link": "ARCHITECTURE.md"
+    },
+    {
+      "document": "docs/TROUBLESHOOTING.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/PROJECT_LAYOUT.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/PROJECT_LAYOUT.md",
+      "link": "../validation/project_cleanup_20260919/README.md"
+    },
+    {
+      "document": "docs/TOOLCHAIN.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "ARCHITECTURE.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "TROUBLESHOOTING.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "TOOLCHAIN.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "../qt_xcp_host/README.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "../validation/app12_app13_20260919/README.md"
+    },
+    {
+      "document": "docs/REPRODUCE.md",
+      "link": "../validation/project_cleanup_20260919/README.md"
+    },
+    {
+      "document": "docs/ENVIRONMENT.md",
+      "link": "NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "docs/ENVIRONMENT.md",
+      "link": "REPRODUCE.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../docs/NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../docs/ARCHITECTURE.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../docs/TOOLCHAIN.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../docs/TOOLCHAIN.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../validation/README.md"
+    },
+    {
+      "document": "x280_linux_target/README.md",
+      "link": "../docs/TROUBLESHOOTING.md"
+    },
+    {
+      "document": "tools/README.md",
+      "link": "../docs/NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "tools/README.md",
+      "link": "../docs/ARCHITECTURE.md"
+    },
+    {
+      "document": "tools/README.md",
+      "link": "../validation/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "../Demo_XCP_Qt/START_DEMO.cmd"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "../docs/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "project_cleanup_20260919/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "app12_app13_20260919/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "zip_hierarchy_20260919/"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "zip_app_20260919/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "tc1013_can_20260919/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "tc1013_can_20260918/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "model_delete_20260918/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "single_model_qt_20260916/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "toolchain_20260915/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "ui05_20260914/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "qt_ui_20260914/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "model_period_1ms_20260913/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "archive_20260913/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "pyxcp_02232/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "requirements_2_3/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "requirements_update_20260913/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "rt_boot_20260913_121920/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "ui_refresh_20260913/README.md"
+    },
+    {
+      "document": "validation/README.md",
+      "link": "manual_demo_20260913/README.md"
+    },
+    {
+      "document": "validation/project_cleanup_20260919/README.md",
+      "link": "../../docs/PROJECT_LAYOUT.md"
+    },
+    {
+      "document": "validation/project_cleanup_20260919/README.md",
+      "link": "../../docs/README.md"
+    },
+    {
+      "document": "validation/project_cleanup_20260919/README.md",
+      "link": "../../docs/ARCHITECTURE.md"
+    },
+    {
+      "document": "validation/project_cleanup_20260919/README.md",
+      "link": "../../docs/NEW_MACHINE_DEPLOYMENT.md"
+    },
+    {
+      "document": "validation/project_cleanup_20260919/README.md",
+      "link": "../../docs/TROUBLESHOOTING.md"
+    }
+  ],
+  "model_archives": [
+    {
+      "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_165556_150.zip",
+      "model": "x280_rt_single",
+      "sha256": "493a9673da3ad27d00dbd18396e647aeec87e01f8c3587494d76497bb0e5d0c3"
+    },
+    {
+      "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170645_545.zip",
+      "model": "x280_rt_single",
+      "sha256": "832d3f10c7a4361163bf10d103599cf2113ca3b528538b823fcafd44319a7b33"
+    },
+    {
+      "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507.zip",
+      "model": "x280_rt_single",
+      "sha256": "b631695793e133518d49875f4b10cc2a0003b02f445a26248a3b63bd14e94876"
+    },
+    {
+      "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260917_155814_118.zip",
+      "model": "x280_rt_single",
+      "sha256": "149facb5ce72da12f81d285fe94ab68248b9c3b3b3127e504859c97afe586e12"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321.zip",
+      "model": "x280_can_loopback",
+      "sha256": "4f743397056695a92a38a6271973ef5966c19d320ced5937f6ff4f8e0ad033a1"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_170543_260.zip",
+      "model": "x280_can_loopback",
+      "sha256": "bfa8445bb3b99e24fca369b9775665784239a3f0e882e62bcfd24e58978ed5c9"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171258_917.zip",
+      "model": "x280_can_loopback",
+      "sha256": "d6ad13e371d9dc9fdb1da44c5966ad8d63d6b14fb8312ef5e6832fbdcf671480"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171529_950.zip",
+      "model": "x280_can_loopback",
+      "sha256": "9d2aa68d0958c0319d3cc833a25ed336d6c96fcfabfb7da1532b4026e0de5e9a"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_172542_635.zip",
+      "model": "x280_can_loopback",
+      "sha256": "1aceeeb74882b8750799f0d6512e0bc30c4eb7882ff6a27776961e5e054aa854"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_180447_738.zip",
+      "model": "x280_can_loopback",
+      "sha256": "7aec955ab54bc36152ab096a2e963ac3183db10e69cc2f3694e40acbee430c9f"
+    },
+    {
+      "path": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260919_012155_876.zip",
+      "model": "x280_can_loopback",
+      "sha256": "7a864c9e15e27a21235f0c6e0a98ca201e40942482c20cda91c4bef112ab781e"
+    }
+  ],
+  "real_receipt_loaded": true,
+  "temporary_cache_removed": true,
+  "workflow_tests": 5,
+  "matlab_started": false,
+  "remote_operations": false,
+  "executable_sha256": "139885a5e927c52e3135c953dac774bbff76f904646cc0691ed7e567317eb934"
+}

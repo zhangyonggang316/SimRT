@@ -1,0 +1,18 @@
+{
+  "archive": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507.zip",
+  "real_a2l_parser": true,
+  "remote_hardware": false,
+  "measurements": 6,
+  "calibrations": 12,
+  "menu_icons": {
+    "选择模型": true,
+    "启动模型": true,
+    "停止模型": true,
+    "设为开机自启": true,
+    "删除模型": true,
+    "复制远程路径": true,
+    "刷新": true
+  },
+  "passed": true,
+  "extracted_cache_removed_on_close": true
+}

@@ -1,0 +1,15 @@
+2026-09-19 ZIP-only validation interim status
+MATLAB archive unit tests: 6/6 PASS.
+Python demo tests: 13/13 PASS, including TCP/non-default port presets.
+Existing main/CAN timestamp results: 11 validated archives; all corresponding
+expanded directories removed. zip_only_migration.json retains path/hash evidence.
+Generated latest/evidence build reports migrated with ZIP hashes and no UTF-8 BOM.
+MATLAB verified legacy main build report and unpacked ELF hash after migration.
+package_demo.ps1 syntax parse: PASS; root should run packaging after new APP build.
+MATLAB two-build integration: first build PASS, second build FAILED while
+exportX280A2L.m was updated with CustomEcuDescriptions. Error at line 35:
+RTW:asap2:MustBeSpecifiedInEcuDescription. Filename, Folder, GenerateXCPInfo,
+IncludeDefaultEventList, IndentFile, MapFile must be specified with
+coder.asap2.getEcuDescriptions(), not mixed into coder.asap2.export when custom
+descriptions are passed. Integration will be rerun once hierarchy code is ready.
+MATLAB MCP now idle; no model left open by integration fixture.

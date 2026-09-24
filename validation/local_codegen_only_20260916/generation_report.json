@@ -1,0 +1,39 @@
+[{
+  "model": "x280_rt_single",
+  "period_seconds": 0.001,
+  "tasking": "single",
+  "settings": {
+    "SolverType": "Fixed-step",
+    "Solver": "FixedStepDiscrete",
+    "EnableMultiTasking": "off",
+    "ConcurrentTasks": "off",
+    "SystemTargetFile": "ert.tlc",
+    "TargetLang": "C",
+    "HardwareBoard": "X280 Linux (SSH)",
+    "ProdHWDeviceType": "Intel->x86-64 (Linux 64)",
+    "ExtMode": "on",
+    "DefaultParameterBehavior": "Tunable",
+    "FixedStep": "0.001"
+  },
+  "xcp": {
+    "Transport": "UDP",
+    "DefaultAddress": "192.168.0.106",
+    "Port": 17725,
+    "FrameHeaderBytes": 4,
+    "MaxDTOBytes": 508,
+    "MaxDatagramBytes": 512
+  },
+  "matlab_release": "2024b",
+  "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_codegen_only_20260916\\x280_rt_single.slx",
+  "model_sha256": "054c497cec6541a9af6afc89fb3e080799800bc346acb8e0b7d9cfa184dc5eeb",
+  "bundle": {
+    "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_codegen_only_20260916\\x280_rt_single_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_rt_single.elf",
+    "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_codegen_only_20260916\\codegen\\x280_rt_single_ert_rtw"
+  },
+  "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_codegen_only_20260916\\x280_rt_single_rt_bundle",
+  "build_command": "python build_model.py --toolchain-root <portable-linux-toolchain> --jobs 2",
+  "elf_relative_path": "x280_rt_single.elf",
+  "remote_operations_performed": false
+}]

@@ -1,0 +1,25 @@
+{
+  "compiled_count": 0,
+  "compilers": {
+    "gcc": {
+      "path": "/usr/bin/x86_64-linux-gnu-gcc-11",
+      "sha256": "821af3c74506283c179ca413bb33e6b528805a4dd8a5c09df125e5ad560a9e89",
+      "target": "x86_64-linux-gnu",
+      "version": "x86_64-linux-gnu-gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+    }
+  },
+  "elapsed_seconds": 0.224,
+  "elf": "x280_rt_single.elf",
+  "elf_sha256": "62ead704d4c0de1653f0b247d9a12de58133a65e7c6d0bd35e80f243965662e4",
+  "error": null,
+  "jobs": 2,
+  "mode": "build",
+  "model": "x280_rt_single",
+  "published": true,
+  "rebuild": false,
+  "reused_count": 23,
+  "schema_version": 1,
+  "source_count": 23,
+  "sources_hash": "e1a8b712cdfe08c4c90212a2f6f86be7a73c704cfb39b8927d8b83a32c88b0bf",
+  "status": "success"
+}

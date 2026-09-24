@@ -1,0 +1,14 @@
+ZIP-only API contract (implementation in progress)
+
+DemoSettings adds payload_archive: Optional[Path] = None.
+For archive-only presets, a2l_path and payload_dir are None. load_demo validates
+the archive in a temporary context, cleans that context before returning, and
+returns the archive Path; target.apply_demo must select_payload(payload_archive).
+MainWindow must not set A2L to str(None); the payloadSelected signal supplies the
+application-owned extracted A2L path. Legacy directory presets remain supported.
+Config can use archive directly or the previous manifest path; a missing manifest
+resolves the sibling timestamp.zip, with its manifest basename verified.
+
+buildX280Local result.payload now equals result.archive. result.local_elf/a2l/
+manifest resolve into an internal build evidence cache, never the published
+timestamp directory. Published *_local contains ZIP files only after success.

@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-09-14T23:57:06+08:00",
+  "requirement": "UI-05",
+  "application": "Demo_XCP_Qt/app/QtXCPHost.exe",
+  "exe_sha256": "9b7962b6d9ca96f4a66af413c0308fc7106e4078bf7fcbe5bfd5cff15a852107",
+  "native_sha256": "464eb9577170d3234bd3ba6f311ed95dd9a4c678e470d026f5b97a868e5daed8",
+  "native_core_changed": false,
+  "model_files_verified_against_package_manifest": 332,
+  "model_files_changed": 0,
+  "app_files_verified_against_build": 1386,
+  "tested_source_hashes_match": true,
+  "frozen_python_modules": 1542,
+  "forbidden_gui_modules": [],
+  "expected_qt_modules_present": true,
+  "frozen_gui_check": {
+    "method": "computer-use screenshot and accessibility inspection",
+    "launched_from_non_project_working_directory": true,
+    "preset_a2l_loaded": true,
+    "removed_deployment_controls_absent": true,
+    "unified_diagnostics_visible": true,
+    "read_log_disabled_without_ssh": true,
+    "copy_clear_save_present": true,
+    "application_left_open": true,
+    "target_connected": false
+  },
+  "ubuntu_hardware_test": false,
+  "model_1ms_runtime_modified": false,
+  "rollback_archive": "docs/history/qt_pre_ui05_20260914.zip",
+  "rollback_archive_restore_mapping": {
+    "QtXCPHost.exe": "Demo_XCP_Qt/app/QtXCPHost.exe",
+    "build_report.json": "Demo_XCP_Qt/app/build_report.json",
+    "base_library.zip": "Demo_XCP_Qt/app/_internal/base_library.zip"
+  },
+  "prior_qt_evidence": "Demo_XCP_Qt/validation/qt_ui_initial_20260914",
+  "current_qt_evidence": "Demo_XCP_Qt/validation/qt_ui"
+}

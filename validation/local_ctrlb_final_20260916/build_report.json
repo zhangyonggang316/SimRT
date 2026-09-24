@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "build_mode": "local",
+  "host": "192.168.219.86",
+  "remote_operations_performed": false,
+  "models": [
+    {
+      "model": "x280_rt_single",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.001,
+      "matlab_release": "2024b",
+      "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single.slx",
+      "model_sha256": "054c497cec6541a9af6afc89fb3e080799800bc346acb8e0b7d9cfa184dc5eeb",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.elf",
+      "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.a2l",
+      "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload\\x280_rt_single.xcp-manifest.json",
+      "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_payload",
+      "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_local\\20260915_160629_436\\x280_rt_single_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "x280_rt_single.elf",
+        "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_single_ert_rtw"
+      },
+      "elf_sha256": "bb6b638a3ff86a536e6acace97dd761264c261decf01ffc2b0adf10d8f87158c",
+      "remote_operations_performed": false
+    },
+    {
+      "model": "x280_rt_multirate",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.001,
+      "matlab_release": "2024b",
+      "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate.slx",
+      "model_sha256": "5807bf7c6f68265c0d2b1faeca5dde405302f943c4bb9424b04fc68ef3517fa4",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_payload\\x280_rt_multirate.elf",
+      "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_payload\\x280_rt_multirate.a2l",
+      "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_payload\\x280_rt_multirate.xcp-manifest.json",
+      "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_payload",
+      "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_local\\20260915_160723_504\\x280_rt_multirate_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "x280_rt_multirate.elf",
+        "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_rt_multirate_ert_rtw"
+      },
+      "elf_sha256": "06ba5788cdb83450672e041b45d13d2c5daf6ff89066c30ad8beb9111144de1f",
+      "remote_operations_performed": false
+    },
+    {
+      "model": "x280_period_10ms",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.01,
+      "matlab_release": "2024b",
+      "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms.slx",
+      "model_sha256": "e6ffd92e27910b83af3eedde0f907c9cf00065e339041e1164b7754411bf59c8",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_payload\\x280_period_10ms.elf",
+      "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_payload\\x280_period_10ms.a2l",
+      "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_payload\\x280_period_10ms.xcp-manifest.json",
+      "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_payload",
+      "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_local\\20260915_160814_790\\x280_period_10ms_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "x280_period_10ms.elf",
+        "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_10ms_ert_rtw"
+      },
+      "elf_sha256": "0b105fc1e9ca93c75149e0836e3272faf211d86d4d1b518369227d6aa487c6a7",
+      "remote_operations_performed": false
+    },
+    {
+      "model": "x280_period_100ms",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.1,
+      "matlab_release": "2024b",
+      "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms.slx",
+      "model_sha256": "eb8e0cc8d7123961a136f2c447cf6dfd60932b85260d73beeb0ebdbef5602196",
+      "local_elf": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_payload\\x280_period_100ms.elf",
+      "a2l": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_payload\\x280_period_100ms.a2l",
+      "manifest": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_payload\\x280_period_100ms.xcp-manifest.json",
+      "payload": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_payload",
+      "realtime_source": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_local\\20260915_160906_209\\x280_period_100ms_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "x280_period_100ms.elf",
+        "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\02AIToolLinux\\validation\\local_ctrlb_final_20260916\\codegen\\x280_period_100ms_ert_rtw"
+      },
+      "elf_sha256": "4f5a09045f5f814bbe0813c832859531a77bef5b75e9640e95dfee19e0cc3b00",
+      "remote_operations_performed": false
+    }
+  ]
+}

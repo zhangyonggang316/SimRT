@@ -1,0 +1,27 @@
+﻿{
+    "utc":  "2026-09-17T17:17:46.5121145Z",
+    "passed":  true,
+    "tests":  [
+                  "24-byte vendor ABI",
+                  "absolute SDK path",
+                  "missing SDK and symbol cleanup",
+                  "connect/configure failure cleanup",
+                  "already-connected return code 5",
+                  "two-channel configuration",
+                  "duplicate setup",
+                  "invalid CAN values",
+                  "nonblocking trylock",
+                  "stalled USB and bounded transmit queue",
+                  "stale device tokens",
+                  "FIFO frames and empty outputs",
+                  "SDK receive/transmit errors",
+                  "invalid vendor receive count",
+                  "receive queue overflow",
+                  "idempotent close",
+                  "Linux x86_64 cross compilation and POSIX library link"
+              ],
+    "source_sha256":  "DF86C0DEE74150CF57292BF1C5A80EA101048B1E02A951F4476E79352C015564",
+    "linux_object_sha256":  "7AF5D74AF3A41D3836C0DC4709056B0E388AE6BF023E7D3FD3E24FD79D2DBAB2",
+    "linux_link_sha256":  "9452AD18A82BE517E11FDA2DC9BBB767778786BF12DDE610A6170E9BC2426634",
+    "limitations":  "Vendor API is mocked for local Windows execution. Linux source cross-compiles; no real Linux SDK binary, USB adapter, target deployment or hardware timing was tested."
+}

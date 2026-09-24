@@ -1,0 +1,58 @@
+[
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\Demo_XCP",
+    "directory": true,
+    "files": 2349,
+    "bytes": 122400317.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\qt_xcp_host\\dist",
+    "directory": true,
+    "files": 1386,
+    "bytes": 189566289.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\qt_xcp_host\\build",
+    "directory": true,
+    "files": 16,
+    "bytes": 30156573.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\qt_xcp_host\\QtXCPHost.spec",
+    "directory": false,
+    "files": 1,
+    "bytes": 1818.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\docs\\history\\qt_pre_ui05_20260914.zip",
+    "directory": false,
+    "files": 1,
+    "bytes": 8980160.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\toolchain_20260915\\package_staging",
+    "directory": true,
+    "files": 354,
+    "bytes": 8576536.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  },
+  {
+    "path": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\toolchain_20260915\\generated_single",
+    "directory": true,
+    "files": 192,
+    "bytes": 4095877.0,
+    "action": "recycle_bin",
+    "status": "recycled"
+  }
+]

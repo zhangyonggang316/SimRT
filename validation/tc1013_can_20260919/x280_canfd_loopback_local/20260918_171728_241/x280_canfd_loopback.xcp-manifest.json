@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 2,
+  "ModelName": "x280_canfd_loopback",
+  "MATLABRelease": "2024b",
+  "CreatedUTC": "2026-09-18T17:17:28Z",
+  "TargetHardware": "X280 Linux (SSH)",
+  "TargetAddress": "192.168.219.86",
+  "XCPTransport": "UDP",
+  "XCPPort": 17725,
+  "XCPMaxDTOBytes": 508,
+  "XCPMaxDatagramBytes": 512,
+  "A2LFile": "x280_canfd_loopback.a2l",
+  "A2LBytes": 71910,
+  "A2LSHA256": "199f4801d1f78b35e6e24e280a716af5a2d2163ee5f70976f008116e02240d84",
+  "ELFFile": "x280_canfd_loopback.elf",
+  "ELFBytes": 442968,
+  "ELFSHA256": "4f2d624ce8b5efe24594365d77feb4f920191cd111f717c1d7f80040c15c3efa"
+}

@@ -6,6 +6,7 @@ Simulink 注册的实时机名称为 **SimRT**，在模型配置的 `Hardware bo
 
 ## 从这里开始
 
+- 从 GitHub 克隆：[源码获取与依赖准备](docs/SOURCE_CHECKOUT.md)。仓库包含源码、模型和文档；预编译 APP、完整编译器、虚拟环境及生成缓存需按说明另行准备。
 - 学习与部署：[工程手册目录](docs/README.md)、[技术路线与源码导读](docs/ARCHITECTURE.md)、[新 Windows/MATLAB 与 Linux 部署](docs/NEW_MACHINE_DEPLOYMENT.md)、[故障排查](docs/TROUBLESHOOTING.md)。
 - 工程整理：[目录与清理规则](docs/PROJECT_LAYOUT.md)、[本轮清理记录](validation/project_cleanup_20260919/README.md)。
 - 运行 APP：[START_DEMO.cmd](Demo_XCP_Qt/START_DEMO.cmd)。整个交付目录必须一起保留，不自动连接或启停模型。

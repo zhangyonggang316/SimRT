@@ -1,0 +1,10 @@
+{
+  "model": "x280_rt_single",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\toolchain_20260915\\repro\\x280_rt_single_payload\\x280_rt_single.a2l",
+  "elf": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\toolchain_20260915\\repro\\x280_rt_single_payload\\x280_rt_single.elf",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\01AI ToolLinux\\validation\\toolchain_20260915\\repro\\x280_rt_single_payload\\x280_rt_single.xcp-manifest.json",
+  "model_sha256": "ce433a727a90e3b56be50ffb037bf89a0f63f113a31f036981da6db21cc3efda",
+  "elf_sha256": "62ead704d4c0de1653f0b247d9a12de58133a65e7c6d0bd35e80f243965662e4",
+  "a2l_sha256": "2261567f8c69f23f82c51146dd596150ca5f6a011e7e17d5354cec204e52820d",
+  "runtime_tested": false
+}

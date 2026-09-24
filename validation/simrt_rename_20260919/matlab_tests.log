@@ -1,0 +1,12 @@
+try
+    simrtResults = runtests({fullfile(pwd,'x280_linux_target','tests','tX280LinuxTarget.m'),fullfile(pwd,'x280_linux_target','tests','tX280LocalArtifacts.m')});
+    disp(table(simrtResults));
+    simrtSummary = struct('Name',{simrtResults.Name},'Passed',{simrtResults.Passed},'Failed',{simrtResults.Failed},'Incomplete',{simrtResults.Incomplete},'Duration',{simrtResults.Duration});
+    simrtFid = fopen(fullfile(simrtEvidence,'tests.json'),'w','n','UTF-8'); assert(simrtFid >= 0); fwrite(simrtFid,jsonencode(simrtSummary,PrettyPrint=true),'char'); fclose(simrtFid);
+    addpath(fullfile(pwd,'x280_linux_target'));
+    assertSuccess(simrtResults);
+catch simrtError
+    diary off;
+    rethrow(simrtError);
+end
+diary off;

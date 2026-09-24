@@ -1,0 +1,9 @@
+function setupExternalMode(hCS)
+%SETUPEXTERNALMODE Apply robust local-desktop XCP streaming settings.
+
+model = hCS.getModel;
+set_param(model, ...
+    'ExtModeTrigDuration', 2, ...
+    'ExtModeMaxTrigDuration', 1000, ...
+    'ExtModeSendContiguousSamples', 'on');
+end

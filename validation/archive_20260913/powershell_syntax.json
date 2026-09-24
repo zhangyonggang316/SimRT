@@ -1,0 +1,18 @@
+[
+  {
+    "path": "python_xcp_host/build.ps1",
+    "passed": true
+  },
+  {
+    "path": "python_xcp_host/package_demo.ps1",
+    "passed": true
+  },
+  {
+    "path": "python_xcp_host/run_tests.ps1",
+    "passed": true
+  },
+  {
+    "path": "tools/verify_archive.ps1",
+    "passed": true
+  }
+]

@@ -1,0 +1,11 @@
+[09:51:09] [INFO] 加载 A2L...
+[09:51:09] [INFO] 09:51:09  已加载 A2L：x280_integration_demo.a2l（测量量 6，标定量 12）
+[09:51:09] [INFO] A2L 已加载：6 个测量量，12 个标定量。
+[09:51:13] [INFO] 连接 XCP...
+[09:51:13] [INFO] 09:51:13  正在连接 ETH/UDP 192.168.219.86:17726
+[09:51:13] [INFO] 09:51:13  已连接 ETH/UDP 192.168.219.86:17726
+[09:51:13] [INFO] 已连接：UDP 192.168.219.86:17726。
+[09:51:13] [INFO] 启动 DAQ...
+[09:51:13] [INFO] 09:51:13  DAQ 启动失败：SystemExit(error_code=ERR_OUT_OF_RANGE, message="Service 'START_STOP_SYNCH' has no handler for ERR_OUT_OF_RANGE.")
+[09:51:13] [ERROR] 启动 DAQ失败：SystemExit(error_code=ERR_OUT_OF_RANGE, message="Service 'START_STOP_SYNCH' has no handler for ERR_OUT_OF_RANGE.")
+[09:51:13] [INFO] 09:51:13  上位机已关闭

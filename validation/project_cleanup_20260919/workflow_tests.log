@@ -1,0 +1,10 @@
+test_archive_hash_mismatch_is_rejected (test_validate_local_workflow.ReceiptTests) ... ok
+test_elf_hash_mismatch_is_rejected (test_validate_local_workflow.ReceiptTests) ... ok
+test_legacy_directory_receipt_remains_supported (test_validate_local_workflow.ReceiptTests) ... ok
+test_main_always_closes_archive_cache_on_failure (test_validate_local_workflow.ReceiptTests) ... ok
+test_zip_receipt_extracts_for_deployment_and_cleans_up (test_validate_local_workflow.ReceiptTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.042s
+
+OK

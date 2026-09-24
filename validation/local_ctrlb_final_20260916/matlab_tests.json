@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "count": 10,
+  "tests": [
+    {
+      "Name": "tX280LinuxTarget/targetAndBoardAreRegistered",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 17.2328329
+    },
+    {
+      "Name": "tX280LinuxTarget/registryUsesX8664AndNoRaspberryPiRuntime",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0182527
+    },
+    {
+      "Name": "tX280LinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0162201
+    },
+    {
+      "Name": "tX280LinuxTarget/passwordIsNeverStoredInBoardParameters",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0017561
+    },
+    {
+      "Name": "tX280LinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 53.859873600000007
+    },
+    {
+      "Name": "tX280LinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0693225
+    },
+    {
+      "Name": "tX280LinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.038615899999999995
+    },
+    {
+      "Name": "tX280LinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 17.2368567
+    },
+    {
+      "Name": "tX280LinuxTarget/legacyBuildCannotStartRemoteExecution",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0357797
+    },
+    {
+      "Name": "tX280LinuxTarget/a2lExportRejectsArmExecutable",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 1.246303
+    }
+  ]
+}

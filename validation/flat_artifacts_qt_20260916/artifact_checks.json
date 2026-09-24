@@ -1,0 +1,29 @@
+[
+  {
+    "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_165556_150",
+    "files": [
+      "x280_rt_single.a2l",
+      "x280_rt_single.elf",
+      "x280_rt_single.xcp-manifest.json"
+    ],
+    "valid": true
+  },
+  {
+    "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170645_545",
+    "files": [
+      "x280_rt_single.a2l",
+      "x280_rt_single.elf",
+      "x280_rt_single.xcp-manifest.json"
+    ],
+    "valid": true
+  },
+  {
+    "path": "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260915_170738_507",
+    "files": [
+      "x280_rt_single.a2l",
+      "x280_rt_single.elf",
+      "x280_rt_single.xcp-manifest.json"
+    ],
+    "valid": true
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "x280_rt_single": {
+    "model": "x280_rt_single",
+    "period_seconds": 0.001,
+    "tasking": "single",
+    "settings": {
+      "SolverType": "Fixed-step",
+      "Solver": "FixedStepDiscrete",
+      "EnableMultiTasking": "off",
+      "ConcurrentTasks": "off",
+      "SystemTargetFile": "ert.tlc",
+      "TargetLang": "C",
+      "HardwareBoard": "SimRT",
+      "ProdHWDeviceType": "Intel->x86-64 (Linux 64)",
+      "ExtMode": "on",
+      "DefaultParameterBehavior": "Tunable",
+      "FixedStep": "0.001"
+    },
+    "xcp": {
+      "Transport": "UDP",
+      "DefaultAddress": "192.168.0.106",
+      "Port": 17725,
+      "FrameHeaderBytes": 4,
+      "MaxDTOBytes": 508,
+      "MaxDatagramBytes": 512
+    },
+    "matlab_release": "2024b"
+  },
+  "x280_can_loopback": {
+    "model": "x280_can_loopback",
+    "period_seconds": 0.001,
+    "tasking": "single",
+    "settings": {
+      "SolverType": "Fixed-step",
+      "Solver": "FixedStepDiscrete",
+      "EnableMultiTasking": "off",
+      "ConcurrentTasks": "off",
+      "SystemTargetFile": "ert.tlc",
+      "TargetLang": "C",
+      "HardwareBoard": "SimRT",
+      "ProdHWDeviceType": "Intel->x86-64 (Linux 64)",
+      "ExtMode": "on",
+      "DefaultParameterBehavior": "Tunable",
+      "FixedStep": "0.001"
+    },
+    "xcp": {
+      "Transport": "UDP",
+      "DefaultAddress": "192.168.0.106",
+      "Port": 17725,
+      "FrameHeaderBytes": 4,
+      "MaxDTOBytes": 508,
+      "MaxDatagramBytes": 512
+    },
+    "matlab_release": "2024b"
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "passed":  true,
+    "kind":  "hidden_packaged_startup",
+    "executable_sha256":  "bc7ad71fb8c4b96a5462cdb96ec36cefef49587c763b9ee4833a7c29c43f6250",
+    "qt_widgets_loaded":  true,
+    "native_core_loaded":  true,
+    "fresh_startup_error":  false,
+    "remote_operations_performed":  false,
+    "closed_by":  "test process cleanup"
+}

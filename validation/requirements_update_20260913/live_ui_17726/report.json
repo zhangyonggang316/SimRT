@@ -1,0 +1,14 @@
+{
+  "passed": false,
+  "checks": {
+    "preset_loaded_without_connection": true,
+    "three_menu_navigation": true,
+    "ssh_connected_password_cleared": true,
+    "resources_and_model_list": true,
+    "start_from_model_list": true
+  },
+  "remote_directory": "MATLAB_ws/manual_demo_20260913_094853_350d519f",
+  "host": "192.168.219.86",
+  "xcp_port": 17726,
+  "error_type": "AssertionError"
+}

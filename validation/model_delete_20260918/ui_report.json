@@ -1,0 +1,11 @@
+{
+  "remote_hardware": false,
+  "screenshots": [
+    "delete_menu.png",
+    "delete_confirmation.png"
+  ],
+  "menu_enabled": true,
+  "cancel_default": true,
+  "directory_shown": true,
+  "passed": true
+}
