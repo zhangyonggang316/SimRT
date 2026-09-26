@@ -1,6 +1,6 @@
 # Windows 到 Linux x86-64 独立交叉编译工具链
 
-此目录可整体复制到其他 Windows 项目使用。它从本机 PolarDriver R2023b 安装中提取通用 GCC、binutils 和 Linux sysroot；不包含 MATLAB、Simulink、Xenomai 包、`xeno-*` 包装器或 YISU 运行库。编译器运行在 Windows，输出运行于 Linux x86-64 的 ELF 文件。原安装的可选 `linux-gdb.exe` 需要额外 MinGW DLL，因此本编译专用包不附带 GDB。
+此目录可整体复制到其他 Windows 项目使用。它从本机 PolarDriver R2023b 安装中提取通用 GCC、binutils 和 Linux sysroot；不包含 MATLAB、Simulink、Xenomai 包、`xeno-*` 包装器。编译器运行在 Windows，输出运行于 Linux x86-64 的 ELF 文件。原安装的可选 `linux-gdb.exe` 需要额外 MinGW DLL，因此本编译专用包不附带 GDB。
 
 ## 包内容与环境
 
