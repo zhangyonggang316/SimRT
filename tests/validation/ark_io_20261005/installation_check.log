@@ -1,0 +1,7 @@
+            release: '2024b'
+    persistent_path: 1
+            library: 'D:\05SimRT\x280_linux_target\drivers\ark\simrt_ark_library.slx'
+             blocks: {6x1 cell}
+     links_resolved: 1
+             passed: 1
+

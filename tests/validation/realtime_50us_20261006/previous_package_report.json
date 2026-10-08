@@ -1,0 +1,23 @@
+﻿{
+    "created_at":  "2026-10-05T15:31:16.5399214+08:00",
+    "application":  "SimRT.exe",
+    "model_integrity":  "local_build_receipt_and_deployed_payload_sha256_match",
+    "model_selection_updated_at": "2026-10-06",
+    "model_timing_passed": true,
+    "daq_lossless_passed": false,
+    "baseline_directory":  "D:\\05SimRT\\Demo_XCP_Qt",
+    "qt_runtime_evidence_included":  false,
+    "baseline_validation_is_not_qt_validation":  true,
+    "model_files":  [
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single.slx",
+                            "bytes":  116236,
+                            "sha256":  "d5af6557762b8aa0b6de4f2b110bcf1a32fe3b4ab4df5414a6a72fd7adf8e8d4"
+                        },
+                        {
+                            "path":  "models/x280_rt_single/x280_rt_single_local/20261006_005108_492.zip",
+                            "bytes":  153391,
+                            "sha256":  "f36ef300721fef2724fe9ad6ce2749908c48b5873a1e6fa177232649e3411f86"
+                        }
+                    ]
+}

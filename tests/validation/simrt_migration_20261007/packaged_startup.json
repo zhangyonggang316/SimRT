@@ -1,0 +1,10 @@
+﻿{
+    "executable":  "Demo_XCP_Qt/app/SimRT.exe",
+    "preset":  "Demo_XCP_Qt/demo.json",
+    "alive_after_seconds":  15,
+    "running":  true,
+    "startup_error_log":  false,
+    "target_connected":  false,
+    "scope":  "packaged startup and local payload loading; not GUI interaction or target validation",
+    "passed":  true
+}

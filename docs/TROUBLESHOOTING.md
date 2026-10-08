@@ -10,8 +10,8 @@
 | --- | --- |
 | APP 诊断及通信状态 | APP“诊断日志”页，保存日志；包括当前端点与待恢复标定量 |
 | APP 启动异常 | Windows `%TEMP%/QtXCPHost-startup.log`；检查修改时间，避免使用上次失败记录 |
-| 最新构建回执 | `<model>_ert_rtw/x280_local_build.json` |
-| 当轮构建详情 | `<model>_ert_rtw/x280_build_evidence/<时间戳>/build_report.json`、`elf_inspection.txt` |
+| 最新构建回执 | `<model>_ert_rtw/simrt_local_build.json` |
+| 当轮构建详情 | `<model>_ert_rtw/simrt_build_evidence/<时间戳>/build_report.json`、`elf_inspection.txt` |
 | Linux 模型标准输出/错误 | `<远程模型完整路径>.pyxcp-host.log`，也可用 APP“读取运行日志” |
 | Linux 部署状态 | 模型目录 `.pyxcp-payload.pending`、`.pyxcp-payload.json` |
 | Linux 进程记录 | `<远程模型完整路径>.pyxcp-host.json`，需结合 `/proc` 判断，不能只相信旧 PID |
@@ -27,16 +27,16 @@
 在用户主动打开的 MATLAB 中，将工作目录设为工程根目录：
 
 ```matlab
-addpath(fullfile(pwd, 'x280_linux_target'));
-which setupX280LinuxTarget -all
-setupX280LinuxTarget;
-report = verifyX280Environment(ProbeTarget=false, Strict=false);
+addpath(fullfile(pwd, 'toolchain/simrt_linux_target'));
+which setupSimRTLinuxTarget -all
+setupSimRTLinuxTarget;
+report = verifySimRTEnvironment(ProbeTarget=false, Strict=false);
 disp(report);
 ```
 
 该检查会在当前 MATLAB 会话注册目标并更新本地注册文件，不连接 Linux。`UnsupportedRelease` 表示当前实现要求 R2024b；不能只改版本检查就假定运行器和 Coder API 已兼容新版。
 
-当前硬件名称应为 `SimRT`。升级后名称未更新时，重新运行当前工程的 `setupX280LinuxTarget`，重新打开模型配置窗口，必要时重启 MATLAB。对旧模型按[迁移步骤](NEW_MACHINE_DEPLOYMENT.md#43-注册硬件与工具链)运行 `configureX280Model(..., Save=true)`，并读取 `get_param('实际模型名', 'HardwareBoard')` 核对；只更新注册文件不会自动重写用户保存的全部 SLX。工具链仍名为 `X280 portable-linux-toolchain`，这是正常配置。
+当前硬件名称应为 `SimRT`。升级后名称未更新时，重新运行当前工程的 `setupSimRTLinuxTarget`，重新打开模型配置窗口，必要时重启 MATLAB。对旧模型按[迁移步骤](NEW_MACHINE_DEPLOYMENT.md#43-注册硬件与工具链)运行 `configureSimRTModel(..., Save=true)`，并读取 `get_param('实际模型名', 'HardwareBoard')` 核对；只更新注册文件不会自动重写用户保存的全部 SLX。工具链仍名为 `SimRT portable-linux-toolchain`，这是正常配置。
 
 `MissingProduct` 或 `LocalValidationFailed` 时看 `report.RequiredProducts`、`A2LExportAvailable`、`XCPAvailable`、`LocalBuildAvailable`。当前环境检查包含 `xcpA2L` 和 `xcpChannel`；CAN Pack/Unpack 及官方 CAN bus 还需要 Vehicle Network Toolbox。安装或许可存在问题时先解决产品可用性。
 
@@ -46,23 +46,23 @@ disp(report);
 
 | 错误/现象 | 处理 |
 | --- | --- |
-| `x280linux:UnsavedModel` | 保存本轮改动再生成；构建需要可追溯的 SLX 快照 |
-| `x280linux:ModelNameConflict` | 同名模型已从另一目录打开；先确认并保存该模型，再关闭冲突副本 |
-| `x280linux:RealtimeConfiguration` | 看错误列出的配置差异，核对固定步长、单任务、ERT、C、Linux x86-64、ExtMode |
-| `x280linux:UnsupportedTasking` | 生成器当前只支持单任务 C；检查 multitasking、concurrent、异步任务 |
-| `x280linux:RuntimeContract` | 本轮生成入口不符合已验证 R2024b 单任务形态；保留生成源码检查，不绕过断言 |
+| `simrtlinux:UnsavedModel` | 保存本轮改动再生成；构建需要可追溯的 SLX 快照 |
+| `simrtlinux:ModelNameConflict` | 同名模型已从另一目录打开；先确认并保存该模型，再关闭冲突副本 |
+| `simrtlinux:RealtimeConfiguration` | 看错误列出的配置差异，核对固定步长、单任务、ERT、C、Linux x86-64、ExtMode |
+| `simrtlinux:UnsupportedTasking` | 生成器当前只支持单任务 C；检查 multitasking、concurrent、异步任务 |
+| `simrtlinux:RuntimeContract` | 本轮生成入口不符合已验证 R2024b 单任务形态；保留生成源码检查，不绕过断言 |
 | Ctrl+B 只有 C 没有 ZIP | 检查 `GenCodeOnly` 是否为 `on`，以及链接/after_make 是否成功 |
 
 已加载模型的只读检查：
 
 ```matlab
-validateX280RealtimeModel('x280_rt_single');
-get_param('x280_rt_single', 'FixedStep')
-get_param('x280_rt_single', 'GenCodeOnly')
-get_param('x280_rt_single', 'Toolchain')
+validateSimRTRealtimeModel('simrt_rt_single');
+get_param('simrt_rt_single', 'FixedStep')
+get_param('simrt_rt_single', 'GenCodeOnly')
+get_param('simrt_rt_single', 'Toolchain')
 ```
 
-需要重配时参考部署文档调用 `configureX280Model`。该函数会改变模型配置，先保存或建立工作副本；不要在没有确认模型用途时反复运行配置函数。
+需要重配时参考部署文档调用 `configureSimRTModel`。该函数会改变模型配置，先保存或建立工作副本；不要在没有确认模型用途时反复运行配置函数。
 
 ## 3. 交叉编译、ELF 和 A2L
 
@@ -71,30 +71,30 @@ get_param('x280_rt_single', 'Toolchain')
 从工程根目录执行：
 
 ```powershell
-Get-Item Env:X280_TOOLCHAIN_ROOT -ErrorAction SilentlyContinue
-& './portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe' --version
-& './portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-readelf.exe' --version
+Get-Item Env:SIMRT_TOOLCHAIN_ROOT -ErrorAction SilentlyContinue
+& './toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe' --version
+& './toolchain/portable-linux-toolchain/toolchain/bin/linux-readelf.exe' --version
 ```
 
-`X280_TOOLCHAIN_ROOT` 应指向含 `toolchain/` 的包根目录，不是 `bin/`；本包 sysroot 位于 `toolchain/x86_64-linux/`。更换机器或移动路径后重新注册工具链。不要将 `tools/qt_toolchain` 的 Windows clang 当作 Linux 交叉 GCC。
+`SIMRT_TOOLCHAIN_ROOT` 应指向含 `toolchain/` 的包根目录，不是 `bin/`；本包 sysroot 位于 `toolchain/x86_64-linux/`。更换机器或移动路径后重新注册工具链。不要将 `toolchain/qt_toolchain` 的 Windows clang 当作 Linux 交叉 GCC。
 
-链接报找不到系统头文件/库，先看 `x280PortableToolchain.m` 和当轮 Makefile 的 sysroot 参数；报找不到厂商 CAN 头文件时看 `+x280linux/+can/Native.m::updateBuildInfo` 的源文件路径。当前 CAN SDK 使用动态加载，两个厂商 `.so` 的缺失主要是目标运行期问题，不应通过任意复制 Windows DLL 修复。
+链接报找不到系统头文件/库，先看 `simrtPortableToolchain.m` 和当轮 Makefile 的 sysroot 参数；报找不到厂商 CAN 头文件时看 `+simrtlinux/+can/Native.m::updateBuildInfo` 的源文件路径。当前 CAN SDK 使用动态加载，两个厂商 `.so` 的缺失主要是目标运行期问题，不应通过任意复制 Windows DLL 修复。
 
 ### 3.2 最终 ELF 与 A2L 不匹配
 
 常见错误包括 `LocalELFMissing`、`ELFNotFound`、`WrongELFArchitecture`、`LocalBuildInvalid`、`LocalArchiveInvalid`、`A2LNotCreated`。
 
-先确认链接已成功，再看 `x280_local_build.json` 的 `archive` 和 `evidence_directory`。正常情况下最外层 `<model>.elf` 已被清理，这是预期行为；`record.local_elf` 指向内部证据缓存。可以从 ZIP 的副本解压检查，或在 MATLAB 使用 `locateX280ELF` 查找配套产物。
+先确认链接已成功，再看 `simrt_local_build.json` 的 `archive` 和 `evidence_directory`。正常情况下最外层 `<model>.elf` 已被清理，这是预期行为；`record.local_elf` 指向内部证据缓存。可以从 ZIP 的副本解压检查，或在 MATLAB 使用 `locateSimRTELF` 查找配套产物。
 
 ```powershell
-$elfPath = 'C:/实际检查目录/x280_rt_single.elf'
-& './portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-readelf.exe' -h -l -d -V $elfPath
+$elfPath = 'C:/实际检查目录/simrt_rt_single.elf'
+& './toolchain/portable-linux-toolchain/toolchain/bin/linux-readelf.exe' -h -l -d -V $elfPath
 Get-FileHash -LiteralPath $elfPath -Algorithm SHA256
 ```
 
 期望 ELF64、little-endian、x86-64、`Type: EXEC`。`DYN`/PIE 会被 APP 的固定地址校验拒绝。动态解释器及依赖版本必须与目标 Linux 相容；`GLIBC_x.y not found` 应通过兼容 sysroot/运行平台解决，不能随意替换目标系统 libc。
 
-A2L 来自 `coder.asap2`，地址来自最终 ELF。重新链接、修改信号存储或重新生成 C 后，需要重新导出 A2L/JSON 并生成 ZIP。`FixedXCPConfigurationRequired` 表示导出端口与编译配置不一致；本工程默认是 UDP 17725，单独修改导出参数会被拒绝。
+A2L 来自 `coder.asap2`，地址来自最终 ELF。重新链接、修改信号存储或重新生成 C 后，需要重新导出 A2L/JSON 并生成 ZIP。`FixedXCPConfigurationRequired` 表示导出端口与编译配置不一致；本项目标准默认端口为 UDP 5555、TCP 17725，当前模型使用 UDP。旧端口模型需重新构建匹配的 ELF/A2L/manifest ZIP，不能手改旧清单或 A2L；单独修改导出参数会被拒绝。
 
 ### 3.3 模型层级或变量缺失
 
@@ -102,7 +102,7 @@ A2L 来自 `coder.asap2`，地址来自最终 ELF。重新链接、修改信号�
 
 若层级存在但对象缺少，检查生成报告中该信号/参数是否有可访问存储，是否被优化、是否为当前 UI 不支持的数组或复杂对象。工作区参数、共享参数及没有更深 SID 来源的对象可能合法地放在模型根级。不要把所有根级对象都判断为层级解析错误。
 
-对应源码：`createX280ASAP2Hierarchy.m`、`services/a2l_metadata.py`、`services/a2l_catalog.py`、`qt_host/catalog_tree.py`。
+对应源码：`createSimRTASAP2Hierarchy.m`、`services/a2l_metadata.py`、`services/a2l_catalog.py`、`qt_host/catalog_tree.py`。
 
 ## 4. ZIP 载入与部署校验
 
@@ -145,7 +145,7 @@ Test-NetConnection -ComputerName '目标IP' -Port 22
 在目标 Linux 的同一登录用户下，替换真实模型路径后执行：
 
 ```bash
-model_elf="$HOME/MATLAB_ws/实际模型目录/x280_rt_single.elf"
+model_elf="$HOME/MATLAB_ws/实际模型目录/simrt_rt_single.elf"
 tail -n 100 "${model_elf}.pyxcp-host.log"
 uname -a
 uname -m
@@ -153,10 +153,10 @@ cat /sys/kernel/realtime
 ulimit -r
 ulimit -l
 ldd "$model_elf"
-ss -lunp | grep ':17725'
+ss -lunp | grep ':5555'
 ```
 
-只对工程可信 ELF 执行 `ldd`。`cat /sys/kernel/realtime` 不存在或不为 1 说明当前运行内核不满足默认实时要求。不要用 `X280_RT_REQUIRE_KERNEL=0` 的实验结果代替生产实时验收。
+只对工程可信 ELF 执行 `ldd`。`cat /sys/kernel/realtime` 不存在或不为 1 说明当前运行内核不满足默认实时要求。不要用 `SIMRT_RT_REQUIRE_KERNEL=0` 的实验结果代替生产实时验收。
 
 | 运行日志 | 定位 |
 | --- | --- |
@@ -164,9 +164,9 @@ ss -lunp | grep ':17725'
 | `PREEMPT_RT kernel required (/sys/kernel/realtime != 1)` | 当前启动的内核不符；按部署文档安装并启动已验证内核 |
 | `mlockall: grant sufficient locked-memory limit/CAP_IPC_LOCK` | 实际模型进程锁内存额度或权限不足 |
 | `pthread_create SCHED_FIFO: grant rtprio/CAP_SYS_NICE...` | 实时优先级权限或锁内存额度不足，检查启动该进程的会话/服务限制 |
-| `X280_RT_CPU is not in the allowed affinity mask` | 指定 CPU 不在允许集合；检查 cpuset、容器或服务亲和性 |
-| `X280 RT autonomous execution does not support -w` | 移除等主站启动的参数，当前模型自主运行 |
-| `X280 RT extmode... failed` | 检查端口占用、协议栈初始化、A2L/运行配置，再保留完整错误编号 |
+| `SIMRT_RT_CPU is not in the allowed affinity mask` | 指定 CPU 不在允许集合；检查 cpuset、容器或服务亲和性 |
+| `SimRT RT autonomous execution does not support -w` | 移除等主站启动的参数，当前模型自主运行 |
+| `SimRT RT extmode... failed` | 检查端口占用、协议栈初始化、A2L/运行配置，再保留完整错误编号 |
 | `error while loading shared libraries` / `not found` | 目标运行库或 SDK 依赖缺失，按 ELF 依赖逐项解决 |
 
 实际运行状态可用以下命令检查。`model_pid` 请填 APP 显示的当前 PID，不能直接使用历史报告中的数字：
@@ -200,10 +200,11 @@ loginctl show-user "$(id -un)" -p Linger
 | `文件未声明 XCP 通信协议和端口...` | 加载本轮完整 A2L 或配套 ZIP |
 | `A2L 声明了多个通信协议，请加载配套模型 ZIP。` | 通过清单明确协议，避免猜测 |
 | `A2L 与模型包的通信协议或端口不一致。` | 重新导出一致的三文件，检查是否混包 |
-| `文件未声明目标地址，请在实时机页面填写 SSH 主机。` | 文件确实无地址时填写 SSH 主机作为回退 |
-| 已填新 SSH 地址但 XCP 仍连接旧地址 | ZIP/A2L 声明优先于 SSH 回退；按新地址重新导出部署包 |
+| `文件未声明目标地址，请在实时机页面填写 SSH 主机。` | 在实时机页面填写“Ubuntu 主机”，该输入优先用于 XCP 目标地址 |
+| 已填新 SSH 地址但 XCP 仍连接旧地址 | 先下线，再修改实时机页面“Ubuntu 主机”，核对顶部端点同步到新地址后上线；若仍显示旧地址，确认启动的是更新后的 APP。只换目标 IP 无需重新导出部署包 |
+| “Ubuntu 主机”输入只读 | 等待当前连接或地址切换结束；已连接和采集状态可编辑，提交后恢复标定并重连 |
 
-端口来自文件，观察顶部端点和按钮提示。默认 UDP 17725；`Test-NetConnection -Port 17725` 只测试 TCP，不能证明 UDP XCP 是否可用。
+主机地址优先使用非空的“Ubuntu 主机”输入；输入为空时依次使用 ZIP 的 `TargetAddress`、A2L 的 `ADDRESS`。协议和端口来自文件，观察顶部端点和按钮提示。本项目标准默认端口为 UDP 5555、TCP 17725；`Test-NetConnection -Port 5555` 只测试 TCP，即使端口号与 UDP 模型相同，也不能证明 UDP XCP 是否可用。
 
 ### 7.2 SSH 正常，但 XCP 超时
 
@@ -228,7 +229,7 @@ DAQ 需要周期性、支持 DAQ 的模型事件；出现 `DAQ requires a period
 
 减小变量集合后复测可帮助区分带宽/队列压力。原始历史缓存容量和 DAQ 待处理队列是两个不同缓冲，单纯增大曲线历史容量不能解决网络丢帧。
 
-检查模型实时性时，正常停止后读取 `x280_rt_summary`。`model_step_interval_*` 衡量实际执行间隔；`deadline_misses`、`skipped_releases` 与 DAQ 丢样计数分开分析。不要根据 APP 刷新率判断模型实际步长。
+检查模型实时性时，正常停止后读取 `simrt_rt_summary`。`model_step_interval_*` 衡量实际执行间隔；`deadline_misses`、`skipped_releases` 与 DAQ 丢样计数分开分析。不要根据 APP 刷新率判断模型实际步长。
 
 ## 8. 标定失败、下线失败与恢复
 
@@ -275,7 +276,7 @@ id
 
 ## 10. APP 启动、绘图与测试
 
-若 EXE 双击无主界面，先看 `%TEMP%/QtXCPHost-startup.log`。必须复制整个 `Demo_XCP_Qt/app`，保留 `_internal`；单个 EXE 不是独立可运行交付物。
+若 EXE 双击无主界面，先看 `%TEMP%/QtXCPHost-startup.log`。必须复制整个 `app/distribution`，保留 `_internal`；单个 EXE 不是独立可运行交付物。
 
 `Required C++ core is missing`、`Cannot load the required C++ core` 或 `Unsupported C++ core ABI` 分别指向 DLL 缺失、依赖/架构不符或接口版本不一致。开发环境修复后重建 DLL 和 APP；正式交付应整体重新发布，不混用另一版本的 DLL。
 
@@ -283,32 +284,32 @@ id
 
 ```powershell
 & './.venv/Scripts/python.exe' -m pip check
-& './.venv/Scripts/python.exe' qt_xcp_host/validate_tests.py --output validation/manual_regression
-& './.venv/Scripts/python.exe' qt_xcp_host/validate_visual.py --output validation/manual_visual
+& './.venv/Scripts/python.exe' app/qt_xcp_host/validate_tests.py --output tests/validation/manual_regression
+& './.venv/Scripts/python.exe' app/qt_xcp_host/validate_visual.py --output tests/validation/manual_visual
 ```
 
 按修改范围增加目标层测试，不需要为每个文档或日志操作启动 MATLAB：
 
 ```powershell
-& './.venv/Scripts/python.exe' -m unittest discover -s x280_linux_target/tests -p 'test_*.py' -v
-& './x280_linux_target/drivers/tc1013/tests/run_offline_tests.ps1' -OutputDirectory validation/manual_can_offline
+& './.venv/Scripts/python.exe' -m unittest discover -s tests/toolchain -p 'test_*.py' -v
+& './tests/drivers/tc1013/run_offline_tests.ps1' -OutputDirectory tests/validation/manual_can_offline
 ```
 
 需要验证 MATLAB 代码生成或 System 对象时，在已经打开、配置好工具链的 MATLAB 中运行相关测试；构建测试会实际生成代码和本地编译：
 
 ```matlab
-addpath(fullfile(pwd, 'x280_linux_target'));
-results = runtests({'x280_linux_target/tests/tX280ArtifactArchive.m', ...
-    'x280_linux_target/tests/tX280LocalArtifacts.m'});
+addpath(fullfile(pwd, 'toolchain/simrt_linux_target'));
+results = runtests({'tests/toolchain/tSimRTArtifactArchive.m', ...
+    'tests/toolchain/tSimRTLocalArtifacts.m'});
 assertSuccess(results);
 ```
 
-CAN System 对象与模型的软件测试分别位于 `tX280CANObjects.m`、`tX280CANLoopback.m`。进一步真机验收应在空闲端口和独立模型目录进行，保留本轮 SLX/ZIP/APP 身份及采集日志，不能把离线成功报告当作硬件已通过。
+CAN System 对象与模型的软件测试分别位于 `tSimRTCANObjects.m`、`tSimRTCANLoopback.m`。进一步真机验收应在空闲端口和独立模型目录进行，保留本轮 SLX/ZIP/APP 身份及采集日志，不能把离线成功报告当作硬件已通过。
 
 ## 11. 提交问题时的最小复现材料
 
 1. 实际启动入口、APP 构建身份、MATLAB 版本、目标内核与架构。
 2. 完整操作顺序和首次失败阶段，包括是否重新加载过 A2L、目标是否曾重启。
 3. ZIP SHA-256、本轮 `build_report.json` 与相关错误前后的日志；可隐去非必要机器地址。
-4. 实时问题提供 `x280_rt_summary` 与 DAQ 诊断，CAN 问题提供协议、波特率、状态码和有效帧统计。
+4. 实时问题提供 `simrt_rt_summary` 与 DAQ 诊断，CAN 问题提供协议、波特率、状态码和有效帧统计。
 5. 若改过源码，列出相关文件和对应测试结果；保留本轮证据后再清理可再生缓存。

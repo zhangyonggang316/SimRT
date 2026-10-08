@@ -1,0 +1,36 @@
+{
+  "model": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56.slx",
+  "logic_checks_passed": true,
+  "desktop_simulation_passed": true,
+  "physical_serial_test": false,
+  "device5": "/dev/ttyS6",
+  "device6": "/dev/ttyS7",
+  "build": {
+    "model": "simrt_serial_com56",
+    "success": true,
+    "build_mode": "local",
+    "period_seconds": 0.001,
+    "matlab_release": "2024b",
+    "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+    "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+    "model_file": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\simrt_serial_com56.slx",
+    "model_sha256": "05b16f8cdfe0a285ff03a521dfa88efc13fd8eaee1447156730600bbff732d87",
+    "local_elf": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\deployment_cache\\d5246ae7e0bfc64d0b1f080f0eed361c5c35f9e2a9aadc242214047aefc625f9\\20261007_122622_445\\simrt_serial_com56.elf",
+    "a2l": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\deployment_cache\\d5246ae7e0bfc64d0b1f080f0eed361c5c35f9e2a9aadc242214047aefc625f9\\20261007_122622_445\\simrt_serial_com56.a2l",
+    "manifest": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\deployment_cache\\d5246ae7e0bfc64d0b1f080f0eed361c5c35f9e2a9aadc242214047aefc625f9\\20261007_122622_445\\simrt_serial_com56.xcp-manifest.json",
+    "payload": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_local\\20261007_122622_445.zip",
+    "realtime_source": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\simrt_serial_com56_rt_bundle",
+    "bundle": {
+      "SourceDirectory": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445\\simrt_serial_com56_rt_bundle",
+      "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+      "ELFRelativePath": "simrt_serial_com56.elf",
+      "CodeGenerationDirectory": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw"
+    },
+    "elf_sha256": "660c9d4148abd23920a3462b5e80df463017b141ca1bc64e3dbf9e6bb9d89ff5",
+    "evidence_directory": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_ert_rtw\\simrt_build_evidence\\20261007_122622_445",
+    "remote_operations_performed": false,
+    "archive": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\models\\simrt_serial_com56\\simrt_serial_com56_local\\20261007_122622_445.zip",
+    "archive_sha256": "d5246ae7e0bfc64d0b1f080f0eed361c5c35f9e2a9aadc242214047aefc625f9"
+  }
+}

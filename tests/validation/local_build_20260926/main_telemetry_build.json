@@ -1,0 +1,29 @@
+{
+  "model": "x280_rt_single",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\x280_rt_single.slx",
+  "model_sha256": "e375394df9ca5add60ca3f3034af6e8e9ebbc091d511a2af51e5299a8d286eab",
+  "local_elf": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\deployment_cache\\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\\20260926_080641_012\\x280_rt_single.elf",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\deployment_cache\\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\\20260926_080641_012\\x280_rt_single.a2l",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\deployment_cache\\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\\20260926_080641_012\\x280_rt_single.xcp-manifest.json",
+  "payload": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260926_080641_012.zip",
+  "realtime_source": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\x280_rt_single_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012\\x280_rt_single_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_rt_single.elf",
+    "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw"
+  },
+  "elf_sha256": "6ce23be7f7bbdb594cb7032d000ac00c34242e012eeb21f50efa16e4443e328c",
+  "evidence_directory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20260926_080641_012",
+  "remote_operations_performed": false,
+  "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260926_080641_012.zip",
+  "archive_sha256": "6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7",
+  "runtime_sha256": "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+}

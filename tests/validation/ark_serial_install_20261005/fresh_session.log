@@ -1,0 +1,53 @@
+                 release: '2024b'
+         persistent_path: 1
+                 library: 'D:\05SimRT\x280_linux_target\drivers\ark\simrt_ark_library.slx'
+                  blocks: {6x1 cell}
+          links_resolved: 1
+     browser_initialized: 1
+    browser_parse_errors: 0
+            browser_open: 0
+                  passed: 1
+
+正在运行 testDIO
+......### 正在启动 x280_dio_test_ports 的编译过程
+### 正在为 '模型特定' 文件夹结构生成代码和工件
+### 正在将代码生成到编译文件夹中: C:\Users\yonggang.zhang\AppData\Local\Temp\tp749ae3fe_7d75_4b28_8e0a_a13697265ce1\x280_dio_test_ports_ert_rtw
+### Invoking Target Language Compiler on x280_dio_test_ports.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2024b\rtw\c\ert\ert.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+.
+### Caching model source code
+................................
+### Writing header file x280_dio_test_ports_types.h
+### Writing header file x280_dio_test_ports.h
+.
+### Writing header file rtwtypes.h
+### Writing source file x280_dio_test_ports.c
+### Writing header file x280_dio_test_ports_private.h
+### Writing source file ert_main.c
+### TLC code generation complete (took 2.476s).
+### 正在保存二进制信息缓存。
+### 已成功完成 x280_dio_test_ports 的代码生成
+### 'x280_dio_test_ports' 的 Simulink 缓存工件是在 'C:\Users\yonggang.zhang\AppData\Local\Temp\tp749ae3fe_7d75_4b28_8e0a_a13697265ce1\x280_dio_test_ports.slxc' 中创建的。
+
+编译摘要
+
+顶层模型目标:
+
+模型                   编译原因           状态      编译持续时间       
+=========================================================
+x280_dio_test_ports  信息缓存文件夹或工件缺失。  代码已生成。  0h 0m 12.419s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 14.921s
+.
+已完成 testDIO
+__________
+
+正在运行 testSerialEtherCAT
+...
+已完成 testSerialEtherCAT
+__________
+

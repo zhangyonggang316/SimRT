@@ -1,0 +1,28 @@
+﻿{
+    "package":  "D:\\CPO\\P042\\03matlabModel_0918V2\\Data\\PolarDriver_V3.2.2.1_Beta(R2022a~R2025b)\\PolarDriver.mltbx",
+    "sha256":  "46c3eff8dd6663140b7b9cc9a314c514f7dc22e19e5dbeb38c738d8da117cbdc",
+    "bytes":  240314581,
+    "version":  "3.2.2.1",
+    "release_start":  "R2022a",
+    "release_end":  "latest",
+    "entry_count":  7639,
+    "protected_p_files":  592,
+    "source_entries_reviewed":  [
+                                    "metadata/coreProperties.xml",
+                                    "metadata/systemRequirements.xml",
+                                    "metadata/mwcorePropertiesReleaseInfo.xml",
+                                    "fsroot/simulink/coder/rtwTargetInfo.m",
+                                    "fsroot/simulink/coder/GY1005_make_rtw_hook.m",
+                                    "fsroot/simulink/coder/rtw/GY1005.tlc",
+                                    "fsroot/slblocks.m",
+                                    "fsroot/toolstrip/sl_customization.m"
+                                ],
+    "uses_toolchain_registry":  true,
+    "checks_model_before_codegen":  true,
+    "uses_build_phases":  true,
+    "uses_xenomai_libraries":  true,
+    "gy1005_enables_avx512":  true,
+    "has_unconditional_hardware_build_disable":  true,
+    "archive_installed_or_executed":  false,
+    "protected_code_decompiled":  false
+}

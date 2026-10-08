@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:05:18
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 6.6%  Memory: 31.2%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:09:01 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 541631 calls / 541631 completed
+Deadline misses: 7  Skipped periods: 74
+Task execution current/max: 1230 ns / 68714 ns
+Interval min/avg/max: 128334 / 1000136.604 / 26864611 ns
+Telemetry: live (0.7s old)
+-- LOG ------------------------------------------------------------------------
+SET_MTA: setting MTA value to 4174c0 and extension 0
+UPLOAD: reading at address 0x4174c0
+SET_MTA: setting MTA value to 4174c0 and extension 0
+DOWNLOAD: writing at address 0x4174c0

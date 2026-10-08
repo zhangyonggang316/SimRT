@@ -1,0 +1,2 @@
+# Local SSH maintenance only. The target console uses Python's standard library.
+paramiko==4.0.0

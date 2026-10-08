@@ -1,0 +1,33 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:55:25
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 1.9%  Memory: 30.4%  Disk: 20.6% of 29.7 GB
+State: IDLE (no running .elf owned by this user)
+System uptime: 03:14:33
+Model period / deadlines / task execution: unavailable
+-- LOG ----------------------------------------------------------------------------------------------------------------
+08:51:49 PROCESS FOUND x280_can_loopback (PID 93872)
+08:52:09 STOPPED x280_can_loopback (PID 93872)
+08:52:21 PROCESS FOUND udp_vendor_baseline (PID 94355)
+08:52:23 PROCESS FOUND udp_fixed (PID 94382)
+08:52:23 STOPPED udp_vendor_baseline (PID 94355)
+08:52:27 STOPPED udp_fixed (PID 94382)
+08:54:29 PROCESS FOUND x280_canfd_loopback (PID 96117)
+08:54:49 STOPPED x280_canfd_loopback (PID 96117)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

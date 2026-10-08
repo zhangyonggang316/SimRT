@@ -1,0 +1,76 @@
+正在设置 ResultSetFixture
+设置 ResultSetFixture 完毕
+__________
+
+正在运行 tX280CANLoopback
+.....
+================================================================================
+tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1) 中出现错误并且未运行完毕。
+    --------
+    错误 ID:
+    --------
+    'Simulink:Commands:SimInputInvalidBlockPath'
+    -----------
+    错误详细信息:
+    -----------
+    错误使用 Simulink.SimulationInput/setBlockParameter
+    'Bias' 不是有效模块路径。
+    
+    出错 tX280CANLoopback/receivesOtherChannelEveryMillisecond (第 56 行)
+                input = input.setBlockParameter('x280_can_loopback/CAN1set', ...
+================================================================================
+.
+================================================================================
+tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2) 中出现错误并且未运行完毕。
+    --------
+    错误 ID:
+    --------
+    'Simulink:Commands:SimInputInvalidBlockPath'
+    -----------
+    错误详细信息:
+    -----------
+    错误使用 Simulink.SimulationInput/setBlockParameter
+    'Bias' 不是有效模块路径。
+    
+    出错 tX280CANLoopback/receivesOtherChannelEveryMillisecond (第 56 行)
+                input = input.setBlockParameter('x280_can_loopback/CAN1set', ...
+================================================================================
+.
+已完成 tX280CANLoopback
+__________
+
+正在拆解 ResultSetFixture
+拆解 ResultSetFixture 完毕
+__________
+
+失败摘要:
+
+     Name                                                                 Failed  Incomplete  原因
+    ================================================================================================
+     tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)    X         X       出错。
+    ------------------------------------------------------------------------------------------------
+     tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)    X         X       出错。
+                                         Name                                          Passed    Failed    Incomplete    Duration      Details   
+    _______________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)'}    true      false       false         13.727    {1x1 struct}
+    {'tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)'}    true      false       false       0.034627    {1x1 struct}
+    {'tX280CANLoopback/executionOrderInitializesBothChannelsBeforeTransmission'   }    true      false       false       0.017765    {1x1 struct}
+    {'tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN1)'          }    true      false       false        0.28016    {1x1 struct}
+    {'tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN2)'          }    true      false       false       0.055651    {1x1 struct}
+    {'tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)'        }    false     true        true         0.37853    {1x1 struct}
+    {'tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)'        }    false     true        true         0.45413    {1x1 struct}
+
+{错误使用 assert
+测试会话中有至少一个测试失败。
+
+出错 matlab.unittest.internal.BaseTestResult/assertSuccess (第 126 行)
+             assert(~any([resultArray.Failed]),message('MATLAB:unittest:TestResult:UnsuccessfulRun'));
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 rerun_can (第 14 行)
+assertSuccess(results);
+^^^^^^^^^^^^^^^^^^^^^^
+出错 run (第 112 行)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

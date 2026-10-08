@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260926_084450_781.zip",
+  "archive_sha256": "2bd4f5d732f9afc67686d0101fd3dc761e31191f07273c69fe55e89910428764",
+  "elf_sha256": "c6156eea180454fbd5fca43b0f61781ac9a6ed17776f4147f2277da7ab731ea1",
+  "files": [
+    "20260926_084450_781/x280_rt_single.a2l",
+    "20260926_084450_781/x280_rt_single.elf",
+    "20260926_084450_781/x280_rt_single.xcp-manifest.json"
+  ],
+  "scalar_addresses_within_elf_symbols": true,
+  "vendor_source_unchanged": true,
+  "measurements": 6,
+  "calibrations": 12,
+  "udp_reconnect_adapter_linked": true,
+  "period_ns": 1000000,
+  "host": "192.168.219.195",
+  "protocol": "UDP",
+  "port": 17725,
+  "remote_operations_performed": false
+}

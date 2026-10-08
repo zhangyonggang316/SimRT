@@ -1,0 +1,27 @@
+SimRT: ark2120 | UI refresh: 1000.000 ms | 00:15:41
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: YES
+Network:
+enp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)
+enp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)
+enp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)
+wlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)
+CPU: unavailable  Memory: 14.7%  Disk: 21.2% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 2255)
+Model elapsed: 0 h 137.461 s / inf  Period: 1.000000 ms
+MATLAB: R2024b | Steps: 137462 calls / 137462 completed
+Deadline misses: 0  Skipped periods: 0
+Task execution current/max: 0.004612 ms / 0.108775 ms
+Interval min/avg/max: 0.873971 ms / 1.000000 ms / 1.125039 ms
+Jitter > +/-50 us: early unavailable / late unavailable
+Telemetry: live (0.6s old)
+-- LOG -----------------------------------------------------------------------------------------------------------------
+00:15:41 PROCESS FOUND x280_rt_single (PID 2255)
+
+** starting the model **
+{"event":"x280_rt_summary","period_ns":1000000,"realtime_kernel":true,"kernel_required":true,"policy":"SCHED_FIFO","prio
+SimRT RT: no separate physical core available for background work
+
+** starting the model **
+{"event":"x280_rt_summary","period_ns":1000000,"realtime_kernel":true,"kernel_required":true,"policy":"SCHED_FIFO","prio
+SimRT RT: no separate physical core available for background work

@@ -4,16 +4,38 @@
 *.pyc
 **/slprj/
 *.slxc
-/qt_xcp_host/build/
-/qt_xcp_host/dist/
-/qt_xcp_host/*.spec
-/qt_xcp_host/staging_delivery/
-/validation/**/staging_delivery/
-/validation/**/replaced_app_files/
+/app/qt_xcp_host/build/
+/app/qt_xcp_host/dist/
+/app/qt_xcp_host/*.spec
+!/app/qt_xcp_host/SimRT.spec
+/app/qt_xcp_host/staging_delivery/
+/app/qt_xcp_host/staging_*/
+/tests/validation/**/staging_delivery/
+/tests/validation/**/replaced_app_files/
 
-# Local machine settings and credentials.
-/.vscode/
+# Release assets are distributed with the matching GitHub tag.
+/.release/
+/app/distribution/
+/toolchain/portable-linux-toolchain/toolchain/
+/toolchain/portable-linux-toolchain/host-bin/
+/toolchain/qt_toolchain/*
+!/toolchain/qt_toolchain/README.md
+/toolchain/development/*
+!/toolchain/development/README.md
+/tests/app/layout_results/portable_package/
+
+# Machine-specific registration state and reproducible compiler outputs.
+/toolchain/simrt_linux_target/registry/simrt_portable_toolchain.mat
+/toolchain/simrt_linux_target/registry/simrt_portable_toolchain_signature.json
+*.o
+*.obj
+*.pch
+*.ilk
+
+# Local credentials and environment overrides.
 .env
+.env.local
+.env.*.local
 .env.*
 !.env.example
 *.dpapi
@@ -21,32 +43,25 @@
 *.key
 id_rsa
 id_ed25519
+/.vscode/
 
-# Rebuildable applications, compilers, and separately maintained developer tools.
-/Demo_XCP_Qt/app/
-/tools/qt_toolchain/
-/tools/matlab-agentic-toolkit/
-/tools/simulink-agentic-toolkit/
-/tools/matlab-mcp-core-server/
-/tools/matlab-mcp-server-windows-x64.exe
-/tools/python-3.9.10-amd64.exe
-/portable-linux-toolchain/portable-linux-toolchain/toolchain/
-/portable-linux-toolchain/portable-linux-toolchain/host-bin/
-/x280_linux_target/registry/x280_portable_toolchain.mat
-
-# Model build outputs can contain copied MATLAB runtime sources.
+# Preserve the existing repository boundary for copied MATLAB runtime sources.
 **/*_ert_rtw/
 **/*_rt_bundle/
 **/*_bundle/
-**/x280_build_evidence/
-**/x280_archive_cache/
-/validation/**/codegen/
-/validation/**/build_sources/
-/validation/**/intermediate_builds/
-/validation/**/*.o
-/validation/**/*.obj
-/validation/**/*.exe
-/validation/**/*.dll
-/validation/**/*.mat
-/validation/**/sources.zip
-/validation/**/original_sources.zip
+**/simrt_build_evidence/
+**/simrt_archive_cache/
+/tests/validation/**/codegen/
+/tests/validation/**/build_sources/
+/tests/validation/**/intermediate_builds/
+/tests/validation/**/*.exe
+/tests/validation/**/*.dll
+/tests/validation/**/*.mat
+/tests/validation/**/sources.zip
+/tests/validation/**/original_sources.zip
+
+# Historical Netplan captures contain real Wi-Fi credentials; keep them local.
+/tests/validation/startup_network_time_20261005/before.json
+/tests/validation/startup_network_time_20261005/probe_followup.json
+/tests/validation/demo_release/startup_network_time_20261005/before.json
+/tests/validation/demo_release/startup_network_time_20261005/probe_followup.json

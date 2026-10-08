@@ -1,0 +1,75 @@
+{
+  "assessment_date": "2026-10-05",
+  "target_address": "192.168.193.195",
+  "evidence": [
+    "hardware_inventory.json",
+    "hardware_inventory_extended.json"
+  ],
+  "scope": "Read-only investigation. No device data I/O, GPIO direction/value operations, raw I/O access, driver loading, BIOS changes, or service changes were performed.",
+  "environment": {
+    "hostname": "ark2120",
+    "os": "Ubuntu 26.04.1 LTS",
+    "kernel": "7.0.0-34-realtime",
+    "cpu": "Intel Atom D2550 at 1.86 GHz",
+    "physical_model": "Not independently confirmed: DMI product/vendor fields are generic.",
+    "model_inference": "D2550, six detected UARTs and three Intel 82583V Ethernet controllers are consistent with ARK-2120F-S8A1E. This is an inference, not a verified chassis label."
+  },
+  "serial": {
+    "source": "/proc/tty/driver/serial and boot messages",
+    "detected_ports": [
+      {"node": "/dev/ttyS0", "uart": "16550A", "io_resource": "0x3f8", "irq": 4, "pnp_id": "00:01"},
+      {"node": "/dev/ttyS1", "uart": "16550A", "io_resource": "0x2f8", "irq": 3, "pnp_id": "00:02"},
+      {"node": "/dev/ttyS4", "uart": "16550A", "io_resource": "0x200", "irq": 10, "pnp_id": "00:03"},
+      {"node": "/dev/ttyS5", "uart": "16550A", "io_resource": "0x208", "irq": 10, "pnp_id": "00:04"},
+      {"node": "/dev/ttyS6", "uart": "16550A", "io_resource": "0x210", "irq": 11, "pnp_id": "00:05"},
+      {"node": "/dev/ttyS7", "uart": "16550A", "io_resource": "0x218", "irq": 11, "pnp_id": "00:06"}
+    ],
+    "unknown_ports": ["/dev/ttyS2", "/dev/ttyS3"],
+    "driver": "Linux 8250/16550",
+    "userspace_api": "POSIX termios on the detected tty device nodes",
+    "physical_com_mapping": "Not established. Do not equate ttyS index with chassis COM number.",
+    "electrical_modes": "The manual describes ITE 8760E serial ports. For ARK-2120F, COM1/2 are RS-232 and COM3-6 are selectable RS-232/422/485. Current BIOS electrical modes were not read or changed.",
+    "loopback_or_io_test_performed": false
+  },
+  "digital_io": {
+    "manual_controller": "ITE 8518E / Advantech iManager",
+    "manual_channels": 8,
+    "available_gpiochips": [],
+    "vendor_api_installed": "No SUSI, iManager or EAPI libraries found in the dynamic loader cache or bounded path inventory; no matching iManager driver files found.",
+    "library_search_entries": 48781,
+    "library_search_truncated": false,
+    "linux_gpio_enabled": ["CONFIG_GPIOLIB=y", "CONFIG_GPIO_CDEV=y", "CONFIG_GPIO_SYSFS=y"],
+    "gpio_ich_status": "Module file exists, but lpc_ich boot messages report ACPI SystemIO/OpRegion resource conflicts affecting gpio_ich. No GPIO device was enumerated.",
+    "gpio_ich_is_board_dio": "Not established. The product manual assigns onboard DIO to the iManager EC; NM10 GPIO must not be assumed to drive the external DIO connector.",
+    "ready_to_use_api": null,
+    "candidate_interfaces": [
+      {
+        "interface": "Board-specific Advantech SUSI/iManager Linux API",
+        "status": "Preferred vendor integration path, subject to confirming exact SKU and obtaining a matching Linux package. A public ARK-2120L SUSI download listing exists; it does not establish ARK-2120F or Linux 7.0 realtime compatibility.",
+        "gpio_functions": ["SusiGPIOGetCaps", "SusiGPIOGetDirection", "SusiGPIOGetLevel", "SusiGPIOSetDirection", "SusiGPIOSetLevel"]
+      },
+      {
+        "interface": "Legacy imanager-core plus gpio-imanager Linux drivers",
+        "status": "Original-author source supports IT8518 and an 8-bit GPIO subdriver. It is not installed and has not been built or validated for this machine's Linux 7.0 realtime kernel. Any future port must first review EC resource ownership and realtime implications.",
+        "repository_provenance": "rvido/iManager, author Richard Vidal-Dorsch with an Advantech email; legacy author repository, not the current corporate driver release."
+      }
+    ],
+    "new_eio_drivers": "Current official EIO-IS200/EIO-300 driver repositories describe different controller families and are not evidence of support for this board's IT8518 EC.",
+    "gpio_pin_offsets": null,
+    "unresolved": [
+      "Exact chassis SKU and revision",
+      "Vendor Linux package or reviewed driver support for the installed realtime kernel",
+      "Runtime controller identification and API capability enumeration after a supported driver is available",
+      "Verified connector-to-API channel mapping before any direction or output operation"
+    ]
+  },
+  "sources": [
+    {"title": "Advantech ARK-2120 User Manual, sections 1.3.1.3 and 1.3.2 (printed page 5)", "url": "https://advdownload.advantech.com/productfile/Downloadfile1/1-L5KJLX/ARK-2120_user_manual_ed.1_D5.pdf"},
+    {"title": "Advantech SUSI APIs", "url": "https://docs.ess.advantech.com/docs/SUSI/SUSI%20APIs"},
+    {"title": "Advantech SUSI corporate repository", "url": "https://github.com/ADVANTECH-Corp/SUSI"},
+    {"title": "Advantech SUSI for ARK-2120L support listing", "url": "https://www.advantech.com/en-au/support/details/software%20api?id=1-11UWAWZ"},
+    {"title": "Advantech SUSI4 API manual", "url": "https://ess-wiki.advantech.com.tw/wiki/images/f/f0/SUSI4_User_Manual.pdf"},
+    {"title": "Legacy iManager Linux Driver Set, original author", "url": "https://github.com/rvido/iManager"},
+    {"title": "Advantech EIO Linux Kernel Driver documentation", "url": "https://docs.ess.advantech.com/docs/SUSI/Linux%20Kernel%20Driver"}
+  ]
+}

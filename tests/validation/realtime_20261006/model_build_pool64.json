@@ -1,0 +1,28 @@
+{
+  "model": "x280_rt_single",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\x280_rt_single.slx",
+  "model_sha256": "7b1c14da218f53da346b064c201b5247aada2370ea4b557c0330963023bc32a2",
+  "local_elf": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\deployment_cache\\0d4f29f62bd81fdb89a2663d46a3b5e47c22470a7017a440eeb28eabb770968e\\20261006_003831_329\\x280_rt_single.elf",
+  "a2l": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\deployment_cache\\0d4f29f62bd81fdb89a2663d46a3b5e47c22470a7017a440eeb28eabb770968e\\20261006_003831_329\\x280_rt_single.a2l",
+  "manifest": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\deployment_cache\\0d4f29f62bd81fdb89a2663d46a3b5e47c22470a7017a440eeb28eabb770968e\\20261006_003831_329\\x280_rt_single.xcp-manifest.json",
+  "payload": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20261006_003831_329.zip",
+  "realtime_source": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\x280_rt_single_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329\\x280_rt_single_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_rt_single.elf",
+    "CodeGenerationDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw"
+  },
+  "elf_sha256": "0fc12aaf62a5bca4ceeed2724ba52cf1fda9720d4bc1f5a9ec91574a384e8b91",
+  "evidence_directory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_ert_rtw\\x280_build_evidence\\20261006_003831_329",
+  "remote_operations_performed": false,
+  "archive": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20261006_003831_329.zip",
+  "archive_sha256": "0d4f29f62bd81fdb89a2663d46a3b5e47c22470a7017a440eeb28eabb770968e"
+}

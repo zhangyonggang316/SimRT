@@ -1,0 +1,24 @@
+{
+  "hashes": {
+    "command": "python3 -c 'from pathlib import Path; import hashlib,json; p=Path('\"'\"'/home/zh/.local/lib/tscan-thread-fix-20260926'\"'\"'); expected={'\"'\"'DEPLOY_DRIVER.md'\"'\"': '\"'\"'ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5'\"'\"', '\"'\"'libTSCANApiOnLinux.so'\"'\"': '\"'\"'11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b'\"'\"', '\"'\"'libTSH.so'\"'\"': '\"'\"'e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b'\"'\"', '\"'\"'LICENSE'\"'\"': '\"'\"'474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06'\"'\"', '\"'\"'prepare_driver.py'\"'\"': '\"'\"'202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14'\"'\"', '\"'\"'SOURCE.md'\"'\"': '\"'\"'ace582b049ee10e84820571c86e65215d0a75d63395ab0feb48417e3e6ef6006'\"'\"', '\"'\"'tc1013-sdk-manifest.json'\"'\"': '\"'\"'891e9bcfee7625df43c4c3fe228201874609bfd9386e953667462fc4f208a7bd'\"'\"'}; actual={name:hashlib.sha256((p/name).read_bytes()).hexdigest() for name in expected}; assert actual==expected; print(json.dumps(actual,indent=2))'",
+    "exit_code": 0,
+    "stdout": "{\n  \"DEPLOY_DRIVER.md\": \"ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5\",\n  \"libTSCANApiOnLinux.so\": \"11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b\",\n  \"libTSH.so\": \"e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b\",\n  \"LICENSE\": \"474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06\",\n  \"prepare_driver.py\": \"202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14\",\n  \"SOURCE.md\": \"ace582b049ee10e84820571c86e65215d0a75d63395ab0feb48417e3e6ef6006\",\n  \"tc1013-sdk-manifest.json\": \"891e9bcfee7625df43c4c3fe228201874609bfd9386e953667462fc4f208a7bd\"\n}\n",
+    "stderr": ""
+  },
+  "check": {
+    "command": "python3 /home/zh/.local/lib/tscan-thread-fix-20260926/prepare_driver.py --sdk-dir /home/zh/.local/lib/tscan-thread-fix-20260926 --check",
+    "exit_code": 0,
+    "stdout": "{\n  \"directory\": \"/home/zh/.local/lib/tscan-thread-fix-20260926\",\n  \"library_count\": 2,\n  \"libraries\": [\n    \"libTSCANApiOnLinux.so\",\n    \"libTSH.so\"\n  ],\n  \"passed\": true,\n  \"hardware_tested\": false\n}\n",
+    "stderr": ""
+  },
+  "connect_probe": {
+    "command": "python3 /home/zh/tc1013-diagnostics-20260926/sdk_connect_probe.py --driver-dir /home/zh/.local/lib/tscan-thread-fix-20260926",
+    "exit_code": 0,
+    "stdout": "{\"stage\": \"begin\", \"driver_directory\": \"/home/zh/.local/lib/tscan-thread-fix-20260926\", \"can_frames_transmitted\": 0, \"realtime_priority_limit\": [80, 80]}\n{\"stage\": \"loaded\"}\n{\"stage\": \"initialized\"}\n{\"stage\": \"scan\", \"status\": 0, \"count\": 1}\n{\"stage\": \"device\", \"index\": 0, \"status\": 0, \"manufacturer\": \"TOSUN\", \"product\": \"TOSUN HS CANFD2\", \"serial\": \"37AFCA2612ADBF35\"}\n{\"stage\": \"connecting\", \"serial\": \"37AFCA2612ADBF35\"}\n{\"stage\": \"connected\", \"status\": 0, \"handle_nonzero\": true}\n{\"stage\": \"disconnecting\"}\n{\"stage\": \"disconnected\", \"status\": 0}\n{\"stage\": \"finalizing\"}\n{\"stage\": \"finalized\"}\n",
+    "stderr": ""
+  },
+  "host": "192.168.219.195",
+  "remote_directory": "/home/zh/.local/lib/tscan-thread-fix-20260926",
+  "default_sdk_replaced": false,
+  "can_frames_transmitted": 0
+}

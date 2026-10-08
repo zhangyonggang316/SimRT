@@ -1,0 +1,22 @@
+{
+  "host": "192.168.193.195",
+  "passed": true,
+  "reboot_performed": false,
+  "backup": "/home/zh/.local/lib/simrt-console/simrt_console.py.before-network-mac-20261005-145153",
+  "sha256": "94057aca25b02e3226dc74227086985e99c7cd7abb1fc93465cf05eda1d0b63f",
+  "pane_before": "0|1591|120|33|0",
+  "pane_after": "0|34978|120|33|0",
+  "network_rows": [
+    "enp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)",
+    "enp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)",
+    "enp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)",
+    "wlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)",
+    "wlx7c3d09705041 [UP]: fe80::7e3d:9ff:fe70:5041/64 (7c:3d:09:70:50:41)"
+  ],
+  "dashboard_refreshing": true,
+  "model_pids_unchanged": true,
+  "model_pids": [
+    8741
+  ],
+  "font": "16x32"
+}

@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:06:52
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 10.7%  Memory: 30.5%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:10:35 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 635023 calls / 635023 completed
+Deadline misses: 7  Skipped periods: 74
+Task execution current/max: 4462 ns / 68714 ns
+Interval min/avg/max: 128334 / 1000116.564 / 26864611 ns
+Telemetry: live (1.0s old)
+-- LOG ------------------------------------------------------------------------
+09:06:43 STOPPED tls_baseline (PID 106943)
+* MAX_EVENT_CHANNEL: 128
+* MIN_DAQ:           0
+* Daq Key Byte:      0H

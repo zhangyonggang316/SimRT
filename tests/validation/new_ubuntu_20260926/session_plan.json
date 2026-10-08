@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-09-26T07:39:23Z",
+  "minimum_end_utc": "2026-09-26T10:39:23Z",
+  "minimum_duration_seconds": 10800,
+  "host": "192.168.219.195",
+  "user": "zh",
+  "reboot_authorized": false,
+  "reboot_note": "Latest user choice is no reboot; this supersedes earlier approval.",
+  "console_login": "automatic ordinary-user zh shell",
+  "verification_focus": [
+    "local monitor status dashboard and independent interactive shell",
+    "runtime telemetry correctness and bounded realtime overhead",
+    "local MATLAB build and matching ELF/A2L/manifest artifacts",
+    "SSH hash verification and target runtime prerequisites",
+    "long-running dashboard and telemetry resource stability"
+  ],
+  "pending_after_reboot": [
+    "PREEMPT_RT active kernel verification",
+    "strict 1 ms model runtime and CAN/CAN FD end-to-end acceptance",
+    "startup latency and console autostart verification"
+  ]
+}

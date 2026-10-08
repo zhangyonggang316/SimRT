@@ -1,0 +1,18 @@
+正在运行 tSimRTBuildWorkflow
+.......
+已完成 tSimRTBuildWorkflow
+__________
+
+正在运行 tSimRTLinuxTarget
+....警告: Toolchain MAT-file 'D:\05SimRT\simrt_linux_target\registry\simrt_portable_toolchain.mat' contains more than one element. It must contain a single scalar object of type coder.make.ToolchainInfo.
+> 位置：configureSimRTModel (第 20 行)
+位置: createSimRTExampleModel (第 75 行)
+位置: tSimRTLinuxTarget/hardwareTabOffersLocalBuild (第 80 行)
+.警告: Toolchain MAT-file 'D:\05SimRT\simrt_linux_target\registry\simrt_portable_toolchain.mat' contains more than one element. It must contain a single scalar object of type coder.make.ToolchainInfo.
+> 位置：configureSimRTModel (第 20 行)
+位置: createSimRTExampleModel (第 75 行)
+位置: tSimRTLinuxTarget/generatedModelHasDeploymentAndCalibrationSettings (第 109 行)
+..... .
+已完成 tSimRTLinuxTarget
+__________
+

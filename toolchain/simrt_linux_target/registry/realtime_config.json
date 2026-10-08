@@ -1,0 +1,4 @@
+{
+  "daq_reserved_blocks": 1024,
+  "xcp_reserved_pool_bytes": 1048576
+}

@@ -1,0 +1,28 @@
+{
+  "model": "simrt_rt_single",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\simrt_rt_single.slx",
+  "model_sha256": "ba01259b9b9d5da22ad7902fe94a06e53ed4cdcfea72dffc261791023279a86a",
+  "local_elf": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\deployment_cache\\db43679432acc894ca91cf4fd256ffae4b08d637bf7917ef63134343b7892228\\20261007_011239_986\\simrt_rt_single.elf",
+  "a2l": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\deployment_cache\\db43679432acc894ca91cf4fd256ffae4b08d637bf7917ef63134343b7892228\\20261007_011239_986\\simrt_rt_single.a2l",
+  "manifest": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\deployment_cache\\db43679432acc894ca91cf4fd256ffae4b08d637bf7917ef63134343b7892228\\20261007_011239_986\\simrt_rt_single.xcp-manifest.json",
+  "payload": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_local\\20261007_011239_986.zip",
+  "realtime_source": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\simrt_rt_single_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986\\simrt_rt_single_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "simrt_rt_single.elf",
+    "CodeGenerationDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw"
+  },
+  "elf_sha256": "fdfef3b52dfd923e92a4c9a96fe943db7efca759c1582787bfd819afa2729375",
+  "evidence_directory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261007_011239_986",
+  "remote_operations_performed": false,
+  "archive": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_local\\20261007_011239_986.zip",
+  "archive_sha256": "db43679432acc894ca91cf4fd256ffae4b08d637bf7917ef63134343b7892228"
+}

@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:11:01
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 21.0%  Memory: 30.8%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:14:44 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 884587 calls / 884587 completed
+Deadline misses: 11  Skipped periods: 145
+Task execution current/max: 1305 ns / 74763 ns
+Interval min/avg/max: 128334 / 1000163.907 / 30406848 ns
+Telemetry: live (0.8s old)
+-- LOG ------------------------------------------------------------------------
+09:09:25 STOPPED x280_canfd_loopback (PID 109138)
+SET_MTA: setting MTA value to 4174c0 and extension 0
+UPLOAD: reading at address 0x4174c0
+SET_MTA: setting MTA value to 4174c0 and extension 0

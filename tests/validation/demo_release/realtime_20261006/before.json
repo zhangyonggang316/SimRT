@@ -1,0 +1,342 @@
+{
+  "kernel": "7.0.0-34-realtime",
+  "boot_id": "e502b03e-5cf3-476d-8a76-f8cb04f5f3a9",
+  "uptime": "59426.74 205077.12",
+  "cpus": [
+    {
+      "cpu": "cpu0",
+      "values": {
+        "online": null,
+        "topology/core_id": "0",
+        "topology/physical_package_id": "0",
+        "topology/thread_siblings_list": "0-1",
+        "cpufreq/scaling_governor": null,
+        "cpufreq/scaling_cur_freq": null,
+        "idle": [
+          {
+            "state": "state0",
+            "name": "POLL",
+            "latency": "0",
+            "disable": "0",
+            "usage": "18764338",
+            "time": "360397898"
+          },
+          {
+            "state": "state1",
+            "name": "C1E",
+            "latency": "10",
+            "disable": "0",
+            "usage": "424993604",
+            "time": "42829881507"
+          }
+        ]
+      }
+    },
+    {
+      "cpu": "cpu1",
+      "values": {
+        "online": "1",
+        "topology/core_id": "0",
+        "topology/physical_package_id": "0",
+        "topology/thread_siblings_list": "0-1",
+        "cpufreq/scaling_governor": null,
+        "cpufreq/scaling_cur_freq": null,
+        "idle": [
+          {
+            "state": "state0",
+            "name": "POLL",
+            "latency": "0",
+            "disable": "0",
+            "usage": "18883064",
+            "time": "363421385"
+          },
+          {
+            "state": "state1",
+            "name": "C1E",
+            "latency": "10",
+            "disable": "0",
+            "usage": "424622748",
+            "time": "42838285540"
+          }
+        ]
+      }
+    },
+    {
+      "cpu": "cpu2",
+      "values": {
+        "online": "1",
+        "topology/core_id": "1",
+        "topology/physical_package_id": "0",
+        "topology/thread_siblings_list": "2-3",
+        "cpufreq/scaling_governor": null,
+        "cpufreq/scaling_cur_freq": null,
+        "idle": [
+          {
+            "state": "state0",
+            "name": "POLL",
+            "latency": "0",
+            "disable": "0",
+            "usage": "699968",
+            "time": "14476841"
+          },
+          {
+            "state": "state1",
+            "name": "C1E",
+            "latency": "10",
+            "disable": "0",
+            "usage": "30866334",
+            "time": "57250935907"
+          }
+        ]
+      }
+    },
+    {
+      "cpu": "cpu3",
+      "values": {
+        "online": "1",
+        "topology/core_id": "1",
+        "topology/physical_package_id": "0",
+        "topology/thread_siblings_list": "2-3",
+        "cpufreq/scaling_governor": null,
+        "cpufreq/scaling_cur_freq": null,
+        "idle": [
+          {
+            "state": "state0",
+            "name": "POLL",
+            "latency": "0",
+            "disable": "0",
+            "usage": "1884545",
+            "time": "34688987"
+          },
+          {
+            "state": "state1",
+            "name": "C1E",
+            "latency": "10",
+            "disable": "0",
+            "usage": "136948062",
+            "time": "54937437733"
+          }
+        ]
+      }
+    }
+  ],
+  "processes": [
+    {
+      "pid": 1713,
+      "exe": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf",
+      "arguments": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf ",
+      "threads": [
+        {
+          "tid": 1713,
+          "name": "x280_rt_single.",
+          "policy": 0,
+          "priority": 0,
+          "affinity": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "schedstat": "10762517187937 144743099127 431444349",
+          "status": "Name:\tx280_rt_single.\nUmask:\t0002\nState:\tS (sleeping)\nTgid:\t1713\nNgid:\t0\nPid:\t1713\nPPid:\t1\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 100 101 1000 \nNStgid:\t1713\nNSpid:\t1713\nNSpgid:\t1713\nNSsid:\t1713\nKthread:\t0\nVmPeak:\t  141160 kB\nVmSize:\t   75624 kB\nVmLck:\t   75588 kB\nVmPin:\t       0 kB\nVmHWM:\t   10196 kB\nVmRSS:\t   10196 kB\nRssAnon:\t    3804 kB\nRssFile:\t    6392 kB\nRssShmem:\t       0 kB\nVmData:\t    3564 kB\nVmStk:\t     132 kB\nVmExe:\t      48 kB\nVmLib:\t    4004 kB\nVmPTE:\t      60 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t0\nuntag_mask:\t0xffffffffffffffff\nThreads:\t3\nSigQ:\t0/6354\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100004007\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tnot vulnerable\nSpeculationIndirectBranch:\tnot affected\nCpus_allowed:\tf\nCpus_allowed_list:\t0-3\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t431099806\nnonvoluntary_ctxt_switches:\t385609\nx86_Thread_features:\t\nx86_Thread_features_locked:"
+        },
+        {
+          "tid": 1714,
+          "name": "x280_rt_single.",
+          "policy": 0,
+          "priority": 0,
+          "affinity": [
+            0,
+            1,
+            2
+          ],
+          "schedstat": "54872926318 2271885229 97382",
+          "status": "Name:\tx280_rt_single.\nUmask:\t0002\nState:\tS (sleeping)\nTgid:\t1713\nNgid:\t0\nPid:\t1714\nPPid:\t1\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 100 101 1000 \nNStgid:\t1713\nNSpid:\t1714\nNSpgid:\t1713\nNSsid:\t1713\nKthread:\t0\nVmPeak:\t  141160 kB\nVmSize:\t   75624 kB\nVmLck:\t   75588 kB\nVmPin:\t       0 kB\nVmHWM:\t   10196 kB\nVmRSS:\t   10196 kB\nRssAnon:\t    3804 kB\nRssFile:\t    6392 kB\nRssShmem:\t       0 kB\nVmData:\t    3564 kB\nVmStk:\t     132 kB\nVmExe:\t      48 kB\nVmLib:\t    4004 kB\nVmPTE:\t      60 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t0\nuntag_mask:\t0xffffffffffffffff\nThreads:\t3\nSigQ:\t0/6354\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100004007\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tnot vulnerable\nSpeculationIndirectBranch:\tnot affected\nCpus_allowed:\t7\nCpus_allowed_list:\t0-2\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t70367\nnonvoluntary_ctxt_switches:\t27113\nx86_Thread_features:\t\nx86_Thread_features_locked:"
+        },
+        {
+          "tid": 1715,
+          "name": "x280_rt_single.",
+          "policy": 1,
+          "priority": 40,
+          "affinity": [
+            3
+          ],
+          "schedstat": "636827065820 1655332484 59385204",
+          "status": "Name:\tx280_rt_single.\nUmask:\t0002\nState:\tS (sleeping)\nTgid:\t1713\nNgid:\t0\nPid:\t1715\nPPid:\t1\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 100 101 1000 \nNStgid:\t1713\nNSpid:\t1715\nNSpgid:\t1713\nNSsid:\t1713\nKthread:\t0\nVmPeak:\t  141160 kB\nVmSize:\t   75624 kB\nVmLck:\t   75588 kB\nVmPin:\t       0 kB\nVmHWM:\t   10196 kB\nVmRSS:\t   10196 kB\nRssAnon:\t    3804 kB\nRssFile:\t    6392 kB\nRssShmem:\t       0 kB\nVmData:\t    3564 kB\nVmStk:\t     132 kB\nVmExe:\t      48 kB\nVmLib:\t    4004 kB\nVmPTE:\t      60 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t0\nuntag_mask:\t0xffffffffffffffff\nThreads:\t3\nSigQ:\t0/6354\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100004007\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tnot vulnerable\nSpeculationIndirectBranch:\tnot affected\nCpus_allowed:\t8\nCpus_allowed_list:\t3\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t59383073\nnonvoluntary_ctxt_switches:\t2306\nx86_Thread_features:\t\nx86_Thread_features_locked:"
+        }
+      ],
+      "status": "Name:\tx280_rt_single.\nUmask:\t0002\nState:\tS (sleeping)\nTgid:\t1713\nNgid:\t0\nPid:\t1713\nPPid:\t1\nTracerPid:\t0\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 100 101 1000 \nNStgid:\t1713\nNSpid:\t1713\nNSpgid:\t1713\nNSsid:\t1713\nKthread:\t0\nVmPeak:\t  141160 kB\nVmSize:\t   75624 kB\nVmLck:\t   75588 kB\nVmPin:\t       0 kB\nVmHWM:\t   10196 kB\nVmRSS:\t   10196 kB\nRssAnon:\t    3804 kB\nRssFile:\t    6392 kB\nRssShmem:\t       0 kB\nVmData:\t    3564 kB\nVmStk:\t     132 kB\nVmExe:\t      48 kB\nVmLib:\t    4004 kB\nVmPTE:\t      60 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t0\nuntag_mask:\t0xffffffffffffffff\nThreads:\t3\nSigQ:\t0/6354\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100004007\nCapInh:\t0000000000000000\nCapPrm:\t0000000000000000\nCapEff:\t0000000000000000\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tnot vulnerable\nSpeculationIndirectBranch:\tnot affected\nCpus_allowed:\tf\nCpus_allowed_list:\t0-3\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t431099828\nnonvoluntary_ctxt_switches:\t385611\nx86_Thread_features:\t\nx86_Thread_features_locked:",
+      "limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             6354                 6354                 processes \nMax open files            1024                 524288               files     \nMax locked memory         1073741824           1073741824           bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       6354                 6354                 signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     80                   80                   \nMax realtime timeout      unlimited            unlimited            us",
+      "telemetry": "{\"schema_version\":1,\"event\":\"simrt_status\",\"model\":\"x280_rt_single\",\"pid\":1713,\"state\":\"RUNNING\",\"updated_unix_ns\":1791245877626130885,\"sample_monotonic_ns\":59426346629163,\"elapsed_ns\":59382787024381,\"period_ns\":1000000,\"cpu\":3,\"priority\":40,\"realtime_kernel\":true,\"memory_locked\":true,\"stop_time_seconds\":null,\"model_step_calls\":59382700,\"model_step_completed_calls\":59382700,\"model_step_interval_min_ns\":98766,\"model_step_interval_mean_ns\":1000001.482,\"model_step_interval_max_ns\":23832695,\"model_step_execution_current_ns\":1777,\"model_step_execution_max_ns\":282314,\"deadline_misses\":4,\"skipped_releases\":88}",
+      "marker": "{\"pid\": 1713, \"start_time\": \"4353\", \"elf_path\": \"/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf\", \"uid\": 1000, \"token\": \"7cc3135d574b4b17b0e5e3de0d8e09c6\"}"
+    }
+  ],
+  "irqs": [
+    {
+      "irq": "0",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "1",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "10",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "11",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "12",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "13",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "14",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "15",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "16",
+      "affinity": "0-3",
+      "effective": "1"
+    },
+    {
+      "irq": "18",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "19",
+      "affinity": "0-3",
+      "effective": "3"
+    },
+    {
+      "irq": "2",
+      "affinity": "0-3",
+      "effective": ""
+    },
+    {
+      "irq": "23",
+      "affinity": "0-3",
+      "effective": "2"
+    },
+    {
+      "irq": "24",
+      "affinity": "0-3",
+      "effective": "3"
+    },
+    {
+      "irq": "25",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "26",
+      "affinity": "0-3",
+      "effective": "1"
+    },
+    {
+      "irq": "27",
+      "affinity": "0-3",
+      "effective": "2"
+    },
+    {
+      "irq": "28",
+      "affinity": "0-3",
+      "effective": "3"
+    },
+    {
+      "irq": "29",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "3",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "4",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "5",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "6",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "7",
+      "affinity": "0-3",
+      "effective": "0"
+    },
+    {
+      "irq": "8",
+      "affinity": "0-3",
+      "effective": "2"
+    },
+    {
+      "irq": "9",
+      "affinity": "0-3",
+      "effective": "1"
+    }
+  ],
+  "interrupts": "CPU0       CPU1       CPU2       CPU3       \n  0:        240          0          0          0  IO-APIC   2-edge      timer\n  8:          0          0          1          0  IO-APIC   8-edge      rtc0\n  9:          0          0          0          0  IO-APIC   9-fasteoi   acpi\n 16:          0          0          0          0  IO-APIC  16-fasteoi   uhci_hcd:usb5\n 18:          0          0          0          0  IO-APIC  18-fasteoi   uhci_hcd:usb4\n 19:          0          0          0          8  IO-APIC  19-fasteoi   uhci_hcd:usb3, i801_smbus\n 23:          0          0   11197947          0  IO-APIC  23-fasteoi   ehci_hcd:usb1, uhci_hcd:usb2\n 24:          0          0          0     132478 PCI-MSI-0000:00:1f.2   0-edge      ahci[0000:00:1f.2]\n 25:      29701          0          0          0 PCI-MSI-0000:01:00.0   0-edge      enp1s0\n 26:          0          2          0          0 PCI-MSI-0000:00:02.0   0-edge      gma500\n 27:          0          0      29701          0 PCI-MSI-0000:03:00.0   0-edge      enp3s0\n 28:          0          0          0      29701 PCI-MSI-0000:04:00.0   0-edge      enp4s0\n 29:        521          0          0          0 PCI-MSI-0000:00:1b.0   0-edge      snd_hda_intel:card0\nNMI:      15397      15391       1993       4181   Non-maskable interrupts\nLOC:  250180601  250477825   12431727  126192647   Local timer interrupts\nSPU:          0          0          0          0   Spurious interrupts\nPMI:      15397      15391       1993       4181   Performance monitoring interrupts\nIWI:     641949     603216     142863     102572   IRQ work interrupts\nRTR:          0          0          0          0   APIC ICR read retries\nRES:     610611     603892     106369     362759   Rescheduling interrupts\nCAL:    1879996    1741303     127035      19889   Function call interrupts\nTLB:       1620       1311       1301       1522   TLB shootdowns\nTRM:          0          0          0          0   Thermal event interrupts\nTHR:          0          0          0          0   Threshold APIC interrupts\nDFR:          0          0          0          0   Deferred Error APIC interrupts\nMCE:          0          0          0          0   Machine check exceptions\nMCP:        182        182        182        182   Machine check polls\nERR:          0\nMIS:          0\nPIN:          0          0          0          0   Posted-interrupt notification event\nNPI:          0          0          0          0   Nested posted-interrupt event\nPIW:          0          0          0          0   Posted-interrupt wakeup event\nVPMI:          0          0          0          0  Perf Guest Mediated PMI",
+  "softirqs": "CPU0       CPU1       CPU2       CPU3       \n          HI:          1          0          1          2\n       TIMER:     343085     275896     376755    1045338\n      NET_TX:          1          0          2          0\n      NET_RX:      29876        200      29752      29829\n       BLOCK:         24         55        137     132492\n    IRQ_POLL:          0          0          0          0\n     TASKLET:          0         35   10015185         63\n       SCHED:   20745714   19949121    4826727   10089132\n     HRTIMER:  207979362  208086670    8341716    7598015\n         RCU:          0          0          0          0",
+  "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+  "isolated": "",
+  "nohz_full": "",
+  "clocksource": "tsc",
+  "cpuidle_driver": "intel_idle",
+  "rt_period": "1000000",
+  "rt_runtime": "950000",
+  "irqbalance": {
+    "code": 0,
+    "stdout": "ActiveState=inactive\nUnitFileState=\n",
+    "stderr": ""
+  },
+  "all_threads": {
+    "code": 0,
+    "stdout": "    PID     TID CLS RTPRIO PSR %CPU COMMAND\n  15747   15747  TS      -   1  200 ps\n  15744   15744  TS      -   0 79.4 python3\n   1713    1713  TS      -   3 19.2 x280_rt_single.\n  15745   15745  TS      -   3  8.0 sftp-server\n  15741   15741  TS      -   0  6.8 sudo\n     41      41  FF      1   1  3.0 ktimers/1\n     15      15  FF      1   0  3.0 ktimers/0\n  15483   15483  TS      -   2  2.8 python3\n  15642   15642  TS      -   0  1.8 sshd-session\n  15739   15739  TS      -   3  1.7 sshd-session\n  15621   15621  TS      -   3  1.3 sshd-session\n  15700   15700  TS      -   0  0.7 sshd-session\n     14      14  TS      -   0  0.4 ksoftirqd/0\n     42      42  TS      -   1  0.4 ksoftirqd/1\n     12      12  TS      -   3  0.2 kworker/u16:0-phy0\n     51      51  TS      -   3  0.2 ksoftirqd/3\n    103     103  FF     50   2  0.1 irq/23-ehci_hcd:usb1\n    105     105  FF     50   2  0.1 irq/23-uhci_hcd:usb2\n     32      32  FF      1   2  0.1 ktimers/2\n     50      50  FF      1   3  0.1 ktimers/3\n     33      33  TS      -   2  0.0 ksoftirqd/2\n  12422   12422  TS      -   3  0.0 kworker/3:2-inode_switch_wbs\n   1664    1664  TS      -   3  0.0 tmux: server\n  15227   15227  TS      -   3  0.0 kworker/u18:2-mt7601u\n      1       1  TS      -   1  0.0 systemd\n   6963    6963  TS      -   3  0.0 kworker/u18:1-events_unbound\n  10621   10621  TS      -   2  0.0 kworker/u18:3-flush-252:0\n   2820    2820  TS      -   1  0.0 fwupd\n    976     976  TS      -   3  0.0 snapd\n    463     463  TS      -   2  0.0 jbd2/dm-0-8\n     17      17  FF      1   3  0.0 rcu_preempt\n    602     602  RR     10   3  0.0 multipathd\n  14857   14857  TS      -   3  0.0 kworker/3:0-events\n    964     964  TS      -   3  0.0 dbus-daemon\n     40      40  FF      1   1  0.0 rcuc/1\n     20      20  FF      1   0  0.0 rcuc/0\n     31      31  FF      1   2  0.0 rcuc/2\n    563     563  TS      -   3  0.0 systemd-journal\n    335     335  FF     50   3  0.0 irq/24-ahci[0000:00:1f.2]\n   1030    1030  TS      -   1  0.0 polkitd\n    618     618  TS      -   0  0.0 systemd-udevd\n  14188   14188  TS      -   0  0.0 kworker/0:2-cgroup_free\n     66      66  TS      -   2  0.0 kcompactd0\n     49      49  FF      1   3  0.0 rcuc/3\n    980     980  TS      -   3  0.0 udisksd\n   1403    1403  TS      -   2  0.0 systemd\n  10906   10906  TS      -   1  0.0 kworker/u17:1-events_unbound\n    978     978  TS      -   2  0.0 systemd-logind\n   4608    4608  TS      -   1  0.0 kworker/1:1-mm_percpu_wq\n  10526   10526  TS      -   1  0.0 kworker/u17:3-kvfree_rcu_reclaim\n  13816   13816  TS      -   2  0.0 kworker/2:0-events_power_efficient\n    972     972  TS      -   2  0.0 networkd-dispat\n   1396    1396  TS      -   2  0.0 unattended-upgr\n    608     608  TS      -   2  0.0 systemd-resolve\n    939     939  TS      -   3  0.0 systemd-network\n   1096    1096  TS      -   1  0.0 rsyslogd\n     90      90  TS      -   3  0.0 kworker/3:1H-kblockd\n   1391    1391  TS      -   0  0.0 wpa_supplicant\n   2829    2829  TS      -   1  0.0 upowerd\n     30      30  FF     99   2  0.0 migration/2\n   1005    1005  TS      -   2  0.0 wpa_supplicant\n   1390    1390  FF     50   2  0.0 irq/27-enp3s0\n   1047    1047  TS      -   3  0.0 chronyd\n     89      89  TS      -   2  0.0 kworker/2:1H-kblockd\n   1477    1477  TS      -   3  0.0 sshd\n   1312    1312  FF     50   0  0.0 irq/25-enp1s0\n   1370    1370  FF     50   3  0.0 irq/28-enp4s0\n   1620    1620  TS      -   0  0.0 bash\n    963     963  TS      -   0  0.0 chronyd-starter\n     16      16  TS      -   3  0.0 pr/legacy\n   1393    1393  TS      -   1  0.0 cron\n     22      22  FF     99   0  0.0 migration/0\n     39      39  FF     99   1  0.0 migration/1\n  14606   14606  TS      -   0  0.0 kworker/0:1-events\n   1421    1421  TS      -   3  0.0 login\n     48      48  FF     99   3  0.0 migration/3\n   1667    1667  TS      -   0  0.0 dbus-daemon\n   1049    1049  TS      -   0  0.0 chronyd\n     61      61  TS      -   1  0.0 khungtaskd\n     47      47  FF      1   3  0.0 irq_work/3\n     29      29  FF      1   2  0.0 irq_work/2\n    101     101  TS      -   0  0.0 kworker/0:1H-kblockd\n      2       2  TS      -   3  0.0 kthreadd\n   1655    1655  TS      -   0  0.0 tmux: client\n    102     102  TS      -   1  0.0 kworker/1:1H-kblockd\n     38      38  FF      1   1  0.0 irq_work/1\n     24      24  FF      1   0  0.0 irq_work/0\n   1062    1062  FF     50   0  0.0 irq/29-snd_hda_intel:card0\n     56      56  TS      -   0  0.0 kdevtmpfs\n      3       3  TS      -   0  0.0 pool_workqueue_release\n      4       4  TS      -   0  0.0 kworker/R-rcu_gp\n      5       5  TS      -   0  0.0 kworker/R-sync_wq\n      6       6  TS      -   0  0.0 kworker/R-kvfree_rcu_reclaim\n      7       7  TS      -   0  0.0 kworker/R-slub_flushwq\n      8       8  TS      -   0  0.0 kworker/R-netns\n     11      11  TS      -   0  0.0 kworker/0:0H-events_highpri\n     13      13  TS      -   0  0.0 kworker/R-mm_percpu_wq\n     18      18  FF      1   0  0.0 rcub/0\n     19      19  TS      -   0  0.0 rcu_exp_par_gp_kthread_worker/0\n     21      21  TS      -   0  0.0 rcu_exp_gp_kthread_worker\n     23      23  TS      -   0  0.0 kprobe-optimizer\n     25      25  FF     50   0  0.0 idle_inject/0\n     26      26  TS      -   0  0.0 cpuhp/0\n     27      27  TS      -   2  0.0 cpuhp/2\n     28      28  FF     50   2  0.0 idle_inject/2\n     35      35  TS      -   2  0.0 kworker/2:0H-events_highpri\n     36      36  TS      -   1  0.0 cpuhp/1\n     37      37  FF     50   1  0.0 idle_inject/1\n     44      44  TS      -   1  0.0 kworker/1:0H-events_highpri\n     45      45  TS      -   3  0.0 cpuhp/3\n     46      46  FF     50   3  0.0 idle_inject/3\n     53      53  TS      -   3  0.0 kworker/3:0H-events_highpri\n     57      57  TS      -   2  0.0 kworker/R-inet_frag_wq\n     58      58  TS      -   3  0.0 rcu_tasks_kthread\n     59      59  TS      -   3  0.0 rcu_tasks_rude_kthread\n     60      60  TS      -   1  0.0 kauditd\n     63      63  TS      -   0  0.0 oom_reaper\n     65      65  TS      -   0  0.0 kworker/R-writeback\n     67      67  TS      -   0  0.0 ksmd\n     68      68  TS      -   0  0.0 kworker/R-kblockd\n     69      69  TS      -   0  0.0 kworker/R-blkcg_punt_bio\n     70      70  TS      -   0  0.0 kworker/R-kintegrityd\n     72      72  FF     50   1  0.0 irq/9-acpi\n     74      74  TS      -   1  0.0 kworker/R-tpm_dev_wq\n     75      75  TS      -   0  0.0 kworker/R-ata_sff\n     76      76  TS      -   0  0.0 kworker/R-md_bitmap\n     77      77  TS      -   0  0.0 kworker/R-md_llbitmap_io\n     78      78  TS      -   0  0.0 kworker/R-md_llbitmap_unplug\n     79      79  TS      -   0  0.0 kworker/R-edac-poller\n     81      81  TS      -   1  0.0 kworker/R-devfreq_wq\n     82      82  TS      -   0  0.0 backlog_napi/0\n     83      83  TS      -   1  0.0 backlog_napi/1\n     84      84  TS      -   2  0.0 backlog_napi/2\n     85      85  TS      -   3  0.0 backlog_napi/3\n     87      87  FF     50   2  0.0 watchdogd\n     88      88  TS      -   1  0.0 kworker/R-quota_events_unbound\n     91      91  TS      -   0  0.0 kswapd0\n     92      92  TS      -   0  0.0 ecryptfs-kthread\n     93      93  TS      -   0  0.0 kworker/R-kthrotld\n     94      94  TS      -   0  0.0 kworker/R-acpi_thermal_pm\n    106     106  FF     50   3  0.0 irq/19-uhci_hcd:usb3\n    107     107  FF     50   0  0.0 irq/18-uhci_hcd:usb4\n    108     108  FF     50   1  0.0 irq/16-uhci_hcd:usb5\n    110     110  FF     50   2  0.0 irq/8-rtc0\n    111     111  TS      -   1  0.0 kworker/R-mld\n    112     112  TS      -   0  0.0 kworker/R-ipv6_addrconf\n    113     113  TS      -   1  0.0 kworker/R-kstrp\n    116     116  TS      -   2  0.0 kworker/u19:0\n    117     117  TS      -   2  0.0 kworker/u20:0\n    118     118  TS      -   2  0.0 kworker/u21:0\n    130     130  TS      -   0  0.0 kworker/R-charger_manager\n    336     336  TS      -   2  0.0 scsi_eh_0\n    337     337  TS      -   1  0.0 kworker/R-scsi_tmf_0\n    338     338  TS      -   2  0.0 scsi_eh_1\n    339     339  TS      -   2  0.0 kworker/R-scsi_tmf_1\n    340     340  TS      -   1  0.0 scsi_eh_2\n    341     341  TS      -   1  0.0 kworker/R-scsi_tmf_2\n    342     342  TS      -   1  0.0 scsi_eh_3\n    343     343  TS      -   1  0.0 kworker/R-scsi_tmf_3\n    428     428  TS      -   1  0.0 kworker/R-kdmflush/252:0\n    464     464  TS      -   3  0.0 kworker/R-ext4-rsv-conversion\n    557     557  FF      1   3  0.0 psimon\n    581     581  TS      -   1  0.0 kworker/R-kmpathd\n    583     583  TS      -   2  0.0 kworker/R-kmpath_handlerd\n    636     636  FF      1   2  0.0 psimon\n    720     720  TS      -   2  0.0 jbd2/sda2-8\n    721     721  TS      -   3  0.0 kworker/R-ext4-rsv-conversion\n    969     969  FF     50   1  0.0 card0-crtc0\n    970     970  FF     50   1  0.0 card0-crtc1\n    971     971  FF     50   1  0.0 irq/26-gma500\n    987     987  TS      -   1  0.0 kworker/R-cfg80211\n   1138    1138  FF     50   3  0.0 irq/19-i801_smbus\n   1408    1408  TS      -   2  0.0 (sd-pam)\n  15081   15081  TS      -   2  0.0 kworker/u16:1-ipv6_addrconf\n  15159   15159  TS      -   2  0.0 kworker/u16:2-ipv6_addrconf\n  15228   15228  TS      -   2  0.0 kworker/2:1-cgroup_free\n  15359   15359  TS      -   0  0.0 kworker/u17:0-events_unbound\n  15365   15365  TS      -   1  0.0 kworker/1:0\n  15567   15567  TS      -   3  0.0 kworker/3:1\n",
+    "stderr": ""
+  },
+  "power": {
+    "code": 0,
+    "stdout": "crw------- 1 root root 10, 260 Oct  5 15:47 /dev/cpu_dma_latency\n",
+    "stderr": ""
+  },
+  "systemd_affinity": {
+    "code": 0,
+    "stdout": "EffectiveCPUs=\nAllowedCPUs=\n\nEffectiveCPUs=\nAllowedCPUs=\n",
+    "stderr": ""
+  },
+  "kernel_messages": {
+    "code": 0,
+    "stdout": "_initcall+0x59/0x350\n[   26.603083]  do_init_module+0x8b/0x290\n[   26.603102]  load_module+0x855/0x960\n[   26.603119]  init_module_from_file+0xfb/0x180\n[   26.603141]  idempotent_init_module+0x10e/0x300\n[   26.603160]  __x64_sys_finit_module+0x73/0xf0\n[   26.603174]  x64_sys_call+0xe2e/0x2390\n[   26.603187]  do_syscall_64+0x105/0x5a0\n[   26.603204]  ? irqentry_exit+0x98/0x6f0\n[   26.603215]  ? wake_up_process+0x15/0x30\n[   26.603231]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.603291]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.603307] RIP: 0033:0x7cf013fd4acd\n[   26.603320] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.603329] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.603340] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.603348] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.603354] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.603362] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.603368] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.603384]  </TASK>\n[   26.603390] ---[ end trace 0000000000000000 ]---\n[   26.603549] ------------[ cut here ]------------\n[   26.603562] WARNING: drivers/net/wireless/mediatek/mt7601u/eeprom.h:118 at mt7601u_set_power_rate+0x21/0x50 [mt7601u], CPU#3: (udev-worker)/908\n[   26.603650] Modules linked in: mt7601u(+) intel_powerclamp coretemp mac80211 i2c_i801 i2c_smbus i2c_mux libarc4 snd_hda_codec_hdmi snd_hda_codec_alc662 snd_hda_codec_realtek_lib snd_hda_codec_generic snd_hda_intel snd_hda_codec lpc_ich snd_hda_core snd_intel_dspcfg snd_intel_sdw_acpi nfnetlink snd_hwdep cfg80211 snd_pcm snd_timer gma500_gfx e1000e i2c_algo_bit snd soundcore binfmt_misc nls_iso8859_1 mac_hid sch_fq_codel efi_pstore dm_multipath ahci video wmi libahci dm_mirror dm_region_hash dm_log msr dmi_sysfs autofs4\n[   26.603797] CPU: 3 UID: 0 PID: 908 Comm: (udev-worker) Tainted: G        W           7.0.0-34-realtime #34.1-Ubuntu PREEMPT_{RT,LAZY} \n[   26.603812] Tainted: [W]=WARN\n[   26.603817] Hardware name: To be filled by O.E.M. To be filled by O.E.M./Tiger Hill, BIOS 4.6.5.1/0.14 07/31/2014\n[   26.603825] RIP: 0010:mt7601u_set_power_rate+0x21/0x50 [mt7601u]\n[   26.603894] Code: 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 80 fa ff 74 2a 80 fa 3f 76 02 0f 0b 89 d0 83 e0 3f 88 07 80 fa 3f 76 02 <0f> 0b 0f b6 c8 83 c8 c0 80 e2 20 0f 44 c1 01 c6 88 47 01 40 88 77\n[   26.603904] RSP: 0000:ffffcf7380bb3850 EFLAGS: 00010292\n[   26.603914] RAX: 0000000000000034 RBX: 0000000000000002 RCX: 0000000000000000\n[   26.603921] RDX: 00000000000000f4 RSI: 0000000000000002 RDI: ffff8d344850cc51\n[   26.603927] RBP: ffffcf7380bb3850 R08: 0000000000000000 R09: 0000000000000000\n[   26.603934] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d344850cc28\n[   26.603940] R13: 00000000f4f4f4f4 R14: ffff8d344a146600 R15: 0000000000000001\n[   26.603948] FS:  00007cf01363ec80(0000) GS:ffff8d3523f78000(0000) knlGS:0000000000000000\n[   26.603957] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   26.603964] CR2: 000063885a7eed80 CR3: 000000007bd94000 CR4: 00000000000006f0\n[   26.603972] Call Trace:\n[   26.603979]  <TASK>\n[   26.603989]  mt7601u_config_tx_power_per_rate+0x11c/0x1d4 [mt7601u]\n[   26.604059]  mt7601u_eeprom_init.cold+0x1e2/0x3ff [mt7601u]\n[   26.604126]  mt7601u_init_hardware+0x4c5/0x5c0 [mt7601u]\n[   26.604192]  mt7601u_probe+0x29e/0x3d0 [mt7601u]\n[   26.604306]  ? __pm_runtime_set_status+0x294/0x320\n[   26.604327]  ? rt_spin_unlock+0x69/0xc0\n[   26.604348]  usb_probe_interface+0xeb/0x2e0\n[   26.604369]  call_driver_probe+0x2b/0x150\n[   26.604383]  ? driver_sysfs_add+0x63/0xd0\n[   26.604395]  really_probe+0xe7/0x2f0\n[   26.604410]  __driver_probe_device+0x9e/0x1c0\n[   26.604425]  driver_probe_device+0x24/0xd0\n[   26.604441]  ? __pfx___driver_attach+0x10/0x10\n[   26.604453]  __driver_attach+0xef/0x250\n[   26.604464]  ? klist_next+0xa8/0x190\n[   26.604480]  bus_for_each_dev+0x8a/0xe0\n[   26.604494]  driver_attach+0x1e/0x30\n[   26.604508]  bus_add_driver+0x14e/0x240\n[   26.604527]  driver_register+0x75/0xf0\n[   26.604543]  usb_register_driver+0xa5/0x150\n[   26.604559]  ? __pfx_mt7601u_driver_init+0x10/0x10 [mt7601u]\n[   26.604628]  mt7601u_driver_init+0x23/0xff0 [mt7601u]\n[   26.604688]  do_one_initcall+0x59/0x350\n[   26.604712]  do_init_module+0x8b/0x290\n[   26.604732]  load_module+0x855/0x960\n[   26.604750]  init_module_from_file+0xfb/0x180\n[   26.604773]  idempotent_init_module+0x10e/0x300\n[   26.604791]  __x64_sys_finit_module+0x73/0xf0\n[   26.604805]  x64_sys_call+0xe2e/0x2390\n[   26.604820]  do_syscall_64+0x105/0x5a0\n[   26.604836]  ? irqentry_exit+0x98/0x6f0\n[   26.604848]  ? wake_up_process+0x15/0x30\n[   26.604866]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.604882]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.604895] RIP: 0033:0x7cf013fd4acd\n[   26.604907] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.604917] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.604930] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.604938] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.604945] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.604953] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.604960] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.604976]  </TASK>\n[   26.604983] ---[ end trace 0000000000000000 ]---\n[   26.608411] ------------[ cut here ]------------\n[   26.608422] WARNING: drivers/net/wireless/mediatek/mt7601u/eeprom.h:118 at mt7601u_set_power_rate+0x13/0x50 [mt7601u], CPU#2: (udev-worker)/908\n[   26.608497] Modules linked in: mt7601u(+) intel_powerclamp coretemp mac80211 i2c_i801 i2c_smbus i2c_mux libarc4 snd_hda_codec_hdmi snd_hda_codec_alc662 snd_hda_codec_realtek_lib snd_hda_codec_generic snd_hda_intel snd_hda_codec lpc_ich snd_hda_core snd_intel_dspcfg snd_intel_sdw_acpi nfnetlink snd_hwdep cfg80211 snd_pcm snd_timer gma500_gfx e1000e i2c_algo_bit snd soundcore binfmt_misc nls_iso8859_1 mac_hid sch_fq_codel efi_pstore dm_multipath ahci video wmi libahci dm_mirror dm_region_hash dm_log msr dmi_sysfs autofs4\n[   26.608622] CPU: 2 UID: 0 PID: 908 Comm: (udev-worker) Tainted: G        W           7.0.0-34-realtime #34.1-Ubuntu PREEMPT_{RT,LAZY} \n[   26.608635] Tainted: [W]=WARN\n[   26.608638] Hardware name: To be filled by O.E.M. To be filled by O.E.M./Tiger Hill, BIOS 4.6.5.1/0.14 07/31/2014\n[   26.608645] RIP: 0010:mt7601u_set_power_rate+0x13/0x50 [mt7601u]\n[   26.608701] Code: 84 00 00 00 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 80 fa ff 74 2a 80 fa 3f 76 02 <0f> 0b 89 d0 83 e0 3f 88 07 80 fa 3f 76 02 0f 0b 0f b6 c8 83 c8 c0\n[   26.608709] RSP: 0000:ffffcf7380bb3850 EFLAGS: 00010292\n[   26.608717] RAX: ffff8d3449532f00 RBX: 0000000000000002 RCX: 0000000000000000\n[   26.608723] RDX: 00000000000000f4 RSI: 0000000000000002 RDI: ffff8d344850cc54\n[   26.608728] RBP: ffffcf7380bb3850 R08: 0000000000000000 R09: 0000000000000000\n[   26.608734] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d344850cc28\n[   26.608739] R13: 00000000f4f4f4f4 R14: ffff8d344a146600 R15: 0000000000000002\n[   26.608745] FS:  00007cf01363ec80(0000) GS:ffff8d3523ef8000(0000) knlGS:0000000000000000\n[   26.608752] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   26.608758] CR2: 00007732f27449c0 CR3: 000000007bd94000 CR4: 00000000000006f0\n[   26.608765] Call Trace:\n[   26.608771]  <TASK>\n[   26.608780]  mt7601u_config_tx_power_per_rate+0x12e/0x1d4 [mt7601u]\n[   26.608839]  mt7601u_eeprom_init.cold+0x1e2/0x3ff [mt7601u]\n[   26.608898]  mt7601u_init_hardware+0x4c5/0x5c0 [mt7601u]\n[   26.608955]  mt7601u_probe+0x29e/0x3d0 [mt7601u]\n[   26.609007]  ? __pm_runtime_set_status+0x294/0x320\n[   26.609022]  ? rt_spin_unlock+0x69/0xc0\n[   26.609040]  usb_probe_interface+0xeb/0x2e0\n[   26.609057]  call_driver_probe+0x2b/0x150\n[   26.609068]  ? driver_sysfs_add+0x63/0xd0\n[   26.609078]  really_probe+0xe7/0x2f0\n[   26.609091]  __driver_probe_device+0x9e/0x1c0\n[   26.609103]  driver_probe_device+0x24/0xd0\n[   26.609115]  ? __pfx___driver_attach+0x10/0x10\n[   26.609126]  __driver_attach+0xef/0x250\n[   26.609136]  ? klist_next+0xa8/0x190\n[   26.609149]  bus_for_each_dev+0x8a/0xe0\n[   26.609161]  driver_attach+0x1e/0x30\n[   26.609171]  bus_add_driver+0x14e/0x240\n[   26.609184]  driver_register+0x75/0xf0\n[   26.609197]  usb_register_driver+0xa5/0x150\n[   26.609209]  ? __pfx_mt7601u_driver_init+0x10/0x10 [mt7601u]\n[   26.609309]  mt7601u_driver_init+0x23/0xff0 [mt7601u]\n[   26.609367]  do_one_initcall+0x59/0x350\n[   26.609386]  do_init_module+0x8b/0x290\n[   26.609400]  load_module+0x855/0x960\n[   26.609414]  init_module_from_file+0xfb/0x180\n[   26.609432]  idempotent_init_module+0x10e/0x300\n[   26.609447]  __x64_sys_finit_module+0x73/0xf0\n[   26.609458]  x64_sys_call+0xe2e/0x2390\n[   26.609469]  do_syscall_64+0x105/0x5a0\n[   26.609482]  ? irqentry_exit+0x98/0x6f0\n[   26.609491]  ? wake_up_process+0x15/0x30\n[   26.609504]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.609516]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.609527] RIP: 0033:0x7cf013fd4acd\n[   26.609537] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.609544] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.609554] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.609560] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.609565] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.609571] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.609576] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.609590]  </TASK>\n[   26.609594] ---[ end trace 0000000000000000 ]---\n[   26.612571] ------------[ cut here ]------------\n[   26.612585] WARNING: drivers/net/wireless/mediatek/mt7601u/eeprom.h:118 at mt7601u_set_power_rate+0x21/0x50 [mt7601u], CPU#2: (udev-worker)/908\n[   26.612662] Modules linked in: mt7601u(+) intel_powerclamp coretemp mac80211 i2c_i801 i2c_smbus i2c_mux libarc4 snd_hda_codec_hdmi snd_hda_codec_alc662 snd_hda_codec_realtek_lib snd_hda_codec_generic snd_hda_intel snd_hda_codec lpc_ich snd_hda_core snd_intel_dspcfg snd_intel_sdw_acpi nfnetlink snd_hwdep cfg80211 snd_pcm snd_timer gma500_gfx e1000e i2c_algo_bit snd soundcore binfmt_misc nls_iso8859_1 mac_hid sch_fq_codel efi_pstore dm_multipath ahci video wmi libahci dm_mirror dm_region_hash dm_log msr dmi_sysfs autofs4\n[   26.612788] CPU: 2 UID: 0 PID: 908 Comm: (udev-worker) Tainted: G        W           7.0.0-34-realtime #34.1-Ubuntu PREEMPT_{RT,LAZY} \n[   26.612801] Tainted: [W]=WARN\n[   26.612804] Hardware name: To be filled by O.E.M. To be filled by O.E.M./Tiger Hill, BIOS 4.6.5.1/0.14 07/31/2014\n[   26.612811] RIP: 0010:mt7601u_set_power_rate+0x21/0x50 [mt7601u]\n[   26.612868] Code: 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 80 fa ff 74 2a 80 fa 3f 76 02 0f 0b 89 d0 83 e0 3f 88 07 80 fa 3f 76 02 <0f> 0b 0f b6 c8 83 c8 c0 80 e2 20 0f 44 c1 01 c6 88 47 01 40 88 77\n[   26.612875] RSP: 0000:ffffcf7380bb3850 EFLAGS: 00010292\n[   26.612883] RAX: 0000000000000034 RBX: 0000000000000002 RCX: 0000000000000000\n[   26.612889] RDX: 00000000000000f4 RSI: 0000000000000002 RDI: ffff8d344850cc54\n[   26.612894] RBP: ffffcf7380bb3850 R08: 0000000000000000 R09: 0000000000000000\n[   26.612900] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d344850cc28\n[   26.612905] R13: 00000000f4f4f4f4 R14: ffff8d344a146600 R15: 0000000000000002\n[   26.612912] FS:  00007cf01363ec80(0000) GS:ffff8d3523ef8000(0000) knlGS:0000000000000000\n[   26.612919] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   26.612925] CR2: 00007732f204aec0 CR3: 000000007bd94000 CR4: 00000000000006f0\n[   26.612932] Call Trace:\n[   26.612937]  <TASK>\n[   26.612946]  mt7601u_config_tx_power_per_rate+0x12e/0x1d4 [mt7601u]\n[   26.613004]  mt7601u_eeprom_init.cold+0x1e2/0x3ff [mt7601u]\n[   26.613064]  mt7601u_init_hardware+0x4c5/0x5c0 [mt7601u]\n[   26.613120]  mt7601u_probe+0x29e/0x3d0 [mt7601u]\n[   26.613172]  ? __pm_runtime_set_status+0x294/0x320\n[   26.613187]  ? rt_spin_unlock+0x69/0xc0\n[   26.613206]  usb_probe_interface+0xeb/0x2e0\n[   26.613224]  call_driver_probe+0x2b/0x150\n[   26.613235]  ? driver_sysfs_add+0x63/0xd0\n[   26.613297]  really_probe+0xe7/0x2f0\n[   26.613314]  __driver_probe_device+0x9e/0x1c0\n[   26.613327]  driver_probe_device+0x24/0xd0\n[   26.613347]  ? __pfx___driver_attach+0x10/0x10\n[   26.613358]  __driver_attach+0xef/0x250\n[   26.613368]  ? klist_next+0xa8/0x190\n[   26.613381]  bus_for_each_dev+0x8a/0xe0\n[   26.613394]  driver_attach+0x1e/0x30\n[   26.613404]  bus_add_driver+0x14e/0x240\n[   26.613417]  driver_register+0x75/0xf0\n[   26.613430]  usb_register_driver+0xa5/0x150\n[   26.613443]  ? __pfx_mt7601u_driver_init+0x10/0x10 [mt7601u]\n[   26.613497]  mt7601u_driver_init+0x23/0xff0 [mt7601u]\n[   26.613549]  do_one_initcall+0x59/0x350\n[   26.613569]  do_init_module+0x8b/0x290\n[   26.613585]  load_module+0x855/0x960\n[   26.613600]  init_module_from_file+0xfb/0x180\n[   26.613619]  idempotent_init_module+0x10e/0x300\n[   26.613636]  __x64_sys_finit_module+0x73/0xf0\n[   26.613654]  x64_sys_call+0xe2e/0x2390\n[   26.613667]  do_syscall_64+0x105/0x5a0\n[   26.613679]  ? irqentry_exit+0x98/0x6f0\n[   26.613688]  ? wake_up_process+0x15/0x30\n[   26.613701]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.613714]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.613724] RIP: 0033:0x7cf013fd4acd\n[   26.613734] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.613742] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.613751] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.613757] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.613763] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.613768] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.613773] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.613787]  </TASK>\n[   26.613791] ---[ end trace 0000000000000000 ]---\n[   26.622401] ------------[ cut here ]------------\n[   26.622412] WARNING: drivers/net/wireless/mediatek/mt7601u/eeprom.h:118 at mt7601u_set_power_rate+0x13/0x50 [mt7601u], CPU#2: (udev-worker)/908\n[   26.622488] Modules linked in: mt7601u(+) intel_powerclamp coretemp mac80211 i2c_i801 i2c_smbus i2c_mux libarc4 snd_hda_codec_hdmi snd_hda_codec_alc662 snd_hda_codec_realtek_lib snd_hda_codec_generic snd_hda_intel snd_hda_codec lpc_ich snd_hda_core snd_intel_dspcfg snd_intel_sdw_acpi nfnetlink snd_hwdep cfg80211 snd_pcm snd_timer gma500_gfx e1000e i2c_algo_bit snd soundcore binfmt_misc nls_iso8859_1 mac_hid sch_fq_codel efi_pstore dm_multipath ahci video wmi libahci dm_mirror dm_region_hash dm_log msr dmi_sysfs autofs4\n[   26.622615] CPU: 2 UID: 0 PID: 908 Comm: (udev-worker) Tainted: G        W           7.0.0-34-realtime #34.1-Ubuntu PREEMPT_{RT,LAZY} \n[   26.622627] Tainted: [W]=WARN\n[   26.622631] Hardware name: To be filled by O.E.M. To be filled by O.E.M./Tiger Hill, BIOS 4.6.5.1/0.14 07/31/2014\n[   26.622637] RIP: 0010:mt7601u_set_power_rate+0x13/0x50 [mt7601u]\n[   26.622693] Code: 84 00 00 00 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 80 fa ff 74 2a 80 fa 3f 76 02 <0f> 0b 89 d0 83 e0 3f 88 07 80 fa 3f 76 02 0f 0b 0f b6 c8 83 c8 c0\n[   26.622701] RSP: 0000:ffffcf7380bb3850 EFLAGS: 00010292\n[   26.622709] RAX: 00000000f4f4f4f4 RBX: 0000000000000002 RCX: 0000000000000000\n[   26.622715] RDX: 00000000000000f4 RSI: 0000000000000002 RDI: ffff8d344850cc57\n[   26.622720] RBP: ffffcf7380bb3850 R08: 0000000000000000 R09: 0000000000000000\n[   26.622726] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d344850cc28\n[   26.622731] R13: 00000000f4f4f4f4 R14: ffff8d344a146600 R15: 0000000000000002\n[   26.622737] FS:  00007cf01363ec80(0000) GS:ffff8d3523ef8000(0000) knlGS:0000000000000000\n[   26.622744] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   26.622750] CR2: 00007732f25c9a40 CR3: 000000007bd94000 CR4: 00000000000006f0\n[   26.622757] Call Trace:\n[   26.622762]  <TASK>\n[   26.622770]  mt7601u_config_tx_power_per_rate+0x140/0x1d4 [mt7601u]\n[   26.622828]  mt7601u_eeprom_init.cold+0x1e2/0x3ff [mt7601u]\n[   26.622886]  mt7601u_init_hardware+0x4c5/0x5c0 [mt7601u]\n[   26.622943]  mt7601u_probe+0x29e/0x3d0 [mt7601u]\n[   26.622995]  ? __pm_runtime_set_status+0x294/0x320\n[   26.623010]  ? rt_spin_unlock+0x69/0xc0\n[   26.623028]  usb_probe_interface+0xeb/0x2e0\n[   26.623045]  call_driver_probe+0x2b/0x150\n[   26.623055]  ? driver_sysfs_add+0x63/0xd0\n[   26.623066]  really_probe+0xe7/0x2f0\n[   26.623078]  __driver_probe_device+0x9e/0x1c0\n[   26.623090]  driver_probe_device+0x24/0xd0\n[   26.623102]  ? __pfx___driver_attach+0x10/0x10\n[   26.623113]  __driver_attach+0xef/0x250\n[   26.623123]  ? klist_next+0xa8/0x190\n[   26.623135]  bus_for_each_dev+0x8a/0xe0\n[   26.623147]  driver_attach+0x1e/0x30\n[   26.623158]  bus_add_driver+0x14e/0x240\n[   26.623171]  driver_register+0x75/0xf0\n[   26.623183]  usb_register_driver+0xa5/0x150\n[   26.623195]  ? __pfx_mt7601u_driver_init+0x10/0x10 [mt7601u]\n[   26.623301]  mt7601u_driver_init+0x23/0xff0 [mt7601u]\n[   26.623358]  do_one_initcall+0x59/0x350\n[   26.623377]  do_init_module+0x8b/0x290\n[   26.623391]  load_module+0x855/0x960\n[   26.623405]  init_module_from_file+0xfb/0x180\n[   26.623423]  idempotent_init_module+0x10e/0x300\n[   26.623437]  __x64_sys_finit_module+0x73/0xf0\n[   26.623448]  x64_sys_call+0xe2e/0x2390\n[   26.623459]  do_syscall_64+0x105/0x5a0\n[   26.623472]  ? irqentry_exit+0x98/0x6f0\n[   26.623481]  ? wake_up_process+0x15/0x30\n[   26.623494]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.623508]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.623518] RIP: 0033:0x7cf013fd4acd\n[   26.623528] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.623536] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.623545] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.623551] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.623557] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.623562] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.623567] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.623581]  </TASK>\n[   26.623585] ---[ end trace 0000000000000000 ]---\n[   26.627515] ------------[ cut here ]------------\n[   26.627528] WARNING: drivers/net/wireless/mediatek/mt7601u/eeprom.h:118 at mt7601u_set_power_rate+0x21/0x50 [mt7601u], CPU#0: (udev-worker)/908\n[   26.627609] Modules linked in: mt7601u(+) intel_powerclamp coretemp mac80211 i2c_i801 i2c_smbus i2c_mux libarc4 snd_hda_codec_hdmi snd_hda_codec_alc662 snd_hda_codec_realtek_lib snd_hda_codec_generic snd_hda_intel snd_hda_codec lpc_ich snd_hda_core snd_intel_dspcfg snd_intel_sdw_acpi nfnetlink snd_hwdep cfg80211 snd_pcm snd_timer gma500_gfx e1000e i2c_algo_bit snd soundcore binfmt_misc nls_iso8859_1 mac_hid sch_fq_codel efi_pstore dm_multipath ahci video wmi libahci dm_mirror dm_region_hash dm_log msr dmi_sysfs autofs4\n[   26.627751] CPU: 0 UID: 0 PID: 908 Comm: (udev-worker) Tainted: G        W           7.0.0-34-realtime #34.1-Ubuntu PREEMPT_{RT,LAZY} \n[   26.627766] Tainted: [W]=WARN\n[   26.627770] Hardware name: To be filled by O.E.M. To be filled by O.E.M./Tiger Hill, BIOS 4.6.5.1/0.14 07/31/2014\n[   26.627777] RIP: 0010:mt7601u_set_power_rate+0x21/0x50 [mt7601u]\n[   26.627842] Code: 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 55 48 89 e5 80 fa ff 74 2a 80 fa 3f 76 02 0f 0b 89 d0 83 e0 3f 88 07 80 fa 3f 76 02 <0f> 0b 0f b6 c8 83 c8 c0 80 e2 20 0f 44 c1 01 c6 88 47 01 40 88 77\n[   26.627852] RSP: 0000:ffffcf7380bb3850 EFLAGS: 00010292\n[   26.627863] RAX: 0000000000000034 RBX: 0000000000000002 RCX: 0000000000000000\n[   26.627870] RDX: 00000000000000f4 RSI: 0000000000000002 RDI: ffff8d344850cc57\n[   26.627877] RBP: ffffcf7380bb3850 R08: 0000000000000000 R09: 0000000000000000\n[   26.627883] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d344850cc28\n[   26.627889] R13: 00000000f4f4f4f4 R14: ffff8d344a146600 R15: 0000000000000002\n[   26.627897] FS:  00007cf01363ec80(0000) GS:ffff8d3523df8000(0000) knlGS:0000000000000000\n[   26.627906] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   26.627914] CR2: 000063885a957168 CR3: 000000007bd94000 CR4: 00000000000006f0\n[   26.627922] Call Trace:\n[   26.627928]  <TASK>\n[   26.627939]  mt7601u_config_tx_power_per_rate+0x140/0x1d4 [mt7601u]\n[   26.628005]  mt7601u_eeprom_init.cold+0x1e2/0x3ff [mt7601u]\n[   26.628071]  mt7601u_init_hardware+0x4c5/0x5c0 [mt7601u]\n[   26.628134]  mt7601u_probe+0x29e/0x3d0 [mt7601u]\n[   26.628192]  ? __pm_runtime_set_status+0x294/0x320\n[   26.628209]  ? rt_spin_unlock+0x69/0xc0\n[   26.628231]  usb_probe_interface+0xeb/0x2e0\n[   26.628303]  call_driver_probe+0x2b/0x150\n[   26.628319]  ? driver_sysfs_add+0x63/0xd0\n[   26.628331]  really_probe+0xe7/0x2f0\n[   26.628345]  __driver_probe_device+0x9e/0x1c0\n[   26.628360]  driver_probe_device+0x24/0xd0\n[   26.628375]  ? __pfx___driver_attach+0x10/0x10\n[   26.628389]  __driver_attach+0xef/0x250\n[   26.628401]  ? klist_next+0xa8/0x190\n[   26.628419]  bus_for_each_dev+0x8a/0xe0\n[   26.628433]  driver_attach+0x1e/0x30\n[   26.628447]  bus_add_driver+0x14e/0x240\n[   26.628463]  driver_register+0x75/0xf0\n[   26.628482]  usb_register_driver+0xa5/0x150\n[   26.628501]  ? __pfx_mt7601u_driver_init+0x10/0x10 [mt7601u]\n[   26.628570]  mt7601u_driver_init+0x23/0xff0 [mt7601u]\n[   26.628630]  do_one_initcall+0x59/0x350\n[   26.628655]  do_init_module+0x8b/0x290\n[   26.628675]  load_module+0x855/0x960\n[   26.628693]  init_module_from_file+0xfb/0x180\n[   26.628714]  idempotent_init_module+0x10e/0x300\n[   26.628733]  __x64_sys_finit_module+0x73/0xf0\n[   26.628747]  x64_sys_call+0xe2e/0x2390\n[   26.628761]  do_syscall_64+0x105/0x5a0\n[   26.628777]  ? irqentry_exit+0x98/0x6f0\n[   26.628789]  ? wake_up_process+0x15/0x30\n[   26.628805]  ? sysvec_apic_timer_interrupt+0x54/0xd0\n[   26.628823]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[   26.628837] RIP: 0033:0x7cf013fd4acd\n[   26.628850] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 0b d3 0d 00 f7 d8 64 89 01 48\n[   26.628861] RSP: 002b:00007ffdb2336f18 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   26.628874] RAX: ffffffffffffffda RBX: 000063885a6db530 RCX: 00007cf013fd4acd\n[   26.628882] RDX: 0000000000000004 RSI: 00007cf013513317 RDI: 000000000000001e\n[   26.628889] RBP: 00007ffdb2336fb0 R08: 0000000000000000 R09: 000063885a542830\n[   26.628896] R10: 0000000000000000 R11: 0000000000000246 R12: 00007cf013513317\n[   26.628903] R13: 000063885a577fe0 R14: 0000000000020000 R15: 0000000000000000\n[   26.628919]  </TASK>\n[   26.628926] ---[ end trace 0000000000000000 ]---\n[   27.222761] at24 5-0051: supply vcc not found, using dummy regulator\n",
+    "stderr": ""
+  },
+  "host": "192.168.193.195",
+  "collected_utc": "2026-10-06T00:17:58.304033+00:00"
+}

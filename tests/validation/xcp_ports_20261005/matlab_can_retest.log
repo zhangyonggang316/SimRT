@@ -1,0 +1,24 @@
+正在设置 ResultSetFixture
+设置 ResultSetFixture 完毕
+__________
+
+正在运行 tX280CANLoopback
+.......
+已完成 tX280CANLoopback
+__________
+
+正在拆解 ResultSetFixture
+拆解 ResultSetFixture 完毕
+__________
+
+                                         Name                                          Passed    Failed    Incomplete    Duration      Details   
+    _______________________________________________________________________________    ______    ______    __________    ________    ____________
+
+    {'tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)'}    true      false       false         13.898    {1x1 struct}
+    {'tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)'}    true      false       false       0.032061    {1x1 struct}
+    {'tX280CANLoopback/executionOrderInitializesBothChannelsBeforeTransmission'   }    true      false       false       0.017212    {1x1 struct}
+    {'tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN1)'          }    true      false       false        0.28583    {1x1 struct}
+    {'tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN2)'          }    true      false       false       0.059109    {1x1 struct}
+    {'tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)'        }    true      false       false         3.7283    {1x1 struct}
+    {'tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)'        }    true      false       false          1.054    {1x1 struct}
+

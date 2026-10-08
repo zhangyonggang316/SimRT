@@ -1,0 +1,15 @@
+{
+  "executable": "validation\\udp_reconnect_20260926\\udp_vendor_baseline.exe",
+  "requested_cycles": 50,
+  "ports": [
+    61177,
+    61179
+  ],
+  "connect_attempts": [
+    1
+  ],
+  "baseline_bug_reproduced": true,
+  "successful_cycles": 1,
+  "elapsed_seconds": 2.297000000020489,
+  "passed": true
+}

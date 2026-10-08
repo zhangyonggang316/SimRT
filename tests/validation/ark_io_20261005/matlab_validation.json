@@ -1,0 +1,104 @@
+{
+  "release": "2024b",
+  "version": "24.2.0.3361896 (R2024b) Update 10",
+  "library": "D:\\05SimRT\\x280_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+  "physical_io_test": false,
+  "installation": {
+    "library": "D:\\05SimRT\\x280_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+    "release": "2024b",
+    "method": "user startup",
+    "startup": "C:\\Users\\yonggang.zhang\\Documents\\MATLAB\\startup.m"
+  },
+  "passed": true,
+  "tests": [
+    {
+      "name": "testDIO/testDesktopStatusAndShapes",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testScalarInitialValueAndFullWidth",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testRejectsDuplicateOffsets",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testRejectsTooManyOffsets",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testRejectsInitialValueCount",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testRejectsDeviceOutsideDev",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testDIO/testSimulinkPortTypesAndColumnWidth",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testSerialEtherCAT/testSerialDesktopStatus",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testSerialEtherCAT/testEtherCATDesktopStatus",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "testSerialEtherCAT/testEtherCATInputOnly",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    }
+  ],
+  "desktop_simulation": true,
+  "build": {
+    "model": "ark_io_codegen_check",
+    "success": true,
+    "build_mode": "local",
+    "period_seconds": 0.001,
+    "matlab_release": "2024b",
+    "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+    "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+    "model_file": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\ark_io_codegen_check.slx",
+    "model_sha256": "363ce9e47faf511cb076807ee906f24f66d381348bbc6c3eee607efc3ea45927",
+    "local_elf": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\deployment_cache\\4324bd4ab07367fa5536c631c6b82a8f4d4171bd4880365573471e21ddad1fcd\\20261005_083637_562\\ark_io_codegen_check.elf",
+    "a2l": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\deployment_cache\\4324bd4ab07367fa5536c631c6b82a8f4d4171bd4880365573471e21ddad1fcd\\20261005_083637_562\\ark_io_codegen_check.a2l",
+    "manifest": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\deployment_cache\\4324bd4ab07367fa5536c631c6b82a8f4d4171bd4880365573471e21ddad1fcd\\20261005_083637_562\\ark_io_codegen_check.xcp-manifest.json",
+    "payload": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_local\\20261005_083637_562.zip",
+    "realtime_source": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\ark_io_codegen_check_rt_bundle",
+    "bundle": {
+      "SourceDirectory": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562\\ark_io_codegen_check_rt_bundle",
+      "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+      "ELFRelativePath": "ark_io_codegen_check.elf",
+      "CodeGenerationDirectory": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw"
+    },
+    "elf_sha256": "761b70c963e0fe4f351694df5d74e810f51be3a4276414dec62a8f6a0f5851da",
+    "evidence_directory": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_ert_rtw\\x280_build_evidence\\20261005_083637_562",
+    "remote_operations_performed": false,
+    "archive": "D:\\05SimRT\\validation\\ark_io_20261005\\ark_io_codegen_check_local\\20261005_083637_562.zip",
+    "archive_sha256": "4324bd4ab07367fa5536c631c6b82a8f4d4171bd4880365573471e21ddad1fcd"
+  }
+}

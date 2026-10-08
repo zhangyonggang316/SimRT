@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-27",
+  "host": "Windows x86_64",
+  "serial_linux_cross_build": {
+    "compiler": "portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe",
+    "flags": "-std=c11 -D_DEFAULT_SOURCE -Wall -Wextra -Werror",
+    "sources": ["../src/simrt_serial.c", "test_serial_runtime.c"],
+    "result": "passed",
+    "execution": "not executed: no local Linux runtime"
+  },
+  "ethercat_linux_cross_build": {
+    "flags": "-std=c11 -D_DEFAULT_SOURCE -Wall -Wextra -Werror",
+    "sources": "simrt_ethercat.c plus all real SOEM v1.4.0 Linux sources and test_soem_link.c",
+    "result": "passed",
+    "execution": "not executed: no local Linux runtime"
+  },
+  "ethercat_adapter_test": {
+    "compiler": "LLVM MinGW x86_64 clang",
+    "flags": "-std=gnu99 -Wall -Wextra -Werror -static -lpthread",
+    "result": "passed",
+    "stdout": "EtherCAT SOEM adapter: PDO transfer, WKC failure, ownership, size/slave/state failures passed",
+    "transport": "SOEM API test doubles; no hardware accessed"
+  },
+  "physical_hardware": "not tested",
+  "matlab": "pending shared-session root integration"
+}

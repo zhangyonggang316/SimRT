@@ -1,0 +1,20 @@
+﻿{
+    "utc":  "2026-10-05T08:12:19.1986154Z",
+    "passed":  true,
+    "checks":  [
+                   "GPIO v2 ABI",
+                   "validation",
+                   "atomic initial output",
+                   "line ordering",
+                   "64-line read/write masks",
+                   "errno propagation",
+                   "stale ownership",
+                   "resource cleanup",
+                   "input write rejection",
+                   "trylock contention",
+                   "Linux cross link"
+               ],
+    "source_sha256":  "08870021C931B63B3279D2D55E9629E81ACB7E71F7814EECD4029FB1F8DBD778",
+    "harness_sha256":  "1EFFC856C440B47CA31545C7DD47BBEB985360249E0425D54E3D7030E992824C",
+    "limitations":  "GPIO syscalls are mocked; no hardware lines or ARK board mapping are accessed. Linux runtime is cross-compiled and linked only."
+}

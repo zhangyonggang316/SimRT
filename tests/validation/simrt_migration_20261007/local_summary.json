@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-06T18:12:08.834596+00:00",
+  "local_checks_passed": true,
+  "models": [
+    "simrt_rt_single",
+    "simrt_can_loopback"
+  ],
+  "matlab_tests": 78,
+  "python_tests": {
+    "target": 40,
+    "tools": 81,
+    "services": 191,
+    "qt": 172
+  },
+  "visual_views": 8,
+  "executable_sha256": "5c8c20fb296672b882d39bb6c1b2d6d283bfdac93b3013e1104cc62d42df2e02",
+  "target_validation": "deferred_by_user_2026-10-07",
+  "long_duration_validation": "not_requested"
+}

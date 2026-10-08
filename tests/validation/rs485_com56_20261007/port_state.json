@@ -1,0 +1,50 @@
+[
+  {
+    "device": "/dev/ttyS6",
+    "termios_flags": [
+      1280,
+      5,
+      855229,
+      35387
+    ],
+    "input_speed": 9600,
+    "output_speed": 9600,
+    "rs485": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modem": [
+      16390
+    ]
+  },
+  {
+    "device": "/dev/ttyS7",
+    "termios_flags": [
+      1280,
+      5,
+      855229,
+      35387
+    ],
+    "input_speed": 9600,
+    "output_speed": 9600,
+    "rs485": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modem": [
+      16390
+    ]
+  }
+]

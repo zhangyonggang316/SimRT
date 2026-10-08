@@ -1,0 +1,18 @@
+{
+  "release": "2024b",
+  "persistent_path": true,
+  "library": "D:\\05SimRT\\x280_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+  "blocks": [
+    "simrt_ark_library/DIO Read",
+    "simrt_ark_library/DIO Setup",
+    "simrt_ark_library/DIO Write",
+    "simrt_ark_library/Serial Receive",
+    "simrt_ark_library/Serial Sent",
+    "simrt_ark_library/Serial Setup"
+  ],
+  "links_resolved": true,
+  "browser_initialized": true,
+  "browser_parse_errors": false,
+  "browser_open": true,
+  "passed": true
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "names": "tSimRTLinuxTarget/targetAndBoardAreRegistered",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/registryUsesX8664AndSharedLinuxRuntime",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/passwordIsNeverStoredInBoardParameters",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/hardwareTabOffersLocalBuild",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/canModelUsesCurrentHardwareBoard",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "names": "tSimRTLinuxTarget/a2lExportRejectsArmExecutable",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  }
+]

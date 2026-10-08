@@ -1,0 +1,320 @@
+24.2.0.3361896 (R2024b) Update 10
+Simulink license=1
+Real-Time_Workshop license=1
+RTW_Embedded_Coder license=1
+Vehicle_Network_Toolbox license=1
+###########################################################################
+# 工具链名称 : X280 portable-linux-toolchain
+# 支持的工具链版本: 
+# 工具链设定格式版本: 2024b
+# 工具链设定修订版: 1.0
+###########################################################################
+
+# 支持的主机平台 = win64
+# 支持的语言 = C/C++
+
+# -------
+# 设置/清理
+# -------
+MATLAB Setup: 
+	x280ToolchainEnvironment('setup');
+MATLAB Cleanup: 
+	x280ToolchainEnvironment('restore');
+Shell Setup: (无)
+Shell Cleanup: (无)
+
+# ----
+# 属性
+# ----
+RequiresBatchFile        = true
+SupportsDoubleQuotes     = true
+TransformPathsWithSpaces = true
+
+
+# --------
+# MACROS
+# --------
+X280_TOOLCHAIN = D:/05SimRT/portable-linux-toolchain/portable-linux-toolchain
+X280_SYSROOT   = $(X280_TOOLCHAIN)/toolchain/x86_64-linux
+
+###########################################################################
+# Build Tool: C Compiler
+###########################################################################
+
+Language              : 'C'
+OptionsRegistry       : {'C Compiler', 'CFLAGS'}
+InputFileExtensions   : {Source}
+OutputFileExtensions  : {Object}
+DerivedFileExtensions : {}
+SupportedOutputs      : {*}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<| |>OUTPUT_FLAG<| |>OUTPUT<|'
+
+# ---------
+# Command
+# ---------
+CC = linux-gcc.exe
+CC_PATH = $(X280_TOOLCHAIN)/toolchain/bin
+
+# ------------
+# Directives
+# ------------
+CompileFlag        = -c
+Debug              = -g
+ErrorPattern       = 
+FileNamePattern    = 
+FileSeparator      = /
+Include            = 
+IncludeSearchPath  = -I
+LineNumberPattern  = 
+OutputFlag         = -o
+PreprocessFile     = 
+PreprocessorDefine = -D
+WarningPattern     = 
+
+# -----------------
+# File Extensions
+# -----------------
+Header = .h
+Object = .c.o
+Source = .c
+
+###########################################################################
+# Build Tool: Linker
+###########################################################################
+
+Language              : 'C'
+OptionsRegistry       : {'Linker', 'LDFLAGS', 'Shared Library Linker', 'SHAREDLIB_LDFLAGS'}
+InputFileExtensions   : {}
+OutputFileExtensions  : {'Executable', 'Shared Library'}
+DerivedFileExtensions : {}
+SupportedOutputs      : {coder.make.enum.BuildOutput.EXECUTABLE, coder.make.enum.BuildOutput.SHARED_LIBRARY}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<| |>OUTPUT_FLAG<| |>OUTPUT<|'
+
+# ---------
+# Command
+# ---------
+LD = linux-g++.exe
+LD_PATH = $(X280_TOOLCHAIN)/toolchain/bin
+
+# ------------
+# Directives
+# ------------
+Debug                    = 
+FileSeparator            = /
+Library                  = -l
+LibrarySearchPath        = -L
+LibrarySearchPathRuntime = 
+OutputFlag               = -o
+
+# -----------------
+# File Extensions
+# -----------------
+Executable     = .elf
+Shared Library = .so
+
+###########################################################################
+# Build Tool: C++ Compiler
+###########################################################################
+
+Language              : 'C++'
+OptionsRegistry       : {'C++ Compiler', 'CPPFLAGS'}
+InputFileExtensions   : {Source}
+OutputFileExtensions  : {Object}
+DerivedFileExtensions : {}
+SupportedOutputs      : {*}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<| |>OUTPUT_FLAG<| |>OUTPUT<|'
+
+# ---------
+# Command
+# ---------
+CPP = linux-g++.exe
+CPP_PATH = $(X280_TOOLCHAIN)/toolchain/bin
+
+# ------------
+# Directives
+# ------------
+CompileFlag        = -c
+Debug              = -g
+ErrorPattern       = 
+FileNamePattern    = 
+FileSeparator      = /
+Include            = 
+IncludeSearchPath  = -I
+LineNumberPattern  = 
+OutputFlag         = -o
+PreprocessFile     = 
+PreprocessorDefine = -D
+WarningPattern     = 
+
+# -----------------
+# File Extensions
+# -----------------
+Header = .hpp
+Object = .cpp.o
+Source = .cpp
+
+###########################################################################
+# Build Tool: C++ Linker
+###########################################################################
+
+Language              : 'C++'
+OptionsRegistry       : {'C++ Linker', 'CPP_LDFLAGS', 'C++ Shared Library Linker', 'CPP_SHAREDLIB_LDFLAGS'}
+InputFileExtensions   : {}
+OutputFileExtensions  : {'Executable', 'Shared Library'}
+DerivedFileExtensions : {}
+SupportedOutputs      : {coder.make.enum.BuildOutput.EXECUTABLE, coder.make.enum.BuildOutput.SHARED_LIBRARY}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<| |>OUTPUT_FLAG<| |>OUTPUT<|'
+
+# ---------
+# Command
+# ---------
+CPP_LD = linux-g++.exe
+CPP_LD_PATH = $(X280_TOOLCHAIN)/toolchain/bin
+
+# ------------
+# Directives
+# ------------
+Debug                    = 
+FileSeparator            = /
+Library                  = -l
+LibrarySearchPath        = -L
+LibrarySearchPathRuntime = 
+OutputFlag               = -o
+
+# -----------------
+# File Extensions
+# -----------------
+Executable     = .elf
+Shared Library = .so
+
+###########################################################################
+# Build Tool: Archiver
+###########################################################################
+
+Language              : 'C'
+OptionsRegistry       : {'Archiver', 'ARFLAGS'}
+InputFileExtensions   : {}
+OutputFileExtensions  : {Static Library}
+DerivedFileExtensions : {}
+SupportedOutputs      : {coder.make.enum.BuildOutput.STATIC_LIBRARY}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<| |>OUTPUT_FLAG<| |>OUTPUT<|'
+
+# ---------
+# Command
+# ---------
+AR = linux-ar.exe
+AR_PATH = $(X280_TOOLCHAIN)/toolchain/bin
+
+# ------------
+# Directives
+# ------------
+Debug             = 
+FileSeparator     = /
+LibrarySearchPath = 
+OutputFlag        = 
+
+# -----------------
+# File Extensions
+# -----------------
+Static Library = .a
+
+###########################################################################
+# Build Tool: GMAKE Utility
+###########################################################################
+
+Language              : ''
+OptionsRegistry       : {'Make Tool', 'MAKE_FLAGS'}
+InputFileExtensions   : {}
+OutputFileExtensions  : {}
+DerivedFileExtensions : {}
+SupportedOutputs      : {*}
+CommandPattern        : '|>TOOL<| |>TOOL_OPTIONS<|'
+
+# ---------
+# Command
+# ---------
+MAKE = gmake
+MAKE_PATH = %MATLAB%\bin\win64
+
+# ------------
+# Directives
+# ------------
+Comment                = #
+DeleteCommand          = @del /F
+DisplayCommand         = @echo
+FileSeparator          = /
+ImpliedFirstDependency = $<
+ImpliedTarget          = $@
+IncludeFile            = -include
+LineContinuation       = \
+MoveCommand            = @move
+ReferencePattern       = \$\($1\)
+RunScriptCommand       = 
+
+# -----------------
+# File Extensions
+# -----------------
+Makefile = .mk
+
+###########################################################################
+# Build Configuration : Faster Runs
+# Description         : 最小化运行时间
+###########################################################################
+
+ARFLAGS              = rcs 
+CFLAGS               = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11 
+CPPFLAGS             = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread 
+CPP_LDFLAGS          = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+CPP_SHAREDLIB_LDFLAGS =
+DOWNLOAD_FLAGS       =
+EXECUTE_FLAGS        =
+LDFLAGS              = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+MEX_CPPFLAGS         =
+MEX_CPPLDFLAGS       =
+MEX_CFLAGS           =
+MEX_LDFLAGS          =
+MAKE_FLAGS           = -f $(MAKEFILE) -j2 
+SHAREDLIB_LDFLAGS    =
+
+###########################################################################
+# Build Configuration : Faster Builds
+# Description         : 最小化编译和链接时间
+###########################################################################
+
+ARFLAGS              = rcs 
+CFLAGS               = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11 
+CPPFLAGS             = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread 
+CPP_LDFLAGS          = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+CPP_SHAREDLIB_LDFLAGS =
+DOWNLOAD_FLAGS       =
+EXECUTE_FLAGS        =
+LDFLAGS              = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+MEX_CPPFLAGS         =
+MEX_CPPLDFLAGS       =
+MEX_CFLAGS           =
+MEX_LDFLAGS          =
+MAKE_FLAGS           = -f $(MAKEFILE) -j2 
+SHAREDLIB_LDFLAGS    =
+
+###########################################################################
+# Build Configuration : Debug
+# Description         : 使用调试信息进行编译
+###########################################################################
+
+ARFLAGS              = rcs 
+CFLAGS               = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11 
+CPPFLAGS             = --sysroot="$(X280_SYSROOT)" -c -g -gdwarf-4 -O2 -fno-pie -pthread 
+CPP_LDFLAGS          = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+CPP_SHAREDLIB_LDFLAGS =
+DOWNLOAD_FLAGS       =
+EXECUTE_FLAGS        =
+LDFLAGS              = --sysroot="$(X280_SYSROOT)" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post 
+MEX_CPPFLAGS         =
+MEX_CPPLDFLAGS       =
+MEX_CFLAGS           =
+MEX_LDFLAGS          =
+MAKE_FLAGS           = -f $(MAKEFILE) -j2 
+SHAREDLIB_LDFLAGS    =
+
+
+

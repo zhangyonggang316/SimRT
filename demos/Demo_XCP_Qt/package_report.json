@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-06T18:12:08.834596+00:00",
+  "application": "SimRT.exe",
+  "executable_sha256": "5c8c20fb296672b882d39bb6c1b2d6d283bfdac93b3013e1104cc62d42df2e02",
+  "model_integrity": "local_payload_manifest_and_sha256_verified",
+  "model_files": [
+    {
+      "path": "models/simrt_rt_single/simrt_rt_single.slx",
+      "bytes": 116242,
+      "sha256": "ba01259b9b9d5da22ad7902fe94a06e53ed4cdcfea72dffc261791023279a86a"
+    },
+    {
+      "path": "models/simrt_rt_single/simrt_rt_single_local/20261006_180720_528.zip",
+      "bytes": 157851,
+      "sha256": "77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55"
+    }
+  ],
+  "target_validation": "failed_daq_integrity",
+  "model_timing_passed": true,
+  "validation_report": "../validation/simrt_migration_20261007/README.md",
+  "daq_lossless_passed": false,
+  "target_validation_report": "validation/target_20261007/README.md"
+}

@@ -1,0 +1,4 @@
+# Direct dependencies of the Python 3.9-compatible headless protocol/services.
+pyxcp==0.22.32
+paramiko==4.0.0
+traitlets==5.11.2

@@ -1,0 +1,20 @@
+﻿{
+    "passed":  true,
+    "hardware_test":  false,
+    "applications":  [
+                         {
+                             "application":  "app/distribution/SimRT.exe",
+                             "demo":  "demos/Demo_XCP_Qt",
+                             "exe_sha256":  "5c8c20fb296672b882d39bb6c1b2d6d283bfdac93b3013e1104cc62d42df2e02",
+                             "window_title":  "SimRT",
+                             "startup_error":  false
+                         },
+                         {
+                             "application":  "tests/app/layout_results/portable_package/app/SimRT.exe",
+                             "demo":  "tests/app/layout_results/portable_package",
+                             "exe_sha256":  "5c8c20fb296672b882d39bb6c1b2d6d283bfdac93b3013e1104cc62d42df2e02",
+                             "window_title":  "SimRT",
+                             "startup_error":  false
+                         }
+                     ]
+}

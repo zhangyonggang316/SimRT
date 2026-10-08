@@ -1,0 +1,96 @@
+{
+  "boot_id": "6377f265-e7ae-41a9-b18c-441e7e83fa2d",
+  "kernel": "7.0.0-34-realtime",
+  "realtime": "1",
+  "uptime": "46.08 80.95",
+  "time": {
+    "code": 0,
+    "stdout": "Startup finished in 2.797s (kernel) + 9.777s (initrd) + 19.107s (userspace) = 31.682s \ngraphical.target reached after 17.056s in userspace.\n",
+    "stderr": ""
+  },
+  "chain": {
+    "code": 0,
+    "stdout": "The time when unit became active or started is printed after the \"@\" character.\nThe time the unit took to start is printed after the \"+\" character.\n\ngraphical.target @17.056s\n\u2514\u2500multi-user.target @17.055s\n  \u2514\u2500getty.target @17.054s\n    \u2514\u2500getty@tty1.service @16.871s +174ms\n      \u2514\u2500system-getty.slice @16.847s\n        \u2514\u2500setvtrgb.service @16.723s +106ms\n          \u2514\u2500plymouth-quit-wait.service @16.604s +86ms\n            \u2514\u2500systemd-user-sessions.service @16.437s +147ms\n              \u2514\u2500remote-fs.target @16.362s\n                \u2514\u2500remote-fs-pre.target @16.355s\n                  \u2514\u2500dracut-initqueue.service\n                    \u2514\u2500systemd-udev-trigger.service @2.385s +1.800s\n                      \u2514\u2500systemd-udevd-varlink.socket @2.128s +230us\n                        \u2514\u2500system.slice\n                          \u2514\u2500-.slice\n",
+    "stderr": ""
+  },
+  "getty": {
+    "code": 0,
+    "stdout": "ActiveEnterTimestampMonotonic=29620394\nType=simple\n",
+    "stderr": ""
+  },
+  "clock": {
+    "code": 0,
+    "stdout": "               Local time: Mon 2026-10-05 15:32:33 CST\n           Universal time: Mon 2026-10-05 07:32:33 UTC\n                 RTC time: Mon 2026-10-05 07:32:33\n                Time zone: Asia/Shanghai (CST, +0800)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in local TZ: no\n",
+    "stderr": ""
+  },
+  "network": {
+    "code": 0,
+    "stdout": "[{\"ifindex\":1,\"ifname\":\"lo\",\"flags\":[\"LOOPBACK\",\"UP\",\"LOWER_UP\"],\"mtu\":65536,\"qdisc\":\"noqueue\",\"operstate\":\"UNKNOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"loopback\",\"address\":\"00:00:00:00:00:00\",\"broadcast\":\"00:00:00:00:00:00\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"127.0.0.1\",\"prefixlen\":8,\"scope\":\"host\",\"label\":\"lo\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295},{\"family\":\"inet6\",\"local\":\"::1\",\"prefixlen\":128,\"scope\":\"host\",\"noprefixroute\":true,\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":2,\"ifname\":\"enp1s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:0c:11:6d\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad0c116d\"],\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.7.1\",\"prefixlen\":24,\"broadcast\":\"192.168.7.255\",\"scope\":\"global\",\"label\":\"enp1s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":3,\"ifname\":\"enp3s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:34\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e34\"],\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.8.1\",\"prefixlen\":24,\"broadcast\":\"192.168.8.255\",\"scope\":\"global\",\"label\":\"enp3s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":4,\"ifname\":\"enp4s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:35\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e35\"],\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.9.1\",\"prefixlen\":24,\"broadcast\":\"192.168.9.255\",\"scope\":\"global\",\"label\":\"enp4s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":5,\"ifname\":\"wlx7c3d09705041\",\"flags\":[\"BROADCAST\",\"MULTICAST\",\"UP\",\"LOWER_UP\"],\"mtu\":1500,\"qdisc\":\"noqueue\",\"operstate\":\"UP\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"7c:3d:09:70:50:41\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.193.195\",\"prefixlen\":24,\"metric\":600,\"broadcast\":\"192.168.193.255\",\"scope\":\"global\",\"dynamic\":true,\"label\":\"wlx7c3d09705041\",\"valid_life_time\":3579,\"preferred_life_time\":3579},{\"family\":\"inet6\",\"local\":\"fe80::7e3d:9ff:fe70:5041\",\"prefixlen\":64,\"scope\":\"link\",\"protocol\":\"kernel_ll\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]}]\n",
+    "stderr": ""
+  },
+  "autostart": {
+    "code": 0,
+    "stdout": "ActiveState=inactive\nMainPID=0\nExecMainStartTimestampMonotonic=0\n",
+    "stderr": ""
+  },
+  "console": {
+    "code": 0,
+    "stdout": "SimRT: ark2120 | UI refresh: 1000.000 ms | 15:32:33\nCPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz\nPREEMPT_RT: YES\nNetwork:\nenp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)\nenp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)\nenp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)\nwlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)\nCPU: 37.5%  Memory: 14.4%  Disk: 21.1% of 29.7 GB\nState: RUNNING -> x280_rt_single (PID 1699)\nModel elapsed: 6937.052 ms / inf  Period: 1.000000 ms\nMATLAB: R2024b | Steps: 6938 calls / 6938 completed\nDeadline misses: 0  Skipped periods: 0\nTask execution current/max: 0.004856 ms / 0.015480 ms\nInterval min/avg/max: 0.928698 ms / 1.000004 ms / 1.051141 ms\nTelemetry: live (0.3s old)\n-- LOG ----------------------------------------------------------------------------------------------------------------\n15:32:26 PROCESS FOUND x280_rt_single (PID 1699)\n\n** starting the model **\n{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"pri\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "stderr": ""
+  },
+  "failed": {
+    "code": 0,
+    "stdout": "  UNIT LOAD ACTIVE SUB DESCRIPTION\n\n0 loaded units listed.\n",
+    "stderr": ""
+  },
+  "initrd_modules": {
+    "code": 2,
+    "stdout": "Image: /boot/initrd.img-7.0.0-34-realtime: 60M\n========================================================================\nVersion: \n\ndracut modules:\n========================================================================\n",
+    "stderr": "/usr/bin/lsinitrd: line 395: /boot/initrd.img-7.0.0-34-realtime: Permission denied\n/usr/bin/lsinitrd: line 439: /boot/initrd.img-7.0.0-34-realtime: Permission denied\n/usr/bin/lsinitrd: line 477: /boot/initrd.img-7.0.0-34-realtime: Permission denied\n3cpio: Error: Failed to open '/boot/initrd.img-7.0.0-34-realtime': Permission denied (os error 13)\n3cpio: Error: Failed to open '/boot/initrd.img-7.0.0-34-realtime': Permission denied (os error 13)\n"
+  },
+  "disk": {
+    "code": 0,
+    "stdout": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda2       2.0G  183M  1.7G  11% /boot\n",
+    "stderr": ""
+  },
+  "cmdline": {
+    "code": 0,
+    "stdout": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M\n",
+    "stderr": ""
+  },
+  "boot_files": {
+    "/boot/vmlinuz-7.0.0-34-realtime": 17049992,
+    "/boot/System.map-7.0.0-34-realtime": 10645816,
+    "/boot/config-7.0.0-34-realtime": 305943,
+    "/boot/initrd.img-7.0.0-34-realtime": 62683082
+  },
+  "dracut_config": {},
+  "models": [
+    {
+      "pid": 1699,
+      "executable": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf",
+      "arguments": [],
+      "runtime_environment": {},
+      "started_seconds": 43.68
+    }
+  ],
+  "wall_seconds_until_ssh_check": 71.28200000000652,
+  "model_restored": true,
+  "autostart_before": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "autostart_after": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "passed": true
+}

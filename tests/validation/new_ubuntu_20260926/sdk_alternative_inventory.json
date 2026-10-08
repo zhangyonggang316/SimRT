@@ -1,0 +1,35 @@
+{
+  "directory": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93",
+  "files": [
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x64\\libTSCAN.dll",
+      "size": 25981440
+    },
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x64\\libTSH.dll",
+      "size": 40448
+    },
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\binlog.dll",
+      "size": 465408
+    },
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libLog.dll",
+      "size": 71168
+    },
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libTSCAN.dll",
+      "size": 17592832
+    },
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++\\TSCAN.API.Demo_C++\\bin\\debug\\x86\\libTSH.dll",
+      "size": 34816
+    }
+  ],
+  "archives": [
+    {
+      "path": "C:\\DataSave\\06\u540c\u661f\u4e8c\u6b21\u5f00\u53d1\u5e93\\TSCAN.API.Demo_C++.zip",
+      "linux_shared_libraries": []
+    }
+  ]
+}

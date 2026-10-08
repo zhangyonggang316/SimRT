@@ -1,0 +1,6 @@
+{
+  "command": "python3 /home/zh/MATLAB_ws/telemetry_diagnostic_20260926/verify_live_status.py /home/zh/MATLAB_ws/telemetry_diagnostic_20260926/rt_runtime_harness.elf --allow-non-rt-diagnostic --output /home/zh/MATLAB_ws/telemetry_diagnostic_20260926/telemetry_result.json",
+  "exit_code": 0,
+  "stdout": "{\"passed\": true, \"diagnostic_only\": true, \"cases\": [\"normal\", \"overrun\", \"sigterm\"]}\n",
+  "stderr": ""
+}

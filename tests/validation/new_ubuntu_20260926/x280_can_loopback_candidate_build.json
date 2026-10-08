@@ -1,0 +1,28 @@
+{
+  "model": "x280_can_loopback",
+  "success": true,
+  "build_mode": "local",
+  "period_seconds": 0.001,
+  "matlab_release": "2024b",
+  "toolchain_root": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+  "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+  "model_file": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\x280_can_loopback.slx",
+  "model_sha256": "6a0ae1bc1f9e4b30388e92e575d83cd8568f69ce5040b655173496165328bb4d",
+  "local_elf": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\deployment_cache\\f260df383f0302589a4e919bef0c343ec519692b476a4ee9fc515c36989cfb18\\20260926_090607_973\\x280_can_loopback.elf",
+  "a2l": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\deployment_cache\\f260df383f0302589a4e919bef0c343ec519692b476a4ee9fc515c36989cfb18\\20260926_090607_973\\x280_can_loopback.a2l",
+  "manifest": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\deployment_cache\\f260df383f0302589a4e919bef0c343ec519692b476a4ee9fc515c36989cfb18\\20260926_090607_973\\x280_can_loopback.xcp-manifest.json",
+  "payload": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_local\\20260926_090607_973.zip",
+  "realtime_source": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\x280_can_loopback_rt_bundle",
+  "bundle": {
+    "SourceDirectory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973\\x280_can_loopback_rt_bundle",
+    "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+    "ELFRelativePath": "x280_can_loopback.elf",
+    "CodeGenerationDirectory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw"
+  },
+  "elf_sha256": "56619e27ad5a47e7c83d673b28f841ea278489135d4ba846e0c01bbd2f81dc9a",
+  "evidence_directory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_ert_rtw\\x280_build_evidence\\20260926_090607_973",
+  "remote_operations_performed": false,
+  "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_local\\20260926_090607_973.zip",
+  "archive_sha256": "f260df383f0302589a4e919bef0c343ec519692b476a4ee9fc515c36989cfb18"
+}

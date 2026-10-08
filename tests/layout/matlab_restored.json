@@ -1,0 +1,10 @@
+{
+  "restored_models": [
+    "D:\\05SimRT\\toolchain\\simrt_linux_target\\drivers\\serial\\simrt_serial_library.slx",
+    "D:\\05SimRT\\toolchain\\simrt_linux_target\\drivers\\dio\\simrt_dio_library.slx",
+    "D:\\05SimRT\\demos\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single.slx"
+  ],
+  "folder": "D:\\05SimRT\\demos\\io\\dio\\simrt_dio_loopback",
+  "registration": "D:\\05SimRT\\toolchain\\simrt_linux_target\\setupSimRTLinuxTarget.m",
+  "library": "D:\\05SimRT\\toolchain\\simrt_linux_target\\drivers\\ark\\simrt_library.slx"
+}

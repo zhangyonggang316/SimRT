@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:28:11
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 4.1%  Memory: 30.9%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:31:54 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 1914025 calls / 1914025 completed
+Deadline misses: 15  Skipped periods: 203
+Task execution current/max: 1538 ns / 97892 ns
+Interval min/avg/max: 128334 / 1000106.055 / 30406848 ns
+Telemetry: live (0.9s old)
+-- LOG ------------------------------------------------------------------------
+ALLOC_DAQ: allocating 1 DAQ lists (32 B)
+ALLOC_ODT: allocating 1 ODTs in DAQ list 0 (56 B)
+ALLOC_ODT_ENTRY: allocating 1 ODT Entries in DAQ list 0 ODT 0 (8 B)
+SET_DAQ_PTR: updating current

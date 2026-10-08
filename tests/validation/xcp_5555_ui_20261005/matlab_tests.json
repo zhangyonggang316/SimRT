@@ -1,0 +1,123 @@
+[
+  {
+    "Name": "tX280LinuxTarget/targetAndBoardAreRegistered",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 3.9835428999999998,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/registryUsesX8664AndNoRaspberryPiRuntime",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0825863,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0484622,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/passwordIsNeverStoredInBoardParameters",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0057142,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 23.9060876,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/legacyCanSnapshotMigratesHardwareBoard",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 32.3184547,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.1351877,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.1637617,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 4.8707395,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/legacyBuildCannotStartRemoteExecution",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.028209,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lExportRejectsArmExecutable",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.5599986,
+    "Details": {
+      "SimulinkTestManagerResults": [],
+      "DiagnosticRecord": []
+    }
+  }
+]

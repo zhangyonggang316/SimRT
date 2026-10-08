@@ -1,0 +1,245 @@
+{
+  "started": "2026-10-06T16:10:09.114967+00:00",
+  "tolerance_us": 50,
+  "cases": [
+    {
+      "request": {
+        "binary": "/home/zh/MATLAB_ws/jitter_50us_13abfd29.elf",
+        "spin": 500,
+        "seconds": 180,
+        "stress": true
+      },
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":500,\"cycles\":180000,\"completed_cycles\":180000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_mean_ns\":58.271,\"execution_max_ns\":102248,\"execution_mean_ns\":101153.423,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":179999,\"cycle_interval_min_ns\":999812,\"cycle_interval_max_ns\":1000183,\"cycle_interval_mean_ns\":1000000.000,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":180000,\"model_step_completed_calls\":180000,\"model_step_interval_samples\":179999,\"model_step_interval_min_ns\":999369,\"model_step_interval_max_ns\":1000633,\"model_step_interval_mean_ns\":999999.998,\"model_step_execution_min_ns\":100395,\"model_step_execution_max_ns\":101002,\"model_step_execution_mean_ns\":100485.217,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":179999101322,\"stop_signal\":0,\"interval_tolerance_ns\":50000,\"model_step_interval_early_count\":0,\"model_step_interval_late_count\":0,\"model_step_release_lateness_current_ns\":473,\"model_step_release_lateness_max_ns\":1067,\"model_step_entry_delay_current_ns\":371,\"model_step_entry_delay_max_ns\":1054,\"wake_latency_current_ns\":102,\"wake_latency_max_ns\":192,\"sleep_return_lateness_current_ns\":17783,\"sleep_return_lateness_max_ns\":36350,\"sleep_calls\":180000,\"sleep_skipped_count\":0,\"sleep_return_after_release_count\":0,\"sleep_performed\":true,\"last_interval_outlier\":null}\n",
+        "stderr": "",
+        "elapsed": 180.05025623200004,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": true,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 500,
+        "cycles": 180000,
+        "completed_cycles": 180000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_mean_ns": 58.271,
+        "execution_max_ns": 102248,
+        "execution_mean_ns": 101153.423,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 179999,
+        "cycle_interval_min_ns": 999812,
+        "cycle_interval_max_ns": 1000183,
+        "cycle_interval_mean_ns": 1000000.0,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 180000,
+        "model_step_completed_calls": 180000,
+        "model_step_interval_samples": 179999,
+        "model_step_interval_min_ns": 999369,
+        "model_step_interval_max_ns": 1000633,
+        "model_step_interval_mean_ns": 999999.998,
+        "model_step_execution_min_ns": 100395,
+        "model_step_execution_max_ns": 101002,
+        "model_step_execution_mean_ns": 100485.217,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 179999101322,
+        "stop_signal": 0,
+        "interval_tolerance_ns": 50000,
+        "model_step_interval_early_count": 0,
+        "model_step_interval_late_count": 0,
+        "model_step_release_lateness_current_ns": 473,
+        "model_step_release_lateness_max_ns": 1067,
+        "model_step_entry_delay_current_ns": 371,
+        "model_step_entry_delay_max_ns": 1054,
+        "wake_latency_current_ns": 102,
+        "wake_latency_max_ns": 192,
+        "sleep_return_lateness_current_ns": 17783,
+        "sleep_return_lateness_max_ns": 36350,
+        "sleep_calls": 180000,
+        "sleep_skipped_count": 0,
+        "sleep_return_after_release_count": 0,
+        "sleep_performed": true,
+        "last_interval_outlier": null
+      },
+      "passed": true
+    }
+  ],
+  "autostart": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "previous": {
+    "running": true,
+    "pid": 1663,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "binary_sha256": "f78659aef2d598562d34fb7022d11d6420fd0fa5ec01877e14e798f1c5a31b1a",
+  "diagnostics_sha256": "80a7e3a05e7667545bd8c24d4b26fa272b83ccfec8a7868d3cb8067ee94f0a31",
+  "regression": [
+    {
+      "name": "deterministic",
+      "expected_code": 0,
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_diagnostics_tests\",\"passed\":7}\n",
+        "stderr": "",
+        "elapsed": 0.010629329000039434,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "math",
+      "expected_code": 0,
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_math_tests\",\"passed\":38}\n",
+        "stderr": "",
+        "elapsed": 0.009524096999939502,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "overload",
+      "expected_code": 0,
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":50,\"cycles\":200,\"completed_cycles\":200,\"skipped_releases\":18,\"deadline_misses\":10,\"wake_latency_mean_ns\":57.575,\"execution_max_ns\":2501252,\"execution_mean_ns\":221144.325,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":199,\"cycle_interval_min_ns\":999886,\"cycle_interval_max_ns\":3000072,\"cycle_interval_mean_ns\":1090452.251,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":200,\"model_step_completed_calls\":200,\"model_step_interval_samples\":199,\"model_step_interval_min_ns\":999807,\"model_step_interval_max_ns\":3000091,\"model_step_interval_mean_ns\":1090450.407,\"model_step_execution_min_ns\":100426,\"model_step_execution_max_ns\":2500584,\"model_step_execution_mean_ns\":220493.880,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":219501282,\"stop_signal\":0,\"interval_tolerance_ns\":50000,\"model_step_interval_early_count\":0,\"model_step_interval_late_count\":9,\"model_step_release_lateness_current_ns\":447,\"model_step_release_lateness_max_ns\":816,\"model_step_entry_delay_current_ns\":375,\"model_step_entry_delay_max_ns\":742,\"wake_latency_current_ns\":72,\"wake_latency_max_ns\":183,\"sleep_return_lateness_current_ns\":17923,\"sleep_return_lateness_max_ns\":32411,\"sleep_calls\":200,\"sleep_skipped_count\":0,\"sleep_return_after_release_count\":0,\"sleep_performed\":true,\"last_interval_outlier\":{\"cycle\":181,\"monotonic_ns\":539805113748,\"interval_error_ns\":2000038,\"release_lateness_ns\":489,\"previous_release_lateness_ns\":451,\"wake_latency_ns\":118,\"previous_wake_latency_ns\":61,\"sleep_return_lateness_ns\":19285,\"previous_sleep_return_lateness_ns\":18235,\"sleep_performed\":true,\"previous_sleep_performed\":true}}\n",
+        "stderr": "",
+        "elapsed": 0.24307897199992112,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "invalid_period",
+      "expected_code": 1,
+      "result": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "X280 RT initialization/runtime failure: runtime requires a 1 ms, 10 ms, or 100 ms model base period: Invalid argument (22)\n",
+        "elapsed": 0.010513212999967436,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "invalid_subrates",
+      "expected_code": 1,
+      "result": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "X280 RT initialization/runtime failure: runtime requires exactly one model task: Invalid argument (22)\n",
+        "elapsed": 0.009909970000080648,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "period_10ms",
+      "expected_code": 0,
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":10000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":50,\"cycles\":20,\"completed_cycles\":20,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_mean_ns\":71.450,\"execution_max_ns\":101978,\"execution_mean_ns\":101270.550,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":19,\"cycle_interval_min_ns\":9999900,\"cycle_interval_max_ns\":10000109,\"cycle_interval_mean_ns\":9999999.000,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":20,\"model_step_completed_calls\":20,\"model_step_interval_samples\":19,\"model_step_interval_min_ns\":9999614,\"model_step_interval_max_ns\":10000102,\"model_step_interval_mean_ns\":9999979.684,\"model_step_execution_min_ns\":100433,\"model_step_execution_max_ns\":100733,\"model_step_execution_mean_ns\":100507.650,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":190101398,\"stop_signal\":0,\"interval_tolerance_ns\":50000,\"model_step_interval_early_count\":0,\"model_step_interval_late_count\":0,\"model_step_release_lateness_current_ns\":564,\"model_step_release_lateness_max_ns\":950,\"model_step_entry_delay_current_ns\":477,\"model_step_entry_delay_max_ns\":844,\"wake_latency_current_ns\":87,\"wake_latency_max_ns\":112,\"sleep_return_lateness_current_ns\":20098,\"sleep_return_lateness_max_ns\":25936,\"sleep_calls\":20,\"sleep_skipped_count\":0,\"sleep_return_after_release_count\":0,\"sleep_performed\":true,\"last_interval_outlier\":null}\n",
+        "stderr": "",
+        "elapsed": 0.22283064400005514,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    },
+    {
+      "name": "period_100ms",
+      "expected_code": 0,
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":100000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":50,\"cycles\":20,\"completed_cycles\":20,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_mean_ns\":69.400,\"execution_max_ns\":101731,\"execution_mean_ns\":101198.100,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":19,\"cycle_interval_min_ns\":99999886,\"cycle_interval_max_ns\":100000081,\"cycle_interval_mean_ns\":99999999.368,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":20,\"model_step_completed_calls\":20,\"model_step_interval_samples\":19,\"model_step_interval_min_ns\":99999769,\"model_step_interval_max_ns\":100000175,\"model_step_interval_mean_ns\":99999986.526,\"model_step_execution_min_ns\":100426,\"model_step_execution_max_ns\":100631,\"model_step_execution_mean_ns\":100496.050,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":1900101237,\"stop_signal\":0,\"interval_tolerance_ns\":50000,\"model_step_interval_early_count\":0,\"model_step_interval_late_count\":0,\"model_step_release_lateness_current_ns\":452,\"model_step_release_lateness_max_ns\":708,\"model_step_entry_delay_current_ns\":383,\"model_step_entry_delay_max_ns\":627,\"wake_latency_current_ns\":69,\"wake_latency_max_ns\":122,\"sleep_return_lateness_current_ns\":25612,\"sleep_return_lateness_max_ns\":26989,\"sleep_calls\":20,\"sleep_skipped_count\":0,\"sleep_return_after_release_count\":0,\"sleep_performed\":true,\"last_interval_outlier\":null}\n",
+        "stderr": "",
+        "elapsed": 2.0226313350000282,
+        "cpu": 3,
+        "housekeeping": [
+          0,
+          1
+        ],
+        "stress": false,
+        "temperatures": {
+          "/sys/class/thermal/thermal_zone0/temp": "26800"
+        }
+      }
+    }
+  ],
+  "restored": {
+    "running": true,
+    "pid": 2255,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  }
+}

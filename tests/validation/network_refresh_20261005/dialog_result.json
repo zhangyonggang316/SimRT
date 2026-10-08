@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "actual_async_worker": true,
+  "platform": "windows",
+  "automatic_refresh": true,
+  "selection_preserved": true,
+  "confirmed_address_retained_on_read_error": true,
+  "physical_network_changes": false,
+  "fixture_only": true
+}

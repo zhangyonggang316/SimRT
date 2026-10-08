@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="tX280CANLoopback" skipped="0" tests="7" time="19.0743">
+    <testcase classname="tX280CANLoopback" name="setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)" time="13.8977"/>
+    <testcase classname="tX280CANLoopback" name="setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)" time="0.032061"/>
+    <testcase classname="tX280CANLoopback" name="executionOrderInitializesBothChannelsBeforeTransmission" time="0.017212"/>
+    <testcase classname="tX280CANLoopback" name="usesOfficialCanPackAndUnpackBlocks(channel=CAN1)" time="0.28583"/>
+    <testcase classname="tX280CANLoopback" name="usesOfficialCanPackAndUnpackBlocks(channel=CAN2)" time="0.059109"/>
+    <testcase classname="tX280CANLoopback" name="receivesOtherChannelEveryMillisecond(channel=CAN1)" time="3.7283"/>
+    <testcase classname="tX280CANLoopback" name="receivesOtherChannelEveryMillisecond(channel=CAN2)" time="1.054"/>
+  </testsuite>
+</testsuites>

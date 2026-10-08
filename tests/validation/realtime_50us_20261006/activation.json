@@ -1,0 +1,25 @@
+{
+  "running": {
+    "running": true,
+    "pid": 3143,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "timing_50us_passed": true,
+  "daq_lossless_passed": false,
+  "unresolved_daq_checks": [
+    "no_transport_counter_gaps",
+    "no_timestamp_gap_samples"
+  ],
+  "source_report": "model_validation.json",
+  "elf_sha256": "df2f8d5bb47b18c0e64e2116ae8739ab67c022a0669528dea91727a72742a821",
+  "autostart": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  }
+}

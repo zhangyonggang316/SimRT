@@ -1,0 +1,10 @@
+﻿{
+    "utc":  "2026-10-05T09:45:24.3122244Z",
+    "protocol_test_passed":  true,
+    "linux_cross_compile_passed":  true,
+    "elf_sha256":  "3180147d51f43dc234bc6a7f164fa93f852a8efcb98749e30fac956d526ffe27",
+    "harness_sha256":  "b5afb1e36b4b8a683bb29cb314fb86e221382fd10eb951aec84677a6c80b4aa4",
+    "driver_sha256":  "b5f18ada022fb6b51e8cfe5d68722c75ef7512a8dd9fdfb6080dfff6f2e53568",
+    "physical_test_run":  false,
+    "limitations":  "Protocol executes locally on Windows; Linux harness is compiled only. Run verify_serial_loopback_pty.py on Linux for PTY execution before physical testing."
+}

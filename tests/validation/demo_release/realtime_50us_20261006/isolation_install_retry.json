@@ -1,0 +1,109 @@
+{
+  "started": "2026-10-06T16:00:46.448004+00:00",
+  "passed": true,
+  "before": {
+    "boot_id": "e502b03e-5cf3-476d-8a76-f8cb04f5f3a9",
+    "kernel": "7.0.0-34-realtime",
+    "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+    "isolated": "",
+    "nohz_full": "",
+    "online": "0-3",
+    "watchdog_cpus": "0-3",
+    "affinity": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "autostart_before": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "model_before": {
+    "running": true,
+    "pid": 29405,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "installation": {
+    "kernel": "7.0.0-34-realtime",
+    "old_cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+    "parameters": [
+      "isolcpus=domain,managed_irq,2,3",
+      "nohz_full=2,3",
+      "rcu_nocbs=2,3",
+      "irqaffinity=0,1"
+    ],
+    "isolated": [
+      2,
+      3
+    ],
+    "housekeeping": [
+      0,
+      1
+    ],
+    "model_cpu": 3,
+    "dropin": "/etc/default/grub.d/92-simrt-cpu-isolation.cfg",
+    "content": "# SimRT: reserve the model physical core; remove this file and run update-grub to undo.\nGRUB_CMDLINE_LINUX_DEFAULT=\"${GRUB_CMDLINE_LINUX_DEFAULT} isolcpus=domain,managed_irq,2,3 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1\"\n",
+    "backup": "/var/backups/simrt/rt-isolation-37a7125abe76",
+    "commands": [
+      {
+        "command": [
+          "update-grub"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Sourcing file `/etc/default/grub'\nSourcing file `/etc/default/grub.d/92-simrt-cpu-isolation.cfg'\nSourcing file `/etc/default/grub.d/99-realtime.cfg'\nSourcing file `/etc/default/grub.d/kdump-tools.cfg'\nGenerating grub configuration file ...\nFound linux image: /boot/vmlinuz-7.0.0-34-realtime\nFound initrd image: /boot/initrd.img-7.0.0-34-realtime\nFound linux image: /boot/vmlinuz-7.0.0-34-generic\nFound initrd image: /boot/initrd.img-7.0.0-34-generic\nWarning: os-prober will not be executed to detect other bootable partitions.\nSystems on them will not be added to the GRUB boot configuration.\nCheck GRUB_DISABLE_OS_PROBER documentation entry.\nAdding boot menu entry for UEFI Firmware Settings ...\ndone\n"
+      },
+      {
+        "command": [
+          "grub-script-check",
+          "/boot/grub/grub.cfg"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "entries": [
+      "linux\t/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro   isolcpus=domain,managed_irq,2,3 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+      "linux\t/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro   isolcpus=domain,managed_irq,2,3 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+      "linux\t/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro recovery nomodeset dis_ucode_ldr"
+    ]
+  },
+  "reboot_requested_utc": "2026-10-06T16:01:00.256880+00:00",
+  "after": {
+    "boot_id": "35d46e2e-bb37-4787-820e-9cf496312cae",
+    "kernel": "7.0.0-34-realtime",
+    "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro isolcpus=domain,managed_irq,2,3 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+    "isolated": "2-3",
+    "nohz_full": "2-3",
+    "online": "0-3",
+    "watchdog_cpus": "0-1",
+    "affinity": [
+      0,
+      1
+    ]
+  },
+  "model_restored": {
+    "running": true,
+    "pid": 1663,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "autostart_after": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  }
+}

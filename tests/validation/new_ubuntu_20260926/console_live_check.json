@@ -1,0 +1,9 @@
+{
+  "command": "tmux -L simrt-console list-panes -t simrt-console -F '#{pane_index}|#{pane_active}|#{pane_dead}|#{pane_width}|#{pane_height}|#{pane_current_command}'; tmux -L simrt-console capture-pane -p -t simrt-console:0.1; cat /sys/class/tty/tty0/active; systemctl is-enabled systemd-networkd-wait-online.service; uname -r",
+  "exit_code": 0,
+  "stdout": "0|0|0|120|30|python3\n1|1|0|120|6|bash\nzh@ark2120:~$\n\n\n\n\n\ntty1\nmasked\n7.0.0-30-generic\n",
+  "stderr": "",
+  "host": "192.168.219.195",
+  "user": "zh",
+  "host_key_sha256": "eeTIikDlYn5po2uiSNGEJTglh6lQ+IUFYJS6s2hciv0="
+}

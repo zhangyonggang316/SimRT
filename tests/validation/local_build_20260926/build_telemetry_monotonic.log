@@ -1,0 +1,170 @@
+### 正在启动 x280_rt_single 的编译过程
+### 正在为 '模型特定' 文件夹结构生成代码和工件
+### 正在将代码生成到编译文件夹中: C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw
+### 'x280_rt_single' 的生成代码是最新的，因为未发现任何结构性、参数或代码替换库更改。
+### 正在保存二进制信息缓存。
+### 使用工具链: X280 portable-linux-toolchain
+### 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_rt_single.mk' 是最新的
+### 正在编译 'x280_rt_single': "C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_rt_single.mk -j2 all
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw>cd .  
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw>if "all" == "" ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_rt_single.mk -j2 all )  else ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_rt_single.mk -j2 all )  
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=24 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1150 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_rt_single -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/Demo_XCP_Qt/models/x280_rt_single -IC:/DataSave/03matlabUbuntu/03AIToolLinux/Demo_XCP_Qt/models/x280_rt_single/x280_rt_single_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_main.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/Demo_XCP_Qt/models/x280_rt_single/x280_rt_single_ert_rtw/x280_rt_main.c" 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=24 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1150 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_rt_single -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/Demo_XCP_Qt/models/x280_rt_single -IC:/DataSave/03matlabUbuntu/03AIToolLinux/Demo_XCP_Qt/models/x280_rt_single/x280_rt_single_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_runtime.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/src/x280_rt_runtime.c" 
+"### Creating standalone executable "../x280_rt_single.elf" ..." 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-g++.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post  -o ../x280_rt_single.elf xcp_ext_work.c.o x280_rt_single.c.o x280_rt_single_data.c.o xcp_ext_common.c.o xcp_ext_classic_trigger.c.o xcp.c.o xcp_standard.c.o xcp_daq.c.o xcp_calibration.c.o xcp_fifo.c.o xcp_transport.c.o xcp_mem_default.c.o xcp_drv_rtiostream.c.o xcp_utils.c.o xcp_frame_tcp.c.o rtiostream_interface.c.o rtiostream_tcpip.c.o rtiostream_utils.c.o xcp_platform_default.c.o xcp_ext_mode.c.o xcp_ext_param_x280_udp.c.o x280_rt_main.c.o x280_rt_runtime.c.o   
+"### Created: ../x280_rt_single.elf" 
+"### Successfully generated all binary outputs." 
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw>exit /B 0  
+### X280 deployment ZIP: C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_local\20260926_080641_012.zip
+### Successful completion of build procedure for: x280_rt_single
+
+编译摘要
+
+顶层模型目标:
+
+模型              编译原因      状态        编译持续时间      
+================================================
+x280_rt_single  编译工件已过期。  代码已完成编译。  0h 0m 15.89s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 19.469s
+                          model: 'x280_rt_single'
+                        success: 1
+                     build_mode: 'local'
+                 period_seconds: 1.0000e-03
+                 matlab_release: '2024b'
+                 toolchain_root: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\portable-linux-toolchain\portable-linux-toolchain'
+               compiler_version: 'linux-gcc.exe (GCC) 7.5.0...'
+                compiler_sha256: 'e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a'
+                     model_file: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012\x280_rt_single.slx'
+                   model_sha256: 'e375394df9ca5add60ca3f3034af6e8e9ebbc091d511a2af51e5299a8d286eab'
+                      local_elf: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012\deployment_cache\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\20260926_080641_012\x280_rt_single.elf'
+                            a2l: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012\deployment_cache\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\20260926_080641_012\x280_rt_single.a2l'
+                       manifest: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012\deployment_cache\6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7\20260926_080641_012\x280_rt_single.xcp-manifest.json'
+                        payload: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_local\20260926_080641_012.zip'
+                realtime_source: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012\x280_rt_single_rt_bundle'
+                         bundle: [1x1 struct]
+                     elf_sha256: '6ce23be7f7bbdb594cb7032d000ac00c34242e012eeb21f50efa16e4443e328c'
+             evidence_directory: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_ert_rtw\x280_build_evidence\20260926_080641_012'
+    remote_operations_performed: 0
+                        archive: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\Demo_XCP_Qt\models\x280_rt_single\x280_rt_single_local\20260926_080641_012.zip'
+                 archive_sha256: '6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7'
+                 runtime_sha256: "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+
+### 正在启动 x280_can_loopback 的编译过程
+### 正在为 '模型特定' 文件夹结构生成代码和工件
+### 正在将代码生成到编译文件夹中: C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw
+### 'x280_can_loopback' 的生成代码是最新的，因为未发现任何结构性、参数或代码替换库更改。
+### 正在保存二进制信息缓存。
+### 使用工具链: X280 portable-linux-toolchain
+### 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_can_loopback.mk' 是最新的
+### 正在编译 'x280_can_loopback': "C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_can_loopback.mk -j2 all
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw>cd .  
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw>if "all" == "" ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_can_loopback.mk -j2 all )  else ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_can_loopback.mk -j2 all )  
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=80 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=2170 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=2 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_can_loopback -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/drivers/tc1013/src -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_can_loopback_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/shared/can/src/scanutil -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_main.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_can_loopback_ert_rtw/x280_rt_main.c" 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=80 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=2170 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=2 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_can_loopback -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/drivers/tc1013/src -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_can_loopback_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/shared/can/src/scanutil -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_runtime.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/src/x280_rt_runtime.c" 
+"### Creating standalone executable "../x280_can_loopback.elf" ..." 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-g++.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post -ldl -lpthread  -o ../x280_can_loopback.elf x280_tc1013_can.c.o xcp_ext_work.c.o x280_can_loopback.c.o x280_can_loopback_data.c.o xcp_ext_common.c.o xcp_ext_classic_trigger.c.o xcp.c.o xcp_standard.c.o xcp_daq.c.o xcp_calibration.c.o xcp_fifo.c.o xcp_transport.c.o xcp_mem_default.c.o xcp_drv_rtiostream.c.o xcp_utils.c.o xcp_frame_tcp.c.o rtiostream_interface.c.o rtiostream_tcpip.c.o rtiostream_utils.c.o xcp_platform_default.c.o xcp_ext_mode.c.o xcp_ext_param_x280_udp.c.o x280_rt_main.c.o x280_rt_runtime.c.o   
+"### Created: ../x280_can_loopback.elf" 
+"### Successfully generated all binary outputs." 
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw>exit /B 0  
+以下特征变量或测量变量具有不支持的数据类型，因此未导出到 ASAP2 文件中。"x280_can_loopback_DW.obj, x280_can_loopback_DW.obj_p"
+### X280 deployment ZIP: C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_local\20260926_080739_028.zip
+### Successful completion of build procedure for: x280_can_loopback
+
+编译摘要
+
+顶层模型目标:
+
+模型                 编译原因      状态        编译持续时间       
+====================================================
+x280_can_loopback  编译工件已过期。  代码已完成编译。  0h 0m 19.761s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 20.905s
+                          model: 'x280_can_loopback'
+                        success: 1
+                     build_mode: 'local'
+                 period_seconds: 1.0000e-03
+                 matlab_release: '2024b'
+                 toolchain_root: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\portable-linux-toolchain\portable-linux-toolchain'
+               compiler_version: 'linux-gcc.exe (GCC) 7.5.0...'
+                compiler_sha256: 'e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a'
+                     model_file: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028\x280_can_loopback.slx'
+                   model_sha256: '1fbd304fcb3687115c3d91eee67e2845ab783f946af8d124ab701d9f27296e75'
+                      local_elf: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028\deployment_cache\6c6bc0a6b629edfd5dee5bda7fb589cd0e79cb884d725fd2e6025907357b574e\20260926_080739_028\x280_can_loopback.elf'
+                            a2l: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028\deployment_cache\6c6bc0a6b629edfd5dee5bda7fb589cd0e79cb884d725fd2e6025907357b574e\20260926_080739_028\x280_can_loopback.a2l'
+                       manifest: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028\deployment_cache\6c6bc0a6b629edfd5dee5bda7fb589cd0e79cb884d725fd2e6025907357b574e\20260926_080739_028\x280_can_loopback.xcp-manifest.json'
+                        payload: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_local\20260926_080739_028.zip'
+                realtime_source: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028\x280_can_loopback_rt_bundle'
+                         bundle: [1x1 struct]
+                     elf_sha256: '1ee2b09e54bc517b095e47a3ac238ed3570587615878e580b62b9e0f301c0c76'
+             evidence_directory: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_ert_rtw\x280_build_evidence\20260926_080739_028'
+    remote_operations_performed: 0
+                        archive: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_can_loopback_local\20260926_080739_028.zip'
+                 archive_sha256: '6c6bc0a6b629edfd5dee5bda7fb589cd0e79cb884d725fd2e6025907357b574e'
+                 runtime_sha256: "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+
+### 正在启动 x280_canfd_loopback 的编译过程
+### 正在为 '模型特定' 文件夹结构生成代码和工件
+### 正在将代码生成到编译文件夹中: C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw
+### 'x280_canfd_loopback' 的生成代码是最新的，因为未发现任何结构性、参数或代码替换库更改。
+### 正在保存二进制信息缓存。
+### 使用工具链: X280 portable-linux-toolchain
+### 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_canfd_loopback.mk' 是最新的
+### 正在编译 'x280_canfd_loopback': "C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_canfd_loopback.mk -j2 all
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw>cd .  
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw>if "all" == "" ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_canfd_loopback.mk -j2 all )  else ("C:\PROGRA~1\MATLAB\R2024b\bin\win64\gmake"  -f x280_canfd_loopback.mk -j2 all )  
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=80 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=5530 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_canfd_loopback -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/drivers/tc1013/src -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_canfd_loopback_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/shared/can/src/scanutil -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_main.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_canfd_loopback_ert_rtw/x280_rt_main.c" 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-gcc.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -c -g -gdwarf-4 -O2 -fno-pie -pthread -std=c11  -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DX280_SINGLE_TASK_RT=1 -DXCP_MEM_RESERVED_POOLS_TOTAL_SIZE=1048576 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DEXT_MODE=1 -DINTEGER_CODE=0 -DMT=0  -DXCP_DAQ_SUPPORT -DXCP_CALIBRATION_SUPPORT -DXCP_TIMESTAMP_SUPPORT -DXCP_TIMESTAMP_BASED_ON_SIMULATION_TIME -DXCP_SET_MTA_SUPPORT -DEXTMODE_XCP_TRIGGER_SUPPORT -DINTERNAL_XCP_MEM_BLOCK_1_SIZE=128 -DINTERNAL_XCP_MEM_BLOCK_1_NUMBER=1 -DINTERNAL_XCP_MEM_BLOCK_2_SIZE=168 -DINTERNAL_XCP_MEM_BLOCK_2_NUMBER=4 -DINTERNAL_XCP_MEM_BLOCK_3_SIZE=80 -DINTERNAL_XCP_MEM_BLOCK_3_NUMBER=4 -DINTERNAL_XCP_MEM_RESERVED_POOLS_TOTAL_SIZE=5530 -DINTERNAL_XCP_MEM_RESERVED_POOLS_NUMBER=5 -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=64 -DXCP_MEM_DAQ_RESERVED_POOLS_NUMBER=1 -DXCP_MIN_EVENT_NO_RESERVED_POOL=1 -DXCP_MAX_CTO_SIZE=255 -DXCP_MAX_DTO_SIZE=508 -DXCP_MAX_ODT_ENTRY_SIZE=255 -DEXTMODE_STATIC -DEXTMODE_STATIC_SIZE=1000000 -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0 -D__linux__ -D_RUNONTARGETHARDWARE_BUILD_ -DSTACK_SIZE=64 -DRT -DMODEL=x280_canfd_loopback -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926 -IC:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/drivers/tc1013/src -IC:/DataSave/03matlabUbuntu/03AIToolLinux/validation/can926/x280_canfd_loopback_ert_rtw -IC:/PROGRA~1/MATLAB/R2024b/extern/include -IC:/PROGRA~1/MATLAB/R2024b/simulink/include -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2024b/rtw/c/ert -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/common -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/protocol/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/transport/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/server/platform/default -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/include -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/xcp/src/target/ext_mode/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2024b/toolbox/shared/can/src/scanutil -IC:/PROGRA~1/MATLAB/R2024b/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/MATLAB/R2024b/toolbox/target/codertarget/rtos/inc -o "x280_rt_runtime.c.o" "C:/DataSave/03matlabUbuntu/03AIToolLinux/x280_linux_target/src/x280_rt_runtime.c" 
+"### Creating standalone executable "../x280_canfd_loopback.elf" ..." 
+"C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/bin/linux-g++.exe" --sysroot="C:/DataSave/03matlabUbuntu/03AIToolLinux/portable-linux-toolchain/portable-linux-toolchain/toolchain/x86_64-linux" -g -gdwarf-4 -O2 -fno-pie -no-pie -pthread -Wl,--wrap=sem_wait -Wl,--wrap=sem_post -ldl -lpthread  -o ../x280_canfd_loopback.elf x280_tc1013_can.c.o xcp_ext_work.c.o x280_canfd_loopback.c.o x280_canfd_loopback_data.c.o xcp_ext_common.c.o xcp_ext_classic_trigger.c.o xcp.c.o xcp_standard.c.o xcp_daq.c.o xcp_calibration.c.o xcp_fifo.c.o xcp_transport.c.o xcp_mem_default.c.o xcp_drv_rtiostream.c.o xcp_utils.c.o xcp_frame_tcp.c.o rtiostream_interface.c.o rtiostream_tcpip.c.o rtiostream_utils.c.o xcp_platform_default.c.o xcp_ext_mode.c.o xcp_ext_param_x280_udp.c.o x280_rt_main.c.o x280_rt_runtime.c.o   
+"### Created: ../x280_canfd_loopback.elf" 
+"### Successfully generated all binary outputs." 
+ 
+C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw>exit /B 0  
+以下特征变量或测量变量具有不支持的数据类型，因此未导出到 ASAP2 文件中。"x280_canfd_loopback_DW.obj, x280_canfd_loopback_DW.obj_p"
+### X280 deployment ZIP: C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_local\20260926_080830_537.zip
+### Successful completion of build procedure for: x280_canfd_loopback
+
+编译摘要
+
+顶层模型目标:
+
+模型                   编译原因      状态        编译持续时间       
+======================================================
+x280_canfd_loopback  编译工件已过期。  代码已完成编译。  0h 0m 17.207s
+
+编译了 1 个模型，共 1 个模型(0 个模型已经是最新的)
+编译持续时间: 0h 0m 18.234s
+                          model: 'x280_canfd_loopback'
+                        success: 1
+                     build_mode: 'local'
+                 period_seconds: 1.0000e-03
+                 matlab_release: '2024b'
+                 toolchain_root: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\portable-linux-toolchain\portable-linux-toolchain'
+               compiler_version: 'linux-gcc.exe (GCC) 7.5.0...'
+                compiler_sha256: 'e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a'
+                     model_file: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537\x280_canfd_loopback.slx'
+                   model_sha256: '90556ae04e22e8cba232fb2d632304094c306a20813a349fca2acd29649254f6'
+                      local_elf: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537\deployment_cache\627f7e6f013c0da0d79ef7fa21b2088fa65cfe743cee2b1a9a3ee25def2d3b3e\20260926_080830_537\x280_canfd_loopback.elf'
+                            a2l: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537\deployment_cache\627f7e6f013c0da0d79ef7fa21b2088fa65cfe743cee2b1a9a3ee25def2d3b3e\20260926_080830_537\x280_canfd_loopback.a2l'
+                       manifest: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537\deployment_cache\627f7e6f013c0da0d79ef7fa21b2088fa65cfe743cee2b1a9a3ee25def2d3b3e\20260926_080830_537\x280_canfd_loopback.xcp-manifest.json'
+                        payload: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_local\20260926_080830_537.zip'
+                realtime_source: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537\x280_canfd_loopback_rt_bundle'
+                         bundle: [1x1 struct]
+                     elf_sha256: 'c15f0851277b1cb433f0209068aa28cc50254734603e50c67004862ab53ddc63'
+             evidence_directory: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_ert_rtw\x280_build_evidence\20260926_080830_537'
+    remote_operations_performed: 0
+                        archive: 'C:\DataSave\03matlabUbuntu\03AIToolLinux\validation\can926\x280_canfd_loopback_local\20260926_080830_537.zip'
+                 archive_sha256: '627f7e6f013c0da0d79ef7fa21b2088fa65cfe743cee2b1a9a3ee25def2d3b3e'
+                 runtime_sha256: "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+

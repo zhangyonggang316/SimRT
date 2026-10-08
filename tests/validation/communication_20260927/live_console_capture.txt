@@ -1,0 +1,75 @@
+SimRT: ark2120 | UI refresh: 1000.000 ms | 10:14:56
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: YES
+Network:
+lo [UNKNOWN]: 127.0.0.1 / 255.0.0.0
+lo [UNKNOWN]: ::1/128
+enp1s0 [DOWN]: no IP address
+enp3s0 [DOWN]: no IP address
+enp4s0 [DOWN]: no IP address
+wlx7c3d09705041 [UP]: 192.168.219.195 / 255.255.255.0
+wlx7c3d09705041 [UP]: fe80::7e3d:9ff:fe70:5041/64
+CPU: 13.9%  Memory: 18.6%  Disk: 21.1% of 29.7 GB
+State: IDLE (no running .elf owned by this user)
+System uptime: 2379690.000 ms
+Model period / deadlines / task execution: unavailable
+-- LOG ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10:14:55 PROCESS FOUND test_network_runtime (PID 44976)
+10:14:56 STOPPED test_network_runtime (PID 44976)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

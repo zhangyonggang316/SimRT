@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:09:28
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 42.8%  Memory: 30.8%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:13:11 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 791287 calls / 791287 completed
+Deadline misses: 11  Skipped periods: 145
+Task execution current/max: 8932 ns / 68714 ns
+Interval min/avg/max: 128334 / 1000183.283 / 30406848 ns
+Telemetry: live (1.0s old)
+-- LOG ------------------------------------------------------------------------
+* Session Config Id:           0
+GET DAQ PROCESSOR INFO
+* DAQ Properties:    11H
+* MAX_DAQ:

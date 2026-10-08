@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "remote_operations_performed": false,
+  "models": [
+    {
+      "model": "x280_rt_single",
+      "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260926_080641_012.zip",
+      "archive_sha256": "6a228a7be2f4836190d449bfcbe74b0f9062c38f032bd497be7810f3ec8df0e7",
+      "elf_sha256": "6ce23be7f7bbdb594cb7032d000ac00c34242e012eeb21f50efa16e4443e328c",
+      "files": [
+        "20260926_080641_012/x280_rt_single.a2l",
+        "20260926_080641_012/x280_rt_single.elf",
+        "20260926_080641_012/x280_rt_single.xcp-manifest.json"
+      ],
+      "measurements": 6,
+      "calibrations": 12,
+      "scalar_addresses_within_elf_symbols": true,
+      "exact_named_symbols_checked": [
+        "CalGain",
+        "CalOffset",
+        "InputAmplitude",
+        "OutputLowerLimit",
+        "OutputUpperLimit"
+      ],
+      "host": "192.168.219.195",
+      "protocol": "UDP",
+      "port": 17725,
+      "runtime_sha256": "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+    },
+    {
+      "model": "x280_can_loopback",
+      "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\can926\\x280_can_loopback_local\\20260926_080739_028.zip",
+      "archive_sha256": "6c6bc0a6b629edfd5dee5bda7fb589cd0e79cb884d725fd2e6025907357b574e",
+      "elf_sha256": "1ee2b09e54bc517b095e47a3ac238ed3570587615878e580b62b9e0f301c0c76",
+      "files": [
+        "20260926_080739_028/x280_can_loopback.a2l",
+        "20260926_080739_028/x280_can_loopback.elf",
+        "20260926_080739_028/x280_can_loopback.xcp-manifest.json"
+      ],
+      "measurements": 58,
+      "calibrations": 17,
+      "scalar_addresses_within_elf_symbols": true,
+      "exact_named_symbols_checked": [],
+      "host": "192.168.219.195",
+      "protocol": "UDP",
+      "port": 17725,
+      "runtime_sha256": "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+    },
+    {
+      "model": "x280_canfd_loopback",
+      "archive": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\can926\\x280_canfd_loopback_local\\20260926_080830_537.zip",
+      "archive_sha256": "627f7e6f013c0da0d79ef7fa21b2088fa65cfe743cee2b1a9a3ee25def2d3b3e",
+      "elf_sha256": "c15f0851277b1cb433f0209068aa28cc50254734603e50c67004862ab53ddc63",
+      "files": [
+        "20260926_080830_537/x280_canfd_loopback.a2l",
+        "20260926_080830_537/x280_canfd_loopback.elf",
+        "20260926_080830_537/x280_canfd_loopback.xcp-manifest.json"
+      ],
+      "measurements": 64,
+      "calibrations": 1,
+      "scalar_addresses_within_elf_symbols": true,
+      "exact_named_symbols_checked": [],
+      "host": "192.168.219.195",
+      "protocol": "UDP",
+      "port": 17725,
+      "runtime_sha256": "bf619a37b067cb210957f740e42f7bbdd6218bba01da9acd19b1c37db3950893"
+    }
+  ]
+}

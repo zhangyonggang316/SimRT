@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-26T08:15:03.690325+00:00",
+  "pid": 51021,
+  "exe": "/usr/bin/python3.14",
+  "clock_ticks": 100,
+  "utime_ticks": 3344,
+  "stime_ticks": 602,
+  "status": {
+    "Name": "python3",
+    "State": "S (sleeping)",
+    "VmRSS": "20440 kB",
+    "VmHWM": "20440 kB",
+    "Threads": "1",
+    "voluntary_ctxt_switches": "2496",
+    "nonvoluntary_ctxt_switches": "2766"
+  }
+}

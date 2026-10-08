@@ -1,0 +1,105 @@
+{
+  "kernel": "7.0.0-34-realtime",
+  "architecture": "x86_64",
+  "os_release": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+  "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M\n",
+  "realtime_flag": "1",
+  "kernel_config": [
+    "CONFIG_HIGH_RES_TIMERS=y",
+    "CONFIG_PREEMPT_BUILD=y",
+    "# CONFIG_PREEMPT is not set",
+    "CONFIG_PREEMPT_LAZY=y",
+    "CONFIG_PREEMPT_RT=y",
+    "# CONFIG_PREEMPT_RT_NEEDS_BH_LOCK is not set",
+    "CONFIG_PREEMPT_COUNT=y",
+    "CONFIG_PREEMPTION=y",
+    "# CONFIG_PREEMPT_DYNAMIC is not set",
+    "CONFIG_PREEMPT_RCU=y",
+    "CONFIG_HZ=1000",
+    "CONFIG_PREEMPT_NOTIFIERS=y",
+    "# CONFIG_PREEMPT_TRACER is not set",
+    "# CONFIG_PREEMPTIRQ_DELAY_TEST is not set"
+  ],
+  "cpu_count": 4,
+  "cpu_allowed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "rlimit_rtprio": [
+    80,
+    80
+  ],
+  "rlimit_memlock": [
+    1073741824,
+    1073741824
+  ],
+  "disk": {
+    "/": {
+      "total": 29713391616,
+      "used": 6261555200,
+      "free": 21916512256
+    },
+    "/boot": {
+      "total": 2040373248,
+      "used": 227487744,
+      "free": 1688735744
+    },
+    "/home/zh": {
+      "total": 29713391616,
+      "used": 6261555200,
+      "free": 21916512256
+    }
+  },
+  "memory": "MemTotal:        1669436 kB\nMemFree:          911636 kB\nMemAvailable:    1386696 kB\nBuffers:          130232 kB\nCached:           320968 kB\nSwapCached:            0 kB\nActive:           361756 kB\nInactive:         195208 kB\nActive(anon):     117220 kB\nInactive(anon):        0 kB\nActive(file):     244536 kB\nInactive(file):   195208 kB\nUnevictable:       16108 kB\nMlocked:           16108 kB\nSwapTotal:       2097148 kB\nSwapFree:        2097148 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               356 kB\nWriteback:             0 kB\nAnonPages:        121940 kB\nMapped:           125864 kB\nShmem:              1336 kB\nKReclaimable:      62272 kB\nSlab:             126764 kB\nSReclaimable:      62272 kB\nSUnreclaim:        64492 kB\nKernelStack:        3456 kB\nPageTables:         3976 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     2931864 kB\nCommitted_AS:     668632 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       17804 kB\nVmallocChunk:          0 kB\nPercpu:             2800 kB\nHardwareCorrupted:     0 kB\nCmaTotal:              0 kB\nCmaFree:               0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      116636 kB\nDirectMap2M:     1968128 kB\n",
+  "secure_boot": {
+    "exit_code": 255,
+    "output": "This system doesn't support Secure Boot\n"
+  },
+  "rt_packages": {
+    "exit_code": 0,
+    "output": "ubuntu-realtime:\n  Installed: 1.1.3\n  Candidate: 1.1.3\n  Version table:\n *** 1.1.3 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\n        100 /var/lib/dpkg/status\nlinux-image-realtime:\n  Installed: 7.0.0-34.34.1\n  Candidate: 7.0.0-38.38.1\n  Version table:\n     7.0.0-38.38.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages\n *** 7.0.0-34.34.1 500\n        500 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages\n        100 /var/lib/dpkg/status\n     7.0.0-14.14.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\nlinux-realtime:\n  Installed: 7.0.0-34.34.1\n  Candidate: 7.0.0-38.38.1\n  Version table:\n     7.0.0-38.38.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages\n *** 7.0.0-34.34.1 500\n        500 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages\n        100 /var/lib/dpkg/status\n     7.0.0-14.14.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\nrt-tests:\n  Installed: (none)\n  Candidate: 2.9-1ubuntu1\n  Version table:\n     2.9-1ubuntu1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/universe amd64 Packages\n"
+  },
+  "installed_kernels": {
+    "exit_code": 0,
+    "output": "linux-image-7.0.0-30-generic 7.0.0-30.30 deinstall ok config-files\nlinux-image-7.0.0-34-generic 7.0.0-34.34 install ok installed\nlinux-image-7.0.0-34-realtime 7.0.0-34.34.1 install ok installed\nlinux-image-fb-generic  unknown ok not-installed\nlinux-image-fb-realtime  unknown ok not-installed\nlinux-image-generic 7.0.0-34.34 install ok installed\nlinux-image-realtime 7.0.0-34.34.1 install ok installed\nlinux-image-unsigned-7.0.0-30-generic  unknown ok not-installed\nlinux-image-unsigned-7.0.0-34-generic  unknown ok not-installed\nlinux-image-unsigned-7.0.0-34-realtime  unknown ok not-installed\n"
+  },
+  "rt_kernel_files": {
+    "exit_code": 1,
+    "output": "dpkg-query: package 'linux-image-intel-rt' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+  },
+  "boot_files": {
+    "exit_code": 0,
+    "output": "total 212684\n-rw------- 1 root root 11018537 Sep  2 17:35 System.map-7.0.0-34-generic\n-rw------- 1 root root 10645816 Sep  5 02:40 System.map-7.0.0-34-realtime\n-rw-r--r-- 1 root root   308473 Sep  2 17:35 config-7.0.0-34-generic\n-rw-r--r-- 1 root root   305943 Sep  5 02:40 config-7.0.0-34-realtime\ndrwxr-xr-x 3 root root     4096 Jan  1  1970 efi\ndrwxr-xr-x 5 root root     4096 Sep 27 18:12 grub\nlrwxrwxrwx 1 root root       27 Sep 27 17:56 initrd.img -> initrd.img-7.0.0-34-generic\n-rw------- 1 root root 62695289 Sep 27 17:58 initrd.img-7.0.0-34-generic\n-rw------- 1 root root 35733160 Oct  5 15:41 initrd.img-7.0.0-34-realtime\n-rw------- 1 root root 62683082 Sep 27 18:08 initrd.img-7.0.0-34-realtime.before-simrt-20261005-154332\nlrwxrwxrwx 1 root root       28 Sep 27 17:56 initrd.img.old -> initrd.img-7.0.0-34-realtime\ndrwx------ 2 root root    16384 Sep 20 09:28 lost+found\nlrwxrwxrwx 1 root root       24 Sep 27 17:56 vmlinuz -> vmlinuz-7.0.0-34-generic\n-rw------- 1 root root 17303944 Sep  2 17:37 vmlinuz-7.0.0-34-generic\n-rw------- 1 root root 17049992 Sep  5 02:42 vmlinuz-7.0.0-34-realtime\nlrwxrwxrwx 1 root root       25 Sep 27 17:56 vmlinuz.old -> vmlinuz-7.0.0-34-realtime\n"
+  },
+  "grub_entries": {
+    "exit_code": 1,
+    "output": "sudo: interactive authentication is required\n"
+  },
+  "grub_defaults": {
+    "exit_code": 0,
+    "output": "# If you change this file or any /etc/default/grub.d/*.cfg file,\n# run 'update-grub' afterwards to update /boot/grub/grub.cfg.\n# For full documentation of the options in these files, see:\n#   info -f grub -n 'Simple configuration'\n\nGRUB_DEFAULT=0\nGRUB_TIMEOUT_STYLE=hidden\nGRUB_TIMEOUT=0\nGRUB_DISTRIBUTOR=`( . /etc/os-release && echo ${NAME} )`\nGRUB_CMDLINE_LINUX_DEFAULT=\"\"\nGRUB_CMDLINE_LINUX=\"\"\n\n# If your computer has multiple operating systems installed, then you\n# probably want to run os-prober. However, if your computer is a host\n# for guest OSes installed via LVM or raw disk devices, running\n# os-prober can cause damage to those guest OSes as it mounts\n# filesystems to look for things.\n#GRUB_DISABLE_OS_PROBER=false\n\n# Uncomment to enable BadRAM filtering, modify to suit your needs\n# This works with Linux (no patch required) and with any kernel that obtains\n# the memory map information from GRUB (GNU Mach, kernel of FreeBSD ...)\n#GRUB_BADRAM=\"0x01234567,0xfefefefe,0x89abcdef,0xefefefef\"\n\n# Uncomment to disable graphical terminal\n#GRUB_TERMINAL=console\n\n# The resolution used on graphical terminal\n# note that you can use only modes which your graphic card supports via VBE/GOP/UGA\n# you can see them in real GRUB with the command `videoinfo'\n#GRUB_GFXMODE=640x480\n\n# Uncomment if you don't want GRUB to pass \"root=UUID=xxx\" parameter to Linux\n#GRUB_DISABLE_LINUX_UUID=true\n\n# Uncomment to disable generation of recovery mode menu entries\n#GRUB_DISABLE_RECOVERY=\"true\"\n\n# Uncomment to get a beep at grub start\n#GRUB_INIT_TUNE=\"480 440 1\"\n"
+  },
+  "existing_rt_config": {
+    "exit_code": 2,
+    "output": "grep: /boot/config-*rt*: No such file or directory\n"
+  },
+  "pro_status": {
+    "exit_code": 0,
+    "output": "{\"_doc\": \"Content provided in json response is currently considered Experimental and may change\", \"_schema_version\": \"0.1\", \"account\": {\"created_at\": \"\", \"external_account_ids\": [], \"id\": \"\", \"name\": \"\"}, \"attached\": false, \"config\": {\"contract_url\": \"https://contracts.canonical.com\", \"data_dir\": \"/var/lib/ubuntu-advantage\", \"log_file\": \"/var/log/ubuntu-advantage.log\", \"log_level\": \"debug\", \"security_url\": \"https://ubuntu.com/security\", \"ua_config\": {\"apt_http_proxy\": null, \"apt_https_proxy\": null, \"apt_news\": true, \"apt_news_url\": \"https://motd.ubuntu.com/aptnews.json\", \"global_apt_http_proxy\": null, \"global_apt_https_proxy\": null, \"http_proxy\": null, \"https_proxy\": null, \"lxd_guest_attach\": \"off\", \"metering_timer\": 14400, \"poll_for_pro_license\": null, \"polling_error_retry_delay\": null, \"ua_apt_http_proxy\": null, \"ua_apt_https_proxy\": null, \"update_messaging_timer\": 21600, \"vulnerability_data_url_prefix\": \"https://security-metadata.canonical.com/oval/\"}}, \"config_path\": \"/etc/ubuntu-advantage/uaclient.conf\", \"contract\": {\"created_at\": \"\", \"id\": \"\", \"name\": \"\", \"products\": [], \"tech_support_level\": \"n/a\"}, \"effective\": null, \"environment_vars\": [], \"errors\": [], \"execution_details\": \"No Ubuntu Pro operations are running\", \"execution_status\": \"inactive\", \"expires\": null, \"features\": {}, \"machine_id\": null, \"notices\": [], \"result\": \"success\", \"services\": [{\"available\": \"yes\", \"description\": \"Scalable Android in the cloud\", \"description_override\": null, \"name\": \"anbox-cloud\"}, {\"available\": \"yes\", \"description\": \"Expanded Security Maintenance for Applications\", \"description_override\": null, \"name\": \"esm-apps\"}, {\"available\": \"yes\", \"description\": \"Expanded Security Maintenance for Infrastructure\", \"description_override\": null, \"name\": \"esm-infra\"}, {\"available\": \"yes\", \"description\": \"Management and administration tool for Ubuntu\", \"description_override\": null, \"name\": \"landscape\"}, {\"available\": \"yes\", \"description\": \"Canonical Livepatch service\", \"description_override\": \"Current kernel is not covered by livepatch\", \"name\": \"livepatch\"}], \"simulated\": false, \"version\": \"37.2ubuntu0.1\", \"warnings\": []}\n"
+  },
+  "linger": {
+    "exit_code": 0,
+    "output": "Linger=yes\n"
+  },
+  "user_manager": {
+    "exit_code": 0,
+    "output": "running\n"
+  },
+  "rt_bandwidth_us": "950000",
+  "sudo_noninteractive": {
+    "exit_code": 1,
+    "output": "sudo: interactive authentication is required\n"
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "started": "2026-10-06T00:31:28.486197+00:00",
+  "cases": [
+    {
+      "name": "baseline",
+      "environment": {},
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cycles\":60000,\"completed_cycles\":60000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_max_ns\":195062,\"wake_latency_mean_ns\":13586.978,\"execution_max_ns\":267419,\"execution_mean_ns\":101007.872,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":59999,\"cycle_interval_min_ns\":823998,\"cycle_interval_max_ns\":1139349,\"cycle_interval_mean_ns\":999999.356,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":60000,\"model_step_completed_calls\":60000,\"model_step_interval_samples\":59999,\"model_step_interval_min_ns\":824076,\"model_step_interval_max_ns\":1140470,\"model_step_interval_mean_ns\":999999.348,\"model_step_execution_min_ns\":100311,\"model_step_execution_max_ns\":265744,\"model_step_execution_mean_ns\":100390.704,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":59999114146,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cycles": 60000,
+        "completed_cycles": 60000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 195062,
+        "wake_latency_mean_ns": 13586.978,
+        "execution_max_ns": 267419,
+        "execution_mean_ns": 101007.872,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 59999,
+        "cycle_interval_min_ns": 823998,
+        "cycle_interval_max_ns": 1139349,
+        "cycle_interval_mean_ns": 999999.356,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 60000,
+        "model_step_completed_calls": 60000,
+        "model_step_interval_samples": 59999,
+        "model_step_interval_min_ns": 824076,
+        "model_step_interval_max_ns": 1140470,
+        "model_step_interval_mean_ns": 999999.348,
+        "model_step_execution_min_ns": 100311,
+        "model_step_execution_max_ns": 265744,
+        "model_step_execution_mean_ns": 100390.704,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 59999114146,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "affinity",
+      "environment": {
+        "X280_RT_LOW_LATENCY": "0"
+      },
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":false,\"spin_us\":0,\"cycles\":60000,\"completed_cycles\":60000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_max_ns\":295419,\"wake_latency_mean_ns\":13510.702,\"execution_max_ns\":210713,\"execution_mean_ns\":114957.860,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":59999,\"cycle_interval_min_ns\":803310,\"cycle_interval_max_ns\":1262658,\"cycle_interval_mean_ns\":999999.941,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":60000,\"model_step_completed_calls\":60000,\"model_step_interval_samples\":59999,\"model_step_interval_min_ns\":802878,\"model_step_interval_max_ns\":1263131,\"model_step_interval_mean_ns\":999999.936,\"model_step_execution_min_ns\":100311,\"model_step_execution_max_ns\":209600,\"model_step_execution_mean_ns\":114320.722,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":59999128187,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": false,
+        "spin_us": 0,
+        "cycles": 60000,
+        "completed_cycles": 60000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 295419,
+        "wake_latency_mean_ns": 13510.702,
+        "execution_max_ns": 210713,
+        "execution_mean_ns": 114957.86,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 59999,
+        "cycle_interval_min_ns": 803310,
+        "cycle_interval_max_ns": 1262658,
+        "cycle_interval_mean_ns": 999999.941,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 60000,
+        "model_step_completed_calls": 60000,
+        "model_step_interval_samples": 59999,
+        "model_step_interval_min_ns": 802878,
+        "model_step_interval_max_ns": 1263131,
+        "model_step_interval_mean_ns": 999999.936,
+        "model_step_execution_min_ns": 100311,
+        "model_step_execution_max_ns": 209600,
+        "model_step_execution_mean_ns": 114320.722,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 59999128187,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "qos",
+      "environment": {},
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":0,\"cycles\":60000,\"completed_cycles\":60000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_max_ns\":290844,\"wake_latency_mean_ns\":16267.657,\"execution_max_ns\":206997,\"execution_mean_ns\":101118.240,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":59999,\"cycle_interval_min_ns\":807584,\"cycle_interval_max_ns\":1261672,\"cycle_interval_mean_ns\":999999.969,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":60000,\"model_step_completed_calls\":60000,\"model_step_interval_samples\":59999,\"model_step_interval_min_ns\":807606,\"model_step_interval_max_ns\":1262025,\"model_step_interval_mean_ns\":999999.963,\"model_step_execution_min_ns\":100333,\"model_step_execution_max_ns\":205846,\"model_step_execution_mean_ns\":100427.043,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":59999118118,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 0,
+        "cycles": 60000,
+        "completed_cycles": 60000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 290844,
+        "wake_latency_mean_ns": 16267.657,
+        "execution_max_ns": 206997,
+        "execution_mean_ns": 101118.24,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 59999,
+        "cycle_interval_min_ns": 807584,
+        "cycle_interval_max_ns": 1261672,
+        "cycle_interval_mean_ns": 999999.969,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 60000,
+        "model_step_completed_calls": 60000,
+        "model_step_interval_samples": 59999,
+        "model_step_interval_min_ns": 807606,
+        "model_step_interval_max_ns": 1262025,
+        "model_step_interval_mean_ns": 999999.963,
+        "model_step_execution_min_ns": 100333,
+        "model_step_execution_max_ns": 205846,
+        "model_step_execution_mean_ns": 100427.043,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 59999118118,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "qos_spin",
+      "environment": {
+        "X280_RT_SPIN_US": "50"
+      },
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":50,\"cycles\":60000,\"completed_cycles\":60000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_max_ns\":57188,\"wake_latency_mean_ns\":61.459,\"execution_max_ns\":184298,\"execution_mean_ns\":101089.600,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":59999,\"cycle_interval_min_ns\":942883,\"cycle_interval_max_ns\":1057120,\"cycle_interval_mean_ns\":1000000.000,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":60000,\"model_step_completed_calls\":60000,\"model_step_interval_samples\":59999,\"model_step_interval_min_ns\":942733,\"model_step_interval_max_ns\":1057581,\"model_step_interval_mean_ns\":999999.997,\"model_step_execution_min_ns\":100318,\"model_step_execution_max_ns\":183177,\"model_step_execution_mean_ns\":100424.025,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":59999101168,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 50,
+        "cycles": 60000,
+        "completed_cycles": 60000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 57188,
+        "wake_latency_mean_ns": 61.459,
+        "execution_max_ns": 184298,
+        "execution_mean_ns": 101089.6,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 59999,
+        "cycle_interval_min_ns": 942883,
+        "cycle_interval_max_ns": 1057120,
+        "cycle_interval_mean_ns": 1000000.0,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 60000,
+        "model_step_completed_calls": 60000,
+        "model_step_interval_samples": 59999,
+        "model_step_interval_min_ns": 942733,
+        "model_step_interval_max_ns": 1057581,
+        "model_step_interval_mean_ns": 999999.997,
+        "model_step_execution_min_ns": 100318,
+        "model_step_execution_max_ns": 183177,
+        "model_step_execution_mean_ns": 100424.025,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 59999101168,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "irq_qos_spin",
+      "environment": {
+        "X280_RT_SPIN_US": "50"
+      },
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":50,\"cycles\":60000,\"completed_cycles\":60000,\"skipped_releases\":0,\"deadline_misses\":0,\"wake_latency_max_ns\":32778,\"wake_latency_mean_ns\":67.836,\"execution_max_ns\":104560,\"execution_mean_ns\":101059.028,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":59999,\"cycle_interval_min_ns\":967872,\"cycle_interval_max_ns\":1022493,\"cycle_interval_mean_ns\":1000000.000,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":60000,\"model_step_completed_calls\":60000,\"model_step_interval_samples\":59999,\"model_step_interval_min_ns\":967560,\"model_step_interval_max_ns\":1022726,\"model_step_interval_mean_ns\":999999.994,\"model_step_execution_min_ns\":100326,\"model_step_execution_max_ns\":101293,\"model_step_execution_mean_ns\":100421.170,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":59999101300,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 50,
+        "cycles": 60000,
+        "completed_cycles": 60000,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_max_ns": 32778,
+        "wake_latency_mean_ns": 67.836,
+        "execution_max_ns": 104560,
+        "execution_mean_ns": 101059.028,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 59999,
+        "cycle_interval_min_ns": 967872,
+        "cycle_interval_max_ns": 1022493,
+        "cycle_interval_mean_ns": 1000000.0,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 60000,
+        "model_step_completed_calls": 60000,
+        "model_step_interval_samples": 59999,
+        "model_step_interval_min_ns": 967560,
+        "model_step_interval_max_ns": 1022726,
+        "model_step_interval_mean_ns": 999999.994,
+        "model_step_execution_min_ns": 100326,
+        "model_step_execution_max_ns": 101293,
+        "model_step_execution_mean_ns": 100421.17,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 59999101300,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "math",
+      "environment": {},
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_math_tests\",\"passed\":16}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_math_tests",
+        "passed": 16
+      }
+    },
+    {
+      "name": "overrun",
+      "environment": {},
+      "result": {
+        "returncode": 0,
+        "stdout": "{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":true,\"kernel_required\":true,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cpu_dma_latency_active\":true,\"spin_us\":0,\"cycles\":200,\"completed_cycles\":200,\"skipped_releases\":18,\"deadline_misses\":10,\"wake_latency_max_ns\":22980,\"wake_latency_mean_ns\":16196.430,\"execution_max_ns\":2501317,\"execution_mean_ns\":221093.015,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":199,\"cycle_interval_min_ns\":993090,\"cycle_interval_max_ns\":3001237,\"cycle_interval_mean_ns\":1090444.302,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":200,\"model_step_completed_calls\":200,\"model_step_interval_samples\":199,\"model_step_interval_min_ns\":992670,\"model_step_interval_max_ns\":3001267,\"model_step_interval_mean_ns\":1090440.603,\"model_step_execution_min_ns\":100349,\"model_step_execution_max_ns\":2500519,\"model_step_execution_mean_ns\":220409.015,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":219516987,\"stop_signal\":0}\n",
+        "stderr": ""
+      },
+      "metrics": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 0,
+        "cycles": 200,
+        "completed_cycles": 200,
+        "skipped_releases": 18,
+        "deadline_misses": 10,
+        "wake_latency_max_ns": 22980,
+        "wake_latency_mean_ns": 16196.43,
+        "execution_max_ns": 2501317,
+        "execution_mean_ns": 221093.015,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 199,
+        "cycle_interval_min_ns": 993090,
+        "cycle_interval_max_ns": 3001237,
+        "cycle_interval_mean_ns": 1090444.302,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 200,
+        "model_step_completed_calls": 200,
+        "model_step_interval_samples": 199,
+        "model_step_interval_min_ns": 992670,
+        "model_step_interval_max_ns": 3001267,
+        "model_step_interval_mean_ns": 1090440.603,
+        "model_step_execution_min_ns": 100349,
+        "model_step_execution_max_ns": 2500519,
+        "model_step_execution_mean_ns": 220409.015,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": true,
+        "elapsed_ns": 219516987,
+        "stop_signal": 0
+      }
+    },
+    {
+      "name": "bad_period",
+      "environment": {},
+      "result": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "X280 RT initialization/runtime failure: runtime requires a 1 ms, 10 ms, or 100 ms model base period: Invalid argument (22)\n"
+      }
+    },
+    {
+      "name": "bad_subrates",
+      "environment": {},
+      "result": {
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "X280 RT initialization/runtime failure: runtime requires exactly one model task: Invalid argument (22)\n"
+      }
+    }
+  ],
+  "restored": true,
+  "autostart": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "original": {
+    "elf_path": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf",
+    "arguments": []
+  },
+  "before": {
+    "running": true,
+    "pid": 1713,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "baseline_sha256": "cc7aff93645f416c48044e77fa8ba7fd71d657675cdbdadde65c66ef14c610f6",
+  "candidate_sha256": "d386d5467ce5ab97663dfca5d589f3963902c7dfbe57069d9551495cdab4bcb3",
+  "irq_changes": [
+    {
+      "path": "/proc/irq/0/smp_affinity_list",
+      "error": "[Errno 1] Operation not permitted"
+    },
+    {
+      "path": "/proc/irq/1/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/10/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/11/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/12/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/13/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/14/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/15/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/16/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/18/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/19/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/2/smp_affinity_list",
+      "error": "[Errno 1] Operation not permitted"
+    },
+    {
+      "path": "/proc/irq/23/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/24/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/25/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/26/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/27/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/28/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/29/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/3/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/4/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/5/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/6/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/7/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/8/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/9/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/default_smp_affinity",
+      "before": "f",
+      "after": "3"
+    },
+    {
+      "path": "/sys/devices/virtual/workqueue/cpumask",
+      "before": "f",
+      "after": "3"
+    }
+  ],
+  "irq_restored": [
+    {
+      "path": "/proc/irq/1/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/10/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/11/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/12/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/13/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/14/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/15/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/16/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/18/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/19/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/23/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/24/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/25/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/26/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/27/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/28/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/29/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/3/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/4/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/5/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/6/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/7/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/8/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/9/smp_affinity_list",
+      "before": "0-1",
+      "after": "0-3"
+    },
+    {
+      "path": "/proc/irq/default_smp_affinity",
+      "before": "3",
+      "after": "f"
+    },
+    {
+      "path": "/sys/devices/virtual/workqueue/cpumask",
+      "before": "3",
+      "after": "f"
+    }
+  ],
+  "after": {
+    "running": true,
+    "pid": 16236,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/manual_demo_20261005_142634_972e73ba/x280_rt_single.elf.pyxcp-host.log"
+  }
+}

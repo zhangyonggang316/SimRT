@@ -1,0 +1,15 @@
+﻿{
+    "created_at":  "2026-10-06",
+    "model":  "x280_rt_single",
+    "archive":  "models/x280_rt_single/x280_rt_single_local/20261006_005108_492.zip",
+    "protocol":  "UDP",
+    "port":  5555,
+    "archive_sha256":  "f36ef300721fef2724fe9ad6ce2749908c48b5873a1e6fa177232649e3411f86",
+    "elf_sha256":  "ae6f73d32de87cc02e44ea5ecf04907d88234072d9dd0f539851531f30d4a90b",
+    "a2l_sha256":  "e4b7fb46620a91b41a749fa623b7be217b025a4b8c586d97772b7d5147a2a97f",
+    "layout":  "zip_with_timestamp_directory_and_three_files",
+    "target_validation_repeated":  true,
+    "timing_validation_passed": true,
+    "daq_lossless_validation_passed": false,
+    "validation_report":  "realtime_20261006/README.md"
+}

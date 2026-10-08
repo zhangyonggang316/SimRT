@@ -1,0 +1,156 @@
+            found: 0
+     settingsPath: ''
+          enabled: 0
+         dataRoot: ''
+         gatePass: 1
+      kgIndexPath: ''
+    librariesPath: ''
+       policyPath: ''
+             tier: ''
+
+            found: 0
+     settingsPath: ''
+          enabled: 0
+         dataRoot: ''
+         gatePass: 1
+      kgIndexPath: ''
+    librariesPath: ''
+       policyPath: ''
+             tier: ''
+
+24.2.0.2923080 (R2024b) Update 6
+2024b
+------------------------------------------------------------------------------------------------
+MATLAB 版本: 24.2.0.2923080 (R2024b) Update 6
+MATLAB 许可证编号: 40827055
+操作系统: Microsoft Windows 11 专业版 Version 10.0 (Build 26100)
+Java 版本: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+------------------------------------------------------------------------------------------------
+MATLAB                                                版本 24.2             (R2024b)
+Simulink                                              版本 24.2             (R2024b)
+5G Toolbox                                            版本 24.2             (R2024b)
+AUTOSAR Blockset                                      版本 24.2             (R2024b)
+Aerospace Blockset                                    版本 24.2             (R2024b)
+Aerospace Toolbox                                     版本 24.2             (R2024b)
+Antenna Toolbox                                       版本 24.2             (R2024b)
+Audio Toolbox                                         版本 24.2             (R2024b)
+Automated Driving Toolbox                             版本 24.2             (R2024b)
+Bioinformatics Toolbox                                版本 24.2             (R2024b)
+Bluetooth Toolbox                                     版本 24.2             (R2024b)
+C2000 Microcontroller Blockset                        版本 24.2             (R2024b)
+Communications Toolbox                                版本 24.2             (R2024b)
+Computer Vision Toolbox                               版本 24.2             (R2024b)
+Control System Toolbox                                版本 24.2             (R2024b)
+Curve Fitting Toolbox                                 版本 24.2             (R2024b)
+DDS Blockset                                          版本 24.2             (R2024b)
+DSP HDL Toolbox                                       版本 24.2             (R2024b)
+DSP System Toolbox                                    版本 24.2             (R2024b)
+Data Acquisition Toolbox                              版本 24.2             (R2024b)
+Database Toolbox                                      版本 24.2             (R2024b)
+Datafeed Toolbox                                      版本 24.2             (R2024b)
+Deep Learning HDL Toolbox                             版本 24.2             (R2024b)
+Deep Learning Toolbox                                 版本 24.2             (R2024b)
+Econometrics Toolbox                                  版本 24.2             (R2024b)
+Embedded Coder                                        版本 24.2             (R2024b)
+Financial Instruments Toolbox                         版本 24.2             (R2024b)
+Financial Toolbox                                     版本 24.2             (R2024b)
+Fixed-Point Designer                                  版本 24.2             (R2024b)
+Fuzzy Logic Toolbox                                   版本 24.2             (R2024b)
+GPU Coder                                             版本 24.2             (R2024b)
+Global Optimization Toolbox                           版本 24.2             (R2024b)
+HDL Coder                                             版本 24.2             (R2024b)
+HDL Verifier                                          版本 24.2             (R2024b)
+Image Acquisition Toolbox                             版本 24.2             (R2024b)
+Image Processing Toolbox                              版本 24.2             (R2024b)
+Industrial Communication Toolbox                      版本 24.2             (R2024b)
+Instrument Control Toolbox                            版本 24.2             (R2024b)
+LTE Toolbox                                           版本 24.2             (R2024b)
+Lidar Toolbox                                         版本 24.2             (R2024b)
+MATLAB Coder                                          版本 24.2             (R2024b)
+MATLAB Compiler                                       版本 24.2             (R2024b)
+MATLAB Compiler SDK                                   版本 24.2             (R2024b)
+MATLAB MCP Server Toolbox                             版本 0.3.0            (R2026b)
+MATLAB Report Generator                               版本 24.2             (R2024b)
+MATLAB Test                                           版本 24.2             (R2024b)
+Mapping Toolbox                                       版本 24.2             (R2024b)
+Medical Imaging Toolbox                               版本 24.2             (R2024b)
+Mixed-Signal Blockset                                 版本 24.2             (R2024b)
+Model Predictive Control Toolbox                      版本 24.2             (R2024b)
+Model-Based Calibration Toolbox                       版本 24.2             (R2024b)
+Motor Control Blockset                                版本 24.2             (R2024b)
+Navigation Toolbox                                    版本 24.2             (R2024b)
+Optimization Toolbox                                  版本 24.2             (R2024b)
+Parallel Computing Toolbox                            版本 24.2             (R2024b)
+Partial Differential Equation Toolbox                 版本 24.2             (R2024b)
+Phased Array System Toolbox                           版本 24.2             (R2024b)
+Powertrain Blockset                                   版本 24.2             (R2024b)
+Predictive Maintenance Toolbox                        版本 24.2             (R2024b)
+RF Blockset                                           版本 24.2             (R2024b)
+RF PCB Toolbox                                        版本 24.2             (R2024b)
+RF Toolbox                                            版本 24.2             (R2024b)
+ROS Toolbox                                           版本 24.2             (R2024b)
+Radar Toolbox                                         版本 24.2             (R2024b)
+Reinforcement Learning Toolbox                        版本 24.2             (R2024b)
+Requirements Toolbox                                  版本 24.2             (R2024b)
+Risk Management Toolbox                               版本 24.2             (R2024b)
+Robotics System Toolbox                               版本 24.2             (R2024b)
+Robust Control Toolbox                                版本 24.2             (R2024b)
+Satellite Communications Toolbox                      版本 24.2             (R2024b)
+Sensor Fusion and Tracking Toolbox                    版本 24.2             (R2024b)
+SerDes Toolbox                                        版本 24.2             (R2024b)
+Signal Integrity Toolbox                              版本 24.2             (R2024b)
+Signal Processing Toolbox                             版本 24.2             (R2024b)
+SimBiology                                            版本 24.2             (R2024b)
+SimEvents                                             版本 24.2             (R2024b)
+Simscape                                              版本 24.2             (R2024b)
+Simscape Battery                                      版本 24.2             (R2024b)
+Simscape Driveline                                    版本 24.2             (R2024b)
+Simscape Electrical                                   版本 24.2             (R2024b)
+Simscape Fluids                                       版本 24.2             (R2024b)
+Simscape Multibody                                    版本 24.2             (R2024b)
+Simulink 3D Animation                                 版本 24.2             (R2024b)
+Simulink Check                                        版本 24.2             (R2024b)
+Simulink Code Inspector                               版本 24.2             (R2024b)
+Simulink Coder                                        版本 24.2             (R2024b)
+Simulink Compiler                                     版本 24.2             (R2024b)
+Simulink Control Design                               版本 24.2             (R2024b)
+Simulink Coverage                                     版本 24.2             (R2024b)
+Simulink Design Optimization                          版本 24.2             (R2024b)
+Simulink Design Verifier                              版本 24.2             (R2024b)
+Simulink Desktop Real-Time                            版本 24.2             (R2024b)
+Simulink Fault Analyzer                               版本 24.2             (R2024b)
+Simulink PLC Coder                                    版本 24.2             (R2024b)
+Simulink Real-Time                                    版本 24.2             (R2024b)
+Simulink Report Generator                             版本 24.2             (R2024b)
+Simulink Test                                         版本 24.2             (R2024b)
+SoC Blockset                                          版本 24.2             (R2024b)
+Spreadsheet Link                                      版本 24.2             (R2024b)
+Stateflow                                             版本 24.2             (R2024b)
+Statistics and Machine Learning Toolbox               版本 24.2             (R2024b)
+Symbolic Math Toolbox                                 版本 24.2             (R2024b)
+System Composer                                       版本 24.2             (R2024b)
+System Identification Toolbox                         版本 24.2             (R2024b)
+Text Analytics Toolbox                                版本 24.2             (R2024b)
+UAV Toolbox                                           版本 24.2             (R2024b)
+Vehicle Dynamics Blockset                             版本 24.2             (R2024b)
+Vehicle Network Toolbox                               版本 24.2             (R2024b)
+Vision HDL Toolbox                                    版本 24.2             (R2024b)
+WLAN Toolbox                                          版本 24.2             (R2024b)
+Wavelet Toolbox                                       版本 24.2             (R2024b)
+Wireless HDL Toolbox                                  版本 24.2             (R2024b)
+Wireless Testbench                                    版本 24.2             (R2024b)
+           MATLABRelease: "2024b"
+              TargetRoot: "C:\DataSave\03matlabUbuntu\03AIToolLinux\x280_linux_target"
+        TargetRegistered: 1
+         BoardRegistered: 1
+      LocalToolchainRoot: "C:\DataSave\03matlabUbuntu\03AIToolLinux\portable-linux-toolchain\portable-linux-toolchain"
+     LocalBuildAvailable: 1
+      A2LExportAvailable: 1
+            XCPAvailable: 1
+        RequiredProducts: [1x1 struct]
+                 Address: "192.168.219.195"
+                 SSHPort: 22
+     TargetPortReachable: NaN
+      TargetProbeMessage: "not requested"
+    AllLocalChecksPassed: 1
+

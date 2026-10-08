@@ -1,0 +1,72 @@
+{
+  "config": [
+    "CONFIG_NO_HZ_COMMON=y",
+    "CONFIG_NO_HZ_FULL=y",
+    "CONFIG_NO_HZ=y",
+    "CONFIG_PREEMPT_BUILD=y",
+    "CONFIG_PREEMPT_LAZY=y",
+    "CONFIG_PREEMPT_RT=y",
+    "CONFIG_PREEMPT_COUNT=y",
+    "CONFIG_PREEMPTION=y",
+    "CONFIG_CPU_ISOLATION=y",
+    "CONFIG_PREEMPT_RCU=y",
+    "CONFIG_RCU_NOCB_CPU=y",
+    "CONFIG_RCU_NOCB_CPU_CB_BOOST=y",
+    "CONFIG_CGROUPS=y",
+    "CONFIG_CGROUP_WRITEBACK=y",
+    "CONFIG_CGROUP_SCHED=y",
+    "CONFIG_CGROUP_PIDS=y",
+    "CONFIG_CGROUP_RDMA=y",
+    "CONFIG_CGROUP_DMEM=y",
+    "CONFIG_CGROUP_FREEZER=y",
+    "CONFIG_CGROUP_HUGETLB=y",
+    "CONFIG_CPUSETS=y",
+    "CONFIG_CGROUP_DEVICE=y",
+    "CONFIG_CGROUP_CPUACCT=y",
+    "CONFIG_CGROUP_PERF=y",
+    "CONFIG_CGROUP_BPF=y",
+    "CONFIG_CGROUP_MISC=y",
+    "CONFIG_HZ_1000=y",
+    "CONFIG_HZ=1000",
+    "CONFIG_PREEMPT_NOTIFIERS=y",
+    "CONFIG_CGROUP_NET_PRIO=y",
+    "CONFIG_CGROUP_NET_CLASSID=y",
+    "CONFIG_HWLAT_TRACER=y",
+    "CONFIG_OSNOISE_TRACER=y",
+    "CONFIG_TIMERLAT_TRACER=y"
+  ],
+  "files": {
+    "/sys/fs/cgroup/cgroup.controllers": "cpuset cpu io memory hugetlb pids rdma misc dmem",
+    "/sys/fs/cgroup/cgroup.subtree_control": "cpu memory pids",
+    "/sys/fs/cgroup/cpuset.cpus.effective": "0-3",
+    "/sys/fs/cgroup/cpuset.cpus.isolated": "",
+    "/sys/kernel/tracing/available_tracers": "timerlat osnoise hwlat blk mmiotrace function_graph wakeup_dl wakeup_rt wakeup function nop",
+    "/sys/kernel/tracing/current_tracer": "nop",
+    "/proc/sys/kernel/nmi_watchdog": "1",
+    "/proc/sys/kernel/watchdog_cpumask": "0-3",
+    "/proc/sys/kernel/timer_migration": "1",
+    "/sys/devices/system/cpu/smt/control": "on",
+    "/run/simrt-rt-tuning.json": "[\n  {\n    \"path\": \"/proc/irq/0/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0,1\"\n  },\n  {\n    \"path\": \"/proc/irq/1/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/2/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0,1\"\n  },\n  {\n    \"path\": \"/proc/irq/3/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/4/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/5/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/6/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/7/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/8/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/9/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/10/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/11/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/12/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/13/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/14/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/15/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/16/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/18/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/19/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/23/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/24/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/25/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/26/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/27/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/28/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/29/smp_affinity_list\",\n    \"before\": \"0-3\",\n    \"after\": \"0-1\"\n  },\n  {\n    \"path\": \"/proc/irq/default_smp_affinity\",\n    \"before\": \"f\",\n    \"after\": \"3\"\n  },\n  {\n    \"path\": \"/sys/devices/virtual/workqueue/cpumask\",\n    \"before\": \"f\",\n    \"after\": \"3\"\n  }\n]"
+  },
+  "smi_count": {
+    "0": "[Errno 5] Input/output error",
+    "1": "[Errno 5] Input/output error",
+    "2": "[Errno 5] Input/output error",
+    "3": "[Errno 5] Input/output error"
+  },
+  "available_tools": {
+    "code": 0,
+    "stdout": "/usr/bin/rtla\n/usr/bin/perf\n",
+    "stderr": ""
+  },
+  "services": {
+    "code": 0,
+    "stdout": "NEXT                            LEFT LAST                              PASSED UNIT                           ACTIVATES\nTue 2026-10-06 23:50:00 CST 1min 14s Tue 2026-10-06 23:40:03 CST     8min ago sysstat-collect.timer          sysstat-collect.service\nWed 2026-10-07 00:00:00 CST    11min Tue 2026-10-06 00:00:03 CST      23h ago dpkg-db-backup.timer           dpkg-db-backup.service\nWed 2026-10-07 00:00:00 CST    11min Tue 2026-10-06 00:00:03 CST      23h ago sysstat-rotate.timer           sysstat-rotate.service\nWed 2026-10-07 00:07:00 CST    18min Tue 2026-10-06 00:07:03 CST      23h ago sysstat-summary.timer          sysstat-summary.service\nWed 2026-10-07 00:31:17 CST    42min Tue 2026-10-06 23:44:03 CST 4min 42s ago fwupd-refresh.timer            fwupd-refresh.service\nWed 2026-10-07 00:31:49 CST    43min Tue 2026-10-06 00:15:25 CST      23h ago logrotate.timer                logrotate.service\nWed 2026-10-07 00:59:14 CST 1h 10min Tue 2026-10-06 01:07:03 CST      22h ago man-db.timer                   man-db.service\nWed 2026-10-07 03:02:30 CST 3h 13min Tue 2026-10-06 14:45:35 CST       9h ago motd-news.timer                motd-news.service\nWed 2026-10-07 06:20:43 CST       6h Tue 2026-10-06 06:45:03 CST      17h ago apt-daily-upgrade.timer        apt-daily-upgrade.service\nWed 2026-10-07 12:35:04 CST      12h Tue 2026-10-06 18:33:03 CST 5h 15min ago apt-daily.timer                apt-daily.service\nWed 2026-10-07 15:53:35 CST      16h Tue 2026-10-06 15:53:35 CST       7h ago update-notifier-download.timer update-notifier-download.service\nWed 2026-10-07 16:02:57 CST      16h Tue 2026-10-06 16:02:57 CST       7h ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service\nSun 2026-10-11 03:10:36 CST   4 days Sun 2026-10-04 17:07:52 CST            - e2scrub_all.timer              e2scrub_all.service\nSun 2026-10-11 03:10:40 CST   4 days Sun 2026-10-04 17:08:31 CST            - xfs_scrub_all.timer            xfs_scrub_all.service\nMon 2026-10-12 01:29:23 CST   5 days Mon 2026-10-05 09:37:21 CST            - fstrim.timer                   fstrim.service\nMon 2026-10-12 15:28:38 CST   5 days Mon 2026-10-05 14:11:33 CST            - update-notifier-motd.timer     update-notifier-motd.service\n-                                  - -                                      - apport-autoreport.timer        apport-autoreport.service\n-                                  - -                                      - snapd.snap-repair.timer        snapd.snap-repair.service\n-                                  - -                                      - ua-timer.timer                 ua-timer.service\n\n19 timers listed.\n",
+    "stderr": ""
+  },
+  "systemd": {
+    "code": 0,
+    "stdout": "systemd 259 (259.5-0ubuntu3.4)\n+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE\n",
+    "stderr": ""
+  }
+}

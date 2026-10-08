@@ -1,0 +1,33 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:51:16
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 7.2%  Memory: 30.4%  Disk: 20.6% of 29.7 GB
+State: IDLE (no running .elf owned by this user)
+System uptime: 03:10:24
+Model period / deadlines / task execution: unavailable
+-- LOG ----------------------------------------------------------------------------------------------------------------
+08:15:28 PROCESS FOUND x280_rt_single (PID 65008)
+08:16:26 STOPPED x280_rt_single (PID 65008)
+08:35:51 PROCESS FOUND runtime_failure_check (PID 81003)
+08:35:55 STOPPED runtime_failure_check (PID 81003)
+08:37:22 PROCESS FOUND runtime_failure_check (PID 82238)
+08:37:26 PROCESS FOUND runtime_failure_check (PID 82278)
+08:37:26 STOPPED runtime_failure_check (PID 82238)
+08:37:30 STOPPED runtime_failure_check (PID 82278)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

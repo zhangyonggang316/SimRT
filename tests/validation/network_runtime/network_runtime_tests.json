@@ -1,0 +1,20 @@
+﻿{
+    "utc":  "2026-09-27T10:05:28.9186293Z",
+    "passed":  true,
+    "checks":  [
+                   "parameter validation",
+                   "nonblocking trylock paths",
+                   "bounded queue pressure",
+                   "UDP real localhost datagrams",
+                   "UDP receive truncation",
+                   "TCP stream smaller receive buffers",
+                   "bidirectional TCP",
+                   "TCP reconnect",
+                   "duplicate and stale ownership",
+                   "Linux cross compilation and link"
+               ],
+    "source_sha256":  "4B107F440C038931DDD4EEF765DD11CA3EBB5248EE7D1A879145347C6256A2FB",
+    "harness_sha256":  "E752D3D13F3228EA2EE1D0AB2E86145650EDC8CAEE38B04DFB5C23A7961F7EB8",
+    "linux_sha256":  "B5BE88BF5EC9D9659E534B0539BBF6CCE871F0C46D5BBFF525F1216D5819A92A",
+    "limitations":  "Sockets execute on Windows Winsock; Linux source is cross-compiled and linked. No ARK2120 hardware timing or Linux execution was tested."
+}

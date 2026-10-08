@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 13.8977014,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.032060700000000004,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/executionOrderInitializesBothChannelsBeforeTransmission",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0172124,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.28582589999999997,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.059109,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 3.7283229,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 1.0540421000000002,
+    "Details": {}
+  }
+]

@@ -1,0 +1,10 @@
+﻿{
+    "created_at":  "2026-09-16T01:32:24.7156910+08:00",
+    "model":  "x280_rt_single",
+    "manifest":  "models/x280_rt_single/x280_rt_single_local/20260915_170738_507/x280_rt_single.xcp-manifest.json",
+    "elf_sha256":  "05b65e22ccb50a10b12a9ceabeebcff52e0217004a8f30028de7c494367b8f5a",
+    "a2l_sha256":  "770169b155d5f01d029fe1874cff17b3b4d7e08cbd036edb55ee23e39885690e",
+    "layout":  "three_files_directly_in_timestamp_directory",
+    "target_validation_repeated":  false,
+    "original_artifact_bytes_preserved":  true
+}

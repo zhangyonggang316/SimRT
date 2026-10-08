@@ -1,0 +1,42 @@
+ slLibraryBrowser - 打开、加载并关闭 Simulink 库浏览器，创建并获取库浏览器对象的句柄
+    此 MATLAB 函数 在独立模式下打开 Simulink 库浏览器。有关独立模式的详细信息，请参阅
+    Library Browser in Standalone Mode。
+
+    语法
+      slLibraryBrowser
+      libraryhandle = slLibraryBrowser
+      slLibraryBrowser('open')
+      slLibraryBrowser('noshow')
+      slLibraryBrowser('close')
+
+    示例
+      web('C:\Program Files\MATLAB\R2024b\help/simulink/slref/sllibrarybrowser.html#bu4btyo-2')
+      web('C:\Program Files\MATLAB\R2024b\help/simulink/slref/sllibrarybrowser.html#bu4bt3w-2')
+
+    另请参阅 LibraryBrowser.LibraryBrowser2, simulink, start_simulink,
+      库浏览器, LibraryBrowser.LBStandalone
+
+    已在 R2016a 中的 Simulink 中引入
+    slLibraryBrowser 的文档
+       doc slLibraryBrowser
+
+
+D:\05SimRT\x280_linux_target\drivers\tc1013\slblocks.m
+D:\05SimRT\x280_linux_target\drivers\ethercat\slblocks.m                              % Shadowed
+D:\05SimRT\x280_linux_target\drivers\network\slblocks.m                               % Shadowed
+D:\05SimRT\x280_linux_target\drivers\serial\slblocks.m                                % Shadowed
+D:\05SimRT\x280_linux_target\drivers\dio\slblocks.m                                   % Shadowed
+D:\05SimRT\x280_linux_target\drivers\ark\slblocks.m                                   % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\simulink\blocks\slblocks.m                     % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\simulink\blocks\sb2sl\slblocks.m               % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\stateflow\stateflow_lib\slblocks.m             % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\rtw\targets\ecoder\slblocks.m                  % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\coder\simulinkcoder_core\slblocks.m            % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\comm\commutilities\slblocks.m                  % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\dsp\dsp\dsputilities\slblocks.m                % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\fixedpoint\embeddedlib\embeddedlib\slblocks.m  % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\fuzzy\fuzzy\slblocks.m                         % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\hdlcoder\hdllib\sl_lib\slblocks.m              % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\simulinktest\simulinktest\slblocks.m           % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\sl3d\sl3d\slblocks.m                           % Shadowed
+C:\Program Files\MATLAB\R2024b\toolbox\vnt\vntblks\vntblks\slblocks.m                 % Shadowed

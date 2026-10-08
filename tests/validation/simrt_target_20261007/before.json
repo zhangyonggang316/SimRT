@@ -1,0 +1,71 @@
+{
+  "hostname": "ark2120",
+  "kernel": "7.0.0-34-realtime",
+  "realtime": "1",
+  "boot_id": "35d46e2e-bb37-4787-820e-9cf496312cae",
+  "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro isolcpus=domain,managed_irq,2,3 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+  "isolated_cpus": "2-3",
+  "processes": [
+    {
+      "pid": 3143,
+      "elf": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+      "sha256": "df2f8d5bb47b18c0e64e2116ae8739ab67c022a0669528dea91727a72742a821",
+      "arguments": [
+        "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf"
+      ],
+      "marker": {
+        "pid": 3143,
+        "start_time": "188850",
+        "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+        "uid": 1000,
+        "token": "48f3683ef29c4fb6a08443487f7b1a49"
+      },
+      "realtime_status": "{\"schema_version\":1,\"event\":\"simrt_status\",\"model\":\"x280_rt_single\",\"pid\":3143,\"state\":\"RUNNING\",\"updated_unix_ns\":1791329775675787765,\"sample_monotonic_ns\":27297214208680,\"elapsed_ns\":25408693002450,\"period_ns\":1000000,\"cpu\":3,\"priority\":40,\"cpu_dma_latency_active\":true,\"spin_us\":500,\"realtime_kernel\":true,\"memory_locked\":true,\"stop_time_seconds\":null,\"model_step_calls\":25408694,\"model_step_completed_calls\":25408694,\"model_step_interval_min_ns\":999091,\"model_step_interval_mean_ns\":1000000.000,\"model_step_interval_max_ns\":1000954,\"model_step_execution_current_ns\":1725,\"model_step_execution_max_ns\":14148,\"deadline_misses\":0,\"skipped_releases\":0,\"interval_tolerance_ns\":50000,\"model_step_interval_early_count\":0,\"model_step_interval_late_count\":0,\"model_step_release_lateness_current_ns\":387,\"model_step_release_lateness_max_ns\":1398,\"model_step_entry_delay_current_ns\":386,\"model_step_entry_delay_max_ns\":1305,\"wake_latency_current_ns\":1,\"wake_latency_max_ns\":247,\"sleep_return_lateness_current_ns\":20473,\"sleep_return_lateness_max_ns\":238326,\"sleep_calls\":25408694,\"sleep_skipped_count\":0,\"sleep_return_after_release_count\":0,\"sleep_performed\":true,\"last_interval_outlier\":null}"
+    }
+  ],
+  "addresses": {
+    "code": 0,
+    "stdout": "[{\"ifindex\":1,\"ifname\":\"lo\",\"flags\":[\"LOOPBACK\",\"UP\",\"LOWER_UP\"],\"mtu\":65536,\"qdisc\":\"noqueue\",\"operstate\":\"UNKNOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"loopback\",\"address\":\"00:00:00:00:00:00\",\"broadcast\":\"00:00:00:00:00:00\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"127.0.0.1\",\"prefixlen\":8,\"scope\":\"host\",\"label\":\"lo\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295},{\"family\":\"inet6\",\"local\":\"::1\",\"prefixlen\":128,\"scope\":\"host\",\"noprefixroute\":true,\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":2,\"ifname\":\"enp1s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"fq_codel\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:0c:11:6d\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.7.1\",\"prefixlen\":24,\"broadcast\":\"192.168.7.255\",\"scope\":\"global\",\"label\":\"enp1s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":3,\"ifname\":\"enp3s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"fq_codel\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:34\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e34\"],\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.8.1\",\"prefixlen\":24,\"broadcast\":\"192.168.8.255\",\"scope\":\"global\",\"label\":\"enp3s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":4,\"ifname\":\"enp4s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"fq_codel\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:35\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e35\"],\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.9.1\",\"prefixlen\":24,\"broadcast\":\"192.168.9.255\",\"scope\":\"global\",\"label\":\"enp4s0\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":5,\"ifname\":\"wlx7c3d09705041\",\"flags\":[\"BROADCAST\",\"MULTICAST\",\"UP\",\"LOWER_UP\"],\"mtu\":1500,\"qdisc\":\"noqueue\",\"operstate\":\"UP\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"7c:3d:09:70:50:41\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.193.195\",\"prefixlen\":24,\"metric\":600,\"broadcast\":\"192.168.193.255\",\"scope\":\"global\",\"dynamic\":true,\"label\":\"wlx7c3d09705041\",\"valid_life_time\":3350,\"preferred_life_time\":3350},{\"family\":\"inet6\",\"local\":\"fe80::7e3d:9ff:fe70:5041\",\"prefixlen\":64,\"scope\":\"link\",\"protocol\":\"kernel_ll\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]}]\n",
+    "stderr": ""
+  },
+  "listeners": {
+    "code": 0,
+    "stdout": "State  Recv-Q Send-Q                   Local Address:Port Peer Address:PortProcess                                   \nUNCONN 0      0                            127.0.0.1:323       0.0.0.0:*                                             \nUNCONN 0      0                              0.0.0.0:5555      0.0.0.0:*    users:((\"x280_rt_single.\",pid=3143,fd=3))\nUNCONN 0      0                           127.0.0.54:53        0.0.0.0:*                                             \nUNCONN 0      0                        127.0.0.53%lo:53        0.0.0.0:*                                             \nUNCONN 0      0      192.168.193.195%wlx7c3d09705041:68        0.0.0.0:*                                             \nUNCONN 0      0                                [::1]:323          [::]:*                                             \n",
+    "stderr": ""
+  },
+  "usb": {
+    "code": 0,
+    "stdout": "Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 001 Device 002: ID 148f:7601 Ralink Technology, Corp. MT7601U Wireless Adapter\nBus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\nBus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\nBus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\nBus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\n",
+    "stderr": ""
+  },
+  "console": {
+    "code": 0,
+    "stdout": "0|python3\n",
+    "stderr": ""
+  },
+  "tuning": null,
+  "identity": {
+    "home": "/home/zh",
+    "python": "3.14.4",
+    "host": "192.168.193.195",
+    "username": "zh",
+    "port": 22
+  },
+  "autostart": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "owned_status": [
+    {
+      "running": true,
+      "pid": 3143,
+      "state": "running",
+      "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+      "log_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf.pyxcp-host.log"
+    }
+  ]
+}

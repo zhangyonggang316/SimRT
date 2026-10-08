@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "protocol": "UDP",
+  "port": 55555,
+  "a2l_ports": {
+    "UDP": 55555
+  },
+  "a2l_hosts": {
+    "UDP": "192.168.193.195"
+  },
+  "archive": "D:\\05SimRT\\Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20261005_022258_551.zip",
+  "archive_sha256": "bc320d3582b17d532b748771d290ef95795a0d0e46139ebcb117e101650e19bf",
+  "elf_sha256": "570f967721691a229843067d3edf46e22efeee5282fc226b38b97a2ac56cd794"
+}

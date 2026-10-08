@@ -1,0 +1,9 @@
+{
+  "command": "ps -L -p 97758 -o pid,tid,psr,pcpu,policy,rtprio,stat,comm",
+  "exit_code": 0,
+  "stdout": "    PID     TID PSR %CPU POL RTPRIO STAT COMMAND\n  97758   97758   2 19.4 TS       - SLsl x280_rt_single.\n  97758   97759   0  0.0 TS       - SLsl x280_rt_single.\n  97758   97760   3  2.5 FF      40 SLsl x280_rt_single.\n",
+  "stderr": "",
+  "host": "192.168.219.195",
+  "user": "zh",
+  "host_key_sha256": "eeTIikDlYn5po2uiSNGEJTglh6lQ+IUFYJS6s2hciv0="
+}

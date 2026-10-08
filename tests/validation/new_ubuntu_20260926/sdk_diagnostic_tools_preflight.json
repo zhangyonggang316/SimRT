@@ -1,0 +1,6 @@
+{
+  "command": "sudo -n true 2>/dev/null; ps -eo pid,comm,args | grep -E 'apt-get|dpkg|unattended|gdb|strace' | grep -v grep; command -v gdb; command -v strace",
+  "exit_code": 0,
+  "stdout": "   1061 unattended-upgr /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\n/usr/bin/strace\n",
+  "stderr": ""
+}

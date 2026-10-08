@@ -1,0 +1,12 @@
+﻿{
+    "created_at":  "2026-10-05T14:06:45.2568494+08:00",
+    "status":  "build_completed",
+    "runtime_validation":  "not_recorded_by_build_script",
+    "application":  "SimRT.exe",
+    "python":  "3.9.10",
+    "pyside6":  "6.8.3",
+    "pyinstaller":  "6.22.2",
+    "native_abi":  1,
+    "exe_sha256":  "d6a5bd147eb70857cd43c630fa5696b335bb4c3cf14c14d294a69c6497aac516",
+    "native_sha256":  "108a25419b05a3e805b31be20f4ccd67ee05826d6c62d0465101b61be04d0f41"
+}

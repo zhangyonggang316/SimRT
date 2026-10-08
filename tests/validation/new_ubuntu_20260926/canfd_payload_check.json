@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-09-26T07:27:54.539311+00:00",
+  "source": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\tc1013_can_20260919\\x280_canfd_loopback_local\\20260918_171728_241",
+  "endpoint": {
+    "host": "192.168.219.195",
+    "username": "zh",
+    "port": 22
+  },
+  "baseline": false,
+  "passed": true,
+  "scope": "CAN functionality; not a zero-loss, endurance or worst-case timing certification",
+  "manifest": {
+    "SchemaVersion": 2,
+    "ModelName": "x280_canfd_loopback",
+    "MATLABRelease": "2024b",
+    "CreatedUTC": "2026-09-18T17:17:28Z",
+    "TargetHardware": "X280 Linux (SSH)",
+    "TargetAddress": "192.168.219.86",
+    "XCPTransport": "UDP",
+    "XCPPort": 17725,
+    "XCPMaxDTOBytes": 508,
+    "XCPMaxDatagramBytes": 512,
+    "A2LFile": "x280_canfd_loopback.a2l",
+    "A2LBytes": 71910,
+    "A2LSHA256": "199f4801d1f78b35e6e24e280a716af5a2d2163ee5f70976f008116e02240d84",
+    "ELFFile": "x280_canfd_loopback.elf",
+    "ELFBytes": 442968,
+    "ELFSHA256": "4f2d624ce8b5efe24594365d77feb4f920191cd111f717c1d7f80040c15c3efa"
+  },
+  "payload_files": {
+    "x280_canfd_loopback.elf": "4f2d624ce8b5efe24594365d77feb4f920191cd111f717c1d7f80040c15c3efa",
+    "x280_canfd_loopback.a2l": "199f4801d1f78b35e6e24e280a716af5a2d2163ee5f70976f008116e02240d84",
+    "x280_canfd_loopback.xcp-manifest.json": "0560c75fe94e7476eb6a818a109f3c3154a8e995509d1d6608ae8213540b36ff"
+  },
+  "xcp_endpoint": {
+    "host": "192.168.219.195",
+    "protocol": "UDP",
+    "port": 17725
+  },
+  "local_check_only": true,
+  "hardware_tested": false
+}

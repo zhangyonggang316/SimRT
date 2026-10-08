@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "physical_test": false,
+  "tests": [
+    {
+      "mode": "rs232",
+      "relay": true,
+      "corrupt": false,
+      "interrupt": false,
+      "result": {
+        "passed": true,
+        "mode": "rs232",
+        "baud": 115200,
+        "rounds_completed": 4,
+        "frames_verified": 8,
+        "tx_bytes": 2048,
+        "rx_bytes": 2048,
+        "status": 0,
+        "restore_ok": true,
+        "signal": 0,
+        "elapsed_ms": 30,
+        "nonce": "7469bf3d8b0c8ad4"
+      }
+    },
+    {
+      "mode": "rs485-auto",
+      "relay": true,
+      "corrupt": false,
+      "interrupt": false,
+      "result": {
+        "passed": true,
+        "mode": "rs485-auto",
+        "baud": 115200,
+        "rounds_completed": 4,
+        "frames_verified": 8,
+        "tx_bytes": 2048,
+        "rx_bytes": 2048,
+        "status": 0,
+        "restore_ok": true,
+        "signal": 0,
+        "elapsed_ms": 28,
+        "nonce": "75a091246d8644f7"
+      }
+    },
+    {
+      "mode": "rs232",
+      "relay": true,
+      "corrupt": true,
+      "interrupt": false,
+      "result": {
+        "passed": false,
+        "mode": "rs232",
+        "baud": 115200,
+        "rounds_completed": 0,
+        "frames_verified": 0,
+        "tx_bytes": 256,
+        "rx_bytes": 256,
+        "status": -74,
+        "restore_ok": true,
+        "signal": 0,
+        "elapsed_ms": 2,
+        "nonce": "7b1d39607491105c"
+      }
+    },
+    {
+      "mode": "rs232",
+      "relay": false,
+      "corrupt": false,
+      "interrupt": false,
+      "result": {
+        "passed": false,
+        "mode": "rs232",
+        "baud": 115200,
+        "rounds_completed": 0,
+        "frames_verified": 0,
+        "tx_bytes": 256,
+        "rx_bytes": 0,
+        "status": -110,
+        "restore_ok": true,
+        "signal": 0,
+        "elapsed_ms": 150,
+        "nonce": "ea1b0bbbeacfbfa8"
+      }
+    },
+    {
+      "mode": "rs232",
+      "relay": false,
+      "corrupt": false,
+      "interrupt": true,
+      "result": {
+        "passed": false,
+        "mode": "rs232",
+        "baud": 115200,
+        "rounds_completed": 0,
+        "frames_verified": 0,
+        "tx_bytes": 256,
+        "rx_bytes": 0,
+        "status": -4,
+        "restore_ok": true,
+        "signal": 15,
+        "elapsed_ms": 99,
+        "nonce": "45342ad850023417"
+      }
+    },
+    {
+      "mode": "rs485-rts-high",
+      "relay": true,
+      "corrupt": false,
+      "interrupt": false,
+      "result": {
+        "passed": false,
+        "mode": "rs485-rts-high",
+        "baud": 115200,
+        "rounds_completed": 0,
+        "frames_verified": 0,
+        "tx_bytes": 0,
+        "rx_bytes": 0,
+        "status": -25,
+        "restore_ok": true,
+        "signal": 0,
+        "elapsed_ms": 0,
+        "nonce": "870aa5f30f64b293"
+      }
+    }
+  ],
+  "rs485_restoration_tests": {
+    "passed": true,
+    "tests": 6,
+    "physical_test": false
+  }
+}

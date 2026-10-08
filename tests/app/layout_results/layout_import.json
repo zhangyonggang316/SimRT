@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "hardware_test": false,
+  "demos": [
+    {
+      "demo": "demos\\Demo_XCP_Qt",
+      "model": "simrt_rt_single",
+      "archive_sha256": "77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55",
+      "measurements": 6,
+      "calibrations": 12,
+      "xcp_connected": false,
+      "ssh_connected": false
+    },
+    {
+      "demo": "tests\\app\\layout_results\\portable_package",
+      "model": "simrt_rt_single",
+      "archive_sha256": "77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55",
+      "measurements": 6,
+      "calibrations": 12,
+      "xcp_connected": false,
+      "ssh_connected": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+    "created_at":  "2026-10-05T13:51:47.4151389+08:00",
+    "pid":  40336,
+    "input_idle":  true,
+    "responding":  true,
+    "main_window":  true,
+    "exited_before_close":  false,
+    "normal_close_requested":  true,
+    "normal_exit":  true,
+    "exe_sha256":  "815f6e501753e60137b593e5d428fb046cce8e92fd9141c4edbe51a868349650",
+    "demo":  "D:\\05SimRT\\Demo_XCP_Qt\\demo.json",
+    "gui_interaction_test":  false,
+    "startup_error":  false,
+    "passed":  true
+}

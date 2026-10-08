@@ -1,0 +1,122 @@
+﻿[
+    {
+        "path":  "tests\\tools\\unit\\__pycache__",
+        "files":  8,
+        "bytes":  64506
+    },
+    {
+        "path":  "tests\\tools\\scripts\\__pycache__",
+        "files":  10,
+        "bytes":  83990
+    },
+    {
+        "path":  "app\\qt_xcp_host\\qt_host\\__pycache__",
+        "files":  16,
+        "bytes":  191264
+    },
+    {
+        "path":  "shared\\python\\simrt_xcp\\__pycache__",
+        "files":  4,
+        "bytes":  34871
+    },
+    {
+        "path":  "shared\\python\\pyxcp_host\\__pycache__",
+        "files":  4,
+        "bytes":  16432
+    },
+    {
+        "path":  "demos\\io\\dio\\simrt_dio_loopback\\slprj",
+        "files":  64,
+        "bytes":  759803
+    },
+    {
+        "path":  "demos\\io\\tc1013\\simrt_can_loopback\\slprj",
+        "files":  9,
+        "bytes":  200341
+    },
+    {
+        "path":  "tests\\validation\\pyxcp_02232\\__pycache__",
+        "files":  1,
+        "bytes":  10218
+    },
+    {
+        "path":  "shared\\python\\pyxcp_host\\services\\__pycache__",
+        "files":  14,
+        "bytes":  134665
+    },
+    {
+        "path":  "demos\\Demo_XCP_Qt\\models\\simrt_rt_single\\slprj",
+        "files":  24,
+        "bytes":  286967
+    },
+    {
+        "path":  "toolchain\\simrt_linux_target\\tools\\__pycache__",
+        "files":  2,
+        "bytes":  25533
+    },
+    {
+        "path":  "tests\\validation\\rs485_com56_20261007\\__pycache__",
+        "files":  3,
+        "bytes":  17058
+    },
+    {
+        "path":  "tests\\validation\\polar_comparison_20261007\\model\\slprj",
+        "files":  7,
+        "bytes":  158153
+    },
+    {
+        "path":  "demos\\io\\dio\\simrt_dio_loopback\\simrt_dio_loopback.slxc",
+        "files":  1,
+        "bytes":  2522130
+    },
+    {
+        "path":  "demos\\io\\dio\\simrt_dio_loopback\\simrt_serial_com56.slxc",
+        "files":  1,
+        "bytes":  1298121
+    },
+    {
+        "path":  "toolchain\\simrt_linux_target\\drivers\\tc1013\\__pycache__",
+        "files":  1,
+        "bytes":  7412
+    },
+    {
+        "path":  "demos\\io\\serial\\simrt_serial_com56\\simrt_serial_com56.slxc",
+        "files":  1,
+        "bytes":  2002914
+    },
+    {
+        "path":  "demos\\io\\tc1013\\simrt_can_loopback\\simrt_can_loopback.slxc",
+        "files":  1,
+        "bytes":  1081083
+    },
+    {
+        "path":  "demos\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single.slxc",
+        "files":  1,
+        "bytes":  1593007
+    },
+    {
+        "path":  "demos\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_dio_loopback.slxc",
+        "files":  1,
+        "bytes":  5147
+    },
+    {
+        "path":  "tests\\validation\\polar_comparison_20261007\\model_20261007_222404\\slprj",
+        "files":  9,
+        "bytes":  177475
+    },
+    {
+        "path":  "tests\\validation\\polar_comparison_20261007\\model_20261007_224249\\slprj",
+        "files":  9,
+        "bytes":  177477
+    },
+    {
+        "path":  "tests\\validation\\polar_comparison_20261007\\model_20261007_222404\\simrt_workflow_probe.slxc",
+        "files":  1,
+        "bytes":  915400
+    },
+    {
+        "path":  "tests\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe.slxc",
+        "files":  1,
+        "bytes":  915444
+    }
+]

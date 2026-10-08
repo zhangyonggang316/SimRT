@@ -1,0 +1,7 @@
+{
+  "command": "tmux -L simrt-console respawn-pane -k -t simrt-console:0.0 'exec python3 /home/zh/.local/lib/simrt-console/simrt_console.py'",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "source_sha256": "20452784f860a06dbadae879a3d86ebe9c603838941fa408c38069b9c8910147"
+}

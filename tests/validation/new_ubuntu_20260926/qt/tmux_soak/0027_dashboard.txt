@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:12:50
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 6.3%  Memory: 30.2%  Disk: 20.6% of 29.7 GB
+State: IDLE (no running .elf owned by this user)
+System uptime: 02:31:58
+Model period / deadlines / task execution: unavailable
+-- LOG ------------------------------------------------------------------------
+08:07:29 PROCESS FOUND rt_runtime_harness (PID 58306)
+08:07:32 PROCESS FOUND rt_runtime_harness (PID 58346)
+08:07:32 STOPPED rt_runtime_harness (PID 58306)
+08:07:34 PROCESS FOUND rt_runtime_harness (PID 58420)
+08:07:34 STOPPED rt_runtime_harness (PID 58346)
+08:07:37 STOPPED rt_runtime_harness (PID 58420)
+
+

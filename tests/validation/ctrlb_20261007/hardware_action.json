@@ -1,0 +1,55 @@
+{
+  "model": "simrt_rt_single",
+  "build_options": [
+    "Build"
+  ],
+  "handle_build_options": [
+    "Build"
+  ],
+  "config_build_options": [
+    "Build"
+  ],
+  "context_class": "codertarget.sltoolstrip.EmbeddedHardwareBoardContext",
+  "deploy_context": "HWBoardBuildSelectedBuildContext",
+  "type_chain": [
+    "HWBoardLoggingAvailableContext",
+    "HWBoardDeployedConnectStartContext",
+    "HWBoardBuildSelectedBuildContext",
+    "HWBoardSetupNotAvailableContext",
+    "PeripheralsNotAvailableContext",
+    "socProfilingNotAvailableContext",
+    "prepareDesignGalleryNotAvailableContext",
+    "embeddedHardwareBoardAppContext"
+  ],
+  "build_action_found": true,
+  "build_action_enabled": true,
+  "build_action_tag": "buildHardwareBoardAction2",
+  "action_duration_seconds": 64.2822285,
+  "after_build": {
+    "model": "simrt_rt_single",
+    "build_options": [
+      "Build"
+    ],
+    "handle_build_options": [
+      "Build"
+    ],
+    "config_build_options": [
+      "Build"
+    ],
+    "context_class": "codertarget.sltoolstrip.EmbeddedHardwareBoardContext",
+    "deploy_context": "HWBoardBuildSelectedBuildContext",
+    "type_chain": [
+      "HWBoardLoggingAvailableContext",
+      "HWBoardDeployedConnectStartContext",
+      "HWBoardBuildSelectedBuildContext",
+      "HWBoardSetupNotAvailableContext",
+      "PeripheralsNotAvailableContext",
+      "socProfilingNotAvailableContext",
+      "prepareDesignGalleryNotAvailableContext",
+      "embeddedHardwareBoardAppContext"
+    ],
+    "build_action_found": true,
+    "build_action_enabled": true,
+    "build_action_tag": "buildHardwareBoardAction2"
+  }
+}

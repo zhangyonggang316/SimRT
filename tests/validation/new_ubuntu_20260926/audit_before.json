@@ -1,0 +1,103 @@
+{
+  "kernel": "7.0.0-30-generic",
+  "architecture": "x86_64",
+  "os_release": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+  "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-30-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M\n",
+  "realtime_flag": null,
+  "kernel_config": [
+    "CONFIG_HIGH_RES_TIMERS=y",
+    "CONFIG_PREEMPT_BUILD=y",
+    "# CONFIG_PREEMPT is not set",
+    "CONFIG_PREEMPT_LAZY=y",
+    "# CONFIG_PREEMPT_RT is not set",
+    "CONFIG_PREEMPT_COUNT=y",
+    "CONFIG_PREEMPTION=y",
+    "CONFIG_PREEMPT_DYNAMIC=y",
+    "CONFIG_PREEMPT_RCU=y",
+    "CONFIG_HZ=1000",
+    "CONFIG_PREEMPT_NOTIFIERS=y",
+    "# CONFIG_PREEMPT_TRACER is not set",
+    "# CONFIG_PREEMPTIRQ_DELAY_TEST is not set"
+  ],
+  "cpu_count": 4,
+  "cpu_allowed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "rlimit_rtprio": [
+    0,
+    0
+  ],
+  "rlimit_memlock": [
+    8388608,
+    8388608
+  ],
+  "disk": {
+    "/": {
+      "total": 29713391616,
+      "used": 5402431488,
+      "free": 22775635968
+    },
+    "/boot": {
+      "total": 2040373248,
+      "used": 103510016,
+      "free": 1812713472
+    },
+    "/home/zh": {
+      "total": 29713391616,
+      "used": 5402431488,
+      "free": 22775635968
+    }
+  },
+  "memory": "MemTotal:        1668780 kB\nMemFree:         1006304 kB\nMemAvailable:    1233872 kB\nBuffers:           28284 kB\nCached:           326212 kB\nSwapCached:            0 kB\nActive:           393168 kB\nInactive:         100080 kB\nActive(anon):     147512 kB\nInactive(anon):        0 kB\nActive(file):     245656 kB\nInactive(file):   100080 kB\nUnevictable:        9596 kB\nMlocked:            9596 kB\nSwapTotal:       2097148 kB\nSwapFree:        2097148 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:             14636 kB\nWriteback:             0 kB\nAnonPages:        148416 kB\nMapped:           113936 kB\nShmem:              1376 kB\nKReclaimable:      24596 kB\nSlab:              85116 kB\nSReclaimable:      24596 kB\nSUnreclaim:        60520 kB\nKernelStack:        3328 kB\nPageTables:         5548 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     2931536 kB\nCommitted_AS:     663040 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       17880 kB\nVmallocChunk:          0 kB\nPercpu:             2368 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nCmaTotal:              0 kB\nCmaFree:               0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      130972 kB\nDirectMap2M:     1953792 kB\n",
+  "secure_boot": {
+    "exit_code": 255,
+    "output": "This system doesn't support Secure Boot\n"
+  },
+  "rt_packages": {
+    "exit_code": 0,
+    "output": "ubuntu-realtime:\n  Installed: (none)\n  Candidate: 1.1.3\n  Version table:\n     1.1.3 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\nlinux-image-realtime:\n  Installed: (none)\n  Candidate: 7.0.0-30.30.1\n  Version table:\n     7.0.0-30.30.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages\n        500 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages\n     7.0.0-14.14.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\nlinux-realtime:\n  Installed: (none)\n  Candidate: 7.0.0-30.30.1\n  Version table:\n     7.0.0-30.30.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages\n        500 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages\n     7.0.0-14.14.1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/main amd64 Packages\nrt-tests:\n  Installed: (none)\n  Candidate: 2.9-1ubuntu1\n  Version table:\n     2.9-1ubuntu1 500\n        500 http://archive.ubuntu.com/ubuntu resolute/universe amd64 Packages\n"
+  },
+  "installed_kernels": {
+    "exit_code": 0,
+    "output": "linux-image-7.0.0-30-generic 7.0.0-30.30 install ok installed\nlinux-image-fb-generic  unknown ok not-installed\nlinux-image-generic 7.0.0-30.30 install ok installed\nlinux-image-unsigned-7.0.0-30-generic  unknown ok not-installed\n"
+  },
+  "rt_kernel_files": {
+    "exit_code": 1,
+    "output": "dpkg-query: package 'linux-image-intel-rt' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+  },
+  "boot_files": {
+    "exit_code": 0,
+    "output": "total 91616\n-rw------- 1 root root 11015555 Jul 31 16:27 System.map-7.0.0-30-generic\n-rw-r--r-- 1 root root   308473 Jul 31 16:27 config-7.0.0-30-generic\ndrwxr-xr-x 3 root root     4096 Jan  1  1970 efi\ndrwxr-xr-x 5 root root     4096 Sep 20 01:37 grub\nlrwxrwxrwx 1 root root       27 Aug 26 04:47 initrd.img -> initrd.img-7.0.0-30-generic\n-rw------- 1 root root 65159877 Sep 20 01:36 initrd.img-7.0.0-30-generic\nlrwxrwxrwx 1 root root       27 Aug 26 04:47 initrd.img.old -> initrd.img-7.0.0-30-generic\ndrwx------ 2 root root    16384 Sep 20 01:28 lost+found\nlrwxrwxrwx 1 root root       24 Aug 26 04:47 vmlinuz -> vmlinuz-7.0.0-30-generic\n-rw------- 1 root root 17295752 Jul 31 16:28 vmlinuz-7.0.0-30-generic\nlrwxrwxrwx 1 root root       24 Aug 26 04:47 vmlinuz.old -> vmlinuz-7.0.0-30-generic\n"
+  },
+  "grub_entries": {
+    "exit_code": 1,
+    "output": "sudo: interactive authentication is required\n"
+  },
+  "grub_defaults": {
+    "exit_code": 0,
+    "output": "# If you change this file or any /etc/default/grub.d/*.cfg file,\n# run 'update-grub' afterwards to update /boot/grub/grub.cfg.\n# For full documentation of the options in these files, see:\n#   info -f grub -n 'Simple configuration'\n\nGRUB_DEFAULT=0\nGRUB_TIMEOUT_STYLE=hidden\nGRUB_TIMEOUT=0\nGRUB_DISTRIBUTOR=`( . /etc/os-release && echo ${NAME} )`\nGRUB_CMDLINE_LINUX_DEFAULT=\"\"\nGRUB_CMDLINE_LINUX=\"\"\n\n# If your computer has multiple operating systems installed, then you\n# probably want to run os-prober. However, if your computer is a host\n# for guest OSes installed via LVM or raw disk devices, running\n# os-prober can cause damage to those guest OSes as it mounts\n# filesystems to look for things.\n#GRUB_DISABLE_OS_PROBER=false\n\n# Uncomment to enable BadRAM filtering, modify to suit your needs\n# This works with Linux (no patch required) and with any kernel that obtains\n# the memory map information from GRUB (GNU Mach, kernel of FreeBSD ...)\n#GRUB_BADRAM=\"0x01234567,0xfefefefe,0x89abcdef,0xefefefef\"\n\n# Uncomment to disable graphical terminal\n#GRUB_TERMINAL=console\n\n# The resolution used on graphical terminal\n# note that you can use only modes which your graphic card supports via VBE/GOP/UGA\n# you can see them in real GRUB with the command `videoinfo'\n#GRUB_GFXMODE=640x480\n\n# Uncomment if you don't want GRUB to pass \"root=UUID=xxx\" parameter to Linux\n#GRUB_DISABLE_LINUX_UUID=true\n\n# Uncomment to disable generation of recovery mode menu entries\n#GRUB_DISABLE_RECOVERY=\"true\"\n\n# Uncomment to get a beep at grub start\n#GRUB_INIT_TUNE=\"480 440 1\"\n"
+  },
+  "existing_rt_config": {
+    "exit_code": 2,
+    "output": "grep: /boot/config-*rt*: No such file or directory\n"
+  },
+  "pro_status": {
+    "error": "Command '['pro', 'status', '--format', 'json']' timed out after 20 seconds"
+  },
+  "linger": {
+    "exit_code": 0,
+    "output": "Linger=no\n"
+  },
+  "user_manager": {
+    "exit_code": 0,
+    "output": "running\n"
+  },
+  "rt_bandwidth_us": "950000",
+  "sudo_noninteractive": {
+    "exit_code": 1,
+    "output": "sudo: interactive authentication is required\n"
+  }
+}

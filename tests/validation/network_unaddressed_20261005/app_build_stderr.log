@@ -1,0 +1,161 @@
+115 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.7
+118 INFO: Python: 3.9.10
+133 INFO: Platform: Windows-10-10.0.26200-SP0
+136 INFO: Python environment: D:\05SimRT\.venv
+139 INFO: wrote D:\05SimRT\qt_xcp_host\SimRT.spec
+145 INFO: Removing temporary files and cleaning cache in C:\Users\yonggang.zhang\AppData\Local\pyinstaller
+418 WARNING: Failed to collect submodules for 'pyxcp.recorder.converter' because importing 'pyxcp.recorder.converter' raised: NameError: name 'pa' is not defined
+2061 INFO: Module search paths (PYTHONPATH):
+['D:\\05SimRT',
+ 'D:\\05SimRT\\qt_xcp_host',
+ 'D:\\05SimRT\\x280_linux_target\\python',
+ 'D:\\05SimRT\\.python\\3.9.10\\python39.zip',
+ 'D:\\05SimRT\\.python\\3.9.10\\DLLs',
+ 'D:\\05SimRT\\.python\\3.9.10\\lib',
+ 'D:\\05SimRT\\.python\\3.9.10',
+ 'D:\\05SimRT\\.venv',
+ 'D:\\05SimRT\\.venv\\lib\\site-packages',
+ 'D:\\05SimRT\\qt_xcp_host',
+ 'D:\\05SimRT\\x280_linux_target\\python']
+2452 INFO: Appending 'binaries' from .spec
+2453 INFO: Appending 'datas' from .spec
+2474 INFO: checking Analysis
+2476 INFO: Building Analysis because Analysis-00.toc is non existent
+2476 INFO: Looking for Python shared library...
+2476 INFO: Using Python shared library: D:\05SimRT\.python\3.9.10\python39.dll
+2476 INFO: Running Analysis Analysis-00.toc
+2476 INFO: Target bytecode optimization level: 0
+2476 INFO: Initializing module dependency graph...
+2478 INFO: Initializing module graph hook caches...
+2494 INFO: Analyzing modules for base_library.zip ...
+3189 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+3570 INFO: Processing standard module hook 'hook-math.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+3915 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4308 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4505 INFO: Caching module dependency graph...
+4533 INFO: Analyzing D:\05SimRT\qt_xcp_host\main.py
+4547 INFO: Processing standard module hook 'hook-PySide6.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4752 INFO: Processing standard module hook 'hook-shiboken6.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+4820 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+5894 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+7277 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+8845 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+20779 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+20820 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+20889 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+21178 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21180 INFO: SetuptoolsInfo: initializing cached setuptools info...
+21914 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+21923 INFO: Processing standard module hook 'hook-rich.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22081 INFO: Processing standard module hook 'hook-pygments.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+23397 INFO: Processing standard module hook 'hook-chardet.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+24010 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+24022 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+24065 INFO: Processing standard module hook 'hook-webbrowser.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+24246 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+25583 INFO: Processing standard module hook 'hook-cryptography.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+26720 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+26846 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+27257 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+28303 INFO: Processing standard module hook 'hook-pytz.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+28696 INFO: Processing standard module hook 'hook-usb.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+28723 WARNING: No backend available
+28885 INFO: Processing standard module hook 'hook-matplotlib.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+29190 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+29251 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+29292 INFO: Processing standard module hook 'hook-PIL.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+29333 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+29691 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+29759 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+30228 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+30267 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+30560 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+30756 INFO: Processing standard module hook 'hook-matplotlib.figure.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+30930 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+30987 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31640 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31643 INFO: Processing standard module hook 'hook-importlib_resources.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+31661 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+31693 INFO: Processing standard module hook 'hook-matplotlib.backends.backend_qtagg.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+31697 INFO: Processing standard module hook 'hook-matplotlib.backends.qt_compat.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+31697 INFO: hook-matplotlib.backends.qt_compat: selected 'PySide6' as Qt bindings because hook for 'PySide6' has been run before.
+32113 INFO: Processing standard module hook 'hook-bcrypt.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+32219 INFO: Processing standard module hook 'hook-nacl.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+32427 INFO: Analyzing hidden import 'x280_xcp.__main__'
+32433 INFO: Analyzing hidden import 'pyxcp.asam'
+32434 INFO: Analyzing hidden import 'pyxcp.asam.types'
+32436 INFO: Analyzing hidden import 'pyxcp.cmdline'
+32437 INFO: Analyzing hidden import 'pyxcp.recorder.reco'
+32441 INFO: Analyzing hidden import 'pyxcp.recorder.setup'
+32442 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+32442 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+32444 INFO: Processing standard module hook 'hook-distutils.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+32471 INFO: Processing standard module hook 'hook-distutils.util.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+32489 INFO: Processing standard module hook 'hook-_osx_support.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+32530 INFO: Analyzing hidden import 'pyxcp.recorder.test_reko'
+32532 INFO: Analyzing hidden import 'pyxcp.scripts'
+32533 INFO: Analyzing hidden import 'pyxcp.scripts.pyxcp_probe_can_drivers'
+32535 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_examples'
+32537 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_fetch_a2l'
+32538 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_id_scanner'
+32539 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_info'
+32541 INFO: Analyzing hidden import 'pyxcp.scripts.xcp_profile'
+32542 INFO: Analyzing hidden import 'pyxcp.scripts.xmraw_converter'
+32554 INFO: Analyzing hidden import 'pyxcp.stim'
+32556 INFO: Analyzing hidden import 'pyxcp.vector'
+32557 INFO: Analyzing hidden import 'pyxcp.vector.map'
+32558 INFO: Processing module hooks (post-graph stage)...
+32563 WARNING: Hidden import "importlib_resources.trees" not found!
+32563 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+32563 INFO: Matplotlib backend selection method: automatic discovery of used backends
+32849 INFO: Trying determine the default backend as first importable candidate from the list: ['QtAgg', 'Qt5Agg', 'Gtk4Agg', 'Gtk3Agg', 'TkAgg', 'WxAgg']
+33785 INFO: Selected matplotlib backends: ['QtAgg']
+33793 INFO: Extra dists for selected matplotlib backends: []
+33929 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+33958 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+35357 INFO: Performing binary vs. data reclassification (1074 entries)
+35534 INFO: Looking for ctypes DLLs
+35563 INFO: Analyzing run-time hooks ...
+35569 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35570 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35571 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35574 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+35575 INFO: Including run-time hook 'pyi_rth_usb.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+35577 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35578 INFO: Including run-time hook 'pyi_rth_traitlets.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+35579 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35579 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+35582 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks'
+35587 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'D:\\05SimRT\\.venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+35619 INFO: Creating base_library.zip...
+35633 INFO: Looking for dynamic libraries
+37144 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\05SimRT\\.venv\\Lib\\site-packages\\shiboken6', 'D:\\05SimRT\\.venv\\lib\\site-packages\\numpy.libs']
+37144 INFO: Extra DLL search directories (PATH): ['D:\\05SimRT\\.venv\\Lib\\site-packages\\PySide6']
+38991 INFO: Warnings written to D:\05SimRT\qt_xcp_host\build\SimRT\warn-SimRT.txt
+39096 INFO: Graph cross-reference written to D:\05SimRT\qt_xcp_host\build\SimRT\xref-SimRT.html
+39140 INFO: checking PYZ
+39142 INFO: Building PYZ because PYZ-00.toc is non existent
+39142 INFO: Building PYZ (ZlibArchive) D:\05SimRT\qt_xcp_host\build\SimRT\PYZ-00.pyz
+39858 INFO: Building PYZ (ZlibArchive) D:\05SimRT\qt_xcp_host\build\SimRT\PYZ-00.pyz completed successfully.
+39875 INFO: checking PKG
+39878 INFO: Building PKG because PKG-00.toc is non existent
+39878 INFO: Building PKG (CArchive) SimRT.pkg
+39894 INFO: Building PKG (CArchive) SimRT.pkg completed successfully.
+39896 INFO: Bootloader D:\05SimRT\.venv\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+39897 INFO: checking EXE
+39897 INFO: Building EXE because EXE-00.toc is non existent
+39897 INFO: Building EXE from EXE-00.toc
+39897 INFO: Copying bootloader EXE to D:\05SimRT\qt_xcp_host\build\SimRT\SimRT.exe
+39902 INFO: Copying icon to EXE
+39905 INFO: Copying version information to EXE
+39909 INFO: Copying 0 resources to EXE
+39909 INFO: Embedding manifest in EXE
+39912 INFO: Appending PKG archive to EXE
+39916 INFO: Fixing EXE headers
+40003 INFO: Building EXE from EXE-00.toc completed successfully.
+40013 INFO: checking COLLECT
+40013 INFO: Building COLLECT because COLLECT-00.toc is non existent
+40014 INFO: Removing dir D:\05SimRT\qt_xcp_host\dist\SimRT
+40270 INFO: Building COLLECT COLLECT-00.toc
+42208 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+42223 INFO: Build complete! The results are available in: D:\05SimRT\qt_xcp_host\dist

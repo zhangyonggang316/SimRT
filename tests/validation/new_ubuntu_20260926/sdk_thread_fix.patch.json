@@ -1,0 +1,25 @@
+{
+  "original_sha256": "8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758",
+  "patched_sha256": "e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b",
+  "file": "libTSH.so",
+  "file_offset": "0xd185",
+  "original_instruction": "488d4598",
+  "patched_instruction": "488d45a0",
+  "effect": "Use live write-thread object at rbp-0x60 instead of detached read-thread object at rbp-0x68",
+  "evidence": "sdk_gdb_backtrace.json; sdk_gdb_skip_invalid_sched.json",
+  "vendor_files_modified": false,
+  "production_selection_changed": false,
+  "prepared_directory": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\sdk_thread_fix",
+  "libraries": {
+    "libTSCANApiOnLinux.so": {
+      "size": 7274224,
+      "sha256": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "format": "ELF64 little-endian x86_64 ET_DYN"
+    },
+    "libTSH.so": {
+      "size": 260040,
+      "sha256": "e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b",
+      "format": "ELF64 little-endian x86_64 ET_DYN"
+    }
+  }
+}

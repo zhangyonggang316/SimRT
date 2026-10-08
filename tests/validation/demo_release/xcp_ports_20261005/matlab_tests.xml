@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="tX280ArtifactArchive" skipped="0" tests="6" time="1.8839">
+    <testcase classname="tX280ArtifactArchive" name="archiveContainsOneFolderAndThreeMatchingFiles" time="0.92042"/>
+    <testcase classname="tX280ArtifactArchive" name="rejectsChangedArtifactsBeforePublishing" time="0.24315"/>
+    <testcase classname="tX280ArtifactArchive" name="rejectsExtraFiles" time="0.12875"/>
+    <testcase classname="tX280ArtifactArchive" name="preservesExistingArchive" time="0.18659"/>
+    <testcase classname="tX280ArtifactArchive" name="rejectsArchiveChangedSinceBuild" time="0.18331"/>
+    <testcase classname="tX280ArtifactArchive" name="rejectsModifiedInternalCache" time="0.2217"/>
+  </testsuite>
+  <testsuite errors="0" failures="2" name="tX280CANLoopback" skipped="0" tests="7" time="19.8861">
+    <testcase classname="tX280CANLoopback" name="setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)" time="13.3876"/>
+    <testcase classname="tX280CANLoopback" name="setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)" time="0.0078614"/>
+    <testcase classname="tX280CANLoopback" name="executionOrderInitializesBothChannelsBeforeTransmission" time="0.014471"/>
+    <testcase classname="tX280CANLoopback" name="usesOfficialCanPackAndUnpackBlocks(channel=CAN1)" time="0.31227"/>
+    <testcase classname="tX280CANLoopback" name="usesOfficialCanPackAndUnpackBlocks(channel=CAN2)" time="0.05696"/>
+    <testcase classname="tX280CANLoopback" name="receivesOtherChannelEveryMillisecond(channel=CAN1)" time="4.7757">
+      <failure type="VerificationFailure">tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1) 中验证失败。
+    --------
+    框架诊断:
+    --------
+    verifyEqual 失败。
+    --&gt; 类不匹配。
+        
+        实际类:
+            double
+        预期类:
+            uint8
+    
+    实际值:
+        21x1 double
+    预期值:
+        21x8 uint8
+    --------
+    堆栈信息:
+    --------
+    位置: D:\05SimRT\x280_linux_target\tests\tX280CANLoopback.m (tX280CANLoopback.receivesOtherChannelEveryMillisecond)，位置: 66</failure>
+    </testcase>
+    <testcase classname="tX280CANLoopback" name="receivesOtherChannelEveryMillisecond(channel=CAN2)" time="1.3313">
+      <failure type="VerificationFailure">tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2) 中验证失败。
+    --------
+    框架诊断:
+    --------
+    verifyEqual 失败。
+    --&gt; 类不匹配。
+        
+        实际类:
+            double
+        预期类:
+            uint8
+    
+    实际值:
+        21x1 double
+    预期值:
+        21x8 uint8
+    --------
+    堆栈信息:
+    --------
+    位置: D:\05SimRT\x280_linux_target\tests\tX280CANLoopback.m (tX280CANLoopback.receivesOtherChannelEveryMillisecond)，位置: 66</failure>
+    </testcase>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="tX280CANObjects" skipped="0" tests="49" time="0.60167">
+    <testcase classname="tX280CANObjects" name="setupHasNoPorts" time="0.12612"/>
+    <testcase classname="tX280CANObjects" name="messagesCrossChannels(senderChannel=1,canType=CAN)" time="0.055946"/>
+    <testcase classname="tX280CANObjects" name="messagesCrossChannels(senderChannel=1,canType=CAN_FD)" time="0.021842"/>
+    <testcase classname="tX280CANObjects" name="messagesCrossChannels(senderChannel=2,canType=CAN)" time="0.0095128"/>
+    <testcase classname="tX280CANObjects" name="messagesCrossChannels(senderChannel=2,canType=CAN_FD)" time="0.0068278"/>
+    <testcase classname="tX280CANObjects" name="disabledSendDoesNotQueue" time="0.0069144"/>
+    <testcase classname="tX280CANObjects" name="boundedQueuePreservesFifo(canType=CAN)" time="0.019087"/>
+    <testcase classname="tX280CANObjects" name="boundedQueuePreservesFifo(canType=CAN_FD)" time="0.011102"/>
+    <testcase classname="tX280CANObjects" name="invalidClassicFramesAreRejected(invalidMessage=length)" time="0.0029241"/>
+    <testcase classname="tX280CANObjects" name="invalidClassicFramesAreRejected(invalidMessage=standardID)" time="0.0020545"/>
+    <testcase classname="tX280CANObjects" name="invalidClassicFramesAreRejected(invalidMessage=extendedFlag)" time="0.0018607"/>
+    <testcase classname="tX280CANObjects" name="invalidClassicFramesAreRejected(invalidMessage=remoteFlag)" time="0.0019426"/>
+    <testcase classname="tX280CANObjects" name="invalidClassicFramesAreRejected(invalidMessage=errorFrame)" time="0.0033984"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=length)" time="0.0028002"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=dlcMismatch)" time="0.0037713"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=protocol)" time="0.0019133"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=remote)" time="0.0022256"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=brs)" time="0.0032419"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=esi)" time="0.0017185"/>
+    <testcase classname="tX280CANObjects" name="invalidFDFramesAreRejected(invalidFDMessage=reserved)" time="0.0019203"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=0)" time="0.004023"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=1)" time="0.0029428"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=2)" time="0.0029711"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=3)" time="0.0033034"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=4)" time="0.0049447"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=5)" time="0.0026469"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=6)" time="0.0025783"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=7)" time="0.0026022"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=8)" time="0.0021612"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=12)" time="0.0026677"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=16)" time="0.0025798"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=20)" time="0.0023221"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=24)" time="0.0023822"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=32)" time="0.0024079"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=48)" time="0.0023214"/>
+    <testcase classname="tX280CANObjects" name="fdLengthsKeepExactDlcAndPayload(fdLength=64)" time="0.0020736"/>
+    <testcase classname="tX280CANObjects" name="fdDlcMappingMatchesIsoValues" time="0.017404"/>
+    <testcase classname="tX280CANObjects" name="extendedRemoteFrameHasNoPayload" time="0.0055332"/>
+    <testcase classname="tX280CANObjects" name="duplicateSetupCannotReleaseExistingChannel" time="0.094185"/>
+    <testcase classname="tX280CANObjects" name="releaseOnlyClosesItsOwnedChannel" time="0.0038402"/>
+    <testcase classname="tX280CANObjects" name="staleAndZeroTokensCannotReleaseNewOwner" time="0.029189"/>
+    <testcase classname="tX280CANObjects" name="modeMismatchReportsError" time="0.011145"/>
+    <testcase classname="tX280CANObjects" name="differentNominalRatesDoNotLoopback" time="0.0038571"/>
+    <testcase classname="tX280CANObjects" name="conflictingDeviceRetainsFailureStatus" time="0.0083315"/>
+    <testcase classname="tX280CANObjects" name="disabledSimulationReportsItsState" time="0.0054019"/>
+    <testcase classname="tX280CANObjects" name="linuxDriverPathMustBeAbsolute" time="0.021995"/>
+    <testcase classname="tX280CANObjects" name="fdDataRateCannotBeBelowNominalRate" time="0.0048572"/>
+    <testcase classname="tX280CANObjects" name="busLayoutMatchesVehicleNetworkToolbox(canType=CAN)" time="0.027666"/>
+    <testcase classname="tX280CANObjects" name="busLayoutMatchesVehicleNetworkToolbox(canType=CAN_FD)" time="0.036211"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="tX280LinuxTarget" skipped="0" tests="11" time="77.9552">
+    <testcase classname="tX280LinuxTarget" name="targetAndBoardAreRegistered" time="5.5784"/>
+    <testcase classname="tX280LinuxTarget" name="registryUsesX8664AndNoRaspberryPiRuntime" time="0.044921"/>
+    <testcase classname="tX280LinuxTarget" name="udpAdapterReplacesTheR2024bTcpDefaults" time="0.015077"/>
+    <testcase classname="tX280LinuxTarget" name="passwordIsNeverStoredInBoardParameters" time="0.001668"/>
+    <testcase classname="tX280LinuxTarget" name="generatedModelHasDeploymentAndCalibrationSettings" time="23.4698"/>
+    <testcase classname="tX280LinuxTarget" name="legacyCanSnapshotMigratesHardwareBoard" time="41.2109"/>
+    <testcase classname="tX280LinuxTarget" name="a2lMetadataIsSynchronizedWithUdpRuntime" time="0.12079"/>
+    <testcase classname="tX280LinuxTarget" name="a2lRewriteRejectsRuntimeConfigurationDrift" time="0.04047"/>
+    <testcase classname="tX280LinuxTarget" name="localEnvironmentChecksPassWithoutNetwork" time="6.7947"/>
+    <testcase classname="tX280LinuxTarget" name="legacyBuildCannotStartRemoteExecution" time="0.032918"/>
+    <testcase classname="tX280LinuxTarget" name="a2lExportRejectsArmExecutable" time="0.64549"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="tX280LocalArtifacts" skipped="0" tests="1" time="70.0492">
+    <testcase classname="tX280LocalArtifacts" name="buildPublishesOnlyMatchingDeploymentFiles" time="70.0492"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="tX280NetworkObjects" skipped="0" tests="5" time="0.26577">
+    <testcase classname="tX280NetworkObjects" name="hostReportsDisabled" time="0.16603"/>
+    <testcase classname="tX280NetworkObjects" name="lengthBoundsAreCheckedEveryStep" time="0.0044986"/>
+    <testcase classname="tX280NetworkObjects" name="malformedAddressesAreRejected" time="0.045495"/>
+    <testcase classname="tX280NetworkObjects" name="serverRequiresLocalPort" time="0.01162"/>
+    <testcase classname="tX280NetworkObjects" name="udpRequiresDestination" time="0.038128"/>
+  </testsuite>
+</testsuites>

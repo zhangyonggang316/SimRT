@@ -1,0 +1,55 @@
+{
+  "username": "zh",
+  "group_added": true,
+  "groups_before": [
+    4,
+    24,
+    27,
+    30,
+    46,
+    100,
+    101,
+    1000
+  ],
+  "groups_after": [
+    4,
+    20,
+    24,
+    27,
+    30,
+    46,
+    100,
+    101,
+    1000
+  ],
+  "devices": [
+    {
+      "device": "/dev/ttyS6",
+      "group": "dialout",
+      "mode": "0o660"
+    },
+    {
+      "device": "/dev/ttyS7",
+      "group": "dialout",
+      "mode": "0o660"
+    }
+  ],
+  "new_ssh_session": {
+    "groups": [
+      4,
+      20,
+      24,
+      27,
+      30,
+      46,
+      100,
+      101,
+      1000
+    ],
+    "access": {
+      "/dev/ttyS6": true,
+      "/dev/ttyS7": true
+    }
+  },
+  "passed": true
+}

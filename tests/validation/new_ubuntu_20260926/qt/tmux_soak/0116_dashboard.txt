@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:59:04
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 67.0%  Memory: 36.1%  Disk: 20.6% of 29.7 GB
+State: UNVERIFIED -> x280_can_loopback (PID 100223) +1 other
+Process elapsed: 00:00:04 / unavailable  Period: unavailable
+MATLAB: R2024b | Steps: unavailable calls / unavailable completed
+Deadline misses: unavailable  Skipped periods: unavailable
+Task execution current/max: unavailable / unavailable
+Interval min/avg/max: unavailable / unavailable / unavailable ns
+Telemetry: unavailable (runtime PID does not match)
+-- LOG ------------------------------------------------------------------------
+08:54:29 PROCESS FOUND x280_canfd_loopback (PID 96117)
+08:54:49 STOPPED x280_canfd_loopback (PID 96117)
+08:56:16 PROCESS FOUND x280_rt_single (PID 97758)
+08:58:59 PROCESS FOUND x280_can_loopback (PID 100223)

@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:58:33
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 10.7%  Memory: 30.9%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:02:16 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 136337 calls / 136337 completed
+Deadline misses: 0  Skipped periods: 0
+Task execution current/max: 1605 ns / 68714 ns
+Interval min/avg/max: 749316 / 999999.925 / 1249950 ns
+Telemetry: live (0.8s old)
+-- LOG ------------------------------------------------------------------------
+ALLOC_ODT_ENTRY: allocating 1 ODT Entries in DAQ list 0 ODT 0 (8 B)
+SET_DAQ_PTR: updating current ODT entry pointer to DAQ 0, ODT 0, Entry 0
+XCP_WRITE_DAQ: writing DAQ 0 ODT 0 Entry 0: bitOffset = ffH size = 8 addressExt
+SET_DAQ_LIST_MODE: setti

@@ -1,0 +1,380 @@
+﻿[
+    {
+        "source":  "validation",
+        "destination":  "tests/validation",
+        "files":  1836,
+        "bytes":  80793027,
+        "moved":  true
+    },
+    {
+        "source":  "Demo_XCP_Qt/app",
+        "destination":  "app/distribution",
+        "files":  1343,
+        "bytes":  178324277,
+        "moved":  true
+    },
+    {
+        "source":  "Demo_XCP_Qt/validation",
+        "destination":  "tests/validation/demo_release",
+        "files":  210,
+        "bytes":  4148916,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host/tests",
+        "destination":  "tests/app/ui",
+        "files":  12,
+        "bytes":  150921,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host/service_tests",
+        "destination":  "tests/app/services",
+        "files":  15,
+        "bytes":  149390,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host/validation_network",
+        "destination":  "tests/validation/app_network",
+        "files":  8,
+        "bytes":  90120,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host/validation_ssh",
+        "destination":  "tests/validation/app_ssh",
+        "files":  2,
+        "bytes":  1264,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host/examples",
+        "destination":  "demos/app_examples",
+        "files":  0,
+        "bytes":  null,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/python/tests",
+        "destination":  "tests/protocol",
+        "files":  4,
+        "bytes":  23333,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/python",
+        "destination":  "app/python",
+        "files":  10,
+        "bytes":  69742,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/console/test_console.py",
+        "destination":  "tests/linux/test_console.py",
+        "files":  1,
+        "bytes":  23486,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/console/validate_tmux.py",
+        "destination":  "tests/linux/validate_tmux.py",
+        "files":  1,
+        "bytes":  5413,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/console",
+        "destination":  "linux/console",
+        "files":  3,
+        "bytes":  27799,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/tools/simrt_rt_tuning.py",
+        "destination":  "linux/runtime/simrt_rt_tuning.py",
+        "files":  1,
+        "bytes":  3297,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/tests",
+        "destination":  "tests/toolchain",
+        "files":  16,
+        "bytes":  146214,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/dio/tests",
+        "destination":  "tests/drivers/dio",
+        "files":  9,
+        "bytes":  157049,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/serial/tests",
+        "destination":  "tests/drivers/serial",
+        "files":  14,
+        "bytes":  191558,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/ethercat/tests",
+        "destination":  "tests/drivers/ethercat",
+        "files":  6,
+        "bytes":  281703,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/network/tests",
+        "destination":  "tests/drivers/network",
+        "files":  2,
+        "bytes":  8929,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/tc1013/tests",
+        "destination":  "tests/drivers/tc1013",
+        "files":  7,
+        "bytes":  39215,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/dio/models",
+        "destination":  "demos/io/dio",
+        "files":  651,
+        "bytes":  20715165,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/serial/models",
+        "destination":  "demos/io/serial",
+        "files":  2,
+        "bytes":  2316469,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/drivers/tc1013/models",
+        "destination":  "demos/io/tc1013",
+        "files":  156,
+        "bytes":  5701803,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target/models",
+        "destination":  "demos/calibration",
+        "files":  1,
+        "bytes":  111092,
+        "moved":  true
+    },
+    {
+        "source":  "tools/qt_toolchain",
+        "destination":  "toolchain/qt_toolchain",
+        "files":  9105,
+        "bytes":  842818714,
+        "moved":  true
+    },
+    {
+        "source":  "tools/matlab-agentic-toolkit",
+        "destination":  "toolchain/development/matlab-agentic-toolkit",
+        "files":  1205,
+        "bytes":  12622552,
+        "moved":  true
+    },
+    {
+        "source":  "tools/simulink-agentic-toolkit",
+        "destination":  "toolchain/development/simulink-agentic-toolkit",
+        "files":  511,
+        "bytes":  43689164,
+        "moved":  true
+    },
+    {
+        "source":  "tools/matlab-mcp-core-server",
+        "destination":  "toolchain/development/matlab-mcp-core-server",
+        "files":  1995,
+        "bytes":  5772134,
+        "moved":  true
+    },
+    {
+        "source":  "tools/matlab-mcp-server-windows-x64.exe",
+        "destination":  "toolchain/development/matlab-mcp-server-windows-x64.exe",
+        "files":  1,
+        "bytes":  32497344,
+        "moved":  true
+    },
+    {
+        "source":  "tools/python-3.9.10-amd64.exe",
+        "destination":  "toolchain/development/python-3.9.10-amd64.exe",
+        "files":  1,
+        "bytes":  28909456,
+        "moved":  true
+    },
+    {
+        "source":  "tools/tests",
+        "destination":  "tests/tools/unit",
+        "files":  16,
+        "bytes":  121674,
+        "moved":  true
+    },
+    {
+        "source":  "tools/audit_realtime_target.py",
+        "destination":  "linux/tools/audit_realtime_target.py",
+        "files":  1,
+        "bytes":  3901,
+        "moved":  true
+    },
+    {
+        "source":  "tools/audit_rt_latency.py",
+        "destination":  "linux/tools/audit_rt_latency.py",
+        "files":  1,
+        "bytes":  4754,
+        "moved":  true
+    },
+    {
+        "source":  "tools/configure_rt_isolation.py",
+        "destination":  "linux/tools/configure_rt_isolation.py",
+        "files":  1,
+        "bytes":  7232,
+        "moved":  true
+    },
+    {
+        "source":  "tools/deploy_console_update.py",
+        "destination":  "linux/tools/deploy_console_update.py",
+        "files":  1,
+        "bytes":  4479,
+        "moved":  true
+    },
+    {
+        "source":  "tools/install_rt_tuning.py",
+        "destination":  "linux/tools/install_rt_tuning.py",
+        "files":  1,
+        "bytes":  3482,
+        "moved":  true
+    },
+    {
+        "source":  "tools/prepare_realtime_target.py",
+        "destination":  "linux/tools/prepare_realtime_target.py",
+        "files":  1,
+        "bytes":  2859,
+        "moved":  true
+    },
+    {
+        "source":  "tools/inspect_ark_resources.py",
+        "destination":  "linux/tools/inspect_ark_resources.py",
+        "files":  1,
+        "bytes":  8448,
+        "moved":  true
+    },
+    {
+        "source":  "tools/inspect_ark_com12.py",
+        "destination":  "linux/tools/inspect_ark_com12.py",
+        "files":  1,
+        "bytes":  5698,
+        "moved":  true
+    },
+    {
+        "source":  "tools/inspect_communication_target.py",
+        "destination":  "linux/tools/inspect_communication_target.py",
+        "files":  1,
+        "bytes":  2731,
+        "moved":  true
+    },
+    {
+        "source":  "tools/build_local_bundles.py",
+        "destination":  "toolchain/tools/build_local_bundles.py",
+        "files":  1,
+        "bytes":  13144,
+        "moved":  true
+    },
+    {
+        "source":  "tools/generate_period_models.m",
+        "destination":  "toolchain/tools/generate_period_models.m",
+        "files":  1,
+        "bytes":  2110,
+        "moved":  true
+    },
+    {
+        "source":  "tools/export_period_payloads.m",
+        "destination":  "toolchain/tools/export_period_payloads.m",
+        "files":  1,
+        "bytes":  3923,
+        "moved":  true
+    },
+    {
+        "source":  "tools/promote_qt_app.ps1",
+        "destination":  "app/tools/promote_qt_app.ps1",
+        "files":  1,
+        "bytes":  3764,
+        "moved":  true
+    },
+    {
+        "source":  "tools/clean_generated.ps1",
+        "destination":  "tests/maintenance/clean_generated.ps1",
+        "files":  1,
+        "bytes":  10414,
+        "moved":  true
+    },
+    {
+        "source":  "tools/save_version.py",
+        "destination":  "tests/maintenance/save_version.py",
+        "files":  1,
+        "bytes":  5490,
+        "moved":  true
+    },
+    {
+        "source":  "tools/verify_archive.ps1",
+        "destination":  "tests/maintenance/verify_archive.ps1",
+        "files":  1,
+        "bytes":  1816,
+        "moved":  true
+    },
+    {
+        "source":  "tools/README.md",
+        "destination":  "docs/TOOLS.md",
+        "files":  1,
+        "bytes":  4395,
+        "moved":  true
+    },
+    {
+        "source":  "tools",
+        "destination":  "tests/tools/scripts",
+        "files":  28,
+        "bytes":  201797,
+        "moved":  true
+    },
+    {
+        "source":  "validation_network",
+        "destination":  "tests/validation/network_baseline",
+        "files":  4,
+        "bytes":  32238,
+        "moved":  true
+    },
+    {
+        "source":  "qt_xcp_host",
+        "destination":  "app/qt_xcp_host",
+        "files":  80,
+        "bytes":  1280705,
+        "moved":  true
+    },
+    {
+        "source":  "simrt_linux_target",
+        "destination":  "toolchain/simrt_linux_target",
+        "files":  275,
+        "bytes":  9955288,
+        "moved":  true
+    },
+    {
+        "source":  "portable-linux-toolchain/portable-linux-toolchain",
+        "destination":  "toolchain/portable-linux-toolchain",
+        "files":  3968,
+        "bytes":  236576785,
+        "moved":  true
+    },
+    {
+        "source":  "Demo_XCP_Qt",
+        "destination":  "demos/Demo_XCP_Qt",
+        "files":  265,
+        "bytes":  7666429,
+        "moved":  true
+    }
+]

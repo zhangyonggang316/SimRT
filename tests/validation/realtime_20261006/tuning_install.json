@@ -1,0 +1,176 @@
+{
+  "files": {
+    "/usr/local/lib/simrt/simrt_rt_tuning.py": "#!/usr/bin/env python3\n\"\"\"Keep movable IRQs and unbound workqueues off the model's physical core.\"\"\"\nimport argparse\nimport json\nfrom pathlib import Path\n\nSTATE = Path('/run/simrt-rt-tuning.json')\n\n\ndef cpu_list(text):\n    result = set()\n    for item in text.strip().split(','):\n        bounds = item.split('-')\n        result.update(range(int(bounds[0]), int(bounds[-1]) + 1))\n    return result\n\n\ndef cpu_mask(cpus):\n    value = sum(1 << cpu for cpu in cpus)\n    parts = []\n    while value:\n        parts.append('%08x' % (value & 0xffffffff))\n        value >>= 32\n    return ','.join(reversed(parts))\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument('action', choices=('apply', 'restore'))\n    parser.add_argument('--cpu', type=int)\n    args = parser.parse_args()\n    if args.action == 'restore':\n        records = json.loads(STATE.read_text()) if STATE.exists() else []\n        errors = []\n        for record in reversed(records):\n            path = Path(record['path'])\n            try:\n                if path.read_text().strip() == record['after']:\n                    path.write_text(record['before'])\n            except OSError as error:\n                errors.append(dict(path=str(path), error=str(error)))\n        if errors:\n            raise RuntimeError(json.dumps(errors))\n        STATE.unlink(missing_ok=True)\n        return\n    online = cpu_list(Path('/sys/devices/system/cpu/online').read_text())\n    selected = max(online) if args.cpu is None else args.cpu\n    if selected not in online:\n        raise ValueError('The model CPU is offline')\n    siblings = cpu_list(Path('/sys/devices/system/cpu/cpu%d/topology/thread_siblings_list' % selected).read_text())\n    housekeeping = online - siblings\n    if not housekeeping:\n        raise ValueError('A separate physical core is required')\n    cpus = ','.join(str(cpu) for cpu in sorted(housekeeping))\n    mask = cpu_mask(housekeeping)\n    requests = {str(p): cpus for p in Path('/proc/irq').glob('[0-9]*/smp_affinity_list')}\n    requests['/proc/irq/default_smp_affinity'] = mask\n    requests['/sys/devices/virtual/workqueue/cpumask'] = mask\n    records = json.loads(STATE.read_text()) if STATE.exists() else []\n    known = {record['path'] for record in records}\n    errors = []\n    for name, value in requests.items():\n        path = Path(name)\n        before = path.read_text().strip()\n        # Save the original value before mutation, so interruption is recoverable.\n        record = dict(path=name, before=before, after=value)\n        if name not in known:\n            records.append(record)\n            STATE.write_text(json.dumps(records, indent=2))\n            STATE.chmod(0o600)\n        try:\n            path.write_text(value)\n            record['after'] = path.read_text().strip()\n            for saved in records:\n                if saved['path'] == name:\n                    saved['after'] = record['after']\n            STATE.write_text(json.dumps(records, indent=2))\n        except OSError as error:\n            # Fixed hardware IRQs may reject affinity changes.\n            errors.append(dict(path=name, error=str(error)))\n    print(json.dumps(dict(cpu=selected, housekeeping=sorted(housekeeping), changes=records, fixed_irqs=errors)))\n\n\nif __name__ == '__main__':\n    main()\n",
+    "/etc/systemd/system/simrt-rt-tuning.service": "# Managed by SimRT realtime tuning\n[Unit]\nDescription=SimRT model core IRQ placement\nAfter=systemd-modules-load.service systemd-udev-trigger.service\nBefore=user@1000.service\n\n[Service]\nType=oneshot\nRemainAfterExit=yes\nExecStart=/usr/bin/python3 /usr/local/lib/simrt/simrt_rt_tuning.py apply\nExecStop=/usr/bin/python3 /usr/local/lib/simrt/simrt_rt_tuning.py restore\n\n[Install]\nWantedBy=multi-user.target\n",
+    "/etc/udev/rules.d/90-simrt-cpu-latency.rules": "# Managed by SimRT realtime tuning\nKERNEL==\"cpu_dma_latency\", GROUP=\"zh\", MODE=\"0660\"\n"
+  },
+  "device_before": {
+    "uid": 0,
+    "gid": 0,
+    "mode": 384
+  },
+  "commands": {
+    "udevadm control --reload-rules": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "systemctl daemon-reload": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "systemctl enable --now simrt-rt-tuning.service": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Created symlink '/etc/systemd/system/multi-user.target.wants/simrt-rt-tuning.service' \u2192 '/etc/systemd/system/simrt-rt-tuning.service'.\n"
+    },
+    "systemctl status --no-pager simrt-rt-tuning.service": {
+      "returncode": 0,
+      "stdout": "\u25cf simrt-rt-tuning.service - SimRT model core IRQ placement\n     Loaded: loaded (/etc/systemd/system/simrt-rt-tuning.service; enabled; preset: enabled)\n     Active: active (exited) since Tue 2026-10-06 08:38:52 CST; 51ms ago\n Invocation: 97c3d7a0e19a421f9b5eee78985704a3\n    Process: 16454 ExecStart=/usr/bin/python3 /usr/local/lib/simrt/simrt_rt_tuning.py apply (code=exited, status=0/SUCCESS)\n   Main PID: 16454 (code=exited, status=0/SUCCESS)\n   Mem peak: 8.2M\n        CPU: 555ms\n\nOct 06 08:38:52 ark2120 systemd[1]: Starting simrt-rt-tuning.service - SimRT model core IRQ placement...\nOct 06 08:38:52 ark2120 python3[16454]: {\"cpu\": 3, \"housekeeping\": [0, 1], \"changes\": [{\"path\": \"/proc/irq/0/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0,1\"}, {\"path\": \"/proc/irq/1/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/2/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0,1\"}, {\"path\": \"/proc/irq/3/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/4/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/5/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/6/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/7/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/8/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/9/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/10/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/11/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/12/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/13/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/14/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/15/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/16/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/18/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/19/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/23/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/24/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/25/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/26/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/27/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/28/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/29/smp_affinity_list\", \"before\": \"0-3\", \"after\": \"0-1\"}, {\"path\": \"/proc/irq/default_smp_affinity\", \"before\": \"f\", \"after\": \"3\"}, {\"path\": \"/sys/devices/virtual/workqueue/cpumask\", \"before\": \"f\", \"after\": \"3\"}], \"fixed_irqs\": [{\"path\": \"/proc/irq/0/smp_affinity_list\", \"error\": \"[Errno 1] Operation not permitted\"}, {\"path\": \"/proc/irq/2/smp_affinity_list\", \"error\": \"[Errno 1] Operation not permitted\"}]}\nOct 06 08:38:52 ark2120 systemd[1]: Finished simrt-rt-tuning.service - SimRT model core IRQ placement.\n",
+      "stderr": ""
+    }
+  },
+  "applied": [
+    {
+      "path": "/proc/irq/0/smp_affinity_list",
+      "before": "0-3",
+      "after": "0,1"
+    },
+    {
+      "path": "/proc/irq/1/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/2/smp_affinity_list",
+      "before": "0-3",
+      "after": "0,1"
+    },
+    {
+      "path": "/proc/irq/3/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/4/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/5/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/6/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/7/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/8/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/9/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/10/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/11/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/12/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/13/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/14/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/15/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/16/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/18/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/19/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/23/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/24/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/25/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/26/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/27/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/28/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/29/smp_affinity_list",
+      "before": "0-3",
+      "after": "0-1"
+    },
+    {
+      "path": "/proc/irq/default_smp_affinity",
+      "before": "f",
+      "after": "3"
+    },
+    {
+      "path": "/sys/devices/virtual/workqueue/cpumask",
+      "before": "f",
+      "after": "3"
+    }
+  ]
+}

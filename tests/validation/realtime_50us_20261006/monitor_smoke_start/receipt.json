@@ -1,0 +1,13 @@
+{
+  "unit": "simrt-jitter-soak-d0557186",
+  "remote_directory": "/home/zh/MATLAB_ws/simrt-jitter-soak-d0557186",
+  "model": {
+    "running": true,
+    "pid": 2663,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "seconds": 60,
+  "unit_state": "ActiveState=active\nSubState=running\nResult=success\n"
+}

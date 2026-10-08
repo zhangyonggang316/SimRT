@@ -1,0 +1,202 @@
+{
+  "installation": {
+    "library": "D:\\05SimRT\\simrt_linux_target\\drivers\\ark\\simrt_library.slx",
+    "release": "2024b",
+    "method": "pathdef",
+    "startup": "",
+    "browser_parsed": true
+  },
+  "library": {
+    "release": "2024b",
+    "persistent_path": true,
+    "library": "D:\\05SimRT\\simrt_linux_target\\drivers\\ark\\simrt_library.slx",
+    "sublibraries": [
+      {
+        "name": "Serial",
+        "source": "simrt_serial_library",
+        "blocks": [
+          "Serial Receive",
+          "Serial Sent",
+          "Serial Setup"
+        ],
+        "links_resolved": true
+      },
+      {
+        "name": "Digital IO",
+        "source": "simrt_dio_library",
+        "blocks": [
+          "DIO Read",
+          "DIO Setup",
+          "DIO Write"
+        ],
+        "links_resolved": true
+      },
+      {
+        "name": "EtherCAT",
+        "source": "simrt_ethercat_library",
+        "blocks": [
+          "EtherCAT Exchange"
+        ],
+        "links_resolved": true
+      },
+      {
+        "name": "CAN",
+        "source": "simrt_can_library",
+        "blocks": [
+          "CANSetup",
+          "CanReceive",
+          "CanSent"
+        ],
+        "links_resolved": true
+      },
+      {
+        "name": "TCP UDP",
+        "source": "simrt_network_library",
+        "blocks": [
+          "TCP Receive",
+          "TCP Sent",
+          "TCP Setup"
+        ],
+        "links_resolved": true
+      }
+    ],
+    "links_resolved": true,
+    "legacy_library": "D:\\05SimRT\\simrt_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+    "legacy_links_resolved": true,
+    "browser_initialized": true,
+    "browser_parse_errors": false,
+    "browser_open": false,
+    "browser_catalogs": [
+      {
+        "libraries": [
+          "SimRT",
+          "Simulink",
+          "Communications Toolbox",
+          "Communications Toolbox HDL Support",
+          "DSP System Toolbox",
+          "DSP System Toolbox HDL Support",
+          "Embedded Coder",
+          "Fixed-Point Designer",
+          "Fixed-Point Designer HDL Support",
+          "Fuzzy Logic Toolbox",
+          "HDL Coder",
+          "Simulink 3D Animation",
+          "Simulink Coder",
+          "Simulink Extras",
+          "Simulink Test",
+          "Stateflow",
+          "Vehicle Network Toolbox",
+          "最近使用"
+        ],
+        "children": [
+          "SimRT/CAN",
+          "SimRT/Digital IO",
+          "SimRT/EtherCAT",
+          "SimRT/Serial",
+          "SimRT/TCP UDP"
+        ],
+        "sublibraries": [
+          {
+            "node": "SimRT/Serial",
+            "blocks": [
+              "SimRT/Serial/Serial Receive",
+              "SimRT/Serial/Serial Sent",
+              "SimRT/Serial/Serial Setup"
+            ]
+          },
+          {
+            "node": "SimRT/Digital IO",
+            "blocks": [
+              "SimRT/Digital IO/DIO Read",
+              "SimRT/Digital IO/DIO Setup",
+              "SimRT/Digital IO/DIO Write"
+            ]
+          },
+          {
+            "node": "SimRT/EtherCAT",
+            "blocks": [
+              "SimRT/EtherCAT/EtherCAT Exchange"
+            ]
+          },
+          {
+            "node": "SimRT/CAN",
+            "blocks": [
+              "SimRT/CAN/CanReceive",
+              "SimRT/CAN/CanSent",
+              "SimRT/CAN/CANSetup"
+            ]
+          },
+          {
+            "node": "SimRT/TCP UDP",
+            "blocks": [
+              "SimRT/TCP UDP/TCP Receive",
+              "SimRT/TCP UDP/TCP Sent",
+              "SimRT/TCP UDP/TCP Setup"
+            ]
+          }
+        ]
+      }
+    ],
+    "browser_blocks_verified": true,
+    "passed": true
+  },
+  "builds": [
+    {
+      "model": "simrt_rt_single",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.001,
+      "matlab_release": "2024b",
+      "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\simrt_rt_single.slx",
+      "model_sha256": "ba01259b9b9d5da22ad7902fe94a06e53ed4cdcfea72dffc261791023279a86a",
+      "local_elf": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\deployment_cache\\77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55\\20261006_180720_528\\simrt_rt_single.elf",
+      "a2l": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\deployment_cache\\77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55\\20261006_180720_528\\simrt_rt_single.a2l",
+      "manifest": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\deployment_cache\\77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55\\20261006_180720_528\\simrt_rt_single.xcp-manifest.json",
+      "payload": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_local\\20261006_180720_528.zip",
+      "realtime_source": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\simrt_rt_single_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528\\simrt_rt_single_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "simrt_rt_single.elf",
+        "CodeGenerationDirectory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw"
+      },
+      "elf_sha256": "ea52e9efa8052970a3e85b60e91c14cbd353add60c0bf8675803a1086dca24aa",
+      "evidence_directory": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_ert_rtw\\simrt_build_evidence\\20261006_180720_528",
+      "remote_operations_performed": false,
+      "archive": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single_local\\20261006_180720_528.zip",
+      "archive_sha256": "77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55"
+    },
+    {
+      "model": "simrt_can_loopback",
+      "success": true,
+      "build_mode": "local",
+      "period_seconds": 0.001,
+      "matlab_release": "2024b",
+      "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+      "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+      "model_file": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\simrt_can_loopback.slx",
+      "model_sha256": "fae5a704987a3df6c6f1c5db9dad2bcf5cf7bf351a99787ea7904da69628d912",
+      "local_elf": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\deployment_cache\\23910e3cf30d400a57c4756fc9f04328526798ba25541f503800f90771e3d961\\20261006_181046_716\\simrt_can_loopback.elf",
+      "a2l": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\deployment_cache\\23910e3cf30d400a57c4756fc9f04328526798ba25541f503800f90771e3d961\\20261006_181046_716\\simrt_can_loopback.a2l",
+      "manifest": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\deployment_cache\\23910e3cf30d400a57c4756fc9f04328526798ba25541f503800f90771e3d961\\20261006_181046_716\\simrt_can_loopback.xcp-manifest.json",
+      "payload": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_local\\20261006_181046_716.zip",
+      "realtime_source": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\simrt_can_loopback_rt_bundle",
+      "bundle": {
+        "SourceDirectory": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716\\simrt_can_loopback_rt_bundle",
+        "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+        "ELFRelativePath": "simrt_can_loopback.elf",
+        "CodeGenerationDirectory": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw"
+      },
+      "elf_sha256": "ff24779de1a0a2cb8d7b8af3f8ed4eb26666844291ca4f04536ecf58b62029f3",
+      "evidence_directory": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_ert_rtw\\simrt_build_evidence\\20261006_181046_716",
+      "remote_operations_performed": false,
+      "archive": "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback\\simrt_can_loopback_local\\20261006_181046_716.zip",
+      "archive_sha256": "23910e3cf30d400a57c4756fc9f04328526798ba25541f503800f90771e3d961"
+    }
+  ],
+  "passed": true
+}

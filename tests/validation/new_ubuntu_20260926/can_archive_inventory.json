@@ -1,0 +1,247 @@
+[
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260917_174928_321.zip",
+    "archive_sha256": "4f743397056695a92a38a6271973ef5966c19d320ced5937f6ff4f8e0ad033a1",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-17T17:49:28Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 60936,
+      "A2LSHA256": "98b00c248de7bad8b029944b2faa37b3e661d03e256a3a0c3d8fc7c0846ab54e",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 422080,
+      "ELFSHA256": "9bfc0131305d05af9edd025a5667d485566ebaf91c4a860acfe5a6754296adc3"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_170543_260.zip",
+    "archive_sha256": "bfa8445bb3b99e24fca369b9775665784239a3f0e882e62bcfd24e58978ed5c9",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-18T17:05:44Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 59768,
+      "A2LSHA256": "8b4c805cd9692752685c7dbc6288225f32f1430a04b570a9b10a5ce8fb60e5e3",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 435088,
+      "ELFSHA256": "ac242f1e3c3f8bca6cf1eaeb7af9aeb8fd94a231b39c2ad11d2fc58471ae7e23"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171258_917.zip",
+    "archive_sha256": "d6ad13e371d9dc9fdb1da44c5966ad8d63d6b14fb8312ef5e6832fbdcf671480",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-18T17:12:59Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 59768,
+      "A2LSHA256": "295674f8a0ee27f3fd5bfb8a51792cd43f2a49f313b1c50b713e99a5a299760c",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 438568,
+      "ELFSHA256": "e271044c9d14f36faace30dfb7b80d2ae24a0ee07c7834bab7ff8d7d6747c6ce"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_171529_950.zip",
+    "archive_sha256": "9d2aa68d0958c0319d3cc833a25ed336d6c96fcfabfb7da1532b4026e0de5e9a",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-18T17:15:30Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 59768,
+      "A2LSHA256": "13e8a784ed7b5b221c26bc0c9a920067b2a5e9852a1315f43fb8a6b6aeb42aca",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 438416,
+      "ELFSHA256": "218a8302a8688faceb308dac469c34f98152887e635f34c628c3654f091d655c"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_172542_635.zip",
+    "archive_sha256": "1aceeeb74882b8750799f0d6512e0bc30c4eb7882ff6a27776961e5e054aa854",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-18T17:25:43Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 59768,
+      "A2LSHA256": "fd5f93ae9cdbe714fff3a49d369d8a847ad905d29965be1f8d671afef3ded96c",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 438416,
+      "ELFSHA256": "de36a59c43ffc1c7fdda44119d513f18fdb5d9f2fbf0272d9a7b0175927dabf6"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "UBYTE",
+        "dimension": "8"
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260918_180447_738.zip",
+    "archive_sha256": "7aec955ab54bc36152ab096a2e963ac3183db10e69cc2f3694e40acbee430c9f",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-18T18:04:48Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 86409,
+      "A2LSHA256": "0bd53acfa5c7a34631d529ee7125a17b939a7735037206e8c1503632abcefa6d",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 441328,
+      "ELFSHA256": "e2d711c0f6a7ecbcb18f421966add763f6684f2b3120718db5a1ec9f1f63074e"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "FLOAT64_IEEE",
+        "dimension": null
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "FLOAT64_IEEE",
+        "dimension": null
+      }
+    ],
+    "payload_validated": true
+  },
+  {
+    "source": "x280_linux_target\\drivers\\tc1013\\models\\x280_can_loopback\\x280_can_loopback_local\\20260919_012155_876.zip",
+    "archive_sha256": "7a864c9e15e27a21235f0c6e0a98ca201e40942482c20cda91c4bef112ab781e",
+    "manifest": {
+      "SchemaVersion": 2,
+      "ModelName": "x280_can_loopback",
+      "MATLABRelease": "2024b",
+      "CreatedUTC": "2026-09-19T01:21:56Z",
+      "TargetHardware": "X280 Linux (SSH)",
+      "TargetAddress": "192.168.219.86",
+      "XCPTransport": "UDP",
+      "XCPPort": 17725,
+      "XCPMaxDTOBytes": 508,
+      "XCPMaxDatagramBytes": 512,
+      "A2LFile": "x280_can_loopback.a2l",
+      "A2LBytes": 86409,
+      "A2LSHA256": "bf2916f83b3447e0b2e7f42c2b495dae94c63bcad0a3e338b92dd2256c4babe7",
+      "ELFFile": "x280_can_loopback.elf",
+      "ELFBytes": 441328,
+      "ELFSHA256": "e2d711c0f6a7ecbcb18f421966add763f6684f2b3120718db5a1ec9f1f63074e"
+    },
+    "measurements": [
+      {
+        "name": "x280_can_loopback_B.CAN1_Data",
+        "type": "FLOAT64_IEEE",
+        "dimension": null
+      },
+      {
+        "name": "x280_can_loopback_B.CAN2_Data",
+        "type": "FLOAT64_IEEE",
+        "dimension": null
+      }
+    ],
+    "payload_validated": true
+  }
+]

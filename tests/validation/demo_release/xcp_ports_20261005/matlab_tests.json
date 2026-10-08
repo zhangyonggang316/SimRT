@@ -1,0 +1,634 @@
+[
+  {
+    "Name": "tX280ArtifactArchive/archiveContainsOneFolderAndThreeMatchingFiles",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.9204237999999999,
+    "Details": {}
+  },
+  {
+    "Name": "tX280ArtifactArchive/rejectsChangedArtifactsBeforePublishing",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.2431453,
+    "Details": {}
+  },
+  {
+    "Name": "tX280ArtifactArchive/rejectsExtraFiles",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.1287476,
+    "Details": {}
+  },
+  {
+    "Name": "tX280ArtifactArchive/preservesExistingArchive",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.18658780000000003,
+    "Details": {}
+  },
+  {
+    "Name": "tX280ArtifactArchive/rejectsArchiveChangedSinceBuild",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.1833141,
+    "Details": {}
+  },
+  {
+    "Name": "tX280ArtifactArchive/rejectsModifiedInternalCache",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.2217014,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 13.3875915,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0078614,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/executionOrderInitializesBothChannelsBeforeTransmission",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0144712,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.31226669999999995,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.056960000000000004,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)",
+    "Passed": false,
+    "Failed": true,
+    "Incomplete": false,
+    "Duration": 4.7756757000000007,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)",
+    "Passed": false,
+    "Failed": true,
+    "Incomplete": false,
+    "Duration": 1.3313187,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/setupHasNoPorts",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.1261243,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/messagesCrossChannels(senderChannel=1,canType=CAN)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.055945699999999994,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/messagesCrossChannels(senderChannel=1,canType=CAN_FD)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0218423,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/messagesCrossChannels(senderChannel=2,canType=CAN)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0095128000000000018,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/messagesCrossChannels(senderChannel=2,canType=CAN_FD)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0068278,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/disabledSendDoesNotQueue",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0069144,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/boundedQueuePreservesFifo(canType=CAN)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0190869,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/boundedQueuePreservesFifo(canType=CAN_FD)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0111018,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidClassicFramesAreRejected(invalidMessage=length)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0029241000000000002,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidClassicFramesAreRejected(invalidMessage=standardID)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0020544999999999995,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidClassicFramesAreRejected(invalidMessage=extendedFlag)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0018607,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidClassicFramesAreRejected(invalidMessage=remoteFlag)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0019426,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidClassicFramesAreRejected(invalidMessage=errorFrame)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0033984,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=length)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0028002000000000005,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=dlcMismatch)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0037713,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=protocol)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0019133,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=remote)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0022256000000000003,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=brs)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0032419000000000003,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=esi)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0017185,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/invalidFDFramesAreRejected(invalidFDMessage=reserved)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0019203,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=0)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.004023,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=1)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0029428,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=2)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0029711000000000004,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=3)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0033034,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=4)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0049447000000000007,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=5)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0026468999999999998,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=6)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0025782999999999995,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=7)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0026022,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=8)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0021612,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=12)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0026677,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=16)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0025798,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=20)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0023221,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=24)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0023821999999999997,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=32)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0024079,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=48)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0023214,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=64)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0020736000000000005,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdDlcMappingMatchesIsoValues",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0174039,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/extendedRemoteFrameHasNoPayload",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0055332,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/duplicateSetupCannotReleaseExistingChannel",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0941853,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/releaseOnlyClosesItsOwnedChannel",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0038402,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/staleAndZeroTokensCannotReleaseNewOwner",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0291893,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/modeMismatchReportsError",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0111446,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/differentNominalRatesDoNotLoopback",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0038571,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/conflictingDeviceRetainsFailureStatus",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0083315,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/disabledSimulationReportsItsState",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0054018999999999994,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/linuxDriverPathMustBeAbsolute",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0219947,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/fdDataRateCannotBeBelowNominalRate",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0048572000000000008,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/busLayoutMatchesVehicleNetworkToolbox(canType=CAN)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0276657,
+    "Details": {}
+  },
+  {
+    "Name": "tX280CANObjects/busLayoutMatchesVehicleNetworkToolbox(canType=CAN_FD)",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0362113,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/targetAndBoardAreRegistered",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 5.5784251,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/registryUsesX8664AndNoRaspberryPiRuntime",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0449208,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0150772,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/passwordIsNeverStoredInBoardParameters",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.001668,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 23.4698182,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/legacyCanSnapshotMigratesHardwareBoard",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 41.2109112,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.12078810000000001,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0404696,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 6.7947479,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/legacyBuildCannotStartRemoteExecution",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0329181,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LinuxTarget/a2lExportRejectsArmExecutable",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.6454929,
+    "Details": {}
+  },
+  {
+    "Name": "tX280LocalArtifacts/buildPublishesOnlyMatchingDeploymentFiles",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 70.0491586,
+    "Details": {}
+  },
+  {
+    "Name": "tX280NetworkObjects/hostReportsDisabled",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.16603030000000002,
+    "Details": {}
+  },
+  {
+    "Name": "tX280NetworkObjects/lengthBoundsAreCheckedEveryStep",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0044986,
+    "Details": {}
+  },
+  {
+    "Name": "tX280NetworkObjects/malformedAddressesAreRejected",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0454947,
+    "Details": {}
+  },
+  {
+    "Name": "tX280NetworkObjects/serverRequiresLocalPort",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.011620499999999999,
+    "Details": {}
+  },
+  {
+    "Name": "tX280NetworkObjects/udpRequiresDestination",
+    "Passed": true,
+    "Failed": false,
+    "Incomplete": false,
+    "Duration": 0.0381276,
+    "Details": {}
+  }
+]

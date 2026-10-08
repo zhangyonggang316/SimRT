@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-09-26T07:41:36.558799+00:00",
+  "host": "192.168.219.195",
+  "user": "zh",
+  "host_key_sha256": "eeTIikDlYn5po2uiSNGEJTglh6lQ+IUFYJS6s2hciv0=",
+  "can_frames_transmitted": 0,
+  "passed": false,
+  "usb": {
+    "sysfs": "/sys/bus/usb/devices/1-1",
+    "node": "/dev/bus/usb/001/004",
+    "identity": [
+      "5453",
+      "0001",
+      "37AFCA2612ADBF35"
+    ],
+    "before": {
+      "uid": 0,
+      "gid": 46,
+      "mode": "crw-rw----"
+    },
+    "changed": false,
+    "after": {
+      "uid": 0,
+      "gid": 46,
+      "mode": "crw-rw----",
+      "readable": true,
+      "writable": true
+    }
+  },
+  "install_output": "{\n  \"directory\": \"/home/zh/tc1013-sdk-upload-b8456dad8107\",\n  \"library_count\": 2,\n  \"libraries\": [\n    \"libTSCANApiOnLinux.so\",\n    \"libTSH.so\"\n  ],\n  \"passed\": true,\n  \"hardware_tested\": false\n}\n{\n  \"directory\": \"/home/zh/.local/lib/tscan\",\n  \"library_count\": 2,\n  \"libraries\": [\n    \"libTSCANApiOnLinux.so\",\n    \"libTSH.so\"\n  ],\n  \"passed\": true,\n  \"hardware_tested\": false\n}\n{\n  \"directory\": \"/home/zh/.local/lib/tscan\",\n  \"library_count\": 2,\n  \"libraries\": [\n    \"libTSCANApiOnLinux.so\",\n    \"libTSH.so\"\n  ],\n  \"passed\": true,\n  \"hardware_tested\": false\n}\nSDK_INSTALL_JSON={\"destination\": \"/home/zh/.local/lib/tscan\", \"stage\": \"/home/zh/tc1013-sdk-upload-b8456dad8107\", \"state\": \"installed\", \"uploaded_sha256\": {\"DEPLOY_DRIVER.md\": \"ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5\", \"libTSCANApiOnLinux.so\": \"11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b\", \"libTSH.so\": \"8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758\", \"LICENSE\": \"474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06\", \"prepare_driver.py\": \"202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14\", \"SOURCE.md\": \"55fd7d21a20b1286eab140491b252fa531e4bddb1a2d2c6436bc14eb3eb26739\", \"tc1013-sdk-manifest.json\": \"3e6f3798086b27d9c1d40c404cf3aa84cbed94dd0704160ad2eb8a8e5d5ae75d\"}, \"installed_sha256\": {\"DEPLOY_DRIVER.md\": \"ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5\", \"libTSCANApiOnLinux.so\": \"11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b\", \"libTSH.so\": \"8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758\", \"LICENSE\": \"474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06\", \"prepare_driver.py\": \"202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14\", \"SOURCE.md\": \"55fd7d21a20b1286eab140491b252fa531e4bddb1a2d2c6436bc14eb3eb26739\"}}\n",
+  "install": {
+    "destination": "/home/zh/.local/lib/tscan",
+    "stage": "/home/zh/tc1013-sdk-upload-b8456dad8107",
+    "state": "installed",
+    "uploaded_sha256": {
+      "DEPLOY_DRIVER.md": "ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5",
+      "libTSCANApiOnLinux.so": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "libTSH.so": "8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758",
+      "LICENSE": "474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06",
+      "prepare_driver.py": "202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14",
+      "SOURCE.md": "55fd7d21a20b1286eab140491b252fa531e4bddb1a2d2c6436bc14eb3eb26739",
+      "tc1013-sdk-manifest.json": "3e6f3798086b27d9c1d40c404cf3aa84cbed94dd0704160ad2eb8a8e5d5ae75d"
+    },
+    "installed_sha256": {
+      "DEPLOY_DRIVER.md": "ab07a1202efeea7bdc7c6e0bb39f1c33e70abc89ee1bcea3653a13192e2e9ce5",
+      "libTSCANApiOnLinux.so": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "libTSH.so": "8308ec91016870da114ba476d496900cdf73fe2aaa038e0aa00cf56a44bd6758",
+      "LICENSE": "474e7d0d7c5383dc7d77064c1110ae540a93edf021a2b3a3d3c8677c805efb06",
+      "prepare_driver.py": "202dd997b4dad9a02f415b9bc03bab4cb766235f42091efba11f0e60b5f59c14",
+      "SOURCE.md": "55fd7d21a20b1286eab140491b252fa531e4bddb1a2d2c6436bc14eb3eb26739"
+    }
+  },
+  "sdk_validation": {
+    "libTSH.so": {
+      "exit_code": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007c9e8a92f000)\n\tlibusb-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libusb-1.0.so.0 (0x00007c9e8a8e2000)\n\tlibpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x00007c9e8a8dd000)\n\tlibstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007c9e8a600000)\n\tlibgcc_s.so.1 => /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007c9e8a8af000)\n\tlibc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007c9e8a200000)\n\tlibudev.so.1 => /usr/lib/x86_64-linux-gnu/libudev.so.1 (0x00007c9e8a5b9000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007c9e8a931000)\n\tlibm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007c9e8a493000)\n",
+      "stderr": ""
+    },
+    "libTSCANApiOnLinux.so": {
+      "exit_code": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x000072ce80a46000)\n\tlibgcc_s.so.1 => /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000072ce80a0a000)\n\tlibc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x000072ce7fe00000)\n\tlibdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x000072ce80a05000)\n\tlibpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x000072ce80a00000)\n\tlibm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x000072ce808da000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000072ce80a48000)\n",
+      "stderr": ""
+    },
+    "probe": {
+      "exit_code": -11,
+      "stdout": "",
+      "stderr": "",
+      "cwd": "/home/zh/.local/lib/tscan"
+    }
+  }
+}

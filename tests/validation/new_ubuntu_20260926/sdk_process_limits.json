@@ -1,0 +1,6 @@
+{
+  "command": "ulimit -r; ulimit -l; command -v gdb; command -v addr2line; cat /proc/sys/kernel/threads-max",
+  "exit_code": 0,
+  "stdout": "80\n1048576\n/usr/bin/addr2line\n12468\n",
+  "stderr": ""
+}

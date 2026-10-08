@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "baseline_bug_reproduction": true,
+  "created_closed_masters": 50,
+  "retained_after_gc": 50,
+  "handle_growth": 300,
+  "samples": [
+    {
+      "Id": 33044,
+      "WorkingSet64": 53923840,
+      "PrivateMemorySize64": 40321024,
+      "HandleCount": 242,
+      "ThreadCount": 6
+    },
+    {
+      "Id": 33044,
+      "WorkingSet64": 54472704,
+      "PrivateMemorySize64": 40845312,
+      "HandleCount": 302,
+      "ThreadCount": 6
+    },
+    {
+      "Id": 33044,
+      "WorkingSet64": 55189504,
+      "PrivateMemorySize64": 41545728,
+      "HandleCount": 362,
+      "ThreadCount": 6
+    },
+    {
+      "Id": 33044,
+      "WorkingSet64": 55771136,
+      "PrivateMemorySize64": 42106880,
+      "HandleCount": 422,
+      "ThreadCount": 6
+    },
+    {
+      "Id": 33044,
+      "WorkingSet64": 56340480,
+      "PrivateMemorySize64": 42668032,
+      "HandleCount": 482,
+      "ThreadCount": 6
+    },
+    {
+      "Id": 33044,
+      "WorkingSet64": 56918016,
+      "PrivateMemorySize64": 43241472,
+      "HandleCount": 542,
+      "ThreadCount": 6
+    }
+  ],
+  "target_network_used": false,
+  "python": "3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)]"
+}

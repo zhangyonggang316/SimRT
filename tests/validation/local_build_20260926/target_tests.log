@@ -1,0 +1,49 @@
+正在运行 tX280LinuxTarget
+.......... [警告:
+This model is configured to use X280 Linux (SSH) hardware board, but support for that hardware is not installed.
+
+To install support for X280 Linux (SSH) hardware board:
+1. Close the model.
+2. Open Add-On Explorer.
+3. Install support for X280 Linux (SSH) hardware board.
+
+To configure the model for different hardware board:
+1. Open the model Configuration Parameters and select the Hardware Implementation pane.
+2. Set the Hardware board parameter for your hardware.
+
+To configure the model not to use any hardware:
+1. Open the model Configuration Parameters and select the Hardware Implementation pane.
+2. Set the Hardware board parameter to 'None'.] 
+[> 位置：codertarget.updateExtension
+位置: configset.ert.update
+位置: Simulink.ERTTargetCC/update
+位置: load_system>i_load_system (第 44 行)
+位置: load_system (第 20 行)
+位置: exportX280A2L>openModel (第 138 行)
+位置: exportX280A2L (第 19 行)
+位置: tX280LinuxTarget>@()exportX280A2L(model,MapFile=elfFile,OutputFolder=fixture.Folder) (第 193 行)
+位置: matlab.unittest.internal.constraints/FunctionHandleConstraint/invoke (第 35 行)
+位置: matlab.unittest.constraints/Throws/invoke (第 291 行)
+位置: matlab.unittest.constraints/Throws/throwsExpectedException (第 331 行)
+位置: matlab.unittest.constraints/Throws/satisfiedBy (第 200 行)
+位置: matlab.unittest.internal.constraints/CasualDiagnosticDecorator/satisfiedBy (第 42 行)
+位置: tX280LinuxTarget/a2lExportRejectsArmExecutable (第 193 行)]
+.
+已完成 tX280LinuxTarget
+__________
+
+                                     Name                                     Passed    Failed    Incomplete    Duration       Details   
+    ______________________________________________________________________    ______    ______    __________    _________    ____________
+
+    {'tX280LinuxTarget/targetAndBoardAreRegistered'                      }    true      false       false          12.851    {1x1 struct}
+    {'tX280LinuxTarget/registryUsesX8664AndNoRaspberryPiRuntime'         }    true      false       false        0.065308    {1x1 struct}
+    {'tX280LinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults'           }    true      false       false        0.060795    {1x1 struct}
+    {'tX280LinuxTarget/passwordIsNeverStoredInBoardParameters'           }    true      false       false       0.0072106    {1x1 struct}
+    {'tX280LinuxTarget/generatedModelHasDeploymentAndCalibrationSettings'}    true      false       false          42.028    {1x1 struct}
+    {'tX280LinuxTarget/legacyCanSnapshotMigratesHardwareBoard'           }    true      false       false          27.167    {1x1 struct}
+    {'tX280LinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime'          }    true      false       false         0.12214    {1x1 struct}
+    {'tX280LinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift'       }    true      false       false         0.15961    {1x1 struct}
+    {'tX280LinuxTarget/localEnvironmentChecksPassWithoutNetwork'         }    true      false       false          13.659    {1x1 struct}
+    {'tX280LinuxTarget/legacyBuildCannotStartRemoteExecution'            }    true      false       false         0.03594    {1x1 struct}
+    {'tX280LinuxTarget/a2lExportRejectsArmExecutable'                    }    true      false       false          1.0055    {1x1 struct}
+

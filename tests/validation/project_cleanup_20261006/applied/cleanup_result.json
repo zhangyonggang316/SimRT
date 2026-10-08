@@ -1,0 +1,26 @@
+﻿{
+    "apply":  true,
+    "targets":  12,
+    "files":  47,
+    "bytes":  6411959,
+    "mib":  6.11,
+    "protected_files":  8418,
+    "removed":  [
+                    "tools\\__pycache__",
+                    "qt_xcp_host\\pyxcp_host\\__pycache__",
+                    "x280_linux_target\\tools\\__pycache__",
+                    "x280_linux_target\\console\\__pycache__",
+                    "Demo_XCP_Qt\\models\\x280_rt_single\\slprj",
+                    "x280_linux_target\\python\\tests\\__pycache__",
+                    "qt_xcp_host\\pyxcp_host\\services\\__pycache__",
+                    "x280_linux_target\\python\\x280_xcp\\__pycache__",
+                    "x280_linux_target\\drivers\\serial\\tests\\__pycache__",
+                    "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single.slxc",
+                    "Demo_XCP_Qt\\validation\\xcp_5555_ui_20261005\\__pycache__",
+                    "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single_local\\20260926_080641_012"
+                ],
+    "failed":  [
+
+               ],
+    "passed":  true
+}

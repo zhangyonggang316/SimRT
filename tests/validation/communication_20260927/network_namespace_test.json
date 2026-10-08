@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "confirmed_address": "192.0.2.3/24",
+  "reverted_address": "192.0.2.4/24",
+  "rollback_seconds": 45,
+  "namespace_only": true,
+  "physical_interface_changes": false,
+  "helper_sha256": "4a1188245478b32071995d37c0ad325533b14ce5810c3ba0af91abe13eef009d"
+}

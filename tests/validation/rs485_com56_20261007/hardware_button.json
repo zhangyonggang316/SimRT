@@ -1,0 +1,29 @@
+{
+  "model": "simrt_serial_com56",
+  "build_options": [
+    "Build"
+  ],
+  "dirty": "off",
+  "external_mode": "on",
+  "handle_build_options": [
+    "Build"
+  ],
+  "config_build_options": [
+    "Build"
+  ],
+  "context_class": "codertarget.sltoolstrip.EmbeddedHardwareBoardContext",
+  "deploy_context": "HWBoardBuildSelectedBuildContext",
+  "type_chain": [
+    "HWBoardLoggingAvailableContext",
+    "HWBoardDeployedConnectStartContext",
+    "HWBoardBuildSelectedBuildContext",
+    "HWBoardSetupNotAvailableContext",
+    "PeripheralsNotAvailableContext",
+    "socProfilingNotAvailableContext",
+    "prepareDesignGalleryNotAvailableContext",
+    "embeddedHardwareBoardAppContext"
+  ],
+  "build_action_found": true,
+  "build_action_enabled": true,
+  "build_action_tag": "buildHardwareBoardAction2"
+}

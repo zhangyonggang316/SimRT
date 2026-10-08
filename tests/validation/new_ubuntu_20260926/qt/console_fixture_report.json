@@ -1,0 +1,26 @@
+{
+  "kind": "synthetic_console_layout",
+  "remote_hardware": false,
+  "images": [
+    {
+      "path": "console_fixture_80x25.png",
+      "columns": 80,
+      "rows": 25,
+      "pixels": [
+        800,
+        600
+      ],
+      "dashboard_rows": 18
+    },
+    {
+      "path": "console_fixture_120x40.png",
+      "columns": 120,
+      "rows": 40,
+      "pixels": [
+        1200,
+        960
+      ],
+      "dashboard_rows": 33
+    }
+  ]
+}

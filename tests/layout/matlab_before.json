@@ -1,0 +1,37 @@
+{
+  "folder": "D:\\05SimRT\\simrt_linux_target\\drivers\\dio\\models\\simrt_dio_loopback",
+  "models": [
+    {
+      "name": "simrt_serial_library",
+      "file": "D:\\05SimRT\\simrt_linux_target\\drivers\\serial\\simrt_serial_library.slx",
+      "dirty": "off"
+    },
+    {
+      "name": "simrt_dio_library",
+      "file": "D:\\05SimRT\\simrt_linux_target\\drivers\\dio\\simrt_dio_library.slx",
+      "dirty": "off"
+    },
+    {
+      "name": "simrt_rt_single",
+      "file": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single.slx",
+      "dirty": "off"
+    }
+  ],
+  "paths": [
+    "D:\\05SimRT\\tests\\layout",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\dio\\models\\simrt_dio_loopback",
+    "D:\\05SimRT\\validation\\ctrlb_20261007",
+    "D:\\05SimRT\\simrt_linux_target",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\ark",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\ethercat",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\network",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\dio",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\serial",
+    "D:\\05SimRT\\validation\\polar_comparison_20261007",
+    "D:\\05SimRT\\validation\\rs485_com56_20261007",
+    "D:\\05SimRT\\validation\\dio_test_20261007",
+    "D:\\05SimRT\\simrt_linux_target\\drivers\\tc1013\\models\\simrt_can_loopback",
+    "D:\\05SimRT\\tools"
+  ]
+}

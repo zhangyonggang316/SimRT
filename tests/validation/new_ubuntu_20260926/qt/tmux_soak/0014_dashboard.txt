@@ -1,0 +1,43 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:06:05
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 6.3%  Memory: 30.1%  Disk: 20.5% of 29.7 GB
+State: IDLE (no running .elf owned by this user)
+System uptime: 02:25:13
+Model period / deadlines / task execution: unavailable
+-- LOG --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

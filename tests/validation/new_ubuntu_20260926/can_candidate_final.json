@@ -1,0 +1,431 @@
+{
+  "timestamp_utc": "2026-09-26T09:08:02.394816+00:00",
+  "source": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback_local\\20260926_090607_973.zip",
+  "endpoint": {
+    "host": "192.168.219.195",
+    "username": "zh",
+    "port": 22
+  },
+  "baseline": true,
+  "passed": true,
+  "scope": "CAN functionality; not a zero-loss, endurance or worst-case timing certification",
+  "manifest": {
+    "SchemaVersion": 2,
+    "ModelName": "x280_can_loopback",
+    "MATLABRelease": "2024b",
+    "CreatedUTC": "2026-09-26T09:06:08Z",
+    "TargetHardware": "SimRT",
+    "TargetAddress": "192.168.219.195",
+    "XCPTransport": "UDP",
+    "XCPPort": 17725,
+    "XCPMaxDTOBytes": 508,
+    "XCPMaxDatagramBytes": 512,
+    "A2LFile": "x280_can_loopback.a2l",
+    "A2LBytes": 85341,
+    "A2LSHA256": "bc14292852d5cbea04174a3c4e4c7918acbd0340ea5805b7cb79c3d4d816c8a8",
+    "ELFFile": "x280_can_loopback.elf",
+    "ELFBytes": 468056,
+    "ELFSHA256": "56619e27ad5a47e7c83d673b28f841ea278489135d4ba846e0c01bbd2f81dc9a"
+  },
+  "payload_files": {
+    "x280_can_loopback.elf": "56619e27ad5a47e7c83d673b28f841ea278489135d4ba846e0c01bbd2f81dc9a",
+    "x280_can_loopback.a2l": "bc14292852d5cbea04174a3c4e4c7918acbd0340ea5805b7cb79c3d4d816c8a8",
+    "x280_can_loopback.xcp-manifest.json": "8caa501c992d880a020b59688a9139a2f22345f2416e89add2ab1861844f712b"
+  },
+  "validation_profile": "waveform_double",
+  "xcp_endpoint": {
+    "host": "192.168.219.195",
+    "protocol": "UDP",
+    "port": 17726
+  },
+  "remote_elf": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf",
+  "uploaded_files": 3,
+  "pid": 108231,
+  "initial_status": {
+    "running": true,
+    "pid": 108231,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "runtime_process": {
+    "cwd": "/home/zh/.local/lib/tscan-thread-fix-20260926",
+    "kernel": "7.0.0-30-generic",
+    "threads": [
+      {
+        "tid": 108231,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108232,
+        "name": "libusb_event",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108233,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108234,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108235,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108239,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108241,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "vendor_libraries": {
+      "/home/zh/.local/lib/tscan-thread-fix-20260926/libTSCANApiOnLinux.so": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "/home/zh/.local/lib/tscan-thread-fix-20260926/libTSH.so": "e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b"
+    }
+  },
+  "connection": {
+    "transport": "ETH/UDP",
+    "host": "192.168.219.195",
+    "port": 17726,
+    "byte_order": "little",
+    "address_granularity_bytes": 1,
+    "max_cto": 255,
+    "max_dto": 508,
+    "supports_calibration": true,
+    "supports_daq": true
+  },
+  "daq_metadata": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_can_loopback_B.CAN1_TxStatus",
+      "x280_can_loopback_B.CAN1_RxStatus",
+      "x280_can_loopback_B.CAN1_Valid",
+      "x280_can_loopback_B.CAN1_ID",
+      "x280_can_loopback_B.CAN2_TxStatus",
+      "x280_can_loopback_B.CAN2_RxStatus",
+      "x280_can_loopback_B.CAN2_Valid",
+      "x280_can_loopback_B.CAN2_ID",
+      "x280_can_loopback_B.CAN1set",
+      "x280_can_loopback_B.CAN2set",
+      "x280_can_loopback_B.CAN1_Data",
+      "x280_can_loopback_B.CAN2_Data"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000
+  },
+  "runtime_process_during_daq": {
+    "cwd": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d",
+    "kernel": "7.0.0-30-generic",
+    "threads": [
+      {
+        "tid": 108231,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108232,
+        "name": "libusb_event",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108233,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108234,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108235,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108239,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108241,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108267,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tid": 108293,
+        "name": "x280_can_loopba",
+        "policy": 0,
+        "priority": 0,
+        "cpus": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "tid": 108294,
+        "name": "x280_can_loopba",
+        "policy": 1,
+        "priority": 40,
+        "cpus": [
+          3
+        ]
+      }
+    ],
+    "vendor_libraries": {
+      "/home/zh/.local/lib/tscan-thread-fix-20260926/libTSCANApiOnLinux.so": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "/home/zh/.local/lib/tscan-thread-fix-20260926/libTSH.so": "e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b"
+    }
+  },
+  "daq_diagnostics": {
+    "mode": "DAQ",
+    "event_channel": 0,
+    "period_seconds": 0.001,
+    "prescaler": 1,
+    "period_source": "A2L EVENT",
+    "timestamp_source": "target",
+    "signals": [
+      "x280_can_loopback_B.CAN1_TxStatus",
+      "x280_can_loopback_B.CAN1_RxStatus",
+      "x280_can_loopback_B.CAN1_Valid",
+      "x280_can_loopback_B.CAN1_ID",
+      "x280_can_loopback_B.CAN2_TxStatus",
+      "x280_can_loopback_B.CAN2_RxStatus",
+      "x280_can_loopback_B.CAN2_Valid",
+      "x280_can_loopback_B.CAN2_ID",
+      "x280_can_loopback_B.CAN1set",
+      "x280_can_loopback_B.CAN2set",
+      "x280_can_loopback_B.CAN1_Data",
+      "x280_can_loopback_B.CAN2_Data"
+    ],
+    "odt_count": 1,
+    "queue_capacity": 20000,
+    "active": false,
+    "received_samples": 6806,
+    "queue_dropped_samples": 0,
+    "invalid_frames": 0,
+    "incomplete_events": 0,
+    "transport_counter_gaps": 2,
+    "reordered_frames": 0,
+    "timestamp_gap_samples": 2,
+    "timestamp_wraps": 0,
+    "timestamp_reorders": 0,
+    "overload_events": 0,
+    "queued_samples": 0
+  },
+  "status_after_xcp_disconnect": {
+    "running": true,
+    "pid": 108231,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "channels": {
+    "CAN1": {
+      "valid_frames": 6755,
+      "matched_frames": 6274,
+      "mismatches": 0,
+      "mismatch_examples": [],
+      "statuses": {
+        "TxStatus": {
+          "0": 6786,
+          "-6": 20
+        },
+        "RxStatus": {
+          "0": 6772,
+          "-6": 34
+        }
+      },
+      "errors_excluding_trylock_busy": 0,
+      "distinct_matched_values": 630,
+      "reference_window_seconds": 0.5,
+      "warmup_seconds": 0.5,
+      "passed": true
+    },
+    "CAN2": {
+      "valid_frames": 6754,
+      "matched_frames": 6270,
+      "mismatches": 0,
+      "mismatch_examples": [],
+      "statuses": {
+        "TxStatus": {
+          "0": 6783,
+          "-6": 23
+        },
+        "RxStatus": {
+          "0": 6767,
+          "-6": 39
+        }
+      },
+      "errors_excluding_trylock_busy": 0,
+      "distinct_matched_values": 630,
+      "reference_window_seconds": 0.5,
+      "warmup_seconds": 0.5,
+      "passed": true
+    }
+  },
+  "samples": 6806,
+  "captured_seconds": 6.807,
+  "exited_at_stop_time": true,
+  "final_runtime_status": {
+    "schema_version": 1,
+    "event": "simrt_status",
+    "model": "x280_can_loopback",
+    "pid": 108231,
+    "state": "STOPPED",
+    "updated_unix_ns": 1790413704674657548,
+    "sample_monotonic_ns": 12452304116607,
+    "elapsed_ns": 14054338629,
+    "period_ns": 1000000,
+    "cpu": 3,
+    "priority": 40,
+    "realtime_kernel": false,
+    "memory_locked": true,
+    "stop_time_seconds": 13,
+    "model_step_calls": 13001,
+    "model_step_completed_calls": 13001,
+    "model_step_interval_min_ns": 885170,
+    "model_step_interval_mean_ns": 1000001.665,
+    "model_step_interval_max_ns": 1108430,
+    "model_step_execution_current_ns": 22178,
+    "model_step_execution_max_ns": 634920,
+    "deadline_misses": 1,
+    "skipped_releases": 0
+  },
+  "clean_termination": true,
+  "final_status": {
+    "running": false,
+    "pid": null,
+    "state": "stopped",
+    "elf_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf",
+    "log_path": "/home/zh/MATLAB_ws/x280_can_loopback_20260926_090804_0c34f31d/x280_can_loopback.elf.pyxcp-host.log"
+  },
+  "runtime_log": "\n** starting the model **\nCONNECT: entering XCP_CONNECTED status\n* Resource:          5H\n* Comm Mode Basic:   0H\n* Max CTO size:      255\n* Max DTO size:      508\n* Protocol Version:  1\n* Transport Version: 1\nPacket ID  d7H is not supported at the moment\nGET DAQ PROCESSOR INFO\n* DAQ Properties:    11H\n* MAX_DAQ:           65535\n* MAX_EVENT_CHANNEL: 128\n* MIN_DAQ:           0\n* Daq Key Byte:      0H\nGET DAQ RESOLUTION INFO\n* DAQ ODT Entry size granularity:   1\n* Max DAQ ODT Entry size:           255\n* STIM ODT Entry size granularity:  1\n* Max STIM ODT Entry size:          255\n* Timestamp Mode =                  34H\n* Timestamp Ticks =                 1\nGET STATUS\n* Session Status:              0H\n* Resource Protection Status:  0H\n* Session Config Id:           0\nGET DAQ PROCESSOR INFO\n* DAQ Properties:    11H\n* MAX_DAQ:           65535\n* MAX_EVENT_CHANNEL: 128\n* MIN_DAQ:           0\n* Daq Key Byte:      0H\nGET DAQ RESOLUTION INFO\n* DAQ ODT Entry size granularity:   1\n* Max DAQ ODT Entry size:           255\n* STIM ODT Entry size granularity:  1\n* Max STIM ODT Entry size:          255\n* Timestamp Mode =                  34H\n* Timestamp Ticks =                 1\nFREE_DAQ: clearing existing dynamic DAQ lists\nALLOC_DAQ: allocating 1 DAQ lists (32 B)\nALLOC_ODT: allocating 1 ODTs in DAQ list 0 (56 B)\nALLOC_ODT_ENTRY: allocating 1 ODT Entries in DAQ list 0 ODT 0 (8 B)\nSET_DAQ_PTR: updating current ODT entry pointer to DAQ 0, ODT 0, Entry 0\nXCP_WRITE_DAQ: writing DAQ 0 ODT 0 Entry 0: bitOffset = ffH size = 58 addressExtension = 0H address = 532f60H\nSET_DAQ_LIST_MODE: setting DAQ list 0: mode = 10H, eventId = 0, prescaler = 1, priority = 0\nSTART_STOP_DAQ_LIST: selected DAQ list 0\nSTART_STOP_SYNCH: starting DAQ list 0\nSTART_STOP_SYNCH: stopping DAQ list 0\nDISCONNECT: entering XCP_DISCONNECTED status\n{\"event\":\"x280_rt_summary\",\"period_ns\":1000000,\"realtime_kernel\":false,\"kernel_required\":false,\"policy\":\"SCHED_FIFO\",\"priority\":40,\"cpu\":3,\"memory_locked\":true,\"cycles\":13001,\"completed_cycles\":13001,\"skipped_releases\":0,\"deadline_misses\":1,\"wake_latency_max_ns\":143353,\"wake_latency_mean_ns\":33103.381,\"execution_max_ns\":1054283043,\"execution_mean_ns\":96057.780,\"execution_scope\":\"base_rate_loop_including_xcp\",\"cycle_interval_samples\":13000,\"cycle_interval_min_ns\":885300,\"cycle_interval_max_ns\":1108431,\"cycle_interval_mean_ns\":1000001.633,\"cycle_interval_scope\":\"base_rate_loop_start_to_start\",\"measurement_clock\":\"CLOCK_MONOTONIC\",\"model_step_calls\":13001,\"model_step_completed_calls\":13001,\"model_step_interval_samples\":13000,\"model_step_interval_min_ns\":885170,\"model_step_interval_max_ns\":1108430,\"model_step_interval_mean_ns\":1000001.665,\"model_step_execution_min_ns\":5208,\"model_step_execution_max_ns\":634920,\"model_step_execution_mean_ns\":12858.564,\"model_step_scope\":\"generated_model_step_including_generated_daq_upload\",\"model_step_interval_scope\":\"generated_model_step_entry_to_entry\",\"final_cycle_includes_termination\":true,\"elapsed_ns\":14054338629,\"stop_signal\":0}",
+  "raw_samples": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\validation\\new_ubuntu_20260926\\can_candidate_final.samples.jsonl.gz"
+}

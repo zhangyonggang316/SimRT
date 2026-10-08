@@ -1,0 +1,43 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:16:45
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 42.6%  Memory: 31.0%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:20:28 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 1228752 calls / 1228752 completed
+Deadline misses: 15  Skipped periods: 203
+Task execution current/max: 4451 ns / 97892 ns
+Interval min/avg/max: 128334 / 1000165.233 / 30406848 ns
+Telemetry: live (0.2s old)
+-- LOG --------------------------------------------------------------------------------------------------------------------------------------------------------
+09:08:06 PROCESS FOUND x280_can_loopback (PID 108231)
+09:08:25 STOPPED x280_can_loopback (PID 108231)
+09:09:07 PROCESS FOUND x280_canfd_loopback (PID 109138)
+09:09:25 STOPPED x280_canfd_loopback (PID 109138)
+09:13:10 PROCESS FOUND x280_can_loopback (PID 112622)
+09:13:17 PROCESS FOUND x280_canfd_loopback (PID 112756)
+09:13:17 STOPPED x280_can_loopback (PID 112622)
+09:13:23 STOPPED x280_canfd_loopback (PID 112756)
+* DAQ ODT Entry size granularity:   1
+* Max DAQ ODT Entry size:           255
+* STIM ODT Entry size granularity:  1
+* Max STIM ODT Entry size:          255
+* Timestamp Mode =                  34H
+* Timestamp Ticks =                 1
+FREE_DAQ: clearing existing dynamic DAQ lists
+ALLOC_DAQ: allocating 1 D
+
+
+
+
+
+
+
+
+
+
+
+
+

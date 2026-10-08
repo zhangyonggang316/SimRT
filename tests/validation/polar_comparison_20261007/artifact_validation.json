@@ -1,0 +1,21 @@
+{
+  "archive_valid": true,
+  "elf_hash_matches": true,
+  "build_spec_valid": true,
+  "source_files": 74,
+  "source_fingerprint": "7ebbfda1ffd80cbc68aa168b436fd3920482e47bc4e94c7d7a1972389ea8dc84",
+  "daq_reserved_blocks": 1024,
+  "xcp_reserved_pool_bytes": 1048576,
+  "measurements": 6,
+  "calibrations": 12,
+  "transports": [
+    "UDP"
+  ],
+  "ports": {
+    "UDP": 5555
+  },
+  "hosts": {
+    "UDP": "192.168.193.195"
+  },
+  "remote_operations": false
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "archive": "D:\\05SimRT\\simrt_linux_target\\drivers\\dio\\models\\simrt_dio_loopback\\simrt_dio_loopback_local\\20261007_094330_146.zip",
+  "protocol": "UDP",
+  "port": 5555,
+  "calibrations": {
+    "DIO_Automatic": "UBYTE",
+    "DIO_CheckLoopback": "UBYTE",
+    "DIO_Enable": "UBYTE",
+    "DIO_ManualMask": "UBYTE"
+  },
+  "measurements": {
+    "simrt_dio_loopback_B.DIO_CommandMask": "UBYTE",
+    "simrt_dio_loopback_B.DIO_InputMask": "UBYTE",
+    "simrt_dio_loopback_B.DIO_InputSetupStatus": "SLONG",
+    "simrt_dio_loopback_B.DIO_Matched": "UBYTE",
+    "simrt_dio_loopback_B.DIO_MismatchSamples": "ULONG",
+    "simrt_dio_loopback_B.DIO_OutputSetupStatus": "SLONG",
+    "simrt_dio_loopback_B.DIO_ReadStatus": "SLONG",
+    "simrt_dio_loopback_B.DIO_Ready": "UBYTE",
+    "simrt_dio_loopback_B.DIO_Valid": "UBYTE",
+    "simrt_dio_loopback_B.DIO_WriteStatus": "SLONG",
+    "simrt_dio_loopback_DW.channel": "UBYTE",
+    "simrt_dio_loopback_DW.failures": "ULONG",
+    "simrt_dio_loopback_DW.previous": "UBYTE",
+    "simrt_dio_loopback_DW.stable": "UWORD",
+    "simrt_dio_loopback_DW.ticks": "UWORD",
+    "simrt_dio_loopback_Y.DIO_CommandMask": "UBYTE",
+    "simrt_dio_loopback_Y.DIO_InputMask": "UBYTE",
+    "simrt_dio_loopback_Y.DIO_InputSetupStatus": "SLONG",
+    "simrt_dio_loopback_Y.DIO_Matched": "UBYTE",
+    "simrt_dio_loopback_Y.DIO_MismatchSamples": "ULONG",
+    "simrt_dio_loopback_Y.DIO_OutputSetupStatus": "SLONG",
+    "simrt_dio_loopback_Y.DIO_ReadStatus": "SLONG",
+    "simrt_dio_loopback_Y.DIO_Ready": "UBYTE",
+    "simrt_dio_loopback_Y.DIO_Valid": "UBYTE",
+    "simrt_dio_loopback_Y.DIO_WriteStatus": "SLONG"
+  }
+}

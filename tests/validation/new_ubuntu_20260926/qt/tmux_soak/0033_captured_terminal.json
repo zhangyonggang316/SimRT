@@ -1,0 +1,19 @@
+{
+  "kind": "rendered_target_tmux_text_capture",
+  "synthetic_metrics": false,
+  "physical_screenshot": false,
+  "production_tty1_capture": false,
+  "dashboard_colors": "white labels and cyan values, matching the renderer",
+  "separator": "neutral line added between the two text captures",
+  "source_sha256": {
+    "0033_dashboard.txt": "836aed360d35b38b2927a24e0aaccb82b3d97f705381ed647a98b237280cf6ff",
+    "0033_shell.txt": "bab26a838b14666585486111677e8cf5356946593688937fdf03b7a1d9e073e6"
+  },
+  "image": "0033_captured_terminal.png",
+  "terminal_size": [
+    120,
+    40
+  ],
+  "sample_index": 33,
+  "elapsed_seconds": 1030.6103771920007
+}

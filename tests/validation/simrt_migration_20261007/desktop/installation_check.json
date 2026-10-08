@@ -1,0 +1,134 @@
+{
+  "release": "2024b",
+  "persistent_path": true,
+  "library": "D:\\05SimRT\\simrt_linux_target\\drivers\\ark\\simrt_library.slx",
+  "sublibraries": [
+    {
+      "name": "Serial",
+      "source": "simrt_serial_library",
+      "blocks": [
+        "Serial Receive",
+        "Serial Sent",
+        "Serial Setup"
+      ],
+      "links_resolved": true
+    },
+    {
+      "name": "Digital IO",
+      "source": "simrt_dio_library",
+      "blocks": [
+        "DIO Read",
+        "DIO Setup",
+        "DIO Write"
+      ],
+      "links_resolved": true
+    },
+    {
+      "name": "EtherCAT",
+      "source": "simrt_ethercat_library",
+      "blocks": [
+        "EtherCAT Exchange"
+      ],
+      "links_resolved": true
+    },
+    {
+      "name": "CAN",
+      "source": "simrt_can_library",
+      "blocks": [
+        "CANSetup",
+        "CanReceive",
+        "CanSent"
+      ],
+      "links_resolved": true
+    },
+    {
+      "name": "TCP UDP",
+      "source": "simrt_network_library",
+      "blocks": [
+        "TCP Receive",
+        "TCP Sent",
+        "TCP Setup"
+      ],
+      "links_resolved": true
+    }
+  ],
+  "links_resolved": true,
+  "legacy_library": "D:\\05SimRT\\simrt_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+  "legacy_links_resolved": true,
+  "browser_initialized": true,
+  "browser_parse_errors": false,
+  "browser_open": true,
+  "browser_catalogs": [
+    {
+      "libraries": [
+        "SimRT",
+        "Simulink",
+        "Communications Toolbox",
+        "Communications Toolbox HDL Support",
+        "DSP System Toolbox",
+        "DSP System Toolbox HDL Support",
+        "Embedded Coder",
+        "Fixed-Point Designer",
+        "Fixed-Point Designer HDL Support",
+        "Fuzzy Logic Toolbox",
+        "HDL Coder",
+        "Simulink 3D Animation",
+        "Simulink Coder",
+        "Simulink Extras",
+        "Simulink Test",
+        "Stateflow",
+        "Vehicle Network Toolbox",
+        "最近使用"
+      ],
+      "children": [
+        "SimRT/CAN",
+        "SimRT/Digital IO",
+        "SimRT/EtherCAT",
+        "SimRT/Serial",
+        "SimRT/TCP UDP"
+      ],
+      "sublibraries": [
+        {
+          "node": "SimRT/Serial",
+          "blocks": [
+            "SimRT/Serial/Serial Receive",
+            "SimRT/Serial/Serial Sent",
+            "SimRT/Serial/Serial Setup"
+          ]
+        },
+        {
+          "node": "SimRT/Digital IO",
+          "blocks": [
+            "SimRT/Digital IO/DIO Read",
+            "SimRT/Digital IO/DIO Setup",
+            "SimRT/Digital IO/DIO Write"
+          ]
+        },
+        {
+          "node": "SimRT/EtherCAT",
+          "blocks": [
+            "SimRT/EtherCAT/EtherCAT Exchange"
+          ]
+        },
+        {
+          "node": "SimRT/CAN",
+          "blocks": [
+            "SimRT/CAN/CanReceive",
+            "SimRT/CAN/CanSent",
+            "SimRT/CAN/CANSetup"
+          ]
+        },
+        {
+          "node": "SimRT/TCP UDP",
+          "blocks": [
+            "SimRT/TCP UDP/TCP Receive",
+            "SimRT/TCP UDP/TCP Sent",
+            "SimRT/TCP UDP/TCP Setup"
+          ]
+        }
+      ]
+    }
+  ],
+  "browser_blocks_verified": true,
+  "passed": true
+}

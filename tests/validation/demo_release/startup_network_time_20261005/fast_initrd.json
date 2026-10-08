@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "image": "/boot/initrd.img-7.0.0-34-realtime",
+  "backup": "/boot/initrd.img-7.0.0-34-realtime.before-simrt-20261005-154332",
+  "original_bytes": 62683082,
+  "new_bytes": 35733160,
+  "original_sha256": "6dd1aa97e85a2131d25dd61205c9f2afe8d87f7a72fb91f5234d2fa8da6cfd76",
+  "new_sha256": "c8c2cda237ac437b282a8130dcb5a0d1861706ab935611c3dc3734adb1affb71",
+  "modules": "Image: /boot/initrd.img-7.0.0-34-realtime.simrt-fast: 35M\n========================================================================\nVersion: dracut-110-11ubuntu0.1\n\ndracut modules:\nconsole-setup\ndash\nsystemd\nsystemd-ask-password\nsystemd-battery-check\nsystemd-initrd\nsystemd-journald\nsystemd-modules-load\nsystemd-pcrextend\nsystemd-sysctl\nsystemd-tmpfiles\nsystemd-udevd\ni18n\nplymouth\nsimpledrm\ncopymods\noverlayroot\ndm\nfs-lib\nkernel-modules\nkernel-modules-export\nkernel-modules-extra\nlvm\noverlayfs\noverlayfs-crypt\nrootfs-block\nterminfo\nudev-rules\ndracut-systemd\ninitqueue\nusrmount\nsystemd-sysusers\nbase\nshell-interpreter\nshutdown\n========================================================================\n",
+  "storage_drivers": {
+    "CONFIG_SATA_AHCI": "m",
+    "CONFIG_BLK_DEV_DM": "y",
+    "CONFIG_EXT4_FS": "y"
+  },
+  "configuration": "/etc/dracut.conf.d/90-simrt-local-boot.conf",
+  "reboot_test": false
+}

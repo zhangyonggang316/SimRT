@@ -1,0 +1,85 @@
+{
+  "head": {
+    "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/commits/main",
+    "value": {
+      "sha": "6690a4f1bc9056dd8b3d0bfc28f909db64df5e6d",
+      "html_url": "https://github.com/TOSUN-Shanghai/libTSCANDemos/commit/6690a4f1bc9056dd8b3d0bfc28f909db64df5e6d",
+      "commit": {
+        "author": {
+          "name": "seven",
+          "email": "865762826@qq.com",
+          "date": "2024-03-27T02:38:19Z"
+        },
+        "committer": {
+          "name": "seven",
+          "email": "865762826@qq.com",
+          "date": "2024-03-27T02:38:19Z"
+        },
+        "message": "fixed c# dll",
+        "tree": {
+          "sha": "4ca012eec06fbadfffcc259f308191fb5c9e1650",
+          "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/git/trees/4ca012eec06fbadfffcc259f308191fb5c9e1650"
+        },
+        "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/git/commits/6690a4f1bc9056dd8b3d0bfc28f909db64df5e6d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    }
+  },
+  "linux_history": {
+    "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/commits?path=lib/linux&per_page=20",
+    "value": [
+      {
+        "sha": "815a8857355eb988544d0fd7c2ee7824ce15c0dd",
+        "date": "2023-11-16T03:37:39Z",
+        "message": "add windows libTSCAN.h/libTSCAN.lib and TSCAN.hpp"
+      },
+      {
+        "sha": "24b15c462695387b82bd5d5e8bd96b15b7621953",
+        "date": "2023-09-14T05:26:17Z",
+        "message": "\u4e0a\u4f20Python CSharp C\u5de5\u7a0b\u4ee5\u53ca \u76f8\u5173\u793a\u4f8b\u4e0e\u6587\u6863"
+      }
+    ]
+  },
+  "linux_files": {
+    "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/contents/lib/linux?ref=main",
+    "value": [
+      {
+        "name": "libTSCANApiOnLinux.so",
+        "upstream_git_blob": "33225a5919cfb60b07f3f5e2f289c57c9ceee416",
+        "local_git_blob": "33225a5919cfb60b07f3f5e2f289c57c9ceee416",
+        "unchanged": true,
+        "download_url": "https://raw.githubusercontent.com/TOSUN-Shanghai/libTSCANDemos/main/lib/linux/libTSCANApiOnLinux.so"
+      },
+      {
+        "name": "libTSH.so",
+        "upstream_git_blob": "80442084585b1fd993dbc4fcd333262b45e093d9",
+        "local_git_blob": "80442084585b1fd993dbc4fcd333262b45e093d9",
+        "unchanged": true,
+        "download_url": "https://raw.githubusercontent.com/TOSUN-Shanghai/libTSCANDemos/main/lib/linux/libTSH.so"
+      }
+    ]
+  },
+  "ubuntu_issue": {
+    "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/issues/6",
+    "value": {
+      "html_url": "https://github.com/TOSUN-Shanghai/libTSCANDemos/issues/6",
+      "title": "Can not work on ubuntu 24.04",
+      "state": "open",
+      "summary": "A user reports TC1013 connection failure with return code 2 in the Python demo on Ubuntu 24.04. No maintainer response or fix was present. This differs from the null-thread SIGSEGV observed in this review.",
+      "created_at": "2025-03-14T10:19:21Z",
+      "updated_at": "2025-03-24T09:01:42Z",
+      "comments": 0
+    }
+  },
+  "ubuntu_issue_comments": {
+    "url": "https://api.github.com/repos/TOSUN-Shanghai/libTSCANDemos/issues/6/comments",
+    "value": []
+  }
+}

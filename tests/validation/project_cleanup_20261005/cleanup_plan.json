@@ -1,0 +1,267 @@
+﻿[
+    {
+        "path":  "qt_xcp_host\\dist",
+        "files":  2683,
+        "bytes":  356645670
+    },
+    {
+        "path":  "qt_xcp_host\\build",
+        "files":  32,
+        "bytes":  60276791
+    },
+    {
+        "path":  "tools\\__pycache__",
+        "files":  8,
+        "bytes":  86901
+    },
+    {
+        "path":  "qt_xcp_host\\SimRT.spec",
+        "files":  1,
+        "bytes":  1744
+    },
+    {
+        "path":  "tools\\tests\\__pycache__",
+        "files":  7,
+        "bytes":  81085
+    },
+    {
+        "path":  "validation\\can926\\slprj",
+        "files":  15,
+        "bytes":  270304
+    },
+    {
+        "path":  "qt_xcp_host\\staging_delivery",
+        "files":  20,
+        "bytes":  468856
+    },
+    {
+        "path":  "qt_xcp_host\\tests\\__pycache__",
+        "files":  12,
+        "bytes":  167859
+    },
+    {
+        "path":  "x280_linux_target\\tests\\slprj",
+        "files":  3,
+        "bytes":  1448
+    },
+    {
+        "path":  "qt_xcp_host\\qt_host\\__pycache__",
+        "files":  16,
+        "bytes":  191443
+    },
+    {
+        "path":  "validation\\ark_io_20261005\\slprj",
+        "files":  6,
+        "bytes":  198401
+    },
+    {
+        "path":  "qt_xcp_host\\pyxcp_host\\__pycache__",
+        "files":  4,
+        "bytes":  16490
+    },
+    {
+        "path":  "qt_xcp_host\\staging_ports_20261005",
+        "files":  20,
+        "bytes":  471334
+    },
+    {
+        "path":  "validation\\pyxcp_02232\\__pycache__",
+        "files":  1,
+        "bytes":  10239
+    },
+    {
+        "path":  "x280_linux_target\\tests\\__pycache__",
+        "files":  3,
+        "bytes":  35095
+    },
+    {
+        "path":  "x280_linux_target\\tools\\__pycache__",
+        "files":  2,
+        "bytes":  25352
+    },
+    {
+        "path":  "qt_xcp_host\\staging_5555_ui_20261005",
+        "files":  1363,
+        "bytes":  178790010
+    },
+    {
+        "path":  "qt_xcp_host\\staging_startup_20261005",
+        "files":  1358,
+        "bytes":  178757922
+    },
+    {
+        "path":  "qt_xcp_host\\service_tests\\__pycache__",
+        "files":  16,
+        "bytes":  178953
+    },
+    {
+        "path":  "x280_linux_target\\console\\__pycache__",
+        "files":  3,
+        "bytes":  46650
+    },
+    {
+        "path":  "Demo_XCP_Qt\\models\\x280_rt_single\\slprj",
+        "files":  9,
+        "bytes":  176550
+    },
+    {
+        "path":  "validation\\communication_20260927\\slprj",
+        "files":  6,
+        "bytes":  213087
+    },
+    {
+        "path":  "qt_xcp_host\\staging_network_fix_20261005",
+        "files":  1425,
+        "bytes":  180463741
+    },
+    {
+        "path":  "validation\\can926\\x280_can_loopback.slxc",
+        "files":  1,
+        "bytes":  1059257
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\dio\\tests\\slprj",
+        "files":  6,
+        "bytes":  198404
+    },
+    {
+        "path":  "qt_xcp_host\\staging_5555_ui_final_20261005",
+        "files":  1411,
+        "bytes":  180380102
+    },
+    {
+        "path":  "validation\\can926\\x280_canfd_loopback.slxc",
+        "files":  1,
+        "bytes":  1032848
+    },
+    {
+        "path":  "validation\\new_ubuntu_20260926\\__pycache__",
+        "files":  4,
+        "bytes":  19199
+    },
+    {
+        "path":  "validation\\tc1013_can_20260919\\__pycache__",
+        "files":  3,
+        "bytes":  26623
+    },
+    {
+        "path":  "x280_linux_target\\python\\tests\\__pycache__",
+        "files":  4,
+        "bytes":  26767
+    },
+    {
+        "path":  "qt_xcp_host\\pyxcp_host\\services\\__pycache__",
+        "files":  15,
+        "bytes":  144318
+    },
+    {
+        "path":  "validation\\local_build_20260926\\__pycache__",
+        "files":  2,
+        "bytes":  7529
+    },
+    {
+        "path":  "validation\\xcp_5555_ui_20261005\\__pycache__",
+        "files":  1,
+        "bytes":  2376
+    },
+    {
+        "path":  "qt_xcp_host\\staging_network_refresh_20261005",
+        "files":  1442,
+        "bytes":  180631268
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\tc1013\\__pycache__",
+        "files":  1,
+        "bytes":  7431
+    },
+    {
+        "path":  "x280_linux_target\\python\\x280_xcp\\__pycache__",
+        "files":  4,
+        "bytes":  34931
+    },
+    {
+        "path":  "validation\\xcp_ports_20261005_previous_app\\app",
+        "files":  1343,
+        "bytes":  178319172
+    },
+    {
+        "path":  "x280_linux_target\\tests\\x280_can_loopback.slxc",
+        "files":  1,
+        "bytes":  5095
+    },
+    {
+        "path":  "validation\\new_ubuntu_20260926\\can_models\\slprj",
+        "files":  16,
+        "bytes":  502691
+    },
+    {
+        "path":  "validation\\xcp_5555_ui_20261005_previous_app\\app",
+        "files":  1343,
+        "bytes":  178319546
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\tc1013\\tests\\__pycache__",
+        "files":  1,
+        "bytes":  8004
+    },
+    {
+        "path":  "validation\\ark_io_20261005\\ark_io_codegen_check.slxc",
+        "files":  1,
+        "bytes":  1015296
+    },
+    {
+        "path":  "validation\\network_refresh_20261005_previous_app\\app",
+        "files":  1343,
+        "bytes":  178318616
+    },
+    {
+        "path":  "Demo_XCP_Qt\\models\\x280_rt_single\\x280_rt_single.slxc",
+        "files":  1,
+        "bytes":  4850209
+    },
+    {
+        "path":  "validation\\network_unaddressed_20261005_previous_app\\app",
+        "files":  1343,
+        "bytes":  178318602
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\dio\\tests\\ark_io_codegen_check.slxc",
+        "files":  1,
+        "bytes":  1015779
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\dio\\tests\\ark_io_codegen_check_local",
+        "files":  1,
+        "bytes":  162475
+    },
+    {
+        "path":  "validation\\new_ubuntu_20260926\\can_models\\x280_can_loopback.slxc",
+        "files":  1,
+        "bytes":  1065446
+    },
+    {
+        "path":  "x280_linux_target\\drivers\\dio\\tests\\ark_io_codegen_check_ert_rtw",
+        "files":  148,
+        "bytes":  3784573
+    },
+    {
+        "path":  "validation\\xcp_5555_ui_20261005_previous_app\\pre_rollback_fix_app",
+        "files":  1343,
+        "bytes":  178318513
+    },
+    {
+        "path":  "validation\\communication_20260927\\communication_codegen_check.slxc",
+        "files":  1,
+        "bytes":  1402846
+    },
+    {
+        "path":  "validation\\local_build_20260926\\can_models\\x280_can_loopback\\slprj",
+        "files":  8,
+        "bytes":  198942
+    },
+    {
+        "path":  "validation\\new_ubuntu_20260926\\can_models\\x280_canfd_loopback.slxc",
+        "files":  1,
+        "bytes":  1039959
+    }
+]

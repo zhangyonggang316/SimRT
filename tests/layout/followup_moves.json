@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "moves": [
+    ["app/python", "shared/python"],
+    ["app/qt_xcp_host/pyxcp_host", "shared/python/pyxcp_host"],
+    ["tests/linux/validate_tmux.py", "linux/console/validate_tmux.py"]
+  ],
+  "reason": "Shared headless APIs belong outside the Qt APP; the tmux check is an asset deployed with the console."
+}

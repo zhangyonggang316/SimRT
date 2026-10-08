@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "scenarios": [
+    {
+      "name": "admin_down_no_address",
+      "passed": true,
+      "old_ipv4_query_empty": true,
+      "initial_state": "DOWN",
+      "saved_address": "192.168.7.1/24"
+    },
+    {
+      "name": "no_carrier_no_address",
+      "passed": true,
+      "old_ipv4_query_empty": true,
+      "initial_state": "LOWERLAYERDOWN",
+      "saved_address": "192.168.7.1/24"
+    },
+    {
+      "name": "ipv6_only",
+      "passed": true,
+      "old_ipv4_query_empty": true,
+      "initial_state": "UP",
+      "saved_address": "192.168.7.1/24"
+    }
+  ],
+  "rollback_to_down_without_ipv4": true,
+  "rollback_seconds": 45,
+  "namespace_only": true,
+  "physical_interface_changes": false,
+  "physical_read_only_probe": {
+    "complete": [
+      {
+        "ifindex": 2,
+        "ifname": "enp1s0",
+        "flags": [
+          "NO-CARRIER",
+          "BROADCAST",
+          "MULTICAST",
+          "UP"
+        ],
+        "mtu": 1500,
+        "qdisc": "pfifo_fast",
+        "operstate": "DOWN",
+        "group": "default",
+        "txqlen": 1000,
+        "link_type": "ether",
+        "address": "c4:00:ad:0c:11:6d",
+        "broadcast": "ff:ff:ff:ff:ff:ff",
+        "altnames": [
+          "enxc400ad0c116d"
+        ],
+        "addr_info": []
+      }
+    ],
+    "ipv4_only": []
+  },
+  "helper_sha256": "4fce1aa270b3f1292d56ea3cd5fdf5b97b3f626696353fac109b56c74e09e424"
+}

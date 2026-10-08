@@ -1,0 +1,18 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:07:23
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 8.0%  Memory: 30.9%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:11:07 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 667094 calls / 667094 completed
+Deadline misses: 7  Skipped periods: 74
+Task execution current/max: 2962 ns / 68714 ns
+Interval min/avg/max: 128334 / 1000110.915 / 26864611 ns
+Telemetry: live (0.2s old)
+-- LOG ------------------------------------------------------------------------
+* Comm Mode Basic:   0H
+* Max CTO size:      255
+* Max DTO size:      508
+*

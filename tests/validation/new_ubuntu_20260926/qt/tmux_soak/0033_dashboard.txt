@@ -1,0 +1,33 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 08:15:58
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 11.2%  Memory: 31.1%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 65008)
+Model elapsed: 00:00:29 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 29060 calls / 29060 completed
+Deadline misses: 0  Skipped periods: 0
+Task execution current/max: 7264 ns / 70634 ns
+Interval min/avg/max: 896434 / 1000000.742 / 1078446 ns
+Telemetry: live (0.4s old)
+-- LOG ----------------------------------------------------------------------------------------------------------------
+08:07:29 PROCESS FOUND rt_runtime_harness (PID 58306)
+08:07:32 PROCESS FOUND rt_runtime_harness (PID 58346)
+08:07:32 STOPPED rt_runtime_harness (PID 58306)
+08:07:34 PROCESS FOUND rt_runtime_harness (PID 58420)
+08:07:34 STOPPED rt_runtime_harness (PID 58346)
+08:07:37 STOPPED rt_runtime_harness (PID 58420)
+08:15:28 PROCESS FOUND x280_rt_single (PID 65008)
+X280 RT initialization/runtime failure: PREEMPT_RT kernel required (/sys/kernel/realtime != 1): Operation not supported
+
+** starting the model **
+
+
+
+
+
+
+
+
+

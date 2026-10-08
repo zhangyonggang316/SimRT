@@ -1,0 +1,27 @@
+﻿{
+    "passed":  true,
+    "exe_sha256":  "b7a16c21212dabe58bee1b216ec7a03ad57216300056a89566ecf5e1e654fcf8",
+    "changed_files":  [
+                          {
+                              "path":  "build_report.json",
+                              "previous_sha256":  "069AD2B61417E7F5B48FEC7506A718AFECD51C23F68AD6A57AA3435256778E1E",
+                              "sha256":  "23D84EFD1C890B40DB8E91681EB9188AC58C0724365AECF9D6002CB3EAA5F78D"
+                          },
+                          {
+                              "path":  "QtXCPHost.exe",
+                              "previous_sha256":  "139885A5E927C52E3135C953DAC774BBFF76F904646CC0691ED7E567317EB934",
+                              "sha256":  "B7A16C21212DABE58BEE1B216EC7A03AD57216300056A89566ECF5E1E654FCF8"
+                          },
+                          {
+                              "path":  "README.md",
+                              "previous_sha256":  "70A52ADDBF9DCF78ADB5D66B49B56B9C59581CCEB918DA524C9D9C1714238F23",
+                              "sha256":  "4BA42C359511AF7CF63433B39EECDD25BEBB6BDF543F8AA046E23CEEAD657215"
+                          },
+                          {
+                              "path":  "_internal\\base_library.zip",
+                              "previous_sha256":  "5BED44289E6B507A6400984FBFABD09D770C57F09063FDBFDDEA65B3E107F63C",
+                              "sha256":  "871019381EE2C10C65BF5FF4A7AB3B8B3A0F389A8EE7B9FA4D87828D552EA9F2"
+                          }
+                      ],
+    "models_changed":  false
+}

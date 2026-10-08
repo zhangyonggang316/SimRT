@@ -1,0 +1,15 @@
+﻿{
+    "apply":  false,
+    "targets":  12,
+    "files":  47,
+    "bytes":  6411959,
+    "mib":  6.11,
+    "protected_files":  0,
+    "removed":  [
+
+                ],
+    "failed":  [
+
+               ],
+    "passed":  false
+}

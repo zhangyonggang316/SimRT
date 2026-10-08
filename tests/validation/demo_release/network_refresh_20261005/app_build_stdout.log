@@ -1,0 +1,15 @@
+No broken requirements found.
+[14:23:22] DEBUG    matplotlib data path:                       __init__.py:341
+                    D:\05SimRT\.venv\lib\site-packages\matplotl                
+                    ib\mpl-data                                                
+           DEBUG    CONFIGDIR=C:\Users\yonggang.zhang\.matplotl __init__.py:341
+                    ib                                                         
+           DEBUG    interactive is False                       __init__.py:1512
+           DEBUG    platform is win32                          __init__.py:1513
+           DEBUG    CACHEDIR=C:\Users\yonggang.zhang\.matplotli __init__.py:341
+                    b                                                          
+           DEBUG    Using fontManager instance from        font_manager.py:1580
+                    C:\Users\yonggang.zhang\.matplotlib\fo                     
+                    ntlist-v390.json                                           
+Built SimRT application: D:\05SimRT\qt_xcp_host\dist\SimRT\SimRT.exe
+GUI and target validation must be recorded separately.

@@ -1,0 +1,43 @@
+SimRT Linux: ark2120 | UI refresh: 0.5 s | 09:22:59
+OS: Ubuntu 26.04.1 LTS
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: UNKNOWN (flag unavailable) | Kernel: 7.0.0-30-generic
+Network: wlx7c3d09705041 192.168.219.195 / 255.255.255.0
+CPU: 12.6%  Memory: 31.2%  Disk: 20.6% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 97758)
+Model elapsed: 00:26:42 / inf  Period: 1000000 ns
+MATLAB: R2024b | Steps: 1601948 calls / 1601948 completed
+Deadline misses: 15  Skipped periods: 203
+Task execution current/max: 2951 ns / 97892 ns
+Interval min/avg/max: 128334 / 1000126.715 / 30406848 ns
+Telemetry: live (1.0s old)
+-- LOG --------------------------------------------------------------------------------------------------------------------------------------------------------
+09:08:06 PROCESS FOUND x280_can_loopback (PID 108231)
+09:08:25 STOPPED x280_can_loopback (PID 108231)
+09:09:07 PROCESS FOUND x280_canfd_loopback (PID 109138)
+09:09:25 STOPPED x280_canfd_loopback (PID 109138)
+09:13:10 PROCESS FOUND x280_can_loopback (PID 112622)
+09:13:17 PROCESS FOUND x280_canfd_loopback (PID 112756)
+09:13:17 STOPPED x280_can_loopback (PID 112622)
+09:13:23 STOPPED x280_canfd_loopback (PID 112756)
+FREE_DAQ: clearing existing dynamic DAQ lists
+ALLOC_DAQ: allocating 1 DAQ lists (32 B)
+ALLOC_ODT: allocating 1 ODTs in DAQ list 0 (56 B)
+ALLOC_ODT_ENTRY: allocating 1 ODT Entries in DAQ list 0 ODT 0 (8 B)
+SET_DAQ_PTR: updating current ODT entry pointer to DAQ 0, ODT 0, Entry 0
+XCP_WRITE_DAQ: writing DAQ 0 ODT 0 Entry 0: bitOffset = ffH size = 8 addressExtension = 0H address = 519a98H
+SET_DAQ_LIST_MODE: setting DAQ list 0: mode = 10H, eventId = 0, prescaler = 1, priority = 0
+START_ST
+
+
+
+
+
+
+
+
+
+
+
+
+

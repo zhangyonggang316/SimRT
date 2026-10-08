@@ -1,0 +1,672 @@
+{
+  "passed": false,
+  "started": "2026-10-06T16:20:41.057392+00:00",
+  "model": {
+    "model": "x280_rt_single",
+    "period_seconds": 0.001,
+    "port": 5555,
+    "remote_elf": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+    "model_checks": {
+      "configured_period": true,
+      "measured_step_mean": true,
+      "step_calls_complete": true,
+      "step_interval_count": true,
+      "step_interval_statistics": true,
+      "step_execution_statistics": true,
+      "measured_step_scope": true,
+      "monotonic_clock": true,
+      "cycle_calls_complete": true,
+      "cycle_interval_count": true,
+      "cycle_interval_statistics": true,
+      "no_deadline_misses": true,
+      "no_skipped_releases": true,
+      "fifo_and_locked_memory": true,
+      "strict_rt_kernel": true,
+      "standalone_phase_duration": true,
+      "cycles_cover_standalone_and_daq": true,
+      "calls_beyond_daq_cover_standalone": true,
+      "no_new_target_error_lines": true,
+      "process_memory_locked": true,
+      "model_thread_fifo_affinity": true,
+      "process_limits_recorded": true
+    },
+    "daq_checks": {
+      "metadata_period": true,
+      "sufficient_samples": true,
+      "drained_all_samples": true,
+      "dynamic_primary_signal": true,
+      "calibration_write_readback": true,
+      "calibration_restore_readback": true,
+      "calibration_write_daq_continues": true,
+      "calibration_restore_daq_continues": true,
+      "no_calibration_cleanup_errors": true,
+      "no_reported_host_errors": true,
+      "no_queue_dropped_samples": true,
+      "no_invalid_frames": true,
+      "no_incomplete_events": true,
+      "no_transport_counter_gaps": false,
+      "no_reordered_frames": true,
+      "no_timestamp_gap_samples": false,
+      "no_timestamp_reorders": true,
+      "no_overload_events": true
+    },
+    "cleanup_errors": [],
+    "calibration": {
+      "initial": 0.0,
+      "write_result": {
+        "CalOffset": 0.25
+      },
+      "write_readback": 0.25,
+      "write_readback_ok": true,
+      "write_daq_continues": true,
+      "samples_before_write": 1059,
+      "samples_after_write": 1274,
+      "restore_result": {
+        "CalOffset": 0.0
+      },
+      "restore_readback": 0.0,
+      "restore_readback_ok": true,
+      "restore_daq_continues": true,
+      "samples_before_restore": 1274,
+      "samples_after_restore": 1414
+    },
+    "log_start_bytes": 0,
+    "pid": 2663,
+    "process_before_standalone": {
+      "pid": 2663,
+      "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+      "start_time_ticks": 117393,
+      "monotonic_ns": 1174413297723,
+      "user_ticks": 26,
+      "system_ticks": 5,
+      "vm_locked_kb": 75596,
+      "process_allowed_cpus": "0-1",
+      "limits": {
+        "Max cpu time": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "seconds"
+        },
+        "Max file size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max data size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max stack size": {
+          "soft": "8388608",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max core file size": {
+          "soft": "0",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max resident set": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max processes": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "processes"
+        },
+        "Max open files": {
+          "soft": "1024",
+          "hard": "524288",
+          "units": "files"
+        },
+        "Max locked memory": {
+          "soft": "1073741824",
+          "hard": "1073741824",
+          "units": "bytes"
+        },
+        "Max address space": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max file locks": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "locks"
+        },
+        "Max pending signals": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "signals"
+        },
+        "Max msgqueue size": {
+          "soft": "819200",
+          "hard": "819200",
+          "units": "bytes"
+        },
+        "Max nice priority": {
+          "soft": "0",
+          "hard": "0",
+          "units": ""
+        },
+        "Max realtime priority": {
+          "soft": "80",
+          "hard": "80",
+          "units": ""
+        },
+        "Max realtime timeout": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "us"
+        }
+      },
+      "threads": [
+        {
+          "tid": 2663,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2664,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2665,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_FIFO",
+          "priority": 40,
+          "affinity": [
+            3
+          ]
+        }
+      ]
+    },
+    "standalone_seconds": 3.0160000000614673,
+    "process_after_standalone": {
+      "pid": 2663,
+      "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+      "start_time_ticks": 117393,
+      "monotonic_ns": 1179192418147,
+      "user_ticks": 283,
+      "system_ticks": 66,
+      "vm_locked_kb": 75596,
+      "process_allowed_cpus": "0-1",
+      "limits": {
+        "Max cpu time": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "seconds"
+        },
+        "Max file size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max data size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max stack size": {
+          "soft": "8388608",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max core file size": {
+          "soft": "0",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max resident set": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max processes": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "processes"
+        },
+        "Max open files": {
+          "soft": "1024",
+          "hard": "524288",
+          "units": "files"
+        },
+        "Max locked memory": {
+          "soft": "1073741824",
+          "hard": "1073741824",
+          "units": "bytes"
+        },
+        "Max address space": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max file locks": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "locks"
+        },
+        "Max pending signals": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "signals"
+        },
+        "Max msgqueue size": {
+          "soft": "819200",
+          "hard": "819200",
+          "units": "bytes"
+        },
+        "Max nice priority": {
+          "soft": "0",
+          "hard": "0",
+          "units": ""
+        },
+        "Max realtime priority": {
+          "soft": "80",
+          "hard": "80",
+          "units": ""
+        },
+        "Max realtime timeout": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "us"
+        }
+      },
+      "threads": [
+        {
+          "tid": 2663,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2664,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2665,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_FIFO",
+          "priority": 40,
+          "affinity": [
+            3
+          ]
+        }
+      ]
+    },
+    "ssh_disconnected_autonomous": true,
+    "standalone_evidence_scope": "No XCP connection during the timed initial phase. Total measured model calls must cover standalone plus DAQ elapsed time, and calls exceeding received DAQ samples must cover the standalone phase; this is aggregate evidence, not a separate per-phase model-call counter.",
+    "daq_metadata": {
+      "mode": "DAQ",
+      "event_channel": 0,
+      "period_seconds": 0.001,
+      "prescaler": 1,
+      "period_source": "A2L EVENT",
+      "timestamp_source": "target",
+      "signals": [
+        "x280_rt_single_B.MeasuredOutput"
+      ],
+      "odt_count": 1,
+      "queue_capacity": 20000
+    },
+    "daq_seconds": 600.0,
+    "process_during_daq": {
+      "pid": 2663,
+      "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+      "start_time_ticks": 117393,
+      "monotonic_ns": 1780047619442,
+      "user_ticks": 38714,
+      "system_ticks": 5400,
+      "vm_locked_kb": 75596,
+      "process_allowed_cpus": "0-1",
+      "limits": {
+        "Max cpu time": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "seconds"
+        },
+        "Max file size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max data size": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max stack size": {
+          "soft": "8388608",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max core file size": {
+          "soft": "0",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max resident set": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max processes": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "processes"
+        },
+        "Max open files": {
+          "soft": "1024",
+          "hard": "524288",
+          "units": "files"
+        },
+        "Max locked memory": {
+          "soft": "1073741824",
+          "hard": "1073741824",
+          "units": "bytes"
+        },
+        "Max address space": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "bytes"
+        },
+        "Max file locks": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "locks"
+        },
+        "Max pending signals": {
+          "soft": "1786",
+          "hard": "1786",
+          "units": "signals"
+        },
+        "Max msgqueue size": {
+          "soft": "819200",
+          "hard": "819200",
+          "units": "bytes"
+        },
+        "Max nice priority": {
+          "soft": "0",
+          "hard": "0",
+          "units": ""
+        },
+        "Max realtime priority": {
+          "soft": "80",
+          "hard": "80",
+          "units": ""
+        },
+        "Max realtime timeout": {
+          "soft": "unlimited",
+          "hard": "unlimited",
+          "units": "us"
+        }
+      },
+      "threads": [
+        {
+          "tid": 2663,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2664,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_OTHER",
+          "priority": 0,
+          "affinity": [
+            0,
+            1
+          ]
+        },
+        {
+          "tid": 2665,
+          "name": "x280_rt_single.",
+          "policy": "SCHED_FIFO",
+          "priority": 40,
+          "affinity": [
+            3
+          ]
+        }
+      ]
+    },
+    "daq": {
+      "mode": "DAQ",
+      "event_channel": 0,
+      "period_seconds": 0.001,
+      "prescaler": 1,
+      "period_source": "A2L EVENT",
+      "timestamp_source": "target",
+      "signals": [
+        "x280_rt_single_B.MeasuredOutput"
+      ],
+      "odt_count": 1,
+      "queue_capacity": 20000,
+      "active": false,
+      "received_samples": 600294,
+      "queue_dropped_samples": 0,
+      "invalid_frames": 0,
+      "incomplete_events": 0,
+      "transport_counter_gaps": 96,
+      "reordered_frames": 0,
+      "timestamp_gap_samples": 96,
+      "timestamp_wraps": 0,
+      "timestamp_reorders": 0,
+      "overload_events": 0,
+      "queued_samples": 0,
+      "host_error": ""
+    },
+    "sample_count": 600294,
+    "signals": {
+      "x280_rt_single_B.MeasuredOutput": {
+        "count": 600294,
+        "all_finite": true,
+        "minimum": -1.999999999962798,
+        "maximum": 1.9999999999362372,
+        "repeat_fraction": 0.0
+      }
+    },
+    "target_log": {
+      "start_bytes": 0,
+      "end_bytes": 4254,
+      "new_bytes": 4254,
+      "line_count": 68,
+      "error_line_count": 0,
+      "error_examples": [],
+      "summary_count": 1,
+      "runtime": {
+        "event": "x280_rt_summary",
+        "period_ns": 1000000,
+        "realtime_kernel": true,
+        "kernel_required": true,
+        "policy": "SCHED_FIFO",
+        "priority": 40,
+        "cpu": 3,
+        "memory_locked": true,
+        "cpu_dma_latency_active": true,
+        "spin_us": 500,
+        "cycles": 607230,
+        "completed_cycles": 607230,
+        "skipped_releases": 0,
+        "deadline_misses": 0,
+        "wake_latency_mean_ns": 60.138,
+        "execution_max_ns": 237454,
+        "execution_mean_ns": 4121.733,
+        "execution_scope": "base_rate_loop_including_xcp",
+        "cycle_interval_samples": 607229,
+        "cycle_interval_min_ns": 999797,
+        "cycle_interval_max_ns": 1000202,
+        "cycle_interval_mean_ns": 1000000.0,
+        "cycle_interval_scope": "base_rate_loop_start_to_start",
+        "measurement_clock": "CLOCK_MONOTONIC",
+        "model_step_calls": 607230,
+        "model_step_completed_calls": 607230,
+        "model_step_interval_samples": 607229,
+        "model_step_interval_min_ns": 999185,
+        "model_step_interval_max_ns": 1000779,
+        "model_step_interval_mean_ns": 999999.999,
+        "model_step_execution_min_ns": 1286,
+        "model_step_execution_max_ns": 236644,
+        "model_step_execution_mean_ns": 3401.313,
+        "model_step_scope": "generated_model_step_including_generated_daq_upload",
+        "model_step_interval_scope": "generated_model_step_entry_to_entry",
+        "final_cycle_includes_termination": false,
+        "elapsed_ns": 607229002154,
+        "stop_signal": 15,
+        "interval_tolerance_ns": 50000,
+        "model_step_interval_early_count": 0,
+        "model_step_interval_late_count": 0,
+        "model_step_release_lateness_current_ns": 357,
+        "model_step_release_lateness_max_ns": 1172,
+        "model_step_entry_delay_current_ns": 352,
+        "model_step_entry_delay_max_ns": 1117,
+        "wake_latency_current_ns": 5,
+        "wake_latency_max_ns": 212,
+        "sleep_return_lateness_current_ns": 0,
+        "sleep_return_lateness_max_ns": 93946,
+        "sleep_calls": 607231,
+        "sleep_skipped_count": 0,
+        "sleep_return_after_release_count": 0,
+        "sleep_performed": true,
+        "last_interval_outlier": null
+      }
+    },
+    "runtime": {
+      "event": "x280_rt_summary",
+      "period_ns": 1000000,
+      "realtime_kernel": true,
+      "kernel_required": true,
+      "policy": "SCHED_FIFO",
+      "priority": 40,
+      "cpu": 3,
+      "memory_locked": true,
+      "cpu_dma_latency_active": true,
+      "spin_us": 500,
+      "cycles": 607230,
+      "completed_cycles": 607230,
+      "skipped_releases": 0,
+      "deadline_misses": 0,
+      "wake_latency_mean_ns": 60.138,
+      "execution_max_ns": 237454,
+      "execution_mean_ns": 4121.733,
+      "execution_scope": "base_rate_loop_including_xcp",
+      "cycle_interval_samples": 607229,
+      "cycle_interval_min_ns": 999797,
+      "cycle_interval_max_ns": 1000202,
+      "cycle_interval_mean_ns": 1000000.0,
+      "cycle_interval_scope": "base_rate_loop_start_to_start",
+      "measurement_clock": "CLOCK_MONOTONIC",
+      "model_step_calls": 607230,
+      "model_step_completed_calls": 607230,
+      "model_step_interval_samples": 607229,
+      "model_step_interval_min_ns": 999185,
+      "model_step_interval_max_ns": 1000779,
+      "model_step_interval_mean_ns": 999999.999,
+      "model_step_execution_min_ns": 1286,
+      "model_step_execution_max_ns": 236644,
+      "model_step_execution_mean_ns": 3401.313,
+      "model_step_scope": "generated_model_step_including_generated_daq_upload",
+      "model_step_interval_scope": "generated_model_step_entry_to_entry",
+      "final_cycle_includes_termination": false,
+      "elapsed_ns": 607229002154,
+      "stop_signal": 15,
+      "interval_tolerance_ns": 50000,
+      "model_step_interval_early_count": 0,
+      "model_step_interval_late_count": 0,
+      "model_step_release_lateness_current_ns": 357,
+      "model_step_release_lateness_max_ns": 1172,
+      "model_step_entry_delay_current_ns": 352,
+      "model_step_entry_delay_max_ns": 1117,
+      "wake_latency_current_ns": 5,
+      "wake_latency_max_ns": 212,
+      "sleep_return_lateness_current_ns": 0,
+      "sleep_return_lateness_max_ns": 93946,
+      "sleep_calls": 607231,
+      "sleep_skipped_count": 0,
+      "sleep_return_after_release_count": 0,
+      "sleep_performed": true,
+      "last_interval_outlier": null
+    },
+    "model_passed": true,
+    "daq_passed": false,
+    "passed": false
+  },
+  "autostart_before": {
+    "elf_path": "",
+    "arguments": [],
+    "enabled": false,
+    "linger": true,
+    "unit": "pyxcp-host-model.service",
+    "username": "zh"
+  },
+  "previous": {
+    "running": true,
+    "pid": 2548,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  },
+  "deployment": {
+    "remote_directory": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347",
+    "verified": true,
+    "file_count": 3,
+    "elf_path": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+    "a2l_path": "C:\\Users\\YONGGA~1.ZHA\\AppData\\Local\\Temp\\qt-xcp-payload-xs4nxzzu\\20261006_161834_217\\x280_rt_single.a2l",
+    "files": {
+      "x280_rt_single.elf": "df2f8d5bb47b18c0e64e2116ae8739ab67c022a0669528dea91727a72742a821",
+      "x280_rt_single.a2l": "2ed3071e55bca38fb5a86662cc5b9aafa1fe294c91f1fd99f0e3ca7f146f63cf",
+      "x280_rt_single.xcp-manifest.json": "4f75fb7b6e064ef35d6f30c2299f0a323552950314e36921c554a8867ee0e11d"
+    }
+  },
+  "build_receipt": "validation\\realtime_50us_20261006\\model_build_final.json",
+  "checks": {
+    "workflow": false,
+    "autonomous": true,
+    "interval_min": true,
+    "interval_max": true,
+    "tolerance": true,
+    "no_early_intervals": true,
+    "no_late_intervals": true,
+    "no_deadline_misses": true,
+    "no_skipped_releases": true,
+    "low_latency": true,
+    "spin_us": true,
+    "isolated_model_cpu": true,
+    "background_separate_core": true
+  },
+  "restored_previous": {
+    "running": true,
+    "pid": 3046,
+    "state": "running",
+    "elf_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf",
+    "log_path": "/home/zh/MATLAB_ws/realtime_20261006_e2947e81/x280_rt_single.elf.pyxcp-host.log"
+  }
+}

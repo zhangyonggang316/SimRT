@@ -1,0 +1,270 @@
+{
+  "tests_passed": true,
+  "tests_count": 19,
+  "tests": [
+    {
+      "name": "tSimRTBuildWorkflow/omittedEndpointPreservesModelConfiguration",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/configurationEnforcesSupportedLanguage",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/otherFileWithSameModelNameIsRejected",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/incompleteToolchainReportsAllMissingFiles",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/environmentReturnsReportForMissingCompiler",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/hardwareBuildTransientExtModeDoesNotHideBadPeriod",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/installedToolchainTargetsLinux",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTBuildWorkflow/unchangedRegistrationIsNotRewritten",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/targetAndBoardAreRegistered",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/registryUsesX8664AndSharedLinuxRuntime",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/passwordIsNeverStoredInBoardParameters",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/hardwareTabOffersLocalBuild",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/canModelUsesCurrentHardwareBoard",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    },
+    {
+      "name": "tSimRTLinuxTarget/a2lExportRejectsArmExecutable",
+      "passed": true,
+      "failed": false,
+      "incomplete": false
+    }
+  ],
+  "remote_operations": false,
+  "environment": {
+    "MATLABRelease": "2024b",
+    "TargetRoot": "D:\\05SimRT\\simrt_linux_target",
+    "TargetRegistered": true,
+    "BoardRegistered": true,
+    "RegistrationError": "",
+    "Toolchain": {
+      "Root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+      "Files": [
+        {
+          "Name": "linux-gcc.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-gcc.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-g++.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-g++.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-ar.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-ar.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-as.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-as.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-ld.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-ld.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-nm.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-nm.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-readelf.exe",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-readelf.exe",
+          "Present": true
+        },
+        {
+          "Name": "MATLAB GNU Make",
+          "Path": "C:\\Program Files\\MATLAB\\R2024b\\bin\\win64\\gmake.exe",
+          "Present": true
+        },
+        {
+          "Name": "sysroot stdio.h",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\include\\stdio.h",
+          "Present": true
+        },
+        {
+          "Name": "sysroot crt1.o",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\lib\\crt1.o",
+          "Present": true
+        },
+        {
+          "Name": "sysroot libc.so",
+          "Path": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\lib\\libc.so",
+          "Present": true
+        }
+      ],
+      "Missing": [],
+      "CompilerProbeRequested": true,
+      "CompilerTarget": "x86_64-linux",
+      "CompilerMessage": "",
+      "CompilerValid": true,
+      "Passed": true
+    },
+    "LocalToolchainRoot": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+    "LocalBuildAvailable": true,
+    "A2LExportAvailable": true,
+    "XCPAvailable": true,
+    "RequiredProducts": {
+      "Simulink": true,
+      "SimulinkCoder": true,
+      "EmbeddedCoder": true
+    },
+    "Address": "192.168.219.86",
+    "SSHPort": 22,
+    "TargetPortReachable": null,
+    "TargetProbeMessage": "not requested",
+    "AllLocalChecksPassed": true
+  },
+  "invalid_period_rejected": true,
+  "invalid_period_message": "错误使用 assert\nFixedStep must be the literal 0.001, 0.01 or 0.1 seconds.\n\n出错 validateSimRTRealtimeModel (第 40 行)\nassert(isempty(issues), 'simrtlinux:RealtimeConfiguration', '%s', strjoin(issues, newline));\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 codertarget.simrtlinuxssh.internal.onCodeGenEntry (第 5 行)\nvalidateSimRTRealtimeModel(get_param(model, 'Name'), CheckExternalMode=false);\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 codertarget.target.codeGenEntryHook\n\n出错 coder.internal.ModelBuilder>i_buildProcedure (第 360 行)\n            codertarget.target.codeGenEntryHook(hCodegenMgr);\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 coder.internal.ModelBuilder.make_rtw (第 138 行)\n                [modelBuildResult, mainObjFolder] = i_buildProcedure...\n                                                    ^^^^^^^^^^^^^^^^^^^\n出错 build_target\n\n出错 build_target\n\n出错 build_standalone_rtw_target\n\n出错 slbuild_private\n\n出错 slbuild_private\n\n出错 sl_feval\n\n出错 coder.internal.codegenAndCompile\n\n出错 slbuild\n\n出错 slbuild\n\n出错 validate_workflow (第 43 行)\n    slbuild(model);\n    ^^^^^^^^^^^^^^",
+  "rejected_before_generated_c": true,
+  "build": {
+    "model": "simrt_workflow_probe",
+    "success": true,
+    "build_mode": "local",
+    "period_seconds": 0.001,
+    "matlab_release": "2024b",
+    "toolchain_root": "D:\\05SimRT\\portable-linux-toolchain\\portable-linux-toolchain",
+    "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+    "model_file": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\simrt_workflow_probe.slx",
+    "model_sha256": "c9de051c35c17a34d7b58fa2505496caee6d5faf204e7bc30e7f7e47d3f4f84a",
+    "local_elf": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\deployment_cache\\5987edbf841e421d929b01ca72a68d8e4bf8632f498e0831aff7741de265235f\\20261007_144323_931\\simrt_workflow_probe.elf",
+    "a2l": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\deployment_cache\\5987edbf841e421d929b01ca72a68d8e4bf8632f498e0831aff7741de265235f\\20261007_144323_931\\simrt_workflow_probe.a2l",
+    "manifest": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\deployment_cache\\5987edbf841e421d929b01ca72a68d8e4bf8632f498e0831aff7741de265235f\\20261007_144323_931\\simrt_workflow_probe.xcp-manifest.json",
+    "payload": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_local\\20261007_144323_931.zip",
+    "realtime_source": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\simrt_workflow_probe_rt_bundle",
+    "bundle": {
+      "SourceDirectory": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931\\simrt_workflow_probe_rt_bundle",
+      "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+      "ELFRelativePath": "simrt_workflow_probe.elf",
+      "CodeGenerationDirectory": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw"
+    },
+    "elf_sha256": "1591acbbaa7672936af2093f882634432edc6c1a6be284cb208835222bba7cae",
+    "evidence_directory": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_ert_rtw\\simrt_build_evidence\\20261007_144323_931",
+    "remote_operations_performed": false,
+    "archive": "D:\\05SimRT\\validation\\polar_comparison_20261007\\model_20261007_224249\\simrt_workflow_probe_local\\20261007_144323_931.zip",
+    "archive_sha256": "5987edbf841e421d929b01ca72a68d8e4bf8632f498e0831aff7741de265235f"
+  },
+  "address_preserved_in_model_and_a2l": true,
+  "daq_pool_matches_compilation": true,
+  "hardware": {
+    "model": "simrt_workflow_probe",
+    "build_options": [
+      "Build"
+    ],
+    "dirty": "off",
+    "external_mode": "on",
+    "handle_build_options": [
+      "Build"
+    ],
+    "config_build_options": [
+      "Build"
+    ],
+    "context_class": "codertarget.sltoolstrip.EmbeddedHardwareBoardContext",
+    "deploy_context": "HWBoardBuildSelectedBuildContext",
+    "type_chain": [
+      "HWBoardLoggingAvailableContext",
+      "HWBoardDeployedConnectStartContext",
+      "HWBoardBuildSelectedBuildContext",
+      "HWBoardSetupNotAvailableContext",
+      "PeripheralsNotAvailableContext",
+      "socProfilingNotAvailableContext",
+      "prepareDesignGalleryNotAvailableContext",
+      "embeddedHardwareBoardAppContext"
+    ],
+    "build_action_found": true,
+    "build_action_enabled": true,
+    "build_action_tag": "buildHardwareBoardAction2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "host": "192.168.219.195",
+  "host_key_sha256": "eeTIikDlYn5po2uiSNGEJTglh6lQ+IUFYJS6s2hciv0=",
+  "started_utc": "2026-09-26T07:58:47.127375+00:00",
+  "remote_output": "/home/zh/simrt-console-validation-20260926-075846",
+  "remote_pid": 51000,
+  "requested_seconds": 7200,
+  "ssh_errors": [],
+  "production_tmux_touched": false,
+  "reboot_performed": false,
+  "sudo_used": false,
+  "models_started": false,
+  "finished_utc": "2026-09-26T09:59:35.228113+00:00",
+  "passed": true,
+  "actual_seconds": 7201.209141181
+}

@@ -1,0 +1,22 @@
+    {'addlistener'      }
+    {'delete'           }
+    {'eq'               }
+    {'findobj'          }
+    {'findprop'         }
+    {'ge'               }
+    {'getPaletteLibInfo'}
+    {'gt'               }
+    {'i_getSLXFile'     }
+    {'isvalid'          }
+    {'le'               }
+    {'listener'         }
+    {'lt'               }
+    {'ne'               }
+    {'notify'           }
+    {'saveAsSLX'        }
+
+Current library: D:\05SimRT\x280_linux_target\drivers\ark\simrt_ark_library.slx
+       Name: 'X280 Linux TC1013 CAN'
+    OpenFcn: 'x280_can_library'
+    Browser: [1x1 struct]
+

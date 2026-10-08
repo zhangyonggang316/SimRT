@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-09-26T08:06:13.552848+00:00",
+  "required_libraries": [
+    "libTSCANApiOnLinux.so",
+    "libTSH.so"
+  ],
+  "libraries": {
+    "libTSCANApiOnLinux.so": {
+      "size": 7274224,
+      "sha256": "11a0749548d586b25b198ea29b46a6bb15f6c42e51b3cc34ee2e9426bf3dd03b",
+      "format": "ELF64 little-endian x86_64 ET_DYN"
+    },
+    "libTSH.so": {
+      "size": 260040,
+      "sha256": "e289da8f4a1b0703129213b34d84ff93e483e66d7f7f7154db00e9e2f4af3f8b",
+      "format": "ELF64 little-endian x86_64 ET_DYN"
+    }
+  },
+  "verification": "ELF headers and SHA256 only; no SDK loading, USB access or hardware test"
+}

@@ -1,0 +1,6 @@
+{
+  "command": "getconf CLK_TCK",
+  "exit_code": 0,
+  "stdout": "100\n",
+  "stderr": ""
+}

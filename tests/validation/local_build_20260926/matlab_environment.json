@@ -1,0 +1,713 @@
+{
+  "MATLABRelease": "2024b",
+  "TargetRoot": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\x280_linux_target",
+  "TargetRegistered": true,
+  "BoardRegistered": true,
+  "LocalToolchainRoot": "C:\\DataSave\\03matlabUbuntu\\03AIToolLinux\\portable-linux-toolchain\\portable-linux-toolchain",
+  "LocalBuildAvailable": true,
+  "A2LExportAvailable": true,
+  "XCPAvailable": true,
+  "RequiredProducts": {
+    "Simulink": true,
+    "SimulinkCoder": true,
+    "EmbeddedCoder": true
+  },
+  "Address": "192.168.219.195",
+  "SSHPort": 22,
+  "TargetPortReachable": null,
+  "TargetProbeMessage": "not requested",
+  "AllLocalChecksPassed": true,
+  "MATLABVersion": "24.2.0.2923080 (R2024b) Update 6",
+  "Products": [
+    {
+      "Name": "5G Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "AUTOSAR Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Aerospace Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Aerospace Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Antenna Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "29-Jul-2024"
+    },
+    {
+      "Name": "Audio Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Automated Driving Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Bioinformatics Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Bluetooth Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "C2000 Microcontroller Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Communications Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Computer Vision Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "12-Jul-2024"
+    },
+    {
+      "Name": "Control System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Curve Fitting Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "DDS Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "DSP HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "DSP System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Data Acquisition Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Database Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Datafeed Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Deep Learning HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Deep Learning Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Econometrics Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Embedded Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Financial Instruments Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Financial Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Fixed-Point Designer",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Fuzzy Logic Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "GPU Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Global Optimization Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "HDL Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "HDL Verifier",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Image Acquisition Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Image Processing Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Industrial Communication Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Instrument Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "LTE Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Lidar Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB Compiler",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB Compiler SDK",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB MCP Server Toolbox",
+      "Version": "0.3.0",
+      "Release": "(R2026b)",
+      "Date": "03-Jul-2026"
+    },
+    {
+      "Name": "MATLAB Report Generator",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "MATLAB Test",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Mapping Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Medical Imaging Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Mixed-Signal Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Model Predictive Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Model-Based Calibration Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Motor Control Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Navigation Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Optimization Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Parallel Computing Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Partial Differential Equation Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Phased Array System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Powertrain Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Predictive Maintenance Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "RF Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "RF PCB Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "RF Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "ROS Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Radar Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Reinforcement Learning Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Requirements Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Risk Management Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Robotics System Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Robust Control Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Satellite Communications Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Sensor Fusion and Tracking Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "SerDes Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Signal Integrity Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Signal Processing Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "SimBiology",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "SimEvents",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "17-Nov-2023"
+    },
+    {
+      "Name": "Simscape",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simscape Battery",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simscape Driveline",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simscape Electrical",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simscape Fluids",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simscape Multibody",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink 3D Animation",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Check",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Code Inspector",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Compiler",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Control Design",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Coverage",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Design Optimization",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Design Verifier",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Desktop Real-Time",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Fault Analyzer",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink PLC Coder",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Real-Time",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Report Generator",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Simulink Test",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "SoC Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Spreadsheet Link",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Stateflow",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Statistics and Machine Learning Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Symbolic Math Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "System Composer",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "System Identification Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Text Analytics Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "UAV Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Vehicle Dynamics Blockset",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Vehicle Network Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Vision HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "WLAN Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Wavelet Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Wireless HDL Toolbox",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    },
+    {
+      "Name": "Wireless Testbench",
+      "Version": "24.2",
+      "Release": "(R2024b)",
+      "Date": "21-Jun-2024"
+    }
+  ],
+  "CheckedUTC": "2026-09-26T07:29:18Z",
+  "LibraryConfiguration": {
+    "found": false,
+    "settingsPath": "",
+    "enabled": false,
+    "dataRoot": "",
+    "gatePass": true,
+    "kgIndexPath": "",
+    "librariesPath": "",
+    "policyPath": "",
+    "tier": ""
+  }
+}

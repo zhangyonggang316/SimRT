@@ -1,0 +1,57 @@
+{
+  "release": "2024b",
+  "persistent_path": true,
+  "library": "D:\\05SimRT\\x280_linux_target\\drivers\\ark\\simrt_ark_library.slx",
+  "blocks": [
+    "simrt_ark_library/DIO Read",
+    "simrt_ark_library/DIO Setup",
+    "simrt_ark_library/DIO Write",
+    "simrt_ark_library/Serial Receive",
+    "simrt_ark_library/Serial Sent",
+    "simrt_ark_library/Serial Setup"
+  ],
+  "links_resolved": true,
+  "browser_initialized": true,
+  "browser_parse_errors": false,
+  "browser_open": false,
+  "browser_catalogs": [
+    {
+      "libraries": [
+        "SimRT ARK I/O",
+        "Simulink",
+        "Communications Toolbox",
+        "Communications Toolbox HDL Support",
+        "DSP System Toolbox",
+        "DSP System Toolbox HDL Support",
+        "Embedded Coder",
+        "Fixed-Point Designer",
+        "Fixed-Point Designer HDL Support",
+        "Fuzzy Logic Toolbox",
+        "HDL Coder",
+        "Simulink 3D Animation",
+        "Simulink Coder",
+        "Simulink Extras",
+        "Simulink Test",
+        "Stateflow",
+        "Vehicle Network Toolbox",
+        "X280 Linux Digital IO",
+        "X280 Linux EtherCAT",
+        "X280 Linux Serial",
+        "X280 Linux TC1013 CAN",
+        "X280 Linux TCP UDP",
+        "最近使用"
+      ],
+      "selected_library": "",
+      "blocks": [
+        "SimRT ARK I/O/DIO Read",
+        "SimRT ARK I/O/DIO Setup",
+        "SimRT ARK I/O/DIO Write",
+        "SimRT ARK I/O/Serial Receive",
+        "SimRT ARK I/O/Serial Sent",
+        "SimRT ARK I/O/Serial Setup"
+      ]
+    }
+  ],
+  "browser_blocks_verified": true,
+  "passed": true
+}

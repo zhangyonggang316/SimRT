@@ -1,0 +1,115 @@
+{
+  "scope": "Read-only metadata; no serial device opened or data sent",
+  "effective_uid": 0,
+  "serial_driver": "serinfo:1.0 driver revision:\n0: uart:16550A port:000003F8 irq:4 tx:0 rx:0\n1: uart:16550A port:000002F8 irq:3 tx:0 rx:0\n2: uart:unknown port:000003E8 irq:4\n3: uart:unknown port:000002E8 irq:3\n4: uart:16550A port:00000200 irq:10 tx:0 rx:0\n5: uart:16550A port:00000208 irq:10 tx:0 rx:0\n6: uart:16550A port:00000210 irq:11 tx:0 rx:0\n7: uart:16550A port:00000218 irq:11 tx:0 rx:0\n8: uart:unknown port:00000000 irq:0\n9: uart:unknown port:00000000 irq:0\n10: uart:unknown port:00000000 irq:0\n11: uart:unknown port:00000000 irq:0\n12: uart:unknown port:00000000 irq:0\n13: uart:unknown port:00000000 irq:0\n14: uart:unknown port:00000000 irq:0\n15: uart:unknown port:00000000 irq:0\n16: uart:unknown port:00000000 irq:0\n17: uart:unknown port:00000000 irq:0\n18: uart:unknown port:00000000 irq:0\n19: uart:unknown port:00000000 irq:0\n20: uart:unknown port:00000000 irq:0\n21: uart:unknown port:00000000 irq:0\n22: uart:unknown port:00000000 irq:0\n23: uart:unknown port:00000000 irq:0\n24: uart:unknown port:00000000 irq:0\n25: uart:unknown port:00000000 irq:0\n26: uart:unknown port:00000000 irq:0\n27: uart:unknown port:00000000 irq:0\n28: uart:unknown port:00000000 irq:0\n29: uart:unknown port:00000000 irq:0\n30: uart:unknown port:00000000 irq:0\n31: uart:unknown port:00000000 irq:0",
+  "ports": [
+    {
+      "node": "/dev/ttyS0",
+      "sysfs_device": "/sys/devices/pnp0/00:01/00:01:0/00:01:0.0",
+      "major": 4,
+      "minor": 64,
+      "uid": 0,
+      "gid": 20,
+      "ancestors": [
+        {
+          "path": "/sys/devices/pnp0/00:01/00:01:0/00:01:0.0",
+          "attributes": {
+            "uevent": "DEVTYPE=port\nDRIVER=port",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "1",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR1"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0/00:01/00:01:0",
+          "attributes": {
+            "uevent": "DEVTYPE=ctrl\nDRIVER=ctrl",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "1",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR1"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0/00:01",
+          "attributes": {
+            "id": "PNP0501",
+            "resources": "state = active\nio 0x3f8-0x3ff\nirq 4\ndma disabled",
+            "uevent": "DRIVER=serial\nMODALIAS=pnp:dPNP0501",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "1",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR1"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0",
+          "attributes": {
+            "uevent": ""
+          }
+        }
+      ]
+    },
+    {
+      "node": "/dev/ttyS1",
+      "sysfs_device": "/sys/devices/pnp0/00:02/00:02:0/00:02:0.0",
+      "major": 4,
+      "minor": 65,
+      "uid": 0,
+      "gid": 20,
+      "ancestors": [
+        {
+          "path": "/sys/devices/pnp0/00:02/00:02:0/00:02:0.0",
+          "attributes": {
+            "uevent": "DEVTYPE=port\nDRIVER=port",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "2",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR2"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0/00:02/00:02:0",
+          "attributes": {
+            "uevent": "DEVTYPE=ctrl\nDRIVER=ctrl",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "2",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR2"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0/00:02",
+          "attributes": {
+            "id": "PNP0501",
+            "resources": "state = active\nio 0x2f8-0x2ff\nirq 3\ndma disabled",
+            "uevent": "DRIVER=serial\nMODALIAS=pnp:dPNP0501",
+            "firmware_node/hid": "PNP0501",
+            "firmware_node/uid": "2",
+            "firmware_node/path": "\\_SB_.PCI0.LPCB.UAR2"
+          }
+        },
+        {
+          "path": "/sys/devices/pnp0",
+          "attributes": {
+            "uevent": ""
+          }
+        }
+      ]
+    }
+  ],
+  "open_file_owners": [],
+  "inaccessible_process_count": 0,
+  "getty": {
+    "code": 0,
+    "stdout": "Id=serial-getty@ttyS0.service\nLoadState=loaded\nActiveState=inactive\nSubState=dead\nUnitFileState=disabled\n\nId=serial-getty@ttyS1.service\nLoadState=loaded\nActiveState=inactive\nSubState=dead\nUnitFileState=disabled",
+    "stderr": ""
+  },
+  "all_serial_getty": {
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "kernel_command_line": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+  "active_consoles": "tty0",
+  "proc_consoles": "tty0                 -WU (EC  p  )    4:1",
+  "mapping_assessment": "ttyS0/ttyS1 are COM1/COM2 candidates by standard legacy resources; chassis label correspondence still requires physical verification.",
+  "target_address": "192.168.193.195",
+  "collected_utc": "2026-10-05T09:29:18.234331+00:00"
+}

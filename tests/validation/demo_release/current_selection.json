@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-06T18:12:08.834596+00:00",
+  "model": "simrt_rt_single",
+  "archive": "models/simrt_rt_single/simrt_rt_single_local/20261006_180720_528.zip",
+  "protocol": "UDP",
+  "port": 5555,
+  "archive_sha256": "77625d405e7fb0a28fcf4c739ac4ecdbcf241bb17ee8369c3004b8c76326dd55",
+  "elf_sha256": "ea52e9efa8052970a3e85b60e91c14cbd353add60c0bf8675803a1086dca24aa",
+  "a2l_sha256": "18869c321970d31c41346be012ade52f3e6c382779f085c021a9e2a7d57083fa",
+  "layout": "zip_with_timestamp_directory_and_three_files",
+  "local_build_passed": true,
+  "target_validation_repeated": true,
+  "target_validation": "failed_daq_integrity",
+  "timing_validation_passed": true,
+  "interval_tolerance_us": 50,
+  "long_duration_validation": "not_requested",
+  "validation_report": "target_20261007/README.md",
+  "target_validation_passed": false,
+  "timing_validation_seconds": 120,
+  "daq_lossless_validation_passed": false,
+  "target_model_activated": false
+}

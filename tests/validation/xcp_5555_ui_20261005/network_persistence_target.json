@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "online_apply": true,
+  "netplan_saved": true,
+  "fresh_generator_reads_saved_ip": true,
+  "persistent_and_runtime_rollback": true,
+  "rollback_seconds": 45,
+  "namespace_only": true,
+  "physical_interface_changes": false,
+  "physical_reboot": false,
+  "helper_sha256": "c39ece4fdcaddf30880dd1792255e21dcc50f92462659e084e2d4964ccdfda6c"
+}

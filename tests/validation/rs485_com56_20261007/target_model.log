@@ -1,0 +1,67 @@
+
+** starting the model **
+CONNECT: entering XCP_CONNECTED status
+* Resource:          5H
+* Comm Mode Basic:   0H
+* Max CTO size:      255
+* Max DTO size:      508
+* Protocol Version:  1
+* Transport Version: 1
+SET_MTA: setting MTA value to 51f3e4 and extension 0
+UPLOAD: reading at address 0x51f3e4
+SET_MTA: setting MTA value to 51f504 and extension 0
+UPLOAD: reading at address 0x51f504
+SET_MTA: setting MTA value to 51f230 and extension 0
+UPLOAD: reading at address 0x51f230
+SET_MTA: setting MTA value to 51f3dc and extension 0
+UPLOAD: reading at address 0x51f3dc
+SET_MTA: setting MTA value to 51f3e0 and extension 0
+UPLOAD: reading at address 0x51f3e0
+SET_MTA: setting MTA value to 51f3f0 and extension 0
+UPLOAD: reading at address 0x51f3f0
+SET_MTA: setting MTA value to 51f234 and extension 0
+UPLOAD: reading at address 0x51f234
+SET_MTA: setting MTA value to 51f3ec and extension 0
+UPLOAD: reading at address 0x51f3ec
+SET_MTA: setting MTA value to 51f3cc and extension 0
+UPLOAD: reading at address 0x51f3cc
+SET_MTA: setting MTA value to 51f220 and extension 0
+UPLOAD: reading at address 0x51f220
+SET_MTA: setting MTA value to 51f3c0 and extension 0
+UPLOAD: reading at address 0x51f3c0
+SET_MTA: setting MTA value to 51f3bc and extension 0
+UPLOAD: reading at address 0x51f3bc
+SET_MTA: setting MTA value to 51f3d0 and extension 0
+UPLOAD: reading at address 0x51f3d0
+SET_MTA: setting MTA value to 51f4fc and extension 0
+UPLOAD: reading at address 0x51f4fc
+SET_MTA: setting MTA value to 51f4f8 and extension 0
+UPLOAD: reading at address 0x51f4f8
+SET_MTA: setting MTA value to 51f228 and extension 0
+UPLOAD: reading at address 0x51f228
+SET_MTA: setting MTA value to 51f3d8 and extension 0
+UPLOAD: reading at address 0x51f3d8
+SET_MTA: setting MTA value to 51f3e8 and extension 0
+UPLOAD: reading at address 0x51f3e8
+SET_MTA: setting MTA value to 51f238 and extension 0
+UPLOAD: reading at address 0x51f238
+SET_MTA: setting MTA value to 51f3b8 and extension 0
+UPLOAD: reading at address 0x51f3b8
+SET_MTA: setting MTA value to 51f3c4 and extension 0
+UPLOAD: reading at address 0x51f3c4
+SET_MTA: setting MTA value to 51f3c8 and extension 0
+UPLOAD: reading at address 0x51f3c8
+SET_MTA: setting MTA value to 51f4f4 and extension 0
+UPLOAD: reading at address 0x51f4f4
+SET_MTA: setting MTA value to 51f3d4 and extension 0
+UPLOAD: reading at address 0x51f3d4
+SET_MTA: setting MTA value to 51f23c and extension 0
+UPLOAD: reading at address 0x51f23c
+SET_MTA: setting MTA value to 51f500 and extension 0
+UPLOAD: reading at address 0x51f500
+SET_MTA: setting MTA value to 51f22c and extension 0
+UPLOAD: reading at address 0x51f22c
+SET_MTA: setting MTA value to 51f224 and extension 0
+UPLOAD: reading at address 0x51f224
+DISCONNECT: entering XCP_DISCONNECTED status
+{"event":"simrt_rt_summary","period_ns":1000000,"realtime_kernel":true,"kernel_required":true,"policy":"SCHED_FIFO","priority":40,"cpu":3,"memory_locked":true,"cpu_dma_latency_active":true,"spin_us":500,"cycles":6086,"completed_cycles":6086,"skipped_releases":0,"deadline_misses":0,"wake_latency_mean_ns":58.952,"execution_max_ns":18157,"execution_mean_ns":3441.842,"execution_scope":"base_rate_loop_including_xcp","cycle_interval_samples":6085,"cycle_interval_min_ns":999833,"cycle_interval_max_ns":1000177,"cycle_interval_mean_ns":1000000.000,"cycle_interval_scope":"base_rate_loop_start_to_start","measurement_clock":"CLOCK_MONOTONIC","model_step_calls":6086,"model_step_completed_calls":6086,"model_step_interval_samples":6085,"model_step_interval_min_ns":999187,"model_step_interval_max_ns":1000313,"model_step_interval_mean_ns":999999.829,"model_step_execution_min_ns":2437,"model_step_execution_max_ns":16207,"model_step_execution_mean_ns":2693.138,"model_step_scope":"generated_model_step_including_generated_daq_upload","model_step_interval_scope":"generated_model_step_entry_to_entry","final_cycle_includes_termination":false,"elapsed_ns":6085003546,"stop_signal":15,"interval_tolerance_ns":50000,"model_step_interval_early_count":0,"model_step_interval_late_count":0,"model_step_release_lateness_current_ns":459,"model_step_release_lateness_max_ns":1498,"model_step_entry_delay_current_ns":420,"model_step_entry_delay_max_ns":1459,"wake_latency_current_ns":39,"wake_latency_max_ns":189,"sleep_return_lateness_current_ns":29153,"sleep_return_lateness_max_ns":52413,"sleep_calls":6087,"sleep_skipped_count":0,"sleep_return_after_release_count":0,"sleep_performed":true,"last_interval_outlier":null}

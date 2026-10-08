@@ -1,0 +1,33 @@
+SimRT: ark2120 | UI refresh: 1000.000 ms | 15:45:56
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: YES
+Network:
+enp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)
+enp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)
+enp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)
+wlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)
+CPU: 8.5%  Memory: 13.7%  Disk: 21.1% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 1699)
+Model elapsed: 810385.015 ms / inf  Period: 1.000000 ms
+MATLAB: R2024b | Steps: 810386 calls / 810386 completed
+Deadline misses: 0  Skipped periods: 0
+Task execution current/max: 0.001312 ms / 0.213586 ms
+Interval min/avg/max: 0.315424 ms / 1.000000 ms / 1.713121 ms
+Telemetry: live (0.5s old)
+-- LOG ----------------------------------------------------------------------------------------------------------------
+15:45:55 PROCESS FOUND x280_rt_single (PID 1699)
+
+** starting the model **
+{"event":"x280_rt_summary","period_ns":1000000,"realtime_kernel":true,"kernel_required":true,"policy":"SCHED_FIFO","pri
+
+
+
+
+
+
+
+
+
+
+
+

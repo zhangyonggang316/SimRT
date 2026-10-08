@@ -1,0 +1,94 @@
+{
+  "test_kind": "Existing COM1/COM2 wiring RS-232 diagnostic; not an RS-485 test",
+  "physical_test": true,
+  "attempted": true,
+  "command": [
+    "/home/zh/.simrt-validation/ark_serial_install_20261005/serial_physical_loopback.elf",
+    "/dev/ttyS0",
+    "/dev/ttyS1",
+    "rs232",
+    "115200",
+    "32",
+    "3000"
+  ],
+  "expected_sha256": "be22975d1832058474c7abccd9280da78f313f86c7e45d2f1d81e70eca0a3493",
+  "elf_sha256": "be22975d1832058474c7abccd9280da78f313f86c7e45d2f1d81e70eca0a3493",
+  "uart_before": {
+    "/dev/ttyS0": {
+      "uart": "16550A",
+      "port": "000003F8",
+      "irq": "4",
+      "tx": "0",
+      "rx": "0"
+    },
+    "/dev/ttyS1": {
+      "uart": "16550A",
+      "port": "000002F8",
+      "irq": "3",
+      "tx": "0",
+      "rx": "0"
+    }
+  },
+  "kernel_command_line": "BOOT_IMAGE=/vmlinuz-7.0.0-34-realtime root=/dev/mapper/ubuntu--vg-ubuntu--lv ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+  "active_consoles": "tty0",
+  "proc_consoles": "tty0                 -WU (EC  p  )    4:1",
+  "serial_getty": {
+    "returncode": 0,
+    "stdout": "Id=serial-getty@ttyS0.service\nActiveState=inactive\nSubState=dead\n\nId=serial-getty@ttyS1.service\nActiveState=inactive\nSubState=dead\n",
+    "stderr": ""
+  },
+  "open_file_owners": [],
+  "inaccessible_process_count": 0,
+  "preflight_errors": [],
+  "wrapper_timeout": false,
+  "forced_kill": false,
+  "returncode": 1,
+  "stdout": "{\"passed\":false,\"mode\":\"rs232\",\"baud\":115200,\"rounds_completed\":0,\"frames_verified\":0,\"tx_bytes\":256,\"rx_bytes\":1,\"status\":-110,\"restore_ok\":false,\"signal\":0,\"elapsed_ms\":3001,\"nonce\":\"98025acf507afd22\"}\n",
+  "stderr": "Selected ports only: /dev/ttyS0 <-> /dev/ttyS1; mode=rs232, 115200 baud 8N1, 32 rounds, 3000 ms total\n/dev/ttyS0 -> /dev/ttyS1, sequence 0: Connection timed out\n/dev/ttyS1: original RS485 restoration/verification failed\n/dev/ttyS0: original RS485 restoration/verification failed\n",
+  "elapsed_ms": 3006,
+  "uart_after": {
+    "/dev/ttyS0": {
+      "uart": "16550A",
+      "port": "000003F8",
+      "irq": "4",
+      "tx": "256",
+      "rx": "1",
+      "brk": "1"
+    },
+    "/dev/ttyS1": {
+      "uart": "16550A",
+      "port": "000002F8",
+      "irq": "3",
+      "tx": "0",
+      "rx": "1",
+      "brk": "1"
+    }
+  },
+  "harness_result": {
+    "passed": false,
+    "mode": "rs232",
+    "baud": 115200,
+    "rounds_completed": 0,
+    "frames_verified": 0,
+    "tx_bytes": 256,
+    "rx_bytes": 1,
+    "status": -110,
+    "restore_ok": false,
+    "signal": 0,
+    "elapsed_ms": 3001,
+    "nonce": "98025acf507afd22"
+  },
+  "restore_ok": false,
+  "uart_delta": {
+    "/dev/ttyS0": {
+      "tx": 256,
+      "rx": 1
+    },
+    "/dev/ttyS1": {
+      "tx": 0,
+      "rx": 1
+    }
+  },
+  "target_address": "192.168.193.195",
+  "collected_utc": "2026-10-05T09:35:31.410761+00:00"
+}

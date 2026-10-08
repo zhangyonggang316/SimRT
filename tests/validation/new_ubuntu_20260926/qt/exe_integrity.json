@@ -1,0 +1,34 @@
+﻿{
+    "created_at":  "2026-09-26T15:25:35.0800642+08:00",
+    "exe_sha256":  "139885a5e927c52e3135c953dac774bbff76f904646cc0691ed7e567317eb934",
+    "native_sha256":  "108a25419b05a3e805b31be20f4ccd67ee05826d6c62d0465101b61be04d0f41",
+    "exe_matches_build_report":  true,
+    "native_matches_build_report":  true,
+    "required_files":  [
+                           {
+                               "path":  "QtXCPHost.exe",
+                               "exists":  true
+                           },
+                           {
+                               "path":  "_internal/qt_host/native_bin/xcp_core.dll",
+                               "exists":  true
+                           },
+                           {
+                               "path":  "_internal/PySide6/Qt6Core.dll",
+                               "exists":  true
+                           },
+                           {
+                               "path":  "_internal/PySide6/Qt6Widgets.dll",
+                               "exists":  true
+                           },
+                           {
+                               "path":  "_internal/PySide6/plugins/platforms/qwindows.dll",
+                               "exists":  true
+                           }
+                       ],
+    "legacy_gui_files":  [
+
+                         ],
+    "ubuntu_hardware_test":  false,
+    "passed":  true
+}

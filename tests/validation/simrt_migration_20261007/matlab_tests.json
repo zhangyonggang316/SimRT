@@ -1,0 +1,470 @@
+[
+  {
+    "name": "tSimRTArtifactArchive/archiveContainsOneFolderAndThreeMatchingFiles",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTArtifactArchive/rejectsChangedArtifactsBeforePublishing",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTArtifactArchive/rejectsExtraFiles",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTArtifactArchive/preservesExistingArchive",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTArtifactArchive/rejectsArchiveChangedSinceBuild",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTArtifactArchive/rejectsModifiedInternalCache",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTNetworkObjects/hostReportsDisabled",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTNetworkObjects/lengthBoundsAreCheckedEveryStep",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTNetworkObjects/malformedAddressesAreRejected",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTNetworkObjects/serverRequiresLocalPort",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTNetworkObjects/udpRequiresDestination",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN1)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/setupBlocksHaveNoPortsAndOwnSeparateChannels(channel=CAN2)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/executionOrderInitializesBothChannelsBeforeTransmission",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN1)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/usesOfficialCanPackAndUnpackBlocks(channel=CAN2)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN1)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANLoopback/receivesOtherChannelEveryMillisecond(channel=CAN2)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/setupHasNoPorts",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/messagesCrossChannels(senderChannel=1,canType=CAN)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/messagesCrossChannels(senderChannel=1,canType=CAN_FD)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/messagesCrossChannels(senderChannel=2,canType=CAN)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/messagesCrossChannels(senderChannel=2,canType=CAN_FD)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/disabledSendDoesNotQueue",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/boundedQueuePreservesFifo(canType=CAN)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/boundedQueuePreservesFifo(canType=CAN_FD)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidClassicFramesAreRejected(invalidMessage=length)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidClassicFramesAreRejected(invalidMessage=standardID)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidClassicFramesAreRejected(invalidMessage=extendedFlag)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidClassicFramesAreRejected(invalidMessage=remoteFlag)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidClassicFramesAreRejected(invalidMessage=errorFrame)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=length)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=dlcMismatch)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=protocol)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=remote)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=brs)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=esi)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/invalidFDFramesAreRejected(invalidFDMessage=reserved)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=0)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=1)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=2)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=3)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=4)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=5)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=6)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=7)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=8)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=12)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=16)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=20)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=24)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=32)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=48)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdLengthsKeepExactDlcAndPayload(fdLength=64)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdDlcMappingMatchesIsoValues",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/extendedRemoteFrameHasNoPayload",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/duplicateSetupCannotReleaseExistingChannel",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/releaseOnlyClosesItsOwnedChannel",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/staleAndZeroTokensCannotReleaseNewOwner",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/modeMismatchReportsError",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/differentNominalRatesDoNotLoopback",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/conflictingDeviceRetainsFailureStatus",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/disabledSimulationReportsItsState",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/linuxDriverPathMustBeAbsolute",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/fdDataRateCannotBeBelowNominalRate",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/busLayoutMatchesVehicleNetworkToolbox(canType=CAN)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTCANObjects/busLayoutMatchesVehicleNetworkToolbox(canType=CAN_FD)",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/targetAndBoardAreRegistered",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/registryUsesX8664AndSharedLinuxRuntime",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/passwordIsNeverStoredInBoardParameters",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/generatedModelHasDeploymentAndCalibrationSettings",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/canModelUsesCurrentHardwareBoard",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/localEnvironmentChecksPassWithoutNetwork",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLinuxTarget/a2lExportRejectsArmExecutable",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  },
+  {
+    "name": "tSimRTLocalArtifacts/buildPublishesOnlyMatchingDeploymentFiles",
+    "passed": true,
+    "failed": false,
+    "incomplete": false
+  }
+]

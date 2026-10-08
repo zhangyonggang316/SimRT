@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "backup": "/home/zh/.local/lib/simrt-console/simrt_console.py.before-startup-20261005-154552",
+  "sha256": "fe2e8c96c4e9dc2963aba4cb6c6d12edca5737ae6b3fa00cf62e66224b479170",
+  "network_rows": [
+    "enp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)",
+    "enp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)",
+    "enp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)",
+    "wlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)"
+  ],
+  "model_pids": [
+    1699
+  ]
+}

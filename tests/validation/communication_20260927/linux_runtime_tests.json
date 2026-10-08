@@ -1,0 +1,31 @@
+{
+  "host": "192.168.219.195",
+  "tests": [
+    {
+      "name": "test_network_runtime.elf",
+      "sha256": "0491673529fb35086ed4fe66f8d53e6a36bc50be67332858e683c97b281f87b2",
+      "output": "network runtime: validation, nonblocking APIs, queues, UDP, TCP stream, ownership and reconnect passed\n",
+      "passed": true
+    },
+    {
+      "name": "test_serial_runtime.elf",
+      "sha256": "1039e6cbecb124ba1d6e761183f787a4f18e10594e57dd4dae4a35b0a8efd560",
+      "output": "serial PTY: validation, bidirectional binary transfer, empty receive, stale tokens, unsupported RS485 passed\n",
+      "passed": true
+    },
+    {
+      "name": "test_ethercat_runtime.elf",
+      "sha256": "25c67ffce931da6010d199565428038a3edea6cf31067dd3b9353f0b21ffb76e",
+      "output": "EtherCAT SOEM adapter: PDO transfer, WKC failure, ownership, size/slave/state failures passed\n",
+      "passed": true
+    },
+    {
+      "name": "test_soem_link.elf",
+      "sha256": "5c41a043d800471742295dded7a54d02d5c2fc7304c3f3b8757cb7b9d704d344",
+      "output": "Real SOEM v1.4.0 linked and input validation passed\n",
+      "passed": true
+    }
+  ],
+  "physical_bus_test": false,
+  "passed": true
+}

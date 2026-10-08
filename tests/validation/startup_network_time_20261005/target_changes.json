@@ -1,0 +1,223 @@
+{
+  "passed": true,
+  "backup": "/var/backups/simrt-startup-20261005-071543",
+  "enabled": {
+    "apport.service": "enabled",
+    "ModemManager.service": "enabled",
+    "networkd-dispatcher.service": "enabled"
+  },
+  "configured": [
+    {
+      "token": "6597a8694c4d4de995c0dc91b13a0a19",
+      "interface": "enp1s0",
+      "address": "192.168.7.1/24",
+      "gateway": "",
+      "persistent": true,
+      "retained_management_addresses": [],
+      "confirmed": true
+    },
+    {
+      "token": "02d0737f90214849af48fea47dd9b8e3",
+      "interface": "enp3s0",
+      "address": "192.168.8.1/24",
+      "gateway": "",
+      "persistent": true,
+      "retained_management_addresses": [],
+      "confirmed": true
+    },
+    {
+      "token": "be811ded837742189665b8f95c9722fb",
+      "interface": "enp4s0",
+      "address": "192.168.9.1/24",
+      "gateway": "",
+      "persistent": true,
+      "retained_management_addresses": [],
+      "confirmed": true
+    }
+  ],
+  "network": [
+    {
+      "ifindex": 1,
+      "ifname": "lo",
+      "flags": [
+        "LOOPBACK",
+        "UP",
+        "LOWER_UP"
+      ],
+      "mtu": 65536,
+      "qdisc": "noqueue",
+      "operstate": "UNKNOWN",
+      "group": "default",
+      "txqlen": 1000,
+      "link_type": "loopback",
+      "address": "00:00:00:00:00:00",
+      "broadcast": "00:00:00:00:00:00",
+      "addr_info": [
+        {
+          "family": "inet",
+          "local": "127.0.0.1",
+          "prefixlen": 8,
+          "scope": "host",
+          "label": "lo",
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        },
+        {
+          "family": "inet6",
+          "local": "::1",
+          "prefixlen": 128,
+          "scope": "host",
+          "noprefixroute": true,
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        }
+      ]
+    },
+    {
+      "ifindex": 2,
+      "ifname": "enp1s0",
+      "flags": [
+        "NO-CARRIER",
+        "BROADCAST",
+        "MULTICAST",
+        "UP"
+      ],
+      "mtu": 1500,
+      "qdisc": "pfifo_fast",
+      "operstate": "DOWN",
+      "group": "default",
+      "txqlen": 1000,
+      "link_type": "ether",
+      "address": "c4:00:ad:0c:11:6d",
+      "broadcast": "ff:ff:ff:ff:ff:ff",
+      "altnames": [
+        "enxc400ad0c116d"
+      ],
+      "addr_info": [
+        {
+          "family": "inet",
+          "local": "192.168.7.1",
+          "prefixlen": 24,
+          "broadcast": "192.168.7.255",
+          "scope": "global",
+          "label": "enp1s0",
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        }
+      ]
+    },
+    {
+      "ifindex": 3,
+      "ifname": "enp3s0",
+      "flags": [
+        "NO-CARRIER",
+        "BROADCAST",
+        "MULTICAST",
+        "UP"
+      ],
+      "mtu": 1500,
+      "qdisc": "pfifo_fast",
+      "operstate": "DOWN",
+      "group": "default",
+      "txqlen": 1000,
+      "link_type": "ether",
+      "address": "c4:00:ad:05:5e:34",
+      "broadcast": "ff:ff:ff:ff:ff:ff",
+      "altnames": [
+        "enxc400ad055e34"
+      ],
+      "addr_info": [
+        {
+          "family": "inet",
+          "local": "192.168.8.1",
+          "prefixlen": 24,
+          "broadcast": "192.168.8.255",
+          "scope": "global",
+          "label": "enp3s0",
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        }
+      ]
+    },
+    {
+      "ifindex": 4,
+      "ifname": "enp4s0",
+      "flags": [
+        "NO-CARRIER",
+        "BROADCAST",
+        "MULTICAST",
+        "UP"
+      ],
+      "mtu": 1500,
+      "qdisc": "pfifo_fast",
+      "operstate": "DOWN",
+      "group": "default",
+      "txqlen": 1000,
+      "link_type": "ether",
+      "address": "c4:00:ad:05:5e:35",
+      "broadcast": "ff:ff:ff:ff:ff:ff",
+      "altnames": [
+        "enxc400ad055e35"
+      ],
+      "addr_info": [
+        {
+          "family": "inet",
+          "local": "192.168.9.1",
+          "prefixlen": 24,
+          "broadcast": "192.168.9.255",
+          "scope": "global",
+          "label": "enp4s0",
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        }
+      ]
+    },
+    {
+      "ifindex": 5,
+      "ifname": "wlx7c3d09705041",
+      "flags": [
+        "BROADCAST",
+        "MULTICAST",
+        "UP",
+        "LOWER_UP"
+      ],
+      "mtu": 1500,
+      "qdisc": "noqueue",
+      "operstate": "UP",
+      "group": "default",
+      "txqlen": 1000,
+      "link_type": "ether",
+      "address": "7c:3d:09:70:50:41",
+      "broadcast": "ff:ff:ff:ff:ff:ff",
+      "addr_info": [
+        {
+          "family": "inet",
+          "local": "192.168.193.195",
+          "prefixlen": 24,
+          "metric": 600,
+          "broadcast": "192.168.193.255",
+          "scope": "global",
+          "dynamic": true,
+          "label": "wlx7c3d09705041",
+          "valid_life_time": 3586,
+          "preferred_life_time": 3586
+        },
+        {
+          "family": "inet6",
+          "local": "fe80::7e3d:9ff:fe70:5041",
+          "prefixlen": 64,
+          "scope": "link",
+          "protocol": "kernel_ll",
+          "valid_life_time": 4294967295,
+          "preferred_life_time": 4294967295
+        }
+      ]
+    }
+  ],
+  "disabled_units": [
+    "apport.service",
+    "ModemManager.service"
+  ],
+  "getty_dropin": "/etc/systemd/system/getty@tty1.service.d/95-simrt-fast-start.conf",
+  "timezone": "Asia/Shanghai"
+}

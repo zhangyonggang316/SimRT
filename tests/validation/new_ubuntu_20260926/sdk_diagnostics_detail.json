@@ -1,0 +1,7 @@
+{
+  "returncode": -11,
+  "stdout": "SCAN_RESULT={\"can_frames_transmitted\": 0, \"channel_configuration_changed\": false, \"scan_status\": 0, \"device_count\": 1}\nSTAGE get_device_info 0\nSTAGE device info returned status 0\nDEVICES={\"can_frames_transmitted\": 0, \"channel_configuration_changed\": false, \"scan_status\": 0, \"device_count\": 1, \"devices\": [{\"index\": 0, \"status\": 0, \"manufacturer\": \"TOSUN\", \"product\": \"TOSUN HS CANFD2\", \"serial\": \"37AFCA2612ADBF35\"}]}\nSTAGE connect\n",
+  "stderr": "",
+  "host": "192.168.219.195",
+  "can_frames_transmitted": 0
+}

@@ -1,0 +1,51 @@
+{
+  "hostname": {
+    "code": 0,
+    "stdout": "ark2120\n",
+    "stderr": ""
+  },
+  "dmi": {
+    "sys_vendor": "To be filled by O.E.M.",
+    "product_name": "To be filled by O.E.M.",
+    "product_version": "Bios: V1.12/X009",
+    "board_name": "Tiger Hill"
+  },
+  "addresses": {
+    "code": 0,
+    "stdout": "[{\"ifindex\":1,\"ifname\":\"lo\",\"flags\":[\"LOOPBACK\",\"UP\",\"LOWER_UP\"],\"mtu\":65536,\"qdisc\":\"noqueue\",\"operstate\":\"UNKNOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"loopback\",\"address\":\"00:00:00:00:00:00\",\"broadcast\":\"00:00:00:00:00:00\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"127.0.0.1\",\"prefixlen\":8,\"scope\":\"host\",\"label\":\"lo\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295},{\"family\":\"inet6\",\"local\":\"::1\",\"prefixlen\":128,\"scope\":\"host\",\"noprefixroute\":true,\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]},{\"ifindex\":2,\"ifname\":\"enp1s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:0c:11:6d\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad0c116d\"],\"addr_info\":[]},{\"ifindex\":3,\"ifname\":\"enp3s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:34\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e34\"],\"addr_info\":[]},{\"ifindex\":4,\"ifname\":\"enp4s0\",\"flags\":[\"NO-CARRIER\",\"BROADCAST\",\"MULTICAST\",\"UP\"],\"mtu\":1500,\"qdisc\":\"pfifo_fast\",\"operstate\":\"DOWN\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"c4:00:ad:05:5e:35\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"altnames\":[\"enxc400ad055e35\"],\"addr_info\":[]},{\"ifindex\":5,\"ifname\":\"wlx7c3d09705041\",\"flags\":[\"BROADCAST\",\"MULTICAST\",\"UP\",\"LOWER_UP\"],\"mtu\":1500,\"qdisc\":\"noqueue\",\"operstate\":\"UP\",\"group\":\"default\",\"txqlen\":1000,\"link_type\":\"ether\",\"address\":\"7c:3d:09:70:50:41\",\"broadcast\":\"ff:ff:ff:ff:ff:ff\",\"addr_info\":[{\"family\":\"inet\",\"local\":\"192.168.219.195\",\"prefixlen\":24,\"metric\":600,\"broadcast\":\"192.168.219.255\",\"scope\":\"global\",\"dynamic\":true,\"label\":\"wlx7c3d09705041\",\"valid_life_time\":2819,\"preferred_life_time\":2819},{\"family\":\"inet6\",\"local\":\"fe80::7e3d:9ff:fe70:5041\",\"prefixlen\":64,\"scope\":\"link\",\"protocol\":\"kernel_ll\",\"valid_life_time\":4294967295,\"preferred_life_time\":4294967295}]}]\n",
+    "stderr": ""
+  },
+  "network_manager": {
+    "error": "[Errno 2] No such file or directory: 'nmcli'"
+  },
+  "serial": {
+    "code": 1,
+    "stdout": "",
+    "stderr": "sudo: interactive authentication is required\n"
+  },
+  "serial_nodes": {
+    "code": 2,
+    "stdout": "crw-rw---- 1 root dialout 4, 64 Sep 27 09:35 /dev/ttyS0\ncrw-rw---- 1 root dialout 4, 65 Sep 27 09:35 /dev/ttyS1\ncrw-rw---- 1 root dialout 4, 74 Sep 27 09:35 /dev/ttyS10\ncrw-rw---- 1 root dialout 4, 75 Sep 27 09:35 /dev/ttyS11\ncrw-rw---- 1 root dialout 4, 76 Sep 27 09:35 /dev/ttyS12\ncrw-rw---- 1 root dialout 4, 77 Sep 27 09:35 /dev/ttyS13\ncrw-rw---- 1 root dialout 4, 78 Sep 27 09:35 /dev/ttyS14\ncrw-rw---- 1 root dialout 4, 79 Sep 27 09:35 /dev/ttyS15\ncrw-rw---- 1 root dialout 4, 80 Sep 27 09:35 /dev/ttyS16\ncrw-rw---- 1 root dialout 4, 81 Sep 27 09:35 /dev/ttyS17\ncrw-rw---- 1 root dialout 4, 82 Sep 27 09:35 /dev/ttyS18\ncrw-rw---- 1 root dialout 4, 83 Sep 27 09:35 /dev/ttyS19\ncrw-rw---- 1 root dialout 4, 66 Sep 27 09:35 /dev/ttyS2\ncrw-rw---- 1 root dialout 4, 84 Sep 27 09:35 /dev/ttyS20\ncrw-rw---- 1 root dialout 4, 85 Sep 27 09:35 /dev/ttyS21\ncrw-rw---- 1 root dialout 4, 86 Sep 27 09:35 /dev/ttyS22\ncrw-rw---- 1 root dialout 4, 87 Sep 27 09:35 /dev/ttyS23\ncrw-rw---- 1 root dialout 4, 88 Sep 27 09:35 /dev/ttyS24\ncrw-rw---- 1 root dialout 4, 89 Sep 27 09:35 /dev/ttyS25\ncrw-rw---- 1 root dialout 4, 90 Sep 27 09:35 /dev/ttyS26\ncrw-rw---- 1 root dialout 4, 91 Sep 27 09:35 /dev/ttyS27\ncrw-rw---- 1 root dialout 4, 92 Sep 27 09:35 /dev/ttyS28\ncrw-rw---- 1 root dialout 4, 93 Sep 27 09:35 /dev/ttyS29\ncrw-rw---- 1 root dialout 4, 67 Sep 27 09:35 /dev/ttyS3\ncrw-rw---- 1 root dialout 4, 94 Sep 27 09:35 /dev/ttyS30\ncrw-rw---- 1 root dialout 4, 95 Sep 27 09:35 /dev/ttyS31\ncrw-rw---- 1 root dialout 4, 68 Sep 27 09:35 /dev/ttyS4\ncrw-rw---- 1 root dialout 4, 69 Sep 27 09:35 /dev/ttyS5\ncrw-rw---- 1 root dialout 4, 70 Sep 27 09:35 /dev/ttyS6\ncrw-rw---- 1 root dialout 4, 71 Sep 27 09:35 /dev/ttyS7\ncrw-rw---- 1 root dialout 4, 72 Sep 27 09:35 /dev/ttyS8\ncrw-rw---- 1 root dialout 4, 73 Sep 27 09:35 /dev/ttyS9\n",
+    "stderr": ""
+  },
+  "consoles": {
+    "code": 0,
+    "stdout": "simrt-console|0|1561|python3|240|43\nsimrt-console|1|1572|bash|240|31\n",
+    "stderr": ""
+  },
+  "tty1": {
+    "code": 0,
+    "stdout": "    PID    PPID COMMAND\n   1514    1371 bash\n   1551    1514 tmux: client\n",
+    "stderr": ""
+  },
+  "sudo": {
+    "code": 1,
+    "stdout": "",
+    "stderr": "sudo: interactive authentication is required\n"
+  },
+  "profile_console": [
+    "# BEGIN SIMRT LOCAL CONSOLE",
+    "    \"$HOME/.local/lib/simrt-console/start_console.sh\"",
+    "# END SIMRT LOCAL CONSOLE"
+  ]
+}

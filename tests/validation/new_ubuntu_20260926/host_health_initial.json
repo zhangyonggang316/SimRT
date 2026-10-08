@@ -1,0 +1,9 @@
+{
+  "command": "sudo -S -p '' -- sh -c 'ls -lh /var/cache/apt/archives/partial; ps -t tty1 -o pid,ppid,stat,cmd; journalctl -b -p err --no-pager -n 30; systemctl show user@1000.service -p LimitRTPRIO -p LimitMEMLOCK; cat /proc/uptime'",
+  "exit_code": 0,
+  "stdout": "total 150M\n-rw-r--r-- 1 _apt nogroup 150M Sep 26 07:41 linux-modules-7.0.0-34-realtime_7.0.0-34.34.1_amd64.deb\n-rw-r--r-- 1 _apt nogroup  28K Sep  8 15:40 locales_2.43-2ubuntu2.4_all.deb\n    PID    PPID STAT CMD\n   1507    1371 Ss+  -bash\nSep 26 13:52:19 localhost.localdomain kernel: KHO: Failed to reserve nid 0 scratch buffer\nSep 26 13:52:40 ark2120 networkctl[1292]: Interface \"wlan0\" not found.\nSep 26 13:54:36 ark2120 systemd-networkd-wait-online[1052]: Timeout occurred while waiting for network connectivity.\nSep 26 13:54:36 ark2120 systemd[1]: Failed to start systemd-networkd-wait-online.service - Wait for Network to be Online.\nSep 26 14:43:57 ark2120 systemd-networkd-wait-online[1687]: Timeout occurred while waiting for network connectivity.\nSep 26 15:08:03 ark2120 networkctl[2220]: Interface \"wlan0\" not found.\nSep 26 15:08:07 ark2120 chronyd[1075]: Could not receive NTS-KE message from 91.189.91.112:4460 (3.ntp.ubuntu.com) : The TLS connection was non-properly terminated.\nSep 26 15:08:09 ark2120 chronyd[1075]: Could not receive NTS-KE message from 91.189.91.113:4460 (4.ntp.ubuntu.com) : The TLS connection was non-properly terminated.\nSep 26 07:01:07 ark2120 networkctl[2687]: Interface \"wlan0\" not found.\nSep 26 07:01:11 ark2120 networkctl[2699]: Interface \"wlan0\" not found.\nSep 26 07:20:49 ark2120 systemd-networkd-wait-online[14235]: Timeout occurred while waiting for network connectivity.\nLimitMEMLOCK=1073741824\nLimitRTPRIO=80\n7208.15 27665.66\n",
+  "stderr": "\n",
+  "host": "192.168.219.195",
+  "user": "zh",
+  "host_key_sha256": "eeTIikDlYn5po2uiSNGEJTglh6lQ+IUFYJS6s2hciv0="
+}

@@ -1,0 +1,11 @@
+﻿{
+    "pid":  39344,
+    "input_idle":  true,
+    "responding":  true,
+    "exited":  false,
+    "exe_sha256":  "ed9c50d2b69fae8f564a15537166c7f6f54844927a08eb69da0be9435e99e5d7",
+    "demo":  "D:\\05SimRT\\Demo_XCP_Qt\\demo.json",
+    "gui_interaction_test":  false,
+    "startup_error":  false,
+    "passed":  true
+}

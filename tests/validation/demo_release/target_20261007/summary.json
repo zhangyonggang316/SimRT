@@ -1,0 +1,29 @@
+{
+  "validated_on": "2026-10-07",
+  "passed": false,
+  "requested_daq_seconds": 120,
+  "model": "simrt_rt_single",
+  "archive": "20261006_180720_528.zip",
+  "elf_sha256": "ea52e9efa8052970a3e85b60e91c14cbd353add60c0bf8675803a1086dca24aa",
+  "timing_50us_passed": true,
+  "display_passed": true,
+  "autonomous_passed": true,
+  "daq_lossless_passed": false,
+  "failed_daq_checks": [
+    "no_transport_counter_gaps",
+    "no_timestamp_gap_samples"
+  ],
+  "interval_min_ns": 999095,
+  "interval_max_ns": 1001059,
+  "received_samples": 120406,
+  "transport_counter_gaps": 40,
+  "timestamp_gap_samples": 40,
+  "previous_model_restored": true,
+  "active_model": "/home/zh/MATLAB_ws/realtime_50us_7fdb1347/x280_rt_single.elf",
+  "active_pid": 15824,
+  "autostart_unchanged": true,
+  "target_rebooted": false,
+  "long_duration_validation": "not_requested",
+  "can_hardware_validation": "not_run_device_not_present",
+  "serial_dio_electrical_validation": "not_repeated"
+}

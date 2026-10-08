@@ -1,0 +1,7 @@
+{
+  "returncode": -11,
+  "stdout": "STAGE load libTSH\nSTAGE loaded libTSH\nSTAGE load TSCAN\nSTAGE loaded TSCAN\nSTAGE initialize\nSTAGE initialized\nSTAGE scan\nSTAGE scanned\n",
+  "stderr": "",
+  "host": "192.168.219.195",
+  "can_frames_transmitted": 0
+}

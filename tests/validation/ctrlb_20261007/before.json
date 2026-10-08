@@ -1,0 +1,70 @@
+{
+  "release": "2024b",
+  "pwd": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single",
+  "process_id": 29452.0,
+  "current_system": "simrt_rt_single",
+  "initial_diagrams": [
+    "simrt_rt_single"
+  ],
+  "diagrams": [
+    {
+      "name": "simrt_rt_single",
+      "BlockDiagramType": "model",
+      "FileName": "D:\\05SimRT\\Demo_XCP_Qt\\models\\simrt_rt_single\\simrt_rt_single.slx",
+      "Dirty": "off",
+      "SimulationStatus": "stopped",
+      "SimulationMode": "normal",
+      "HardwareBoard": "SimRT",
+      "SystemTargetFile": "ert.tlc",
+      "Toolchain": "SimRT portable-linux-toolchain",
+      "GenCodeOnly": "off",
+      "GenerateMakefile": "on",
+      "RTWVerbose": "on",
+      "RTWGenSettings": "[]",
+      "CoderTargetData": {
+        "UseCoderTarget": true,
+        "TargetHardware": "SimRT",
+        "ConnectionInfo": {
+          "XCPonTCPIP": {
+            "IPAddress": "codertarget.simrtlinuxssh.internal.getDeviceAddress",
+            "Port": "5555",
+            "Verbose": false,
+            "RunInBackground": false
+          }
+        },
+        "ExtMode": {
+          "Configuration": "XCP on TCP/IP"
+        },
+        "RTOS": "Linux",
+        "RTOSBaseRateTaskPriority": "40",
+        "Scheduler_interrupt_source": 0.0,
+        "BoardParameters": {
+          "DeviceAddress": "192.168.193.195",
+          "Username": "",
+          "BuildDir": "/tmp/matlab_simrt"
+        },
+        "Runtime": {
+          "BuildAction": "Build",
+          "RunOnBoot": false,
+          "RunOnBootSleepTime": "3"
+        },
+        "BuildTime": {
+          "EnableParallelBuild": true
+        },
+        "DataVersion": "2016.02"
+      },
+      "PreLoadFcn": "",
+      "PostLoadFcn": "",
+      "InitFcn": "",
+      "PreSaveFcn": "",
+      "PostSaveFcn": "",
+      "RTWSystemCode": "<not available>",
+      "ExtMode": "on"
+    }
+  ],
+  "registered_target": true,
+  "slbuild_paths": [
+    "C:\\Program Files\\MATLAB\\R2024b\\toolbox\\simulink\\core\\general\\slbuild.p"
+  ],
+  "setup_path": "D:\\05SimRT\\simrt_linux_target\\setupSimRTLinuxTarget.m"
+}

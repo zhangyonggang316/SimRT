@@ -1,0 +1,15 @@
+﻿{
+    "format_version":  1,
+    "files":  [
+                  {
+                      "path":  "validation\\communication_20260927\\communication_codegen_check_ert_rtw\\x280_build_evidence\\20260927_101838_706\\deployment_cache\\2f0cc9fdba1c16808270f350354b272561fd7f94934b83fdeb89cf4c87bf6017\\20260927_101838_706\\communication_codegen_check.xcp-manifest.json",
+                      "bytes":  610,
+                      "sha256":  "2A5195564E61F7DD774D1D2371F03D918565AE2C7EA9618678C63FF968C6AFD0"
+                  },
+                  {
+                      "path":  "需求说明.md",
+                      "bytes":  25956,
+                      "sha256":  "57E3DA76A624484AAD6107B932F594032EDCF1974C29411578E76501E47DF092"
+                  }
+              ]
+}

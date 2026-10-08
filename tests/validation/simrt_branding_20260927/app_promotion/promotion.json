@@ -1,0 +1,43 @@
+﻿{
+    "passed":  true,
+    "application":  "SimRT.exe",
+    "exe_sha256":  "3edda129cb661e2250667f13d656c32166851ef81133833c9f15ccd8c977c577",
+    "changed_files":  [
+                          {
+                              "path":  "build_report.json",
+                              "previous_sha256":  "23D84EFD1C890B40DB8E91681EB9188AC58C0724365AECF9D6002CB3EAA5F78D",
+                              "sha256":  "1BAB1D7CEFBC4288B915B59D586272E7F5A7B7F41885C093C1EEA18C12CC1CCD"
+                          },
+                          {
+                              "path":  "README.md",
+                              "previous_sha256":  "4BA42C359511AF7CF63433B39EECDD25BEBB6BDF543F8AA046E23CEEAD657215",
+                              "sha256":  "BBDCDEA48681FBBECA45635523A521912EA1D73B5A518BF0970BB1789B3EDDF2"
+                          },
+                          {
+                              "path":  "SimRT.exe",
+                              "previous_sha256":  "",
+                              "sha256":  "3EDDA129CB661E2250667F13D656C32166851EF81133833C9F15CCD8C977C577"
+                          },
+                          {
+                              "path":  "_internal\\base_library.zip",
+                              "previous_sha256":  "871019381EE2C10C65BF5FF4A7AB3B8B3A0F389A8EE7B9FA4D87828D552EA9F2",
+                              "sha256":  "571251335099AB81F4C06644DF36DE7D342A7B9C5103BA067F90A382D94C6F3A"
+                          },
+                          {
+                              "path":  "_internal\\qt_host\\assets\\simrt.ico",
+                              "previous_sha256":  "",
+                              "sha256":  "BA1227F2057BC6E189ACEC869B35A4FEF347EF83B89E4BE68A13D296785A6304"
+                          },
+                          {
+                              "path":  "_internal\\qt_host\\assets\\simrt.png",
+                              "previous_sha256":  "",
+                              "sha256":  "5B39170BAC1E4C8690E1328DCE93A10F2C8DFD56C724783E07769FC91B0C4218"
+                          },
+                          {
+                              "path":  "_internal\\qt_host\\assets\\simrt.svg",
+                              "previous_sha256":  "",
+                              "sha256":  "3A1E4890364958A15CFA5AA1665F423158E501C3525FE67FC32C1EA381152740"
+                          }
+                      ],
+    "models_changed":  false
+}

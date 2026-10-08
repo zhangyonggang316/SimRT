@@ -1,0 +1,149 @@
+{
+  "environment": {
+    "MATLABRelease": "2024b",
+    "TargetRoot": "D:\\05SimRT\\toolchain\\simrt_linux_target",
+    "TargetRegistered": true,
+    "BoardRegistered": true,
+    "RegistrationError": "",
+    "Toolchain": {
+      "Root": "D:\\05SimRT\\toolchain\\portable-linux-toolchain",
+      "Files": [
+        {
+          "Name": "linux-gcc.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-gcc.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-g++.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-g++.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-ar.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-ar.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-as.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-as.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-ld.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-ld.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-nm.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-nm.exe",
+          "Present": true
+        },
+        {
+          "Name": "linux-readelf.exe",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\bin\\linux-readelf.exe",
+          "Present": true
+        },
+        {
+          "Name": "MATLAB GNU Make",
+          "Path": "C:\\Program Files\\MATLAB\\R2024b\\bin\\win64\\gmake.exe",
+          "Present": true
+        },
+        {
+          "Name": "sysroot stdio.h",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\include\\stdio.h",
+          "Present": true
+        },
+        {
+          "Name": "sysroot crt1.o",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\lib\\crt1.o",
+          "Present": true
+        },
+        {
+          "Name": "sysroot libc.so",
+          "Path": "D:\\05SimRT\\toolchain\\portable-linux-toolchain\\toolchain\\x86_64-linux\\usr\\lib\\libc.so",
+          "Present": true
+        }
+      ],
+      "Missing": [],
+      "CompilerProbeRequested": true,
+      "CompilerTarget": "x86_64-linux",
+      "CompilerMessage": "",
+      "CompilerValid": true,
+      "Passed": true
+    },
+    "LocalToolchainRoot": "D:\\05SimRT\\toolchain\\portable-linux-toolchain",
+    "LocalBuildAvailable": true,
+    "A2LExportAvailable": true,
+    "XCPAvailable": true,
+    "RequiredProducts": {
+      "Simulink": true,
+      "SimulinkCoder": true,
+      "EmbeddedCoder": true
+    },
+    "Address": "192.168.219.86",
+    "SSHPort": 22,
+    "TargetPortReachable": null,
+    "TargetProbeMessage": "not requested",
+    "AllLocalChecksPassed": true
+  },
+  "remote_operations": false,
+  "tests": 87,
+  "tests_passed": true,
+  "build": {
+    "model": "simrt_layout_probe",
+    "success": true,
+    "build_mode": "local",
+    "period_seconds": 0.001,
+    "matlab_release": "2024b",
+    "toolchain_root": "D:\\05SimRT\\toolchain\\portable-linux-toolchain",
+    "compiler_version": "linux-gcc.exe (GCC) 7.5.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "compiler_sha256": "e11f883c5e22d46efc2cda829c92976ef6427b79675b0650c7a197903024b65a",
+    "model_file": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\simrt_layout_probe.slx",
+    "model_sha256": "d1d14701abc0b5a5eb634cfab607c0e50d7d3dc0516cbbac4a355f74a8c7c12a",
+    "local_elf": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\deployment_cache\\27d78990ce29a1b7c68ad009f7ae7ab8d75a3708368fb21864de9984c117f898\\20261007_153703_853\\simrt_layout_probe.elf",
+    "a2l": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\deployment_cache\\27d78990ce29a1b7c68ad009f7ae7ab8d75a3708368fb21864de9984c117f898\\20261007_153703_853\\simrt_layout_probe.a2l",
+    "manifest": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\deployment_cache\\27d78990ce29a1b7c68ad009f7ae7ab8d75a3708368fb21864de9984c117f898\\20261007_153703_853\\simrt_layout_probe.xcp-manifest.json",
+    "payload": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_local\\20261007_153703_853.zip",
+    "realtime_source": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\simrt_layout_probe_rt_bundle",
+    "bundle": {
+      "SourceDirectory": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853\\simrt_layout_probe_rt_bundle",
+      "BuildCommand": "python build_model.py --toolchain-root <portable-linux-toolchain>",
+      "ELFRelativePath": "simrt_layout_probe.elf",
+      "CodeGenerationDirectory": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw"
+    },
+    "elf_sha256": "9a083fa1b5bbb3c484dc9d46ae2dee883dd1697504b4b61a105e2093928b988b",
+    "evidence_directory": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_ert_rtw\\simrt_build_evidence\\20261007_153703_853",
+    "remote_operations_performed": false,
+    "archive": "D:\\05SimRT\\tests\\layout\\model\\simrt_layout_probe_local\\20261007_153703_853.zip",
+    "archive_sha256": "27d78990ce29a1b7c68ad009f7ae7ab8d75a3708368fb21864de9984c117f898"
+  },
+  "hardware": {
+    "model": "simrt_layout_probe",
+    "build_options": [
+      "Build"
+    ],
+    "dirty": "off",
+    "external_mode": "on",
+    "handle_build_options": [
+      "Build"
+    ],
+    "config_build_options": [
+      "Build"
+    ],
+    "context_class": "codertarget.sltoolstrip.EmbeddedHardwareBoardContext",
+    "deploy_context": "HWBoardBuildSelectedBuildContext",
+    "type_chain": [
+      "HWBoardLoggingAvailableContext",
+      "HWBoardDeployedConnectStartContext",
+      "HWBoardBuildSelectedBuildContext",
+      "HWBoardSetupNotAvailableContext",
+      "PeripheralsNotAvailableContext",
+      "socProfilingNotAvailableContext",
+      "prepareDesignGalleryNotAvailableContext",
+      "embeddedHardwareBoardAppContext"
+    ],
+    "build_action_found": true,
+    "build_action_enabled": true,
+    "build_action_tag": "buildHardwareBoardAction2"
+  }
+}

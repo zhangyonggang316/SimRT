@@ -1,0 +1,27 @@
+SimRT: ark2120 | UI refresh: 1000.000 ms | 06:51:55
+CPU model: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+PREEMPT_RT: YES
+Network:
+enp1s0 [DOWN]: 192.168.7.1 / 255.255.255.0 (c4:00:ad:0c:11:6d)
+enp3s0 [DOWN]: 192.168.8.1 / 255.255.255.0 (c4:00:ad:05:5e:34)
+enp4s0 [DOWN]: 192.168.9.1 / 255.255.255.0 (c4:00:ad:05:5e:35)
+wlx7c3d09705041 [UP]: 192.168.193.195 / 255.255.255.0 (7c:3d:09:70:50:41)
+wlx7c3d09705041 [UP]: fe80::7e3d:9ff:fe70:5041/64 (7c:3d:09:70:50:41)
+CPU: unavailable  Memory: 17.1%  Disk: 21.1% of 29.7 GB
+State: RUNNING -> x280_rt_single (PID 8741)
+Model elapsed: 19532509.040 ms / inf  Period: 1.000000 ms
+MATLAB: R2024b | Steps: 19532359 calls / 19532359 completed
+Deadline misses: 15  Skipped periods: 151
+Task execution current/max: 0.004211 ms / 0.146802 ms
+Interval min/avg/max: 0.062586 ms / 1.000008 ms / 23.436400 ms
+Telemetry: live (0.7s old)
+-- LOG ----------------------------------------------------------------------------------------------------------------
+06:51:55 PROCESS FOUND x280_rt_single (PID 8741)
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUpload error: code -10
+rtExtModeUplo

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "before_size": "67 240",
+  "after_size": "45 160",
+  "font": "/usr/share/consolefonts/Uni2-Terminus24x12.psf.gz",
+  "font_pixels": [
+    12,
+    24
+  ],
+  "framebuffer": "1920,1080",
+  "backup": "/var/backups/simrt-console-font-20261005-063422",
+  "config": "# CONFIGURATION FILE FOR SETUPCON\n\n# Consult the console-setup(5) manual page.\n\nACTIVE_CONSOLES=\"/dev/tty[1-6]\"\n\nCHARMAP=\"UTF-8\"\n\nCODESET=\"guess\"\nFONTFACE=\"Terminus\"\nFONTSIZE=\"12x24\"\n\nVIDEOMODE=\n\n# The following is an example how to use a braille font\n# FONT='lat9w-08.psf.gz brl-8x8.psf'\n",
+  "boot_font_cache": "#!/bin/sh\n\nsetfont '/usr/share/consolefonts/Uni2-Terminus24x12.psf.gz' \n\nif ls /dev/fb* >/dev/null 2>/dev/null; then\n    for i in /dev/vcs[0-9]*; do\n        { :\n            setfont '/usr/share/consolefonts/Uni2-Terminus24x12.psf.gz' \n        } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}\n    done\nfi\n\nmkdir -p /run/console-setup\n> /run/console-setup/font-loaded\nfor i in /dev/vcs[0-9]*; do\n    { :\nprintf '\\033%%G' \n    } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}\ndone\n",
+  "reboot_performed": false,
+  "pane_before": "1591|240|67|0",
+  "pane_after": "1591|160|45|0",
+  "dashboard_process_unchanged": true,
+  "dashboard_refreshing": true,
+  "sections_present": true
+}

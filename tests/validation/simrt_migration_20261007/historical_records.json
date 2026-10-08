@@ -1,0 +1,9 @@
+{
+  "restored_original_records": [
+    "docs/archive_manifest_20260913.json",
+    "docs/history/cache_cleanup_result_20260913.json",
+    "docs/history/cleanup_plan_20260913.json",
+    "docs/history/cleanup_result_20260913.json"
+  ],
+  "note": "Historical paths and hashes identify original evidence, not current build outputs."
+}

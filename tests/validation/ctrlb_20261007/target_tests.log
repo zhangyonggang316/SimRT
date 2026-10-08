@@ -1,0 +1,20 @@
+正在运行 tSimRTLinuxTarget
+.......... .
+已完成 tSimRTLinuxTarget
+__________
+
+                                     Name                                      Passed    Failed    Incomplete    Duration       Details   
+    _______________________________________________________________________    ______    ______    __________    _________    ____________
+
+    {'tSimRTLinuxTarget/targetAndBoardAreRegistered'                      }    true      false       false          77.981    {1×1 struct}
+    {'tSimRTLinuxTarget/registryUsesX8664AndSharedLinuxRuntime'           }    true      false       false         0.17094    {1×1 struct}
+    {'tSimRTLinuxTarget/udpAdapterReplacesTheR2024bTcpDefaults'           }    true      false       false         0.12232    {1×1 struct}
+    {'tSimRTLinuxTarget/passwordIsNeverStoredInBoardParameters'           }    true      false       false       0.0073944    {1×1 struct}
+    {'tSimRTLinuxTarget/hardwareTabOffersLocalBuild'                      }    true      false       false           170.9    {1×1 struct}
+    {'tSimRTLinuxTarget/generatedModelHasDeploymentAndCalibrationSettings'}    true      false       false          329.97    {1×1 struct}
+    {'tSimRTLinuxTarget/canModelUsesCurrentHardwareBoard'                 }    true      false       false           90.65    {1×1 struct}
+    {'tSimRTLinuxTarget/a2lMetadataIsSynchronizedWithUdpRuntime'          }    true      false       false          0.3996    {1×1 struct}
+    {'tSimRTLinuxTarget/a2lRewriteRejectsRuntimeConfigurationDrift'       }    true      false       false         0.50448    {1×1 struct}
+    {'tSimRTLinuxTarget/localEnvironmentChecksPassWithoutNetwork'         }    true      false       false          79.723    {1×1 struct}
+    {'tSimRTLinuxTarget/a2lExportRejectsArmExecutable'                    }    true      false       false          3.1915    {1×1 struct}
+
